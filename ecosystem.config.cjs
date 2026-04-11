@@ -36,6 +36,8 @@ const baseApp = {
   max_memory_restart: "1G",
   env: {
     PYTHONUNBUFFERED: process.env.PYTHONUNBUFFERED || "1",
+    PYTHONUTF8: process.env.PYTHONUTF8 || "1",
+    PYTHONIOENCODING: process.env.PYTHONIOENCODING || "utf-8",
     TZ: process.env.TZ || "Asia/Seoul",
     MONGO_URI: process.env.MONGO_URI || "mongodb://127.0.0.1:27017",
     DB_NAME: process.env.DB_NAME || "stock_data",
