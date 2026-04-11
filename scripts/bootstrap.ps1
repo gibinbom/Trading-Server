@@ -4,35 +4,54 @@ $RootDir = Split-Path -Parent $PSScriptRoot
 $VenvDir = if ($env:VENV_DIR) { $env:VENV_DIR } else { Join-Path $RootDir ".venv" }
 
 function Get-PythonInvocation {
+    $candidates = @()
+
     if ($env:PYTHON_BIN) {
-        return @{
+        $candidates += @{
             Command = $env:PYTHON_BIN
             Args = @()
         }
     }
 
     if (Get-Command python3.11 -ErrorAction SilentlyContinue) {
-        return @{
+        $candidates += @{
             Command = "python3.11"
             Args = @()
         }
     }
 
     if (Get-Command py -ErrorAction SilentlyContinue) {
-        return @{
+        $candidates += @{
             Command = "py"
             Args = @("-3.11")
         }
     }
 
     if (Get-Command python -ErrorAction SilentlyContinue) {
-        return @{
+        $candidates += @{
             Command = "python"
             Args = @()
         }
     }
 
-    throw "Python 3.11 launcher not found. Install Python 3.11 first."
+    if (Get-Command py -ErrorAction SilentlyContinue) {
+        $candidates += @{
+            Command = "py"
+            Args = @()
+        }
+    }
+
+    foreach ($candidate in $candidates) {
+        try {
+            & $candidate.Command @($candidate.Args + @("-c", "import sys; print(sys.executable)")) | Out-Null
+            return $candidate
+        }
+        catch {
+            continue
+        }
+    }
+
+    throw "No usable Python runtime found. Install Python 3.11 or set PYTHON_BIN to an installed Python executable."
 }
 
 $Python = Get-PythonInvocation

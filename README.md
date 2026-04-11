@@ -64,6 +64,20 @@ npm run worker:seed
 npm run pm2:start
 ```
 
+Windows에서 `No suitable Python runtime found`가 나오면:
+
+```powershell
+py -0p
+```
+
+- Python이 없다면 Python 3.11 x64를 설치한 뒤 PowerShell을 다시 엽니다.
+- Python이 다른 경로에만 잡혀 있다면 아래처럼 직접 지정할 수 있습니다.
+
+```powershell
+$env:PYTHON_BIN="C:\Path\To\python.exe"
+npm run bootstrap
+```
+
 상태 확인:
 
 ```bash
