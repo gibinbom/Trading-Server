@@ -1,0 +1,71 @@
+{
+  "snapshot_at": "2026-03-22T22:59:20.520430",
+  "counts": {
+    "total": 84,
+    "factor": 0,
+    "analyst": 84,
+    "flow": 0
+  },
+  "cards": [
+    {
+      "symbol": "081660",
+      "name": "미스토홀딩스",
+      "sector": "Unknown",
+      "card_score": 1.0,
+      "composite_score": NaN,
+      "analyst_conviction_score": 8.3,
+      "flow_state_score": NaN,
+      "analyst_latest_title": "미스토홀딩스(081660) 4Q25 Review : 턴어라운드 본격화 전망되나, K패션은 기다림이 필요",
+      "flow_top_brokers": "",
+      "flow_event_mix": ""
+    },
+    {
+      "symbol": "393890",
+      "name": "더블유씨피",
+      "sector": "Unknown",
+      "card_score": 0.9881,
+      "composite_score": NaN,
+      "analyst_conviction_score": 7.0,
+      "flow_state_score": NaN,
+      "analyst_latest_title": "실적, 밸류에이션 정상화 초입 구간",
+      "flow_top_brokers": "",
+      "flow_event_mix": ""
+    },
+    {
+      "symbol": "004170",
+      "name": "신세계",
+      "sector": "Unknown",
+      "card_score": 0.9762,
+      "composite_score": NaN,
+      "analyst_conviction_score": 6.9,
+      "flow_state_score": NaN,
+      "analyst_latest_title": "인바운드 증가 모멘텀은 2Q에 더 강화될 전망",
+      "flow_top_brokers": "",
+      "flow_event_mix": ""
+    },
+    {
+      "symbol": "017960",
+      "name": "한국카본",
+      "sector": "Unknown",
+      "card_score": 0.9643,
+      "composite_score": NaN,
+      "analyst_conviction_score": 6.5,
+      "flow_state_score": NaN,
+      "analyst_latest_title": "LNG 보냉제 성장에 방산까지 영역 확대",
+      "flow_top_brokers": "",
+      "flow_event_mix": ""
+    },
+    {
+      "symbol": "083500",
+      "name": "에프엔에스테크",
+      "sector": "Unknown",
+      "card_score": 0.9524,
+      "composite_score": NaN,
+      "analyst_conviction_score": 6.35,
+      "flow_state_score": NaN,
+      "analyst_latest_title": "에프엔에스테크(083500) 수익성 개선 흐름 본격화될 전망",
+      "flow_top_brokers": "",
+      "flow_event_mix": ""
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "snapshot_at": "2026-03-23T03:02:06+09:00",
+  "top_positive": [
+    {
+      "symbol": "005380",
+      "name": "현대차",
+      "latest_title": "현대차 전 부문에서 대규모 채용…171개 채용 공고 뜬다",
+      "news_count": 18,
+      "avg_news_score": 3.4476,
+      "max_news_score": 3.6869,
+      "source_breadth": 2,
+      "avg_diffusion_score": 0.7978,
+      "avg_novelty_score": 1.0,
+      "conviction_score": 6.3921,
+      "last_seen": "NaT"
+    },
+    {
+      "symbol": "005930",
+      "name": "삼성전자",
+      "latest_title": "삼성전자, 밸류업 계획 발표…올해 시설·R&D 110조 이상 투자",
+      "news_count": 19,
+      "avg_news_score": 3.3793,
+      "max_news_score": 3.6869,
+      "source_breadth": 2,
+      "avg_diffusion_score": 0.7964,
+      "avg_novelty_score": 0.9692,
+      "conviction_score": 6.375,
+      "last_seen": "NaT"
+    },
+    {
+      "symbol": "034020",
+      "name": "두산에너빌리티",
+      "latest_title": "두산에너빌·美 엑스에너지, 창원서 SMR 기술 워크숍…트럼프 지원 속 공급망 구축 가속 By The Guru",
+      "news_count": 9,
+      "avg_news_score": 3.9816,
+      "max_news_score": 6.7869,
+      "source_breadth": 2,
+      "avg_diffusion_score": 0.7402,
+      "avg_novelty_score": 1.0,
+      "conviction_score": 6.2842,
+      "last_seen": "NaT"
+    },
+    {
+      "symbol": "068270",
+      "name": "셀트리온",
+      "latest_title": "셀트리온, ‘스테키마’ AI 제형 캐나다 허가 획득",
+      "news_count": 8,
+      "avg_news_score": 4.0184,
+      "max_news_score": 6.7869,
+      "source_breadth": 2,
+      "avg_diffusion_score": 0.7218,
+      "avg_novelty_score": 1.0,
+      "conviction_score": 6.2157,
+      "last_seen": "NaT"
+    },
+    {
+      "symbol": "000660",
+      "name": "SK하이닉스",
+      "latest_title": "최태원 \"SK하이닉스 美 ADR 상장 검토…D램값 안정화 방안 공개\"(종합2보)",
+      "news_count": 18,
+      "avg_news_score": 3.1359,
+      "max_news_score": 3.6869,
+      "source_breadth": 2,
+      "avg_diffusion_score": 0.8105,
+      "avg_novelty_score": 0.9675,
+      "conviction_score": 6.0803,
+      "last_seen": "NaT"
+    }
+  ],
+  "top_negative": [
+    {
+      "symbol": "329180",
+      "name": "HD현대중공업",
+      "latest_title": "美해군사관학교 생도들 HD현대중공업 찾았다",
+      "news_count": 8,
+      "avg_news_score": 2.9309,
+      "max_news_score": 3.6869,
+      "source_breadth": 2,
+      "avg_diffusion_score": 0.7218,
+      "avg_novelty_score": 1.0,
+      "conviction_score": 5.1282,
+      "last_seen": "NaT"
+    },
+    {
+      "symbol": "032830",
+      "name": "삼성생명",
+      "latest_title": "지분 강제 매각·삼성생명법 파고…삼성 지배구조 개편 불가피?",
+      "news_count": 8,
+      "avg_news_score": 2.9934,
+      "max_news_score": 3.6869,
+      "source_breadth": 2,
+      "avg_diffusion_score": 0.7218,
+      "avg_novelty_score": 1.0,
+      "conviction_score": 5.1907,
+      "last_seen": "NaT"
+    },
+    {
+      "symbol": "010130",
+      "name": "고려아연",
+      "latest_title": "국민연금, 최윤범 고려아연 회장 재선임에 의결권 ‘미행사’",
+      "news_count": 8,
+      "avg_news_score": 3.0288,
+      "max_news_score": 3.6869,
+      "source_breadth": 2,
+      "avg_diffusion_score": 0.7218,
+      "avg_novelty_score": 1.0,
+      "conviction_score": 5.226,
+      "last_seen": "NaT"
+    },
+    {
+      "symbol": "207940",
+      "name": "삼성바이오로직스",
+      "latest_title": "삼성바이오, 美법인에 3.5억 달러 출자…사업 영토 확장 속도",
+      "news_count": 9,
+      "avg_news_score": 3.1243,
+      "max_news_score": 3.6869,
+      "source_breadth": 2,
+      "avg_diffusion_score": 0.6843,
+      "avg_novelty_score": 1.0,
+      "conviction_score": 5.4269,
+      "last_seen": "NaT"
+    },
+    {
+      "symbol": "000660",
+      "name": "SK하이닉스",
+      "latest_title": "최태원 \"SK하이닉스 美 ADR 상장 검토…D램값 안정화 방안 공개\"(종합2보)",
+      "news_count": 18,
+      "avg_news_score": 3.1359,
+      "max_news_score": 3.6869,
+      "source_breadth": 2,
+      "avg_diffusion_score": 0.8105,
+      "avg_novelty_score": 0.9675,
+      "conviction_score": 6.0803,
+      "last_seen": "NaT"
+    }
+  ]
+}

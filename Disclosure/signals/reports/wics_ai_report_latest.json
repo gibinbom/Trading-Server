@@ -1,0 +1,165 @@
+{
+  "generated_at": "2026-03-30T12:51:18",
+  "lookback_days": 30,
+  "files_found": 2,
+  "report_text": "🌪️ *[AI 퀀트: 월간/주간 순환매 추적 브리핑]*\n🗓️ *분석 기간:* 2026-03-12 ~ 2026-03-16 (총 2일 치 데이터 병합)\n\n*0. 시장 한 줄 요약*\n- `엔터테인먼트/미디어`가 중심 순환매 흐름을 보였고, `헬스케어/의료기기`는 기관 이탈과 개인 물타기 경계가 필요한 구간입니다.\n\n*1. 관측 사실*\n- *자금 이탈:* `제약/바이오 (대형)`, `헬스케어/의료기기` ➡️ *자금 유입:* `엔터테인먼트/미디어`, `조선/해양`, `기계/공작기계`\n- 지난 2일간 가장 높은 스마트머니 유입과 score를 보인 섹터는 `엔터테인먼트/미디어` (하이브, score 25.9, 2589억)입니다.\n- 다음으로 `조선/해양` (HD한국조선해양, score 22.8, 2280억)과 `기계/공작기계` (두산에너빌리티, score 17.5, 1751억) 섹터가 강한 유입세를 보였습니다.\n- 외인/기관 이탈이 뚜렷한 섹터는 `헬스케어/의료기기` (평균 스마트머니 -26억)와 `제약/바이오 (대형)` (평균 스마트머니 -24억)입니다.\n\n*2. 추정*\n- 현재 시장을 지배하는 매크로 테마는 K-콘텐츠 및 K-조선/기계 등 글로벌 경쟁력을 갖춘 `산업재`와 국내 정책 수혜 가능성이 있는 `인프라` 관련 섹터로 추정됩니다.\n- 넥스트 주도 섹터는 단기 고점 부담에도 불구하고 수급 강도가 가장 높게 확인된 `엔터테인먼트/미디어`가 1순위입니다. 이외 `조선/해양`, `기계/공작기계`는 꾸준한 관심을 유지할 필요가 있습니다.\n- 현재는 섹터 전체 매집보다는, 스마트머니가 집중적으로 유입된 `대장주` 위주로 접근하는 것이 유리해 보입니다.\n\n*3. 미확인/주의*\n- 분석 기간이 2일로 짧아 '여러 날 반복 등장'의 의미는 '각 날짜별 최상위 섹터'로 해석했습니다. 향후 더 긴 기간의 반복성 확인이 필요합니다.\n- `헬스케어/의료기기` 섹터는 외인/기관의 지속적인 이탈에도 불구하고 개인의 매수세가 유입되는 흐름이 포착되어, 추가적인 하방 압력에 유의해야 합니다.\n\n*4. 🔥 넥스트 주도 섹터 & Top Pick 종목*\n- *주도 섹터:* `엔터테인먼트/미디어`\n  - *핵심 주도주:* `하이브` (가장 높은 스마트머니 누적과 score를 기록하며 섹터 전체의 중심축 역할, 단기 변동성 확대 시 재접근 유효)\n- *관심 섹터:* `조선/해양`, `기계/공작기계`\n  - *핵심 주도주:* `HD한국조선해양`, `두산에너빌리티` (견조한 외인/기관 수급 누적 상태, 산업 전반의 긍정적 모멘텀 기대)",
+  "top_rotation_sectors": [
+    {
+      "sector_name": "22. 엔터테인먼트/미디어",
+      "sector_short": "엔터테인먼트/미디어",
+      "appearances": 1,
+      "score": 25.9,
+      "smart_money_net": 2589.0,
+      "dominant_actor": "중립",
+      "top_pick": "하이브",
+      "risk_days": 0
+    },
+    {
+      "sector_name": "10. 조선/해양",
+      "sector_short": "조선/해양",
+      "appearances": 1,
+      "score": 22.8,
+      "smart_money_net": 2280.0,
+      "dominant_actor": "중립",
+      "top_pick": "HD한국조선해양",
+      "risk_days": 0
+    },
+    {
+      "sector_name": "12. 기계/공작기계",
+      "sector_short": "기계/공작기계",
+      "appearances": 1,
+      "score": 17.5,
+      "smart_money_net": 1751.0,
+      "dominant_actor": "중립",
+      "top_pick": "두산에너빌리티",
+      "risk_days": 0
+    },
+    {
+      "sector_name": "20. 증권",
+      "sector_short": "증권",
+      "appearances": 1,
+      "score": 13.5,
+      "smart_money_net": 1354.0,
+      "dominant_actor": "중립",
+      "top_pick": "키움증권",
+      "risk_days": 0
+    },
+    {
+      "sector_name": "11. 방위산업/우주항공",
+      "sector_short": "방위산업/우주항공",
+      "appearances": 1,
+      "score": 6.9,
+      "smart_money_net": 690.0,
+      "dominant_actor": "중립",
+      "top_pick": "한화에어로스페이스",
+      "risk_days": 0
+    },
+    {
+      "sector_name": "14. 건설/건자재",
+      "sector_short": "건설/건자재",
+      "appearances": 1,
+      "score": 1.0,
+      "smart_money_net": 102.0,
+      "dominant_actor": "중립",
+      "top_pick": "현대건설",
+      "risk_days": 0
+    }
+  ],
+  "risk_sectors": [
+    {
+      "sector_name": "7. 헬스케어/의료기기",
+      "sector_short": "헬스케어/의료기기",
+      "appearances": 1,
+      "score": 0.3,
+      "smart_money_net": -26.0,
+      "dominant_actor": "중립",
+      "top_pick": "바디텍메드",
+      "risk_days": 1
+    },
+    {
+      "sector_name": "6. 제약/바이오 (대형)",
+      "sector_short": "제약/바이오 (대형)",
+      "appearances": 1,
+      "score": 0.2,
+      "smart_money_net": -24.0,
+      "dominant_actor": "중립",
+      "top_pick": "삼성바이오로직스",
+      "risk_days": 1
+    }
+  ],
+  "repeat_leaders": [
+    {
+      "name": "하이브",
+      "appearances": 1
+    },
+    {
+      "name": "HD한국조선해양",
+      "appearances": 1
+    },
+    {
+      "name": "키움증권",
+      "appearances": 1
+    },
+    {
+      "name": "두산에너빌리티",
+      "appearances": 1
+    },
+    {
+      "name": "한화에어로스페이스",
+      "appearances": 1
+    }
+  ],
+  "market_phase_counts": {
+    "unknown": 2
+  },
+  "dominant_theme": "산업재/정책",
+  "market_mode": "공격적",
+  "confidence_score": 57,
+  "rotation_line": "`엔터테인먼트/미디어` 중심 순환매가 반복되는 가운데 `헬스케어/의료기기` 쪽은 개인 역행 가능성을 경계할 구간입니다.",
+  "watch_ideas": [
+    {
+      "sector": "22. 엔터테인먼트/미디어",
+      "leaders": [
+        "하이브"
+      ],
+      "action": "단기 확인",
+      "reason": "최근 상단에는 올라왔지만 반복성은 아직 짧아 하루 더 확인하는 편이 낫습니다."
+    },
+    {
+      "sector": "10. 조선/해양",
+      "leaders": [
+        "HD한국조선해양"
+      ],
+      "action": "단기 확인",
+      "reason": "최근 상단에는 올라왔지만 반복성은 아직 짧아 하루 더 확인하는 편이 낫습니다."
+    },
+    {
+      "sector": "12. 기계/공작기계",
+      "leaders": [
+        "두산에너빌리티"
+      ],
+      "action": "단기 확인",
+      "reason": "최근 상단에는 올라왔지만 반복성은 아직 짧아 하루 더 확인하는 편이 낫습니다."
+    }
+  ],
+  "caution_ideas": [
+    {
+      "sector": "7. 헬스케어/의료기기",
+      "leaders": [
+        "바디텍메드"
+      ],
+      "action": "보수적",
+      "reason": "1일 반복 경계 구간이었고 평균 스마트머니가 -26.0억입니다."
+    },
+    {
+      "sector": "6. 제약/바이오 (대형)",
+      "leaders": [
+        "삼성바이오로직스"
+      ],
+      "action": "보수적",
+      "reason": "1일 반복 경계 구간이었고 평균 스마트머니가 -24.0억입니다."
+    }
+  ],
+  "ai_enabled": true,
+  "ai_unavailable_reason": ""
+}

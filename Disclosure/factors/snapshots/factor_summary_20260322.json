@@ -1,0 +1,427 @@
+{
+  "snapshot_date": "20260322",
+  "snapshot_time": "23:07:29",
+  "coverage": {
+    "total_names": 5,
+    "markets": [
+      "KOSPI",
+      "KOSDAQ"
+    ],
+    "universe_mode": "top_n",
+    "min_marcap_krw": 0,
+    "flow_top_n": 0,
+    "consensus_top_n": 0,
+    "price_factor_coverage_pct": 100.0,
+    "flow_factor_coverage_pct": 0.0,
+    "consensus_factor_coverage_pct": 0.0,
+    "news_factor_coverage_pct": 100.0,
+    "ranking_eligible_count": 5,
+    "portfolio_eligible_count": 5,
+    "missing_price_count": 0,
+    "missing_flow_count": 0,
+    "missing_consensus_count": 0,
+    "missing_news_count": 0
+  },
+  "top_composite": [
+    {
+      "symbol": "402340",
+      "name": "SK스퀘어",
+      "sector": "Unknown",
+      "composite_score": 0.6141,
+      "value_score": 0.5,
+      "momentum_score": 0.84,
+      "quality_score": 0.5333,
+      "flow_score": 0.5,
+      "news_score": 0.9333,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "000660",
+      "name": "SK하이닉스",
+      "sector": "IT하드웨어 (반도체)",
+      "composite_score": 0.5856,
+      "value_score": 0.5,
+      "momentum_score": 0.88,
+      "quality_score": 0.4,
+      "flow_score": 0.5,
+      "news_score": 0.4,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "005930",
+      "name": "삼성전자",
+      "sector": "IT하드웨어 (반도체)",
+      "composite_score": 0.5576,
+      "value_score": 0.5,
+      "momentum_score": 0.68,
+      "quality_score": 0.6,
+      "flow_score": 0.5,
+      "news_score": 0.4,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "005380",
+      "name": "현대차",
+      "sector": "자동차/완성차",
+      "composite_score": 0.5032,
+      "value_score": 0.5,
+      "momentum_score": 0.36,
+      "quality_score": 0.4667,
+      "flow_score": 0.5,
+      "news_score": 0.4,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "373220",
+      "name": "LG에너지솔루션",
+      "sector": "2차전지/배터리",
+      "composite_score": 0.4795,
+      "value_score": 0.5,
+      "momentum_score": 0.24,
+      "quality_score": 0.6667,
+      "flow_score": 0.5,
+      "news_score": 0.8667,
+      "factor_source_coverage_ratio": 1.0
+    }
+  ],
+  "top_reversion": [
+    {
+      "symbol": "005930",
+      "name": "삼성전자",
+      "sector": "IT하드웨어 (반도체)",
+      "sector_reversion_signal": 2.0,
+      "sector_reversion_rank": 1.0,
+      "value_score": 0.5,
+      "momentum_score": 0.68,
+      "flow_score": 0.5,
+      "news_score": 0.4,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "402340",
+      "name": "SK스퀘어",
+      "sector": "Unknown",
+      "sector_reversion_signal": 0.0,
+      "sector_reversion_rank": 1.0,
+      "value_score": 0.5,
+      "momentum_score": 0.84,
+      "flow_score": 0.5,
+      "news_score": 0.9333,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "005380",
+      "name": "현대차",
+      "sector": "자동차/완성차",
+      "sector_reversion_signal": 0.0,
+      "sector_reversion_rank": 1.0,
+      "value_score": 0.5,
+      "momentum_score": 0.36,
+      "flow_score": 0.5,
+      "news_score": 0.4,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "373220",
+      "name": "LG에너지솔루션",
+      "sector": "2차전지/배터리",
+      "sector_reversion_signal": 0.0,
+      "sector_reversion_rank": 1.0,
+      "value_score": 0.5,
+      "momentum_score": 0.24,
+      "flow_score": 0.5,
+      "news_score": 0.8667,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "000660",
+      "name": "SK하이닉스",
+      "sector": "IT하드웨어 (반도체)",
+      "sector_reversion_signal": -2.0,
+      "sector_reversion_rank": 0.5,
+      "value_score": 0.5,
+      "momentum_score": 0.88,
+      "flow_score": 0.5,
+      "news_score": 0.4,
+      "factor_source_coverage_ratio": 1.0
+    }
+  ],
+  "portfolio_candidates": [
+    {
+      "symbol": "402340",
+      "name": "SK스퀘어",
+      "sector": "Unknown",
+      "composite_score": 0.6141,
+      "value_score": 0.5,
+      "momentum_score": 0.84,
+      "quality_score": 0.5333,
+      "flow_score": 0.5,
+      "news_score": 0.9333,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "000660",
+      "name": "SK하이닉스",
+      "sector": "IT하드웨어 (반도체)",
+      "composite_score": 0.5856,
+      "value_score": 0.5,
+      "momentum_score": 0.88,
+      "quality_score": 0.4,
+      "flow_score": 0.5,
+      "news_score": 0.4,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "005930",
+      "name": "삼성전자",
+      "sector": "IT하드웨어 (반도체)",
+      "composite_score": 0.5576,
+      "value_score": 0.5,
+      "momentum_score": 0.68,
+      "quality_score": 0.6,
+      "flow_score": 0.5,
+      "news_score": 0.4,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "005380",
+      "name": "현대차",
+      "sector": "자동차/완성차",
+      "composite_score": 0.5032,
+      "value_score": 0.5,
+      "momentum_score": 0.36,
+      "quality_score": 0.4667,
+      "flow_score": 0.5,
+      "news_score": 0.4,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "373220",
+      "name": "LG에너지솔루션",
+      "sector": "2차전지/배터리",
+      "composite_score": 0.4795,
+      "value_score": 0.5,
+      "momentum_score": 0.24,
+      "quality_score": 0.6667,
+      "flow_score": 0.5,
+      "news_score": 0.8667,
+      "factor_source_coverage_ratio": 1.0
+    }
+  ],
+  "top_sectors": [
+    {
+      "sector": "Unknown",
+      "count": 1,
+      "avg_composite_score": 0.6141,
+      "leaders": [
+        {
+          "symbol": "402340",
+          "name": "SK스퀘어",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.6141
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "402340",
+          "name": "SK스퀘어",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.84
+        }
+      ]
+    },
+    {
+      "sector": "IT하드웨어 (반도체)",
+      "count": 2,
+      "avg_composite_score": 0.5716,
+      "leaders": [
+        {
+          "symbol": "005930",
+          "name": "삼성전자",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.5576
+        },
+        {
+          "symbol": "000660",
+          "name": "SK하이닉스",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.5856
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "005930",
+          "name": "삼성전자",
+          "sector_reversion_signal": 2.0,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.68
+        },
+        {
+          "symbol": "000660",
+          "name": "SK하이닉스",
+          "sector_reversion_signal": -2.0,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.88
+        }
+      ]
+    },
+    {
+      "sector": "자동차/완성차",
+      "count": 1,
+      "avg_composite_score": 0.5032,
+      "leaders": [
+        {
+          "symbol": "005380",
+          "name": "현대차",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.5032
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "005380",
+          "name": "현대차",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.36
+        }
+      ]
+    },
+    {
+      "sector": "2차전지/배터리",
+      "count": 1,
+      "avg_composite_score": 0.4795,
+      "leaders": [
+        {
+          "symbol": "373220",
+          "name": "LG에너지솔루션",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.4795
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "373220",
+          "name": "LG에너지솔루션",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.24
+        }
+      ]
+    }
+  ],
+  "sector_cards": [
+    {
+      "sector": "Unknown",
+      "count": 1,
+      "avg_composite_score": 0.6141,
+      "leaders": [
+        {
+          "symbol": "402340",
+          "name": "SK스퀘어",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.6141
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "402340",
+          "name": "SK스퀘어",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.84
+        }
+      ]
+    },
+    {
+      "sector": "IT하드웨어 (반도체)",
+      "count": 2,
+      "avg_composite_score": 0.5716,
+      "leaders": [
+        {
+          "symbol": "005930",
+          "name": "삼성전자",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.5576
+        },
+        {
+          "symbol": "000660",
+          "name": "SK하이닉스",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.5856
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "005930",
+          "name": "삼성전자",
+          "sector_reversion_signal": 2.0,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.68
+        },
+        {
+          "symbol": "000660",
+          "name": "SK하이닉스",
+          "sector_reversion_signal": -2.0,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.88
+        }
+      ]
+    },
+    {
+      "sector": "자동차/완성차",
+      "count": 1,
+      "avg_composite_score": 0.5032,
+      "leaders": [
+        {
+          "symbol": "005380",
+          "name": "현대차",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.5032
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "005380",
+          "name": "현대차",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.36
+        }
+      ]
+    },
+    {
+      "sector": "2차전지/배터리",
+      "count": 1,
+      "avg_composite_score": 0.4795,
+      "leaders": [
+        {
+          "symbol": "373220",
+          "name": "LG에너지솔루션",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.4795
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "373220",
+          "name": "LG에너지솔루션",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.24
+        }
+      ]
+    }
+  ]
+}

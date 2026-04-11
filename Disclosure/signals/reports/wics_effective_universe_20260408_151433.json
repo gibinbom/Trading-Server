@@ -1,0 +1,5548 @@
+{
+  "generated_at": "2026-04-08T15:14:33",
+  "core_limit": 12,
+  "dynamic_limit": 4,
+  "total_limit": 16,
+  "min_dynamic_score": 0.54,
+  "min_dynamic_sources": 2,
+  "sectors": {
+    "1. IT하드웨어 (반도체)": {
+      "normalized_sector": "IT하드웨어 (반도체)",
+      "core_symbols": [
+        {
+          "symbol": "005930",
+          "name": "삼성전자"
+        },
+        {
+          "symbol": "000660",
+          "name": "SK하이닉스"
+        },
+        {
+          "symbol": "039030",
+          "name": "이오테크닉스"
+        },
+        {
+          "symbol": "042700",
+          "name": "한미반도체"
+        },
+        {
+          "symbol": "403870",
+          "name": "HPSP"
+        },
+        {
+          "symbol": "252810",
+          "name": "이수페타시스"
+        },
+        {
+          "symbol": "058470",
+          "name": "리노공업"
+        },
+        {
+          "symbol": "074600",
+          "name": "원익IPS"
+        },
+        {
+          "symbol": "067310",
+          "name": "하나마이크론"
+        },
+        {
+          "symbol": "036930",
+          "name": "주성엔지니어링"
+        },
+        {
+          "symbol": "000990",
+          "name": "DB하이텍"
+        },
+        {
+          "symbol": "357780",
+          "name": "솔브레인"
+        }
+      ],
+      "core_review": [
+        {
+          "symbol": "005930",
+          "name": "삼성전자",
+          "priority_score": 0.7386,
+          "latest_sector": "IT하드웨어 (반도체)"
+        },
+        {
+          "symbol": "000660",
+          "name": "SK하이닉스",
+          "priority_score": 0.6458,
+          "latest_sector": "IT하드웨어 (반도체)"
+        },
+        {
+          "symbol": "039030",
+          "name": "이오테크닉스",
+          "priority_score": 0.372,
+          "latest_sector": "IT하드웨어 (반도체)"
+        },
+        {
+          "symbol": "042700",
+          "name": "한미반도체",
+          "priority_score": 0.0,
+          "latest_sector": "IT하드웨어 (반도체)"
+        },
+        {
+          "symbol": "403870",
+          "name": "HPSP",
+          "priority_score": 0.0,
+          "latest_sector": "IT하드웨어 (반도체)"
+        },
+        {
+          "symbol": "252810",
+          "name": "이수페타시스",
+          "priority_score": 0.0,
+          "latest_sector": "IT하드웨어 (반도체)"
+        },
+        {
+          "symbol": "058470",
+          "name": "리노공업",
+          "priority_score": 0.0,
+          "latest_sector": "IT하드웨어 (반도체)"
+        },
+        {
+          "symbol": "074600",
+          "name": "원익IPS",
+          "priority_score": 0.0,
+          "latest_sector": "IT하드웨어 (반도체)"
+        },
+        {
+          "symbol": "067310",
+          "name": "하나마이크론",
+          "priority_score": 0.0,
+          "latest_sector": "IT하드웨어 (반도체)"
+        },
+        {
+          "symbol": "036930",
+          "name": "주성엔지니어링",
+          "priority_score": 0.0,
+          "latest_sector": "IT하드웨어 (반도체)"
+        },
+        {
+          "symbol": "000990",
+          "name": "DB하이텍",
+          "priority_score": 0.0,
+          "latest_sector": "IT하드웨어 (반도체)"
+        },
+        {
+          "symbol": "357780",
+          "name": "솔브레인",
+          "priority_score": 0.0,
+          "latest_sector": "IT하드웨어 (반도체)"
+        }
+      ],
+      "manual_added": [],
+      "dynamic_added": [],
+      "excluded": [],
+      "sector_mismatch_excluded": [],
+      "final_symbols": [
+        {
+          "symbol": "005930",
+          "name": "삼성전자"
+        },
+        {
+          "symbol": "000660",
+          "name": "SK하이닉스"
+        },
+        {
+          "symbol": "039030",
+          "name": "이오테크닉스"
+        },
+        {
+          "symbol": "042700",
+          "name": "한미반도체"
+        },
+        {
+          "symbol": "403870",
+          "name": "HPSP"
+        },
+        {
+          "symbol": "252810",
+          "name": "이수페타시스"
+        },
+        {
+          "symbol": "058470",
+          "name": "리노공업"
+        },
+        {
+          "symbol": "074600",
+          "name": "원익IPS"
+        },
+        {
+          "symbol": "067310",
+          "name": "하나마이크론"
+        },
+        {
+          "symbol": "036930",
+          "name": "주성엔지니어링"
+        },
+        {
+          "symbol": "000990",
+          "name": "DB하이텍"
+        },
+        {
+          "symbol": "357780",
+          "name": "솔브레인"
+        }
+      ],
+      "final_count": 12,
+      "turnover_added": [],
+      "turnover_removed": [],
+      "historical_stability": {
+        "label": "예비",
+        "reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "avg_overlap": 0.75,
+        "change_events": 1,
+        "sample_count": 2,
+        "confidence_label": "예비"
+      },
+      "universe_status": {
+        "label": "안정형",
+        "reason": "코어 구성 변화가 작아 섹터 단위 해석의 신뢰가 비교적 높은 편입니다.",
+        "dynamic_count": 0,
+        "mismatch_count": 0,
+        "turnover_count": 0,
+        "added_count": 0,
+        "removed_count": 0,
+        "history_label": "예비",
+        "history_reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "history_avg_overlap": 0.75,
+        "history_change_events": 1,
+        "history_sample_count": 2,
+        "history_confidence_label": "예비"
+      }
+    },
+    "2. IT소프트웨어 (플랫폼/SI)": {
+      "normalized_sector": "IT소프트웨어 (플랫폼/SI)",
+      "core_symbols": [
+        {
+          "symbol": "035420",
+          "name": "NAVER"
+        },
+        {
+          "symbol": "307950",
+          "name": "현대오토에버"
+        },
+        {
+          "symbol": "035720",
+          "name": "카카오"
+        },
+        {
+          "symbol": "018260",
+          "name": "삼성에스디에스"
+        },
+        {
+          "symbol": "022100",
+          "name": "포스코DX"
+        },
+        {
+          "symbol": "012510",
+          "name": "더존비즈온"
+        },
+        {
+          "symbol": "053800",
+          "name": "안랩"
+        },
+        {
+          "symbol": "030520",
+          "name": "한글과컴퓨터"
+        },
+        {
+          "symbol": "058970",
+          "name": "엠로"
+        },
+        {
+          "symbol": "047560",
+          "name": "이스트소프트"
+        },
+        {
+          "symbol": "181710",
+          "name": "NHN"
+        },
+        {
+          "symbol": "067160",
+          "name": "SOOP"
+        }
+      ],
+      "core_review": [
+        {
+          "symbol": "035420",
+          "name": "NAVER",
+          "priority_score": 0.4785,
+          "latest_sector": "IT소프트웨어 (플랫폼/SI)"
+        },
+        {
+          "symbol": "307950",
+          "name": "현대오토에버",
+          "priority_score": 0.1635,
+          "latest_sector": "IT소프트웨어 (플랫폼/SI)"
+        },
+        {
+          "symbol": "035720",
+          "name": "카카오",
+          "priority_score": 0.0,
+          "latest_sector": "IT소프트웨어 (플랫폼/SI)"
+        },
+        {
+          "symbol": "018260",
+          "name": "삼성에스디에스",
+          "priority_score": 0.0,
+          "latest_sector": "IT소프트웨어 (플랫폼/SI)"
+        },
+        {
+          "symbol": "022100",
+          "name": "포스코DX",
+          "priority_score": 0.0,
+          "latest_sector": "IT소프트웨어 (플랫폼/SI)"
+        },
+        {
+          "symbol": "012510",
+          "name": "더존비즈온",
+          "priority_score": 0.0,
+          "latest_sector": "IT소프트웨어 (플랫폼/SI)"
+        },
+        {
+          "symbol": "053800",
+          "name": "안랩",
+          "priority_score": 0.0,
+          "latest_sector": "IT소프트웨어 (플랫폼/SI)"
+        },
+        {
+          "symbol": "030520",
+          "name": "한글과컴퓨터",
+          "priority_score": 0.0,
+          "latest_sector": "IT소프트웨어 (플랫폼/SI)"
+        },
+        {
+          "symbol": "058970",
+          "name": "엠로",
+          "priority_score": 0.0,
+          "latest_sector": "IT소프트웨어 (플랫폼/SI)"
+        },
+        {
+          "symbol": "047560",
+          "name": "이스트소프트",
+          "priority_score": 0.0,
+          "latest_sector": "IT소프트웨어 (플랫폼/SI)"
+        },
+        {
+          "symbol": "181710",
+          "name": "NHN",
+          "priority_score": 0.0,
+          "latest_sector": "IT소프트웨어 (플랫폼/SI)"
+        },
+        {
+          "symbol": "067160",
+          "name": "SOOP",
+          "priority_score": 0.0,
+          "latest_sector": "IT소프트웨어 (플랫폼/SI)"
+        }
+      ],
+      "manual_added": [],
+      "dynamic_added": [],
+      "excluded": [],
+      "sector_mismatch_excluded": [],
+      "final_symbols": [
+        {
+          "symbol": "035420",
+          "name": "NAVER"
+        },
+        {
+          "symbol": "307950",
+          "name": "현대오토에버"
+        },
+        {
+          "symbol": "035720",
+          "name": "카카오"
+        },
+        {
+          "symbol": "018260",
+          "name": "삼성에스디에스"
+        },
+        {
+          "symbol": "022100",
+          "name": "포스코DX"
+        },
+        {
+          "symbol": "012510",
+          "name": "더존비즈온"
+        },
+        {
+          "symbol": "053800",
+          "name": "안랩"
+        },
+        {
+          "symbol": "030520",
+          "name": "한글과컴퓨터"
+        },
+        {
+          "symbol": "058970",
+          "name": "엠로"
+        },
+        {
+          "symbol": "047560",
+          "name": "이스트소프트"
+        },
+        {
+          "symbol": "181710",
+          "name": "NHN"
+        },
+        {
+          "symbol": "067160",
+          "name": "SOOP"
+        }
+      ],
+      "final_count": 12,
+      "turnover_added": [],
+      "turnover_removed": [],
+      "historical_stability": {
+        "label": "예비",
+        "reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "avg_overlap": 0.75,
+        "change_events": 1,
+        "sample_count": 2,
+        "confidence_label": "예비"
+      },
+      "universe_status": {
+        "label": "안정형",
+        "reason": "코어 구성 변화가 작아 섹터 단위 해석의 신뢰가 비교적 높은 편입니다.",
+        "dynamic_count": 0,
+        "mismatch_count": 0,
+        "turnover_count": 0,
+        "added_count": 0,
+        "removed_count": 0,
+        "history_label": "예비",
+        "history_reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "history_avg_overlap": 0.75,
+        "history_change_events": 1,
+        "history_sample_count": 2,
+        "history_confidence_label": "예비"
+      }
+    },
+    "3. 디스플레이/IT부품": {
+      "normalized_sector": "디스플레이/IT부품",
+      "core_symbols": [
+        {
+          "symbol": "011070",
+          "name": "LG이노텍"
+        },
+        {
+          "symbol": "034220",
+          "name": "LG디스플레이"
+        },
+        {
+          "symbol": "009150",
+          "name": "삼성전기"
+        },
+        {
+          "symbol": "090460",
+          "name": "비에이치"
+        },
+        {
+          "symbol": "222800",
+          "name": "심텍"
+        },
+        {
+          "symbol": "195870",
+          "name": "해성디에스"
+        },
+        {
+          "symbol": "056190",
+          "name": "에스에프에이"
+        },
+        {
+          "symbol": "222080",
+          "name": "덕산네오룩스"
+        },
+        {
+          "symbol": "272290",
+          "name": "이녹스첨단소재"
+        },
+        {
+          "symbol": "140860",
+          "name": "파크시스템스"
+        },
+        {
+          "symbol": "248070",
+          "name": "솔루엠"
+        },
+        {
+          "symbol": "007810",
+          "name": "코리아써키트"
+        }
+      ],
+      "core_review": [
+        {
+          "symbol": "011070",
+          "name": "LG이노텍",
+          "priority_score": 0.3534,
+          "latest_sector": "디스플레이/IT부품"
+        },
+        {
+          "symbol": "034220",
+          "name": "LG디스플레이",
+          "priority_score": 0.0,
+          "latest_sector": "디스플레이/IT부품"
+        },
+        {
+          "symbol": "009150",
+          "name": "삼성전기",
+          "priority_score": 0.0,
+          "latest_sector": "디스플레이/IT부품"
+        },
+        {
+          "symbol": "090460",
+          "name": "비에이치",
+          "priority_score": 0.0,
+          "latest_sector": "디스플레이/IT부품"
+        },
+        {
+          "symbol": "222800",
+          "name": "심텍",
+          "priority_score": 0.0,
+          "latest_sector": "디스플레이/IT부품"
+        },
+        {
+          "symbol": "195870",
+          "name": "해성디에스",
+          "priority_score": 0.0,
+          "latest_sector": "디스플레이/IT부품"
+        },
+        {
+          "symbol": "056190",
+          "name": "에스에프에이",
+          "priority_score": 0.0,
+          "latest_sector": "디스플레이/IT부품"
+        },
+        {
+          "symbol": "222080",
+          "name": "덕산네오룩스",
+          "priority_score": 0.0,
+          "latest_sector": "디스플레이/IT부품"
+        },
+        {
+          "symbol": "272290",
+          "name": "이녹스첨단소재",
+          "priority_score": 0.0,
+          "latest_sector": "디스플레이/IT부품"
+        },
+        {
+          "symbol": "140860",
+          "name": "파크시스템스",
+          "priority_score": 0.0,
+          "latest_sector": "디스플레이/IT부품"
+        },
+        {
+          "symbol": "248070",
+          "name": "솔루엠",
+          "priority_score": 0.0,
+          "latest_sector": "디스플레이/IT부품"
+        },
+        {
+          "symbol": "007810",
+          "name": "코리아써키트",
+          "priority_score": 0.0,
+          "latest_sector": "디스플레이/IT부품"
+        }
+      ],
+      "manual_added": [],
+      "dynamic_added": [],
+      "excluded": [],
+      "sector_mismatch_excluded": [],
+      "final_symbols": [
+        {
+          "symbol": "011070",
+          "name": "LG이노텍"
+        },
+        {
+          "symbol": "034220",
+          "name": "LG디스플레이"
+        },
+        {
+          "symbol": "009150",
+          "name": "삼성전기"
+        },
+        {
+          "symbol": "090460",
+          "name": "비에이치"
+        },
+        {
+          "symbol": "222800",
+          "name": "심텍"
+        },
+        {
+          "symbol": "195870",
+          "name": "해성디에스"
+        },
+        {
+          "symbol": "056190",
+          "name": "에스에프에이"
+        },
+        {
+          "symbol": "222080",
+          "name": "덕산네오룩스"
+        },
+        {
+          "symbol": "272290",
+          "name": "이녹스첨단소재"
+        },
+        {
+          "symbol": "140860",
+          "name": "파크시스템스"
+        },
+        {
+          "symbol": "248070",
+          "name": "솔루엠"
+        },
+        {
+          "symbol": "007810",
+          "name": "코리아써키트"
+        }
+      ],
+      "final_count": 12,
+      "turnover_added": [],
+      "turnover_removed": [],
+      "historical_stability": {
+        "label": "예비",
+        "reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "avg_overlap": 0.692,
+        "change_events": 1,
+        "sample_count": 2,
+        "confidence_label": "예비"
+      },
+      "universe_status": {
+        "label": "안정형",
+        "reason": "코어 구성 변화가 작아 섹터 단위 해석의 신뢰가 비교적 높은 편입니다.",
+        "dynamic_count": 0,
+        "mismatch_count": 0,
+        "turnover_count": 0,
+        "added_count": 0,
+        "removed_count": 0,
+        "history_label": "예비",
+        "history_reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "history_avg_overlap": 0.692,
+        "history_change_events": 1,
+        "history_sample_count": 2,
+        "history_confidence_label": "예비"
+      }
+    },
+    "4. 2차전지/배터리": {
+      "normalized_sector": "2차전지/배터리",
+      "core_symbols": [
+        {
+          "symbol": "373220",
+          "name": "LG에너지솔루션"
+        },
+        {
+          "symbol": "006400",
+          "name": "삼성SDI"
+        },
+        {
+          "symbol": "348370",
+          "name": "엔켐"
+        },
+        {
+          "symbol": "247540",
+          "name": "에코프로비엠"
+        },
+        {
+          "symbol": "086520",
+          "name": "에코프로"
+        },
+        {
+          "symbol": "003670",
+          "name": "포스코퓨처엠"
+        },
+        {
+          "symbol": "066970",
+          "name": "엘앤에프"
+        },
+        {
+          "symbol": "001570",
+          "name": "금양"
+        },
+        {
+          "symbol": "078600",
+          "name": "대주전자재료"
+        },
+        {
+          "symbol": "121600",
+          "name": "나노신소재"
+        },
+        {
+          "symbol": "450080",
+          "name": "에코프로머티"
+        },
+        {
+          "symbol": "005070",
+          "name": "코스모신소재"
+        }
+      ],
+      "core_review": [
+        {
+          "symbol": "373220",
+          "name": "LG에너지솔루션",
+          "priority_score": 0.5397,
+          "latest_sector": "2차전지/배터리"
+        },
+        {
+          "symbol": "006400",
+          "name": "삼성SDI",
+          "priority_score": 0.3625,
+          "latest_sector": "2차전지/배터리"
+        },
+        {
+          "symbol": "348370",
+          "name": "엔켐",
+          "priority_score": 0.2232,
+          "latest_sector": "2차전지/배터리"
+        },
+        {
+          "symbol": "247540",
+          "name": "에코프로비엠",
+          "priority_score": 0.0,
+          "latest_sector": "2차전지/배터리"
+        },
+        {
+          "symbol": "086520",
+          "name": "에코프로",
+          "priority_score": 0.0,
+          "latest_sector": "2차전지/배터리"
+        },
+        {
+          "symbol": "003670",
+          "name": "포스코퓨처엠",
+          "priority_score": 0.0,
+          "latest_sector": "2차전지/배터리"
+        },
+        {
+          "symbol": "066970",
+          "name": "엘앤에프",
+          "priority_score": 0.0,
+          "latest_sector": "2차전지/배터리"
+        },
+        {
+          "symbol": "001570",
+          "name": "금양",
+          "priority_score": 0.0,
+          "latest_sector": "2차전지/배터리"
+        },
+        {
+          "symbol": "078600",
+          "name": "대주전자재료",
+          "priority_score": 0.0,
+          "latest_sector": "2차전지/배터리"
+        },
+        {
+          "symbol": "121600",
+          "name": "나노신소재",
+          "priority_score": 0.0,
+          "latest_sector": "2차전지/배터리"
+        },
+        {
+          "symbol": "450080",
+          "name": "에코프로머티",
+          "priority_score": 0.0,
+          "latest_sector": "2차전지/배터리"
+        },
+        {
+          "symbol": "005070",
+          "name": "코스모신소재",
+          "priority_score": 0.0,
+          "latest_sector": "2차전지/배터리"
+        }
+      ],
+      "manual_added": [],
+      "dynamic_added": [],
+      "excluded": [],
+      "sector_mismatch_excluded": [],
+      "final_symbols": [
+        {
+          "symbol": "373220",
+          "name": "LG에너지솔루션"
+        },
+        {
+          "symbol": "006400",
+          "name": "삼성SDI"
+        },
+        {
+          "symbol": "348370",
+          "name": "엔켐"
+        },
+        {
+          "symbol": "247540",
+          "name": "에코프로비엠"
+        },
+        {
+          "symbol": "086520",
+          "name": "에코프로"
+        },
+        {
+          "symbol": "003670",
+          "name": "포스코퓨처엠"
+        },
+        {
+          "symbol": "066970",
+          "name": "엘앤에프"
+        },
+        {
+          "symbol": "001570",
+          "name": "금양"
+        },
+        {
+          "symbol": "078600",
+          "name": "대주전자재료"
+        },
+        {
+          "symbol": "121600",
+          "name": "나노신소재"
+        },
+        {
+          "symbol": "450080",
+          "name": "에코프로머티"
+        },
+        {
+          "symbol": "005070",
+          "name": "코스모신소재"
+        }
+      ],
+      "final_count": 12,
+      "turnover_added": [],
+      "turnover_removed": [],
+      "historical_stability": {
+        "label": "예비",
+        "reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "avg_overlap": 0.75,
+        "change_events": 1,
+        "sample_count": 2,
+        "confidence_label": "예비"
+      },
+      "universe_status": {
+        "label": "안정형",
+        "reason": "코어 구성 변화가 작아 섹터 단위 해석의 신뢰가 비교적 높은 편입니다.",
+        "dynamic_count": 0,
+        "mismatch_count": 0,
+        "turnover_count": 0,
+        "added_count": 0,
+        "removed_count": 0,
+        "history_label": "예비",
+        "history_reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "history_avg_overlap": 0.75,
+        "history_change_events": 1,
+        "history_sample_count": 2,
+        "history_confidence_label": "예비"
+      }
+    },
+    "5. 화학/석유화학": {
+      "normalized_sector": "화학/석유화학",
+      "core_symbols": [
+        {
+          "symbol": "010950",
+          "name": "S-Oil"
+        },
+        {
+          "symbol": "120110",
+          "name": "코오롱인더"
+        },
+        {
+          "symbol": "004000",
+          "name": "롯데정밀화학"
+        },
+        {
+          "symbol": "298050",
+          "name": "HS효성첨단소재"
+        },
+        {
+          "symbol": "051910",
+          "name": "LG화학"
+        },
+        {
+          "symbol": "011780",
+          "name": "금호석유화학"
+        },
+        {
+          "symbol": "011170",
+          "name": "롯데케미칼"
+        },
+        {
+          "symbol": "009830",
+          "name": "한화솔루션"
+        },
+        {
+          "symbol": "006650",
+          "name": "대한유화"
+        },
+        {
+          "symbol": "011790",
+          "name": "SKC"
+        },
+        {
+          "symbol": "004430",
+          "name": "송원산업"
+        },
+        {
+          "symbol": "298020",
+          "name": "효성티앤씨"
+        }
+      ],
+      "core_review": [
+        {
+          "symbol": "010950",
+          "name": "S-Oil",
+          "priority_score": 0.4341,
+          "latest_sector": "화학/석유화학"
+        },
+        {
+          "symbol": "120110",
+          "name": "코오롱인더",
+          "priority_score": 0.4044,
+          "latest_sector": "화학/석유화학"
+        },
+        {
+          "symbol": "004000",
+          "name": "롯데정밀화학",
+          "priority_score": 0.3499,
+          "latest_sector": "화학/석유화학"
+        },
+        {
+          "symbol": "298050",
+          "name": "HS효성첨단소재",
+          "priority_score": 0.301,
+          "latest_sector": "화학/석유화학"
+        },
+        {
+          "symbol": "051910",
+          "name": "LG화학",
+          "priority_score": 0.0,
+          "latest_sector": "화학/석유화학"
+        },
+        {
+          "symbol": "011780",
+          "name": "금호석유화학",
+          "priority_score": 0.0,
+          "latest_sector": "화학/석유화학"
+        },
+        {
+          "symbol": "011170",
+          "name": "롯데케미칼",
+          "priority_score": 0.0,
+          "latest_sector": "화학/석유화학"
+        },
+        {
+          "symbol": "009830",
+          "name": "한화솔루션",
+          "priority_score": 0.0,
+          "latest_sector": "화학/석유화학"
+        },
+        {
+          "symbol": "006650",
+          "name": "대한유화",
+          "priority_score": 0.0,
+          "latest_sector": "화학/석유화학"
+        },
+        {
+          "symbol": "011790",
+          "name": "SKC",
+          "priority_score": 0.0,
+          "latest_sector": "화학/석유화학"
+        },
+        {
+          "symbol": "004430",
+          "name": "송원산업",
+          "priority_score": 0.0,
+          "latest_sector": "화학/석유화학"
+        },
+        {
+          "symbol": "298020",
+          "name": "효성티앤씨",
+          "priority_score": 0.0,
+          "latest_sector": "화학/석유화학"
+        }
+      ],
+      "manual_added": [],
+      "dynamic_added": [],
+      "excluded": [],
+      "sector_mismatch_excluded": [],
+      "final_symbols": [
+        {
+          "symbol": "010950",
+          "name": "S-Oil"
+        },
+        {
+          "symbol": "120110",
+          "name": "코오롱인더"
+        },
+        {
+          "symbol": "004000",
+          "name": "롯데정밀화학"
+        },
+        {
+          "symbol": "298050",
+          "name": "HS효성첨단소재"
+        },
+        {
+          "symbol": "051910",
+          "name": "LG화학"
+        },
+        {
+          "symbol": "011780",
+          "name": "금호석유화학"
+        },
+        {
+          "symbol": "011170",
+          "name": "롯데케미칼"
+        },
+        {
+          "symbol": "009830",
+          "name": "한화솔루션"
+        },
+        {
+          "symbol": "006650",
+          "name": "대한유화"
+        },
+        {
+          "symbol": "011790",
+          "name": "SKC"
+        },
+        {
+          "symbol": "004430",
+          "name": "송원산업"
+        },
+        {
+          "symbol": "298020",
+          "name": "효성티앤씨"
+        }
+      ],
+      "final_count": 12,
+      "turnover_added": [],
+      "turnover_removed": [],
+      "historical_stability": {
+        "label": "예비",
+        "reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "avg_overlap": 0.75,
+        "change_events": 1,
+        "sample_count": 2,
+        "confidence_label": "예비"
+      },
+      "universe_status": {
+        "label": "안정형",
+        "reason": "코어 구성 변화가 작아 섹터 단위 해석의 신뢰가 비교적 높은 편입니다.",
+        "dynamic_count": 0,
+        "mismatch_count": 0,
+        "turnover_count": 0,
+        "added_count": 0,
+        "removed_count": 0,
+        "history_label": "예비",
+        "history_reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "history_avg_overlap": 0.75,
+        "history_change_events": 1,
+        "history_sample_count": 2,
+        "history_confidence_label": "예비"
+      }
+    },
+    "6. 제약/바이오 (대형)": {
+      "normalized_sector": "제약/바이오 (대형)",
+      "core_symbols": [
+        {
+          "symbol": "207940",
+          "name": "삼성바이오로직스"
+        },
+        {
+          "symbol": "068270",
+          "name": "셀트리온"
+        },
+        {
+          "symbol": "000100",
+          "name": "유한양행"
+        },
+        {
+          "symbol": "128940",
+          "name": "한미약품"
+        },
+        {
+          "symbol": "326030",
+          "name": "SK바이오팜"
+        },
+        {
+          "symbol": "302440",
+          "name": "SK바이오사이언스"
+        },
+        {
+          "symbol": "006280",
+          "name": "녹십자"
+        },
+        {
+          "symbol": "185750",
+          "name": "종근당"
+        },
+        {
+          "symbol": "069620",
+          "name": "대웅제약"
+        },
+        {
+          "symbol": "196170",
+          "name": "알테오젠"
+        },
+        {
+          "symbol": "195940",
+          "name": "HK이노엔"
+        },
+        {
+          "symbol": "003850",
+          "name": "보령"
+        }
+      ],
+      "core_review": [
+        {
+          "symbol": "207940",
+          "name": "삼성바이오로직스",
+          "priority_score": 0.634,
+          "latest_sector": "제약/바이오 (대형)"
+        },
+        {
+          "symbol": "068270",
+          "name": "셀트리온",
+          "priority_score": 0.4818,
+          "latest_sector": "제약/바이오 (대형)"
+        },
+        {
+          "symbol": "000100",
+          "name": "유한양행",
+          "priority_score": 0.0,
+          "latest_sector": "제약/바이오 (대형)"
+        },
+        {
+          "symbol": "128940",
+          "name": "한미약품",
+          "priority_score": 0.0,
+          "latest_sector": "제약/바이오 (대형)"
+        },
+        {
+          "symbol": "326030",
+          "name": "SK바이오팜",
+          "priority_score": 0.0,
+          "latest_sector": "제약/바이오 (대형)"
+        },
+        {
+          "symbol": "302440",
+          "name": "SK바이오사이언스",
+          "priority_score": 0.0,
+          "latest_sector": "제약/바이오 (대형)"
+        },
+        {
+          "symbol": "006280",
+          "name": "녹십자",
+          "priority_score": 0.0,
+          "latest_sector": "제약/바이오 (대형)"
+        },
+        {
+          "symbol": "185750",
+          "name": "종근당",
+          "priority_score": 0.0,
+          "latest_sector": "제약/바이오 (대형)"
+        },
+        {
+          "symbol": "069620",
+          "name": "대웅제약",
+          "priority_score": 0.0,
+          "latest_sector": "제약/바이오 (대형)"
+        },
+        {
+          "symbol": "196170",
+          "name": "알테오젠",
+          "priority_score": 0.0,
+          "latest_sector": "제약/바이오 (대형)"
+        },
+        {
+          "symbol": "195940",
+          "name": "HK이노엔",
+          "priority_score": 0.0,
+          "latest_sector": "제약/바이오 (대형)"
+        },
+        {
+          "symbol": "003850",
+          "name": "보령",
+          "priority_score": 0.0,
+          "latest_sector": "제약/바이오 (대형)"
+        }
+      ],
+      "manual_added": [],
+      "dynamic_added": [],
+      "excluded": [],
+      "sector_mismatch_excluded": [],
+      "final_symbols": [
+        {
+          "symbol": "207940",
+          "name": "삼성바이오로직스"
+        },
+        {
+          "symbol": "068270",
+          "name": "셀트리온"
+        },
+        {
+          "symbol": "000100",
+          "name": "유한양행"
+        },
+        {
+          "symbol": "128940",
+          "name": "한미약품"
+        },
+        {
+          "symbol": "326030",
+          "name": "SK바이오팜"
+        },
+        {
+          "symbol": "302440",
+          "name": "SK바이오사이언스"
+        },
+        {
+          "symbol": "006280",
+          "name": "녹십자"
+        },
+        {
+          "symbol": "185750",
+          "name": "종근당"
+        },
+        {
+          "symbol": "069620",
+          "name": "대웅제약"
+        },
+        {
+          "symbol": "196170",
+          "name": "알테오젠"
+        },
+        {
+          "symbol": "195940",
+          "name": "HK이노엔"
+        },
+        {
+          "symbol": "003850",
+          "name": "보령"
+        }
+      ],
+      "final_count": 12,
+      "turnover_added": [],
+      "turnover_removed": [],
+      "historical_stability": {
+        "label": "예비",
+        "reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "avg_overlap": 0.75,
+        "change_events": 1,
+        "sample_count": 2,
+        "confidence_label": "예비"
+      },
+      "universe_status": {
+        "label": "안정형",
+        "reason": "코어 구성 변화가 작아 섹터 단위 해석의 신뢰가 비교적 높은 편입니다.",
+        "dynamic_count": 0,
+        "mismatch_count": 0,
+        "turnover_count": 0,
+        "added_count": 0,
+        "removed_count": 0,
+        "history_label": "예비",
+        "history_reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "history_avg_overlap": 0.75,
+        "history_change_events": 1,
+        "history_sample_count": 2,
+        "history_confidence_label": "예비"
+      }
+    },
+    "7. 헬스케어/의료기기": {
+      "normalized_sector": "헬스케어/의료기기",
+      "core_symbols": [
+        {
+          "symbol": "214150",
+          "name": "클래시스"
+        },
+        {
+          "symbol": "145020",
+          "name": "휴젤"
+        },
+        {
+          "symbol": "214450",
+          "name": "파마리서치"
+        },
+        {
+          "symbol": "287410",
+          "name": "제이시스메디칼"
+        },
+        {
+          "symbol": "338220",
+          "name": "뷰노"
+        },
+        {
+          "symbol": "328130",
+          "name": "루닛"
+        },
+        {
+          "symbol": "041830",
+          "name": "인바디"
+        },
+        {
+          "symbol": "206640",
+          "name": "바디텍메드"
+        },
+        {
+          "symbol": "145720",
+          "name": "덴티움"
+        },
+        {
+          "symbol": "039840",
+          "name": "디오"
+        },
+        {
+          "symbol": "336570",
+          "name": "원텍"
+        },
+        {
+          "symbol": "228670",
+          "name": "레이"
+        }
+      ],
+      "core_review": [
+        {
+          "symbol": "214150",
+          "name": "클래시스",
+          "priority_score": 0.0,
+          "latest_sector": "헬스케어/의료기기"
+        },
+        {
+          "symbol": "145020",
+          "name": "휴젤",
+          "priority_score": 0.0,
+          "latest_sector": "헬스케어/의료기기"
+        },
+        {
+          "symbol": "214450",
+          "name": "파마리서치",
+          "priority_score": 0.0,
+          "latest_sector": "헬스케어/의료기기"
+        },
+        {
+          "symbol": "287410",
+          "name": "제이시스메디칼",
+          "priority_score": 0.0,
+          "latest_sector": "헬스케어/의료기기"
+        },
+        {
+          "symbol": "338220",
+          "name": "뷰노",
+          "priority_score": 0.0,
+          "latest_sector": "헬스케어/의료기기"
+        },
+        {
+          "symbol": "328130",
+          "name": "루닛",
+          "priority_score": 0.0,
+          "latest_sector": "헬스케어/의료기기"
+        },
+        {
+          "symbol": "041830",
+          "name": "인바디",
+          "priority_score": 0.0,
+          "latest_sector": "헬스케어/의료기기"
+        },
+        {
+          "symbol": "206640",
+          "name": "바디텍메드",
+          "priority_score": 0.0,
+          "latest_sector": "헬스케어/의료기기"
+        },
+        {
+          "symbol": "145720",
+          "name": "덴티움",
+          "priority_score": 0.0,
+          "latest_sector": "헬스케어/의료기기"
+        },
+        {
+          "symbol": "039840",
+          "name": "디오",
+          "priority_score": 0.0,
+          "latest_sector": "헬스케어/의료기기"
+        },
+        {
+          "symbol": "336570",
+          "name": "원텍",
+          "priority_score": 0.0,
+          "latest_sector": "헬스케어/의료기기"
+        },
+        {
+          "symbol": "228670",
+          "name": "레이",
+          "priority_score": 0.0,
+          "latest_sector": "헬스케어/의료기기"
+        }
+      ],
+      "manual_added": [],
+      "dynamic_added": [],
+      "excluded": [],
+      "sector_mismatch_excluded": [],
+      "final_symbols": [
+        {
+          "symbol": "214150",
+          "name": "클래시스"
+        },
+        {
+          "symbol": "145020",
+          "name": "휴젤"
+        },
+        {
+          "symbol": "214450",
+          "name": "파마리서치"
+        },
+        {
+          "symbol": "287410",
+          "name": "제이시스메디칼"
+        },
+        {
+          "symbol": "338220",
+          "name": "뷰노"
+        },
+        {
+          "symbol": "328130",
+          "name": "루닛"
+        },
+        {
+          "symbol": "041830",
+          "name": "인바디"
+        },
+        {
+          "symbol": "206640",
+          "name": "바디텍메드"
+        },
+        {
+          "symbol": "145720",
+          "name": "덴티움"
+        },
+        {
+          "symbol": "039840",
+          "name": "디오"
+        },
+        {
+          "symbol": "336570",
+          "name": "원텍"
+        },
+        {
+          "symbol": "228670",
+          "name": "레이"
+        }
+      ],
+      "final_count": 12,
+      "turnover_added": [],
+      "turnover_removed": [],
+      "historical_stability": {
+        "label": "예비",
+        "reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "avg_overlap": 0.75,
+        "change_events": 1,
+        "sample_count": 2,
+        "confidence_label": "예비"
+      },
+      "universe_status": {
+        "label": "안정형",
+        "reason": "코어 구성 변화가 작아 섹터 단위 해석의 신뢰가 비교적 높은 편입니다.",
+        "dynamic_count": 0,
+        "mismatch_count": 0,
+        "turnover_count": 0,
+        "added_count": 0,
+        "removed_count": 0,
+        "history_label": "예비",
+        "history_reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "history_avg_overlap": 0.75,
+        "history_change_events": 1,
+        "history_sample_count": 2,
+        "history_confidence_label": "예비"
+      }
+    },
+    "8. 자동차/완성차": {
+      "normalized_sector": "자동차/완성차",
+      "core_symbols": [
+        {
+          "symbol": "000270",
+          "name": "기아"
+        },
+        {
+          "symbol": "005380",
+          "name": "현대차"
+        },
+        {
+          "symbol": "003620",
+          "name": "KG모빌리티"
+        },
+        {
+          "symbol": "086280",
+          "name": "현대글로비스"
+        },
+        {
+          "symbol": "064960",
+          "name": "SNT모티브"
+        },
+        {
+          "symbol": "308170",
+          "name": "씨티알모빌리티"
+        },
+        {
+          "symbol": "123040",
+          "name": "엠에스오토텍"
+        },
+        {
+          "symbol": "224110",
+          "name": "에이텍모빌리티"
+        },
+        {
+          "symbol": "064350",
+          "name": "현대로템"
+        },
+        {
+          "symbol": "005385",
+          "name": "현대차우"
+        },
+        {
+          "symbol": "005387",
+          "name": "현대차2우B"
+        },
+        {
+          "symbol": "005389",
+          "name": "현대차3우B"
+        }
+      ],
+      "core_review": [
+        {
+          "symbol": "000270",
+          "name": "기아",
+          "priority_score": 0.6594,
+          "latest_sector": "자동차/완성차"
+        },
+        {
+          "symbol": "005380",
+          "name": "현대차",
+          "priority_score": 0.4737,
+          "latest_sector": "자동차/완성차"
+        },
+        {
+          "symbol": "003620",
+          "name": "KG모빌리티",
+          "priority_score": 0.0,
+          "latest_sector": "자동차/완성차"
+        },
+        {
+          "symbol": "086280",
+          "name": "현대글로비스",
+          "priority_score": 0.0,
+          "latest_sector": "자동차/완성차"
+        },
+        {
+          "symbol": "064960",
+          "name": "SNT모티브",
+          "priority_score": 0.0,
+          "latest_sector": "자동차/완성차"
+        },
+        {
+          "symbol": "308170",
+          "name": "씨티알모빌리티",
+          "priority_score": 0.0,
+          "latest_sector": "자동차/완성차"
+        },
+        {
+          "symbol": "123040",
+          "name": "엠에스오토텍",
+          "priority_score": 0.0,
+          "latest_sector": "자동차/완성차"
+        },
+        {
+          "symbol": "224110",
+          "name": "에이텍모빌리티",
+          "priority_score": 0.0,
+          "latest_sector": "자동차/완성차"
+        },
+        {
+          "symbol": "064350",
+          "name": "현대로템",
+          "priority_score": 0.0,
+          "latest_sector": "자동차/완성차"
+        },
+        {
+          "symbol": "005385",
+          "name": "현대차우",
+          "priority_score": -0.18,
+          "latest_sector": "자동차/완성차"
+        },
+        {
+          "symbol": "005387",
+          "name": "현대차2우B",
+          "priority_score": -0.18,
+          "latest_sector": "자동차/완성차"
+        },
+        {
+          "symbol": "005389",
+          "name": "현대차3우B",
+          "priority_score": -0.18,
+          "latest_sector": "자동차/완성차"
+        }
+      ],
+      "manual_added": [],
+      "dynamic_added": [],
+      "excluded": [],
+      "sector_mismatch_excluded": [],
+      "final_symbols": [
+        {
+          "symbol": "000270",
+          "name": "기아"
+        },
+        {
+          "symbol": "005380",
+          "name": "현대차"
+        },
+        {
+          "symbol": "003620",
+          "name": "KG모빌리티"
+        },
+        {
+          "symbol": "086280",
+          "name": "현대글로비스"
+        },
+        {
+          "symbol": "064960",
+          "name": "SNT모티브"
+        },
+        {
+          "symbol": "308170",
+          "name": "씨티알모빌리티"
+        },
+        {
+          "symbol": "123040",
+          "name": "엠에스오토텍"
+        },
+        {
+          "symbol": "224110",
+          "name": "에이텍모빌리티"
+        },
+        {
+          "symbol": "064350",
+          "name": "현대로템"
+        },
+        {
+          "symbol": "005385",
+          "name": "현대차우"
+        },
+        {
+          "symbol": "005387",
+          "name": "현대차2우B"
+        },
+        {
+          "symbol": "005389",
+          "name": "현대차3우B"
+        }
+      ],
+      "final_count": 12,
+      "turnover_added": [],
+      "turnover_removed": [],
+      "historical_stability": {
+        "label": "예비",
+        "reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "avg_overlap": 0.6,
+        "change_events": 1,
+        "sample_count": 2,
+        "confidence_label": "예비"
+      },
+      "universe_status": {
+        "label": "안정형",
+        "reason": "코어 구성 변화가 작아 섹터 단위 해석의 신뢰가 비교적 높은 편입니다.",
+        "dynamic_count": 0,
+        "mismatch_count": 0,
+        "turnover_count": 0,
+        "added_count": 0,
+        "removed_count": 0,
+        "history_label": "예비",
+        "history_reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "history_avg_overlap": 0.6,
+        "history_change_events": 1,
+        "history_sample_count": 2,
+        "history_confidence_label": "예비"
+      }
+    },
+    "9. 자동차부품/타이어": {
+      "normalized_sector": "자동차부품/타이어",
+      "core_symbols": [
+        {
+          "symbol": "012330",
+          "name": "현대모비스"
+        },
+        {
+          "symbol": "011210",
+          "name": "현대위아"
+        },
+        {
+          "symbol": "043370",
+          "name": "피에이치에이"
+        },
+        {
+          "symbol": "204320",
+          "name": "HL만도"
+        },
+        {
+          "symbol": "018880",
+          "name": "한온시스템"
+        },
+        {
+          "symbol": "161390",
+          "name": "한국타이어앤테크놀로지"
+        },
+        {
+          "symbol": "073240",
+          "name": "금호타이어"
+        },
+        {
+          "symbol": "002350",
+          "name": "넥센타이어"
+        },
+        {
+          "symbol": "005850",
+          "name": "에스엘"
+        },
+        {
+          "symbol": "118990",
+          "name": "모트렉스"
+        },
+        {
+          "symbol": "010690",
+          "name": "화신"
+        },
+        {
+          "symbol": "200880",
+          "name": "서연이화"
+        }
+      ],
+      "core_review": [
+        {
+          "symbol": "012330",
+          "name": "현대모비스",
+          "priority_score": 0.6639,
+          "latest_sector": "자동차부품/타이어"
+        },
+        {
+          "symbol": "011210",
+          "name": "현대위아",
+          "priority_score": 0.3302,
+          "latest_sector": "자동차부품/타이어"
+        },
+        {
+          "symbol": "043370",
+          "name": "피에이치에이",
+          "priority_score": 0.3238,
+          "latest_sector": "자동차부품/타이어"
+        },
+        {
+          "symbol": "204320",
+          "name": "HL만도",
+          "priority_score": 0.0,
+          "latest_sector": "자동차부품/타이어"
+        },
+        {
+          "symbol": "018880",
+          "name": "한온시스템",
+          "priority_score": 0.0,
+          "latest_sector": "자동차부품/타이어"
+        },
+        {
+          "symbol": "161390",
+          "name": "한국타이어앤테크놀로지",
+          "priority_score": 0.0,
+          "latest_sector": "자동차부품/타이어"
+        },
+        {
+          "symbol": "073240",
+          "name": "금호타이어",
+          "priority_score": 0.0,
+          "latest_sector": "자동차부품/타이어"
+        },
+        {
+          "symbol": "002350",
+          "name": "넥센타이어",
+          "priority_score": 0.0,
+          "latest_sector": "자동차부품/타이어"
+        },
+        {
+          "symbol": "005850",
+          "name": "에스엘",
+          "priority_score": 0.0,
+          "latest_sector": "자동차부품/타이어"
+        },
+        {
+          "symbol": "118990",
+          "name": "모트렉스",
+          "priority_score": 0.0,
+          "latest_sector": "자동차부품/타이어"
+        },
+        {
+          "symbol": "010690",
+          "name": "화신",
+          "priority_score": 0.0,
+          "latest_sector": "자동차부품/타이어"
+        },
+        {
+          "symbol": "200880",
+          "name": "서연이화",
+          "priority_score": 0.0,
+          "latest_sector": "자동차부품/타이어"
+        }
+      ],
+      "manual_added": [],
+      "dynamic_added": [],
+      "excluded": [],
+      "sector_mismatch_excluded": [],
+      "final_symbols": [
+        {
+          "symbol": "012330",
+          "name": "현대모비스"
+        },
+        {
+          "symbol": "011210",
+          "name": "현대위아"
+        },
+        {
+          "symbol": "043370",
+          "name": "피에이치에이"
+        },
+        {
+          "symbol": "204320",
+          "name": "HL만도"
+        },
+        {
+          "symbol": "018880",
+          "name": "한온시스템"
+        },
+        {
+          "symbol": "161390",
+          "name": "한국타이어앤테크놀로지"
+        },
+        {
+          "symbol": "073240",
+          "name": "금호타이어"
+        },
+        {
+          "symbol": "002350",
+          "name": "넥센타이어"
+        },
+        {
+          "symbol": "005850",
+          "name": "에스엘"
+        },
+        {
+          "symbol": "118990",
+          "name": "모트렉스"
+        },
+        {
+          "symbol": "010690",
+          "name": "화신"
+        },
+        {
+          "symbol": "200880",
+          "name": "서연이화"
+        }
+      ],
+      "final_count": 12,
+      "turnover_added": [],
+      "turnover_removed": [],
+      "historical_stability": {
+        "label": "예비",
+        "reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "avg_overlap": 0.75,
+        "change_events": 1,
+        "sample_count": 2,
+        "confidence_label": "예비"
+      },
+      "universe_status": {
+        "label": "안정형",
+        "reason": "코어 구성 변화가 작아 섹터 단위 해석의 신뢰가 비교적 높은 편입니다.",
+        "dynamic_count": 0,
+        "mismatch_count": 0,
+        "turnover_count": 0,
+        "added_count": 0,
+        "removed_count": 0,
+        "history_label": "예비",
+        "history_reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "history_avg_overlap": 0.75,
+        "history_change_events": 1,
+        "history_sample_count": 2,
+        "history_confidence_label": "예비"
+      }
+    },
+    "10. 조선/해양": {
+      "normalized_sector": "조선/해양",
+      "core_symbols": [
+        {
+          "symbol": "042660",
+          "name": "한화오션"
+        },
+        {
+          "symbol": "017960",
+          "name": "한국카본"
+        },
+        {
+          "symbol": "329180",
+          "name": "HD현대중공업"
+        },
+        {
+          "symbol": "023160",
+          "name": "태광"
+        },
+        {
+          "symbol": "075580",
+          "name": "세진중공업"
+        },
+        {
+          "symbol": "082740",
+          "name": "한화엔진"
+        },
+        {
+          "symbol": "009540",
+          "name": "HD한국조선해양"
+        },
+        {
+          "symbol": "010140",
+          "name": "삼성중공업"
+        },
+        {
+          "symbol": "010620",
+          "name": "HD현대미포"
+        },
+        {
+          "symbol": "014620",
+          "name": "성광벤드"
+        },
+        {
+          "symbol": "333430",
+          "name": "일승"
+        },
+        {
+          "symbol": "033500",
+          "name": "동성화인텍"
+        }
+      ],
+      "core_review": [
+        {
+          "symbol": "042660",
+          "name": "한화오션",
+          "priority_score": 0.6209,
+          "latest_sector": "조선/해양"
+        },
+        {
+          "symbol": "017960",
+          "name": "한국카본",
+          "priority_score": 0.4055,
+          "latest_sector": "조선/해양"
+        },
+        {
+          "symbol": "329180",
+          "name": "HD현대중공업",
+          "priority_score": 0.4015,
+          "latest_sector": "조선/해양"
+        },
+        {
+          "symbol": "023160",
+          "name": "태광",
+          "priority_score": 0.3258,
+          "latest_sector": "조선/해양"
+        },
+        {
+          "symbol": "075580",
+          "name": "세진중공업",
+          "priority_score": 0.2232,
+          "latest_sector": "조선/해양"
+        },
+        {
+          "symbol": "082740",
+          "name": "한화엔진",
+          "priority_score": 0.1528,
+          "latest_sector": "조선/해양"
+        },
+        {
+          "symbol": "009540",
+          "name": "HD한국조선해양",
+          "priority_score": 0.0,
+          "latest_sector": "조선/해양"
+        },
+        {
+          "symbol": "010140",
+          "name": "삼성중공업",
+          "priority_score": 0.0,
+          "latest_sector": "조선/해양"
+        },
+        {
+          "symbol": "010620",
+          "name": "HD현대미포",
+          "priority_score": 0.0,
+          "latest_sector": "조선/해양"
+        },
+        {
+          "symbol": "014620",
+          "name": "성광벤드",
+          "priority_score": 0.0,
+          "latest_sector": "조선/해양"
+        },
+        {
+          "symbol": "333430",
+          "name": "일승",
+          "priority_score": 0.0,
+          "latest_sector": "조선/해양"
+        },
+        {
+          "symbol": "033500",
+          "name": "동성화인텍",
+          "priority_score": 0.0,
+          "latest_sector": "조선/해양"
+        }
+      ],
+      "manual_added": [],
+      "dynamic_added": [],
+      "excluded": [],
+      "sector_mismatch_excluded": [],
+      "final_symbols": [
+        {
+          "symbol": "042660",
+          "name": "한화오션"
+        },
+        {
+          "symbol": "017960",
+          "name": "한국카본"
+        },
+        {
+          "symbol": "329180",
+          "name": "HD현대중공업"
+        },
+        {
+          "symbol": "023160",
+          "name": "태광"
+        },
+        {
+          "symbol": "075580",
+          "name": "세진중공업"
+        },
+        {
+          "symbol": "082740",
+          "name": "한화엔진"
+        },
+        {
+          "symbol": "009540",
+          "name": "HD한국조선해양"
+        },
+        {
+          "symbol": "010140",
+          "name": "삼성중공업"
+        },
+        {
+          "symbol": "010620",
+          "name": "HD현대미포"
+        },
+        {
+          "symbol": "014620",
+          "name": "성광벤드"
+        },
+        {
+          "symbol": "333430",
+          "name": "일승"
+        },
+        {
+          "symbol": "033500",
+          "name": "동성화인텍"
+        }
+      ],
+      "final_count": 12,
+      "turnover_added": [],
+      "turnover_removed": [],
+      "historical_stability": {
+        "label": "예비",
+        "reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "avg_overlap": 0.692,
+        "change_events": 1,
+        "sample_count": 2,
+        "confidence_label": "예비"
+      },
+      "universe_status": {
+        "label": "안정형",
+        "reason": "코어 구성 변화가 작아 섹터 단위 해석의 신뢰가 비교적 높은 편입니다.",
+        "dynamic_count": 0,
+        "mismatch_count": 0,
+        "turnover_count": 0,
+        "added_count": 0,
+        "removed_count": 0,
+        "history_label": "예비",
+        "history_reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "history_avg_overlap": 0.692,
+        "history_change_events": 1,
+        "history_sample_count": 2,
+        "history_confidence_label": "예비"
+      }
+    },
+    "11. 방위산업/우주항공": {
+      "normalized_sector": "방위산업/우주항공",
+      "core_symbols": [
+        {
+          "symbol": "012450",
+          "name": "한화에어로스페이스"
+        },
+        {
+          "symbol": "047810",
+          "name": "한국항공우주"
+        },
+        {
+          "symbol": "079550",
+          "name": "LIG넥스원"
+        },
+        {
+          "symbol": "272210",
+          "name": "한화시스템"
+        },
+        {
+          "symbol": "099320",
+          "name": "쎄트렉아이"
+        },
+        {
+          "symbol": "189300",
+          "name": "인텔리안테크"
+        },
+        {
+          "symbol": "361390",
+          "name": "제노코"
+        },
+        {
+          "symbol": "010820",
+          "name": "퍼스텍"
+        },
+        {
+          "symbol": "065450",
+          "name": "빅텍"
+        },
+        {
+          "symbol": "005870",
+          "name": "휴니드"
+        },
+        {
+          "symbol": "003570",
+          "name": "SNT다이내믹스"
+        },
+        {
+          "symbol": "448710",
+          "name": "코츠테크놀로지"
+        }
+      ],
+      "core_review": [
+        {
+          "symbol": "012450",
+          "name": "한화에어로스페이스",
+          "priority_score": 0.7618,
+          "latest_sector": "방위산업/우주항공"
+        },
+        {
+          "symbol": "047810",
+          "name": "한국항공우주",
+          "priority_score": 0.0,
+          "latest_sector": "방위산업/우주항공"
+        },
+        {
+          "symbol": "079550",
+          "name": "LIG넥스원",
+          "priority_score": 0.0,
+          "latest_sector": "방위산업/우주항공"
+        },
+        {
+          "symbol": "272210",
+          "name": "한화시스템",
+          "priority_score": 0.0,
+          "latest_sector": "방위산업/우주항공"
+        },
+        {
+          "symbol": "099320",
+          "name": "쎄트렉아이",
+          "priority_score": 0.0,
+          "latest_sector": "방위산업/우주항공"
+        },
+        {
+          "symbol": "189300",
+          "name": "인텔리안테크",
+          "priority_score": 0.0,
+          "latest_sector": "방위산업/우주항공"
+        },
+        {
+          "symbol": "361390",
+          "name": "제노코",
+          "priority_score": 0.0,
+          "latest_sector": "방위산업/우주항공"
+        },
+        {
+          "symbol": "010820",
+          "name": "퍼스텍",
+          "priority_score": 0.0,
+          "latest_sector": "방위산업/우주항공"
+        },
+        {
+          "symbol": "065450",
+          "name": "빅텍",
+          "priority_score": 0.0,
+          "latest_sector": "방위산업/우주항공"
+        },
+        {
+          "symbol": "005870",
+          "name": "휴니드",
+          "priority_score": 0.0,
+          "latest_sector": "방위산업/우주항공"
+        },
+        {
+          "symbol": "003570",
+          "name": "SNT다이내믹스",
+          "priority_score": 0.0,
+          "latest_sector": "방위산업/우주항공"
+        },
+        {
+          "symbol": "448710",
+          "name": "코츠테크놀로지",
+          "priority_score": 0.0,
+          "latest_sector": "방위산업/우주항공"
+        }
+      ],
+      "manual_added": [],
+      "dynamic_added": [],
+      "excluded": [],
+      "sector_mismatch_excluded": [],
+      "final_symbols": [
+        {
+          "symbol": "012450",
+          "name": "한화에어로스페이스"
+        },
+        {
+          "symbol": "047810",
+          "name": "한국항공우주"
+        },
+        {
+          "symbol": "079550",
+          "name": "LIG넥스원"
+        },
+        {
+          "symbol": "272210",
+          "name": "한화시스템"
+        },
+        {
+          "symbol": "099320",
+          "name": "쎄트렉아이"
+        },
+        {
+          "symbol": "189300",
+          "name": "인텔리안테크"
+        },
+        {
+          "symbol": "361390",
+          "name": "제노코"
+        },
+        {
+          "symbol": "010820",
+          "name": "퍼스텍"
+        },
+        {
+          "symbol": "065450",
+          "name": "빅텍"
+        },
+        {
+          "symbol": "005870",
+          "name": "휴니드"
+        },
+        {
+          "symbol": "003570",
+          "name": "SNT다이내믹스"
+        },
+        {
+          "symbol": "448710",
+          "name": "코츠테크놀로지"
+        }
+      ],
+      "final_count": 12,
+      "turnover_added": [],
+      "turnover_removed": [],
+      "historical_stability": {
+        "label": "예비",
+        "reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "avg_overlap": 0.679,
+        "change_events": 1,
+        "sample_count": 2,
+        "confidence_label": "예비"
+      },
+      "universe_status": {
+        "label": "안정형",
+        "reason": "코어 구성 변화가 작아 섹터 단위 해석의 신뢰가 비교적 높은 편입니다.",
+        "dynamic_count": 0,
+        "mismatch_count": 0,
+        "turnover_count": 0,
+        "added_count": 0,
+        "removed_count": 0,
+        "history_label": "예비",
+        "history_reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "history_avg_overlap": 0.679,
+        "history_change_events": 1,
+        "history_sample_count": 2,
+        "history_confidence_label": "예비"
+      }
+    },
+    "12. 기계/공작기계": {
+      "normalized_sector": "기계/공작기계",
+      "core_symbols": [
+        {
+          "symbol": "034020",
+          "name": "두산에너빌리티"
+        },
+        {
+          "symbol": "241560",
+          "name": "두산밥캣"
+        },
+        {
+          "symbol": "042670",
+          "name": "HD현대인프라코어"
+        },
+        {
+          "symbol": "267270",
+          "name": "HD현대건설기계"
+        },
+        {
+          "symbol": "010120",
+          "name": "LS ELECTRIC"
+        },
+        {
+          "symbol": "298040",
+          "name": "효성중공업"
+        },
+        {
+          "symbol": "267260",
+          "name": "HD현대일렉트릭"
+        },
+        {
+          "symbol": "105840",
+          "name": "우진"
+        },
+        {
+          "symbol": "017550",
+          "name": "수산세보틱스"
+        },
+        {
+          "symbol": "000490",
+          "name": "대동"
+        },
+        {
+          "symbol": "454910",
+          "name": "두산로보틱스"
+        },
+        {
+          "symbol": "009160",
+          "name": "SIMPAC"
+        }
+      ],
+      "core_review": [
+        {
+          "symbol": "034020",
+          "name": "두산에너빌리티",
+          "priority_score": 0.6195,
+          "latest_sector": "기계/공작기계"
+        },
+        {
+          "symbol": "241560",
+          "name": "두산밥캣",
+          "priority_score": 0.1638,
+          "latest_sector": "기계/공작기계"
+        },
+        {
+          "symbol": "042670",
+          "name": "HD현대인프라코어",
+          "priority_score": 0.0,
+          "latest_sector": "기계/공작기계"
+        },
+        {
+          "symbol": "267270",
+          "name": "HD현대건설기계",
+          "priority_score": 0.0,
+          "latest_sector": "기계/공작기계"
+        },
+        {
+          "symbol": "010120",
+          "name": "LS ELECTRIC",
+          "priority_score": 0.0,
+          "latest_sector": "기계/공작기계"
+        },
+        {
+          "symbol": "298040",
+          "name": "효성중공업",
+          "priority_score": 0.0,
+          "latest_sector": "기계/공작기계"
+        },
+        {
+          "symbol": "267260",
+          "name": "HD현대일렉트릭",
+          "priority_score": 0.0,
+          "latest_sector": "기계/공작기계"
+        },
+        {
+          "symbol": "105840",
+          "name": "우진",
+          "priority_score": 0.0,
+          "latest_sector": "기계/공작기계"
+        },
+        {
+          "symbol": "017550",
+          "name": "수산세보틱스",
+          "priority_score": 0.0,
+          "latest_sector": "기계/공작기계"
+        },
+        {
+          "symbol": "000490",
+          "name": "대동",
+          "priority_score": 0.0,
+          "latest_sector": "기계/공작기계"
+        },
+        {
+          "symbol": "454910",
+          "name": "두산로보틱스",
+          "priority_score": 0.0,
+          "latest_sector": "기계/공작기계"
+        },
+        {
+          "symbol": "009160",
+          "name": "SIMPAC",
+          "priority_score": 0.0,
+          "latest_sector": "기계/공작기계"
+        }
+      ],
+      "manual_added": [],
+      "dynamic_added": [],
+      "excluded": [],
+      "sector_mismatch_excluded": [],
+      "final_symbols": [
+        {
+          "symbol": "034020",
+          "name": "두산에너빌리티"
+        },
+        {
+          "symbol": "241560",
+          "name": "두산밥캣"
+        },
+        {
+          "symbol": "042670",
+          "name": "HD현대인프라코어"
+        },
+        {
+          "symbol": "267270",
+          "name": "HD현대건설기계"
+        },
+        {
+          "symbol": "010120",
+          "name": "LS ELECTRIC"
+        },
+        {
+          "symbol": "298040",
+          "name": "효성중공업"
+        },
+        {
+          "symbol": "267260",
+          "name": "HD현대일렉트릭"
+        },
+        {
+          "symbol": "105840",
+          "name": "우진"
+        },
+        {
+          "symbol": "017550",
+          "name": "수산세보틱스"
+        },
+        {
+          "symbol": "000490",
+          "name": "대동"
+        },
+        {
+          "symbol": "454910",
+          "name": "두산로보틱스"
+        },
+        {
+          "symbol": "009160",
+          "name": "SIMPAC"
+        }
+      ],
+      "final_count": 12,
+      "turnover_added": [],
+      "turnover_removed": [],
+      "historical_stability": {
+        "label": "예비",
+        "reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "avg_overlap": 0.692,
+        "change_events": 1,
+        "sample_count": 2,
+        "confidence_label": "예비"
+      },
+      "universe_status": {
+        "label": "안정형",
+        "reason": "코어 구성 변화가 작아 섹터 단위 해석의 신뢰가 비교적 높은 편입니다.",
+        "dynamic_count": 0,
+        "mismatch_count": 0,
+        "turnover_count": 0,
+        "added_count": 0,
+        "removed_count": 0,
+        "history_label": "예비",
+        "history_reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "history_avg_overlap": 0.692,
+        "history_change_events": 1,
+        "history_sample_count": 2,
+        "history_confidence_label": "예비"
+      }
+    },
+    "13. 철강/비철금속": {
+      "normalized_sector": "철강/비철금속",
+      "core_symbols": [
+        {
+          "symbol": "010130",
+          "name": "고려아연"
+        },
+        {
+          "symbol": "306200",
+          "name": "세아제강"
+        },
+        {
+          "symbol": "005490",
+          "name": "POSCO홀딩스"
+        },
+        {
+          "symbol": "004020",
+          "name": "현대제철"
+        },
+        {
+          "symbol": "103140",
+          "name": "풍산"
+        },
+        {
+          "symbol": "460860",
+          "name": "동국제강"
+        },
+        {
+          "symbol": "001430",
+          "name": "세아베스틸지주"
+        },
+        {
+          "symbol": "084010",
+          "name": "대한제강"
+        },
+        {
+          "symbol": "000670",
+          "name": "영풍"
+        },
+        {
+          "symbol": "104700",
+          "name": "한국철강"
+        },
+        {
+          "symbol": "003030",
+          "name": "세아제강지주"
+        },
+        {
+          "symbol": "002710",
+          "name": "TCC스틸"
+        }
+      ],
+      "core_review": [
+        {
+          "symbol": "010130",
+          "name": "고려아연",
+          "priority_score": 0.3618,
+          "latest_sector": "철강/비철금속"
+        },
+        {
+          "symbol": "306200",
+          "name": "세아제강",
+          "priority_score": 0.17,
+          "latest_sector": "철강/비철금속"
+        },
+        {
+          "symbol": "005490",
+          "name": "POSCO홀딩스",
+          "priority_score": 0.0,
+          "latest_sector": "철강/비철금속"
+        },
+        {
+          "symbol": "004020",
+          "name": "현대제철",
+          "priority_score": 0.0,
+          "latest_sector": "철강/비철금속"
+        },
+        {
+          "symbol": "103140",
+          "name": "풍산",
+          "priority_score": 0.0,
+          "latest_sector": "철강/비철금속"
+        },
+        {
+          "symbol": "460860",
+          "name": "동국제강",
+          "priority_score": 0.0,
+          "latest_sector": "철강/비철금속"
+        },
+        {
+          "symbol": "001430",
+          "name": "세아베스틸지주",
+          "priority_score": 0.0,
+          "latest_sector": "철강/비철금속"
+        },
+        {
+          "symbol": "084010",
+          "name": "대한제강",
+          "priority_score": 0.0,
+          "latest_sector": "철강/비철금속"
+        },
+        {
+          "symbol": "000670",
+          "name": "영풍",
+          "priority_score": 0.0,
+          "latest_sector": "철강/비철금속"
+        },
+        {
+          "symbol": "104700",
+          "name": "한국철강",
+          "priority_score": 0.0,
+          "latest_sector": "철강/비철금속"
+        },
+        {
+          "symbol": "003030",
+          "name": "세아제강지주",
+          "priority_score": 0.0,
+          "latest_sector": "철강/비철금속"
+        },
+        {
+          "symbol": "002710",
+          "name": "TCC스틸",
+          "priority_score": 0.0,
+          "latest_sector": "철강/비철금속"
+        }
+      ],
+      "manual_added": [],
+      "dynamic_added": [],
+      "excluded": [],
+      "sector_mismatch_excluded": [],
+      "final_symbols": [
+        {
+          "symbol": "010130",
+          "name": "고려아연"
+        },
+        {
+          "symbol": "306200",
+          "name": "세아제강"
+        },
+        {
+          "symbol": "005490",
+          "name": "POSCO홀딩스"
+        },
+        {
+          "symbol": "004020",
+          "name": "현대제철"
+        },
+        {
+          "symbol": "103140",
+          "name": "풍산"
+        },
+        {
+          "symbol": "460860",
+          "name": "동국제강"
+        },
+        {
+          "symbol": "001430",
+          "name": "세아베스틸지주"
+        },
+        {
+          "symbol": "084010",
+          "name": "대한제강"
+        },
+        {
+          "symbol": "000670",
+          "name": "영풍"
+        },
+        {
+          "symbol": "104700",
+          "name": "한국철강"
+        },
+        {
+          "symbol": "003030",
+          "name": "세아제강지주"
+        },
+        {
+          "symbol": "002710",
+          "name": "TCC스틸"
+        }
+      ],
+      "final_count": 12,
+      "turnover_added": [],
+      "turnover_removed": [],
+      "historical_stability": {
+        "label": "예비",
+        "reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "avg_overlap": 0.692,
+        "change_events": 1,
+        "sample_count": 2,
+        "confidence_label": "예비"
+      },
+      "universe_status": {
+        "label": "안정형",
+        "reason": "코어 구성 변화가 작아 섹터 단위 해석의 신뢰가 비교적 높은 편입니다.",
+        "dynamic_count": 0,
+        "mismatch_count": 0,
+        "turnover_count": 0,
+        "added_count": 0,
+        "removed_count": 0,
+        "history_label": "예비",
+        "history_reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "history_avg_overlap": 0.692,
+        "history_change_events": 1,
+        "history_sample_count": 2,
+        "history_confidence_label": "예비"
+      }
+    },
+    "14. 건설/건자재": {
+      "normalized_sector": "건설/건자재",
+      "core_symbols": [
+        {
+          "symbol": "028260",
+          "name": "삼성물산"
+        },
+        {
+          "symbol": "006360",
+          "name": "GS건설"
+        },
+        {
+          "symbol": "000720",
+          "name": "현대건설"
+        },
+        {
+          "symbol": "047040",
+          "name": "대우건설"
+        },
+        {
+          "symbol": "375500",
+          "name": "DL이앤씨"
+        },
+        {
+          "symbol": "294870",
+          "name": "HDC현대산업개발"
+        },
+        {
+          "symbol": "002380",
+          "name": "KCC"
+        },
+        {
+          "symbol": "300720",
+          "name": "한일시멘트"
+        },
+        {
+          "symbol": "183190",
+          "name": "아세아시멘트"
+        },
+        {
+          "symbol": "010780",
+          "name": "아이에스동서"
+        },
+        {
+          "symbol": "344820",
+          "name": "KCC글라스"
+        },
+        {
+          "symbol": "108670",
+          "name": "LX하우시스"
+        }
+      ],
+      "core_review": [
+        {
+          "symbol": "028260",
+          "name": "삼성물산",
+          "priority_score": 0.5336,
+          "latest_sector": "건설/건자재"
+        },
+        {
+          "symbol": "006360",
+          "name": "GS건설",
+          "priority_score": 0.1653,
+          "latest_sector": "건설/건자재"
+        },
+        {
+          "symbol": "000720",
+          "name": "현대건설",
+          "priority_score": 0.0,
+          "latest_sector": "건설/건자재"
+        },
+        {
+          "symbol": "047040",
+          "name": "대우건설",
+          "priority_score": 0.0,
+          "latest_sector": "건설/건자재"
+        },
+        {
+          "symbol": "375500",
+          "name": "DL이앤씨",
+          "priority_score": 0.0,
+          "latest_sector": "건설/건자재"
+        },
+        {
+          "symbol": "294870",
+          "name": "HDC현대산업개발",
+          "priority_score": 0.0,
+          "latest_sector": "건설/건자재"
+        },
+        {
+          "symbol": "002380",
+          "name": "KCC",
+          "priority_score": 0.0,
+          "latest_sector": "건설/건자재"
+        },
+        {
+          "symbol": "300720",
+          "name": "한일시멘트",
+          "priority_score": 0.0,
+          "latest_sector": "건설/건자재"
+        },
+        {
+          "symbol": "183190",
+          "name": "아세아시멘트",
+          "priority_score": 0.0,
+          "latest_sector": "건설/건자재"
+        },
+        {
+          "symbol": "010780",
+          "name": "아이에스동서",
+          "priority_score": 0.0,
+          "latest_sector": "건설/건자재"
+        },
+        {
+          "symbol": "344820",
+          "name": "KCC글라스",
+          "priority_score": 0.0,
+          "latest_sector": "건설/건자재"
+        },
+        {
+          "symbol": "108670",
+          "name": "LX하우시스",
+          "priority_score": 0.0,
+          "latest_sector": "건설/건자재"
+        }
+      ],
+      "manual_added": [],
+      "dynamic_added": [],
+      "excluded": [],
+      "sector_mismatch_excluded": [],
+      "final_symbols": [
+        {
+          "symbol": "028260",
+          "name": "삼성물산"
+        },
+        {
+          "symbol": "006360",
+          "name": "GS건설"
+        },
+        {
+          "symbol": "000720",
+          "name": "현대건설"
+        },
+        {
+          "symbol": "047040",
+          "name": "대우건설"
+        },
+        {
+          "symbol": "375500",
+          "name": "DL이앤씨"
+        },
+        {
+          "symbol": "294870",
+          "name": "HDC현대산업개발"
+        },
+        {
+          "symbol": "002380",
+          "name": "KCC"
+        },
+        {
+          "symbol": "300720",
+          "name": "한일시멘트"
+        },
+        {
+          "symbol": "183190",
+          "name": "아세아시멘트"
+        },
+        {
+          "symbol": "010780",
+          "name": "아이에스동서"
+        },
+        {
+          "symbol": "344820",
+          "name": "KCC글라스"
+        },
+        {
+          "symbol": "108670",
+          "name": "LX하우시스"
+        }
+      ],
+      "final_count": 12,
+      "turnover_added": [],
+      "turnover_removed": [],
+      "historical_stability": {
+        "label": "예비",
+        "reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "avg_overlap": 0.692,
+        "change_events": 1,
+        "sample_count": 2,
+        "confidence_label": "예비"
+      },
+      "universe_status": {
+        "label": "안정형",
+        "reason": "코어 구성 변화가 작아 섹터 단위 해석의 신뢰가 비교적 높은 편입니다.",
+        "dynamic_count": 0,
+        "mismatch_count": 0,
+        "turnover_count": 0,
+        "added_count": 0,
+        "removed_count": 0,
+        "history_label": "예비",
+        "history_reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "history_avg_overlap": 0.692,
+        "history_change_events": 1,
+        "history_sample_count": 2,
+        "history_confidence_label": "예비"
+      }
+    },
+    "15. 운송/해운/항공": {
+      "normalized_sector": "운송/해운/항공",
+      "core_symbols": [
+        {
+          "symbol": "011200",
+          "name": "HMM"
+        },
+        {
+          "symbol": "003490",
+          "name": "대한항공"
+        },
+        {
+          "symbol": "028670",
+          "name": "팬오션"
+        },
+        {
+          "symbol": "086280",
+          "name": "현대글로비스"
+        },
+        {
+          "symbol": "000120",
+          "name": "CJ대한통운"
+        },
+        {
+          "symbol": "020560",
+          "name": "아시아나항공"
+        },
+        {
+          "symbol": "089590",
+          "name": "제주항공"
+        },
+        {
+          "symbol": "272450",
+          "name": "진에어"
+        },
+        {
+          "symbol": "091810",
+          "name": "티웨이항공"
+        },
+        {
+          "symbol": "044450",
+          "name": "KSS해운"
+        },
+        {
+          "symbol": "002320",
+          "name": "한진"
+        },
+        {
+          "symbol": "298690",
+          "name": "에어부산"
+        }
+      ],
+      "core_review": [
+        {
+          "symbol": "011200",
+          "name": "HMM",
+          "priority_score": 0.0,
+          "latest_sector": "운송/해운/항공"
+        },
+        {
+          "symbol": "003490",
+          "name": "대한항공",
+          "priority_score": 0.0,
+          "latest_sector": "운송/해운/항공"
+        },
+        {
+          "symbol": "028670",
+          "name": "팬오션",
+          "priority_score": 0.0,
+          "latest_sector": "운송/해운/항공"
+        },
+        {
+          "symbol": "086280",
+          "name": "현대글로비스",
+          "priority_score": 0.0,
+          "latest_sector": "운송/해운/항공"
+        },
+        {
+          "symbol": "000120",
+          "name": "CJ대한통운",
+          "priority_score": 0.0,
+          "latest_sector": "운송/해운/항공"
+        },
+        {
+          "symbol": "020560",
+          "name": "아시아나항공",
+          "priority_score": 0.0,
+          "latest_sector": "운송/해운/항공"
+        },
+        {
+          "symbol": "089590",
+          "name": "제주항공",
+          "priority_score": 0.0,
+          "latest_sector": "운송/해운/항공"
+        },
+        {
+          "symbol": "272450",
+          "name": "진에어",
+          "priority_score": 0.0,
+          "latest_sector": "운송/해운/항공"
+        },
+        {
+          "symbol": "091810",
+          "name": "티웨이항공",
+          "priority_score": 0.0,
+          "latest_sector": "운송/해운/항공"
+        },
+        {
+          "symbol": "044450",
+          "name": "KSS해운",
+          "priority_score": 0.0,
+          "latest_sector": "운송/해운/항공"
+        },
+        {
+          "symbol": "002320",
+          "name": "한진",
+          "priority_score": 0.0,
+          "latest_sector": "운송/해운/항공"
+        },
+        {
+          "symbol": "298690",
+          "name": "에어부산",
+          "priority_score": 0.0,
+          "latest_sector": "운송/해운/항공"
+        }
+      ],
+      "manual_added": [],
+      "dynamic_added": [],
+      "excluded": [],
+      "sector_mismatch_excluded": [],
+      "final_symbols": [
+        {
+          "symbol": "011200",
+          "name": "HMM"
+        },
+        {
+          "symbol": "003490",
+          "name": "대한항공"
+        },
+        {
+          "symbol": "028670",
+          "name": "팬오션"
+        },
+        {
+          "symbol": "086280",
+          "name": "현대글로비스"
+        },
+        {
+          "symbol": "000120",
+          "name": "CJ대한통운"
+        },
+        {
+          "symbol": "020560",
+          "name": "아시아나항공"
+        },
+        {
+          "symbol": "089590",
+          "name": "제주항공"
+        },
+        {
+          "symbol": "272450",
+          "name": "진에어"
+        },
+        {
+          "symbol": "091810",
+          "name": "티웨이항공"
+        },
+        {
+          "symbol": "044450",
+          "name": "KSS해운"
+        },
+        {
+          "symbol": "002320",
+          "name": "한진"
+        },
+        {
+          "symbol": "298690",
+          "name": "에어부산"
+        }
+      ],
+      "final_count": 12,
+      "turnover_added": [],
+      "turnover_removed": [],
+      "historical_stability": {
+        "label": "예비",
+        "reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "avg_overlap": 0.75,
+        "change_events": 1,
+        "sample_count": 2,
+        "confidence_label": "예비"
+      },
+      "universe_status": {
+        "label": "안정형",
+        "reason": "코어 구성 변화가 작아 섹터 단위 해석의 신뢰가 비교적 높은 편입니다.",
+        "dynamic_count": 0,
+        "mismatch_count": 0,
+        "turnover_count": 0,
+        "added_count": 0,
+        "removed_count": 0,
+        "history_label": "예비",
+        "history_reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "history_avg_overlap": 0.75,
+        "history_change_events": 1,
+        "history_sample_count": 2,
+        "history_confidence_label": "예비"
+      }
+    },
+    "16. 전력/유틸리티": {
+      "normalized_sector": "전력/유틸리티",
+      "core_symbols": [
+        {
+          "symbol": "004690",
+          "name": "삼천리"
+        },
+        {
+          "symbol": "015760",
+          "name": "한국전력"
+        },
+        {
+          "symbol": "036460",
+          "name": "한국가스공사"
+        },
+        {
+          "symbol": "071320",
+          "name": "지역난방공사"
+        },
+        {
+          "symbol": "051600",
+          "name": "한전KPS"
+        },
+        {
+          "symbol": "052690",
+          "name": "한전기술"
+        },
+        {
+          "symbol": "017390",
+          "name": "서울가스"
+        },
+        {
+          "symbol": "117580",
+          "name": "대성에너지"
+        },
+        {
+          "symbol": "034590",
+          "name": "인천도시가스"
+        },
+        {
+          "symbol": "267290",
+          "name": "경동도시가스"
+        },
+        {
+          "symbol": "018670",
+          "name": "SK가스"
+        },
+        {
+          "symbol": "017940",
+          "name": "E1"
+        }
+      ],
+      "core_review": [
+        {
+          "symbol": "004690",
+          "name": "삼천리",
+          "priority_score": 0.2212,
+          "latest_sector": "전력/유틸리티"
+        },
+        {
+          "symbol": "015760",
+          "name": "한국전력",
+          "priority_score": 0.0,
+          "latest_sector": "전력/유틸리티"
+        },
+        {
+          "symbol": "036460",
+          "name": "한국가스공사",
+          "priority_score": 0.0,
+          "latest_sector": "전력/유틸리티"
+        },
+        {
+          "symbol": "071320",
+          "name": "지역난방공사",
+          "priority_score": 0.0,
+          "latest_sector": "전력/유틸리티"
+        },
+        {
+          "symbol": "051600",
+          "name": "한전KPS",
+          "priority_score": 0.0,
+          "latest_sector": "전력/유틸리티"
+        },
+        {
+          "symbol": "052690",
+          "name": "한전기술",
+          "priority_score": 0.0,
+          "latest_sector": "전력/유틸리티"
+        },
+        {
+          "symbol": "017390",
+          "name": "서울가스",
+          "priority_score": 0.0,
+          "latest_sector": "전력/유틸리티"
+        },
+        {
+          "symbol": "117580",
+          "name": "대성에너지",
+          "priority_score": 0.0,
+          "latest_sector": "전력/유틸리티"
+        },
+        {
+          "symbol": "034590",
+          "name": "인천도시가스",
+          "priority_score": 0.0,
+          "latest_sector": "전력/유틸리티"
+        },
+        {
+          "symbol": "267290",
+          "name": "경동도시가스",
+          "priority_score": 0.0,
+          "latest_sector": "전력/유틸리티"
+        },
+        {
+          "symbol": "018670",
+          "name": "SK가스",
+          "priority_score": 0.0,
+          "latest_sector": "전력/유틸리티"
+        },
+        {
+          "symbol": "017940",
+          "name": "E1",
+          "priority_score": 0.0,
+          "latest_sector": "전력/유틸리티"
+        }
+      ],
+      "manual_added": [],
+      "dynamic_added": [],
+      "excluded": [],
+      "sector_mismatch_excluded": [],
+      "final_symbols": [
+        {
+          "symbol": "004690",
+          "name": "삼천리"
+        },
+        {
+          "symbol": "015760",
+          "name": "한국전력"
+        },
+        {
+          "symbol": "036460",
+          "name": "한국가스공사"
+        },
+        {
+          "symbol": "071320",
+          "name": "지역난방공사"
+        },
+        {
+          "symbol": "051600",
+          "name": "한전KPS"
+        },
+        {
+          "symbol": "052690",
+          "name": "한전기술"
+        },
+        {
+          "symbol": "017390",
+          "name": "서울가스"
+        },
+        {
+          "symbol": "117580",
+          "name": "대성에너지"
+        },
+        {
+          "symbol": "034590",
+          "name": "인천도시가스"
+        },
+        {
+          "symbol": "267290",
+          "name": "경동도시가스"
+        },
+        {
+          "symbol": "018670",
+          "name": "SK가스"
+        },
+        {
+          "symbol": "017940",
+          "name": "E1"
+        }
+      ],
+      "final_count": 12,
+      "turnover_added": [],
+      "turnover_removed": [],
+      "historical_stability": {
+        "label": "예비",
+        "reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "avg_overlap": 0.75,
+        "change_events": 1,
+        "sample_count": 2,
+        "confidence_label": "예비"
+      },
+      "universe_status": {
+        "label": "안정형",
+        "reason": "코어 구성 변화가 작아 섹터 단위 해석의 신뢰가 비교적 높은 편입니다.",
+        "dynamic_count": 0,
+        "mismatch_count": 0,
+        "turnover_count": 0,
+        "added_count": 0,
+        "removed_count": 0,
+        "history_label": "예비",
+        "history_reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "history_avg_overlap": 0.75,
+        "history_change_events": 1,
+        "history_sample_count": 2,
+        "history_confidence_label": "예비"
+      }
+    },
+    "17. 통신서비스": {
+      "normalized_sector": "통신서비스",
+      "core_symbols": [
+        {
+          "symbol": "017670",
+          "name": "SK텔레콤"
+        },
+        {
+          "symbol": "030200",
+          "name": "KT"
+        },
+        {
+          "symbol": "032640",
+          "name": "LG유플러스"
+        },
+        {
+          "symbol": "053210",
+          "name": "스카이라이프"
+        },
+        {
+          "symbol": "037560",
+          "name": "LG헬로비전"
+        },
+        {
+          "symbol": "036630",
+          "name": "세종텔레콤"
+        },
+        {
+          "symbol": "039290",
+          "name": "인포뱅크"
+        },
+        {
+          "symbol": "094480",
+          "name": "갤럭시아머니트리"
+        },
+        {
+          "symbol": "064260",
+          "name": "다날"
+        },
+        {
+          "symbol": "046440",
+          "name": "KG모빌리언스"
+        },
+        {
+          "symbol": "060250",
+          "name": "NHN KCP"
+        },
+        {
+          "symbol": "065560",
+          "name": "아이즈비전"
+        }
+      ],
+      "core_review": [
+        {
+          "symbol": "017670",
+          "name": "SK텔레콤",
+          "priority_score": 0.3278,
+          "latest_sector": "통신서비스"
+        },
+        {
+          "symbol": "030200",
+          "name": "KT",
+          "priority_score": 0.0,
+          "latest_sector": "통신서비스"
+        },
+        {
+          "symbol": "032640",
+          "name": "LG유플러스",
+          "priority_score": 0.0,
+          "latest_sector": "통신서비스"
+        },
+        {
+          "symbol": "053210",
+          "name": "스카이라이프",
+          "priority_score": 0.0,
+          "latest_sector": "통신서비스"
+        },
+        {
+          "symbol": "037560",
+          "name": "LG헬로비전",
+          "priority_score": 0.0,
+          "latest_sector": "통신서비스"
+        },
+        {
+          "symbol": "036630",
+          "name": "세종텔레콤",
+          "priority_score": 0.0,
+          "latest_sector": "통신서비스"
+        },
+        {
+          "symbol": "039290",
+          "name": "인포뱅크",
+          "priority_score": 0.0,
+          "latest_sector": "통신서비스"
+        },
+        {
+          "symbol": "094480",
+          "name": "갤럭시아머니트리",
+          "priority_score": 0.0,
+          "latest_sector": "통신서비스"
+        },
+        {
+          "symbol": "064260",
+          "name": "다날",
+          "priority_score": 0.0,
+          "latest_sector": "통신서비스"
+        },
+        {
+          "symbol": "046440",
+          "name": "KG모빌리언스",
+          "priority_score": 0.0,
+          "latest_sector": "통신서비스"
+        },
+        {
+          "symbol": "060250",
+          "name": "NHN KCP",
+          "priority_score": 0.0,
+          "latest_sector": "통신서비스"
+        },
+        {
+          "symbol": "065560",
+          "name": "아이즈비전",
+          "priority_score": 0.0,
+          "latest_sector": "통신서비스"
+        }
+      ],
+      "manual_added": [],
+      "dynamic_added": [],
+      "excluded": [],
+      "sector_mismatch_excluded": [],
+      "final_symbols": [
+        {
+          "symbol": "017670",
+          "name": "SK텔레콤"
+        },
+        {
+          "symbol": "030200",
+          "name": "KT"
+        },
+        {
+          "symbol": "032640",
+          "name": "LG유플러스"
+        },
+        {
+          "symbol": "053210",
+          "name": "스카이라이프"
+        },
+        {
+          "symbol": "037560",
+          "name": "LG헬로비전"
+        },
+        {
+          "symbol": "036630",
+          "name": "세종텔레콤"
+        },
+        {
+          "symbol": "039290",
+          "name": "인포뱅크"
+        },
+        {
+          "symbol": "094480",
+          "name": "갤럭시아머니트리"
+        },
+        {
+          "symbol": "064260",
+          "name": "다날"
+        },
+        {
+          "symbol": "046440",
+          "name": "KG모빌리언스"
+        },
+        {
+          "symbol": "060250",
+          "name": "NHN KCP"
+        },
+        {
+          "symbol": "065560",
+          "name": "아이즈비전"
+        }
+      ],
+      "final_count": 12,
+      "turnover_added": [],
+      "turnover_removed": [],
+      "historical_stability": {
+        "label": "예비",
+        "reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "avg_overlap": 0.75,
+        "change_events": 1,
+        "sample_count": 2,
+        "confidence_label": "예비"
+      },
+      "universe_status": {
+        "label": "안정형",
+        "reason": "코어 구성 변화가 작아 섹터 단위 해석의 신뢰가 비교적 높은 편입니다.",
+        "dynamic_count": 0,
+        "mismatch_count": 0,
+        "turnover_count": 0,
+        "added_count": 0,
+        "removed_count": 0,
+        "history_label": "예비",
+        "history_reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "history_avg_overlap": 0.75,
+        "history_change_events": 1,
+        "history_sample_count": 2,
+        "history_confidence_label": "예비"
+      }
+    },
+    "18. 통신장비/네트워크": {
+      "normalized_sector": "통신장비/네트워크",
+      "core_symbols": [
+        {
+          "symbol": "032500",
+          "name": "케이엠더블유"
+        },
+        {
+          "symbol": "178320",
+          "name": "서진시스템"
+        },
+        {
+          "symbol": "138080",
+          "name": "오이솔루션"
+        },
+        {
+          "symbol": "050890",
+          "name": "쏠리드"
+        },
+        {
+          "symbol": "039560",
+          "name": "다산네트웍스"
+        },
+        {
+          "symbol": "073490",
+          "name": "이노와이어리스"
+        },
+        {
+          "symbol": "230240",
+          "name": "에치에프알"
+        },
+        {
+          "symbol": "061040",
+          "name": "알에프텍"
+        },
+        {
+          "symbol": "100590",
+          "name": "머큐리"
+        },
+        {
+          "symbol": "056360",
+          "name": "코위버"
+        },
+        {
+          "symbol": "218410",
+          "name": "RFHIC"
+        },
+        {
+          "symbol": "115440",
+          "name": "우리넷"
+        }
+      ],
+      "core_review": [
+        {
+          "symbol": "032500",
+          "name": "케이엠더블유",
+          "priority_score": 0.4315,
+          "latest_sector": "통신장비/네트워크"
+        },
+        {
+          "symbol": "178320",
+          "name": "서진시스템",
+          "priority_score": 0.2657,
+          "latest_sector": "통신장비/네트워크"
+        },
+        {
+          "symbol": "138080",
+          "name": "오이솔루션",
+          "priority_score": 0.0949,
+          "latest_sector": "통신장비/네트워크"
+        },
+        {
+          "symbol": "050890",
+          "name": "쏠리드",
+          "priority_score": 0.0,
+          "latest_sector": "통신장비/네트워크"
+        },
+        {
+          "symbol": "039560",
+          "name": "다산네트웍스",
+          "priority_score": 0.0,
+          "latest_sector": "통신장비/네트워크"
+        },
+        {
+          "symbol": "073490",
+          "name": "이노와이어리스",
+          "priority_score": 0.0,
+          "latest_sector": "통신장비/네트워크"
+        },
+        {
+          "symbol": "230240",
+          "name": "에치에프알",
+          "priority_score": 0.0,
+          "latest_sector": "통신장비/네트워크"
+        },
+        {
+          "symbol": "061040",
+          "name": "알에프텍",
+          "priority_score": 0.0,
+          "latest_sector": "통신장비/네트워크"
+        },
+        {
+          "symbol": "100590",
+          "name": "머큐리",
+          "priority_score": 0.0,
+          "latest_sector": "통신장비/네트워크"
+        },
+        {
+          "symbol": "056360",
+          "name": "코위버",
+          "priority_score": 0.0,
+          "latest_sector": "통신장비/네트워크"
+        },
+        {
+          "symbol": "218410",
+          "name": "RFHIC",
+          "priority_score": 0.0,
+          "latest_sector": "통신장비/네트워크"
+        },
+        {
+          "symbol": "115440",
+          "name": "우리넷",
+          "priority_score": 0.0,
+          "latest_sector": "통신장비/네트워크"
+        }
+      ],
+      "manual_added": [],
+      "dynamic_added": [],
+      "excluded": [],
+      "sector_mismatch_excluded": [],
+      "final_symbols": [
+        {
+          "symbol": "032500",
+          "name": "케이엠더블유"
+        },
+        {
+          "symbol": "178320",
+          "name": "서진시스템"
+        },
+        {
+          "symbol": "138080",
+          "name": "오이솔루션"
+        },
+        {
+          "symbol": "050890",
+          "name": "쏠리드"
+        },
+        {
+          "symbol": "039560",
+          "name": "다산네트웍스"
+        },
+        {
+          "symbol": "073490",
+          "name": "이노와이어리스"
+        },
+        {
+          "symbol": "230240",
+          "name": "에치에프알"
+        },
+        {
+          "symbol": "061040",
+          "name": "알에프텍"
+        },
+        {
+          "symbol": "100590",
+          "name": "머큐리"
+        },
+        {
+          "symbol": "056360",
+          "name": "코위버"
+        },
+        {
+          "symbol": "218410",
+          "name": "RFHIC"
+        },
+        {
+          "symbol": "115440",
+          "name": "우리넷"
+        }
+      ],
+      "final_count": 12,
+      "turnover_added": [],
+      "turnover_removed": [],
+      "historical_stability": {
+        "label": "예비",
+        "reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "avg_overlap": 0.692,
+        "change_events": 1,
+        "sample_count": 2,
+        "confidence_label": "예비"
+      },
+      "universe_status": {
+        "label": "안정형",
+        "reason": "코어 구성 변화가 작아 섹터 단위 해석의 신뢰가 비교적 높은 편입니다.",
+        "dynamic_count": 0,
+        "mismatch_count": 0,
+        "turnover_count": 0,
+        "added_count": 0,
+        "removed_count": 0,
+        "history_label": "예비",
+        "history_reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "history_avg_overlap": 0.692,
+        "history_change_events": 1,
+        "history_sample_count": 2,
+        "history_confidence_label": "예비"
+      }
+    },
+    "19. 금융지주/은행": {
+      "normalized_sector": "금융지주/은행",
+      "core_symbols": [
+        {
+          "symbol": "105560",
+          "name": "KB금융"
+        },
+        {
+          "symbol": "055550",
+          "name": "신한지주"
+        },
+        {
+          "symbol": "138930",
+          "name": "BNK금융지주"
+        },
+        {
+          "symbol": "316140",
+          "name": "우리금융지주"
+        },
+        {
+          "symbol": "086790",
+          "name": "하나금융지주"
+        },
+        {
+          "symbol": "024110",
+          "name": "기업은행"
+        },
+        {
+          "symbol": "323410",
+          "name": "카카오뱅크"
+        },
+        {
+          "symbol": "175330",
+          "name": "JB금융지주"
+        },
+        {
+          "symbol": "139130",
+          "name": "iM금융지주"
+        },
+        {
+          "symbol": "006220",
+          "name": "제주은행"
+        },
+        {
+          "symbol": "138040",
+          "name": "메리츠금융지주"
+        },
+        {
+          "symbol": "071050",
+          "name": "한국금융지주"
+        }
+      ],
+      "core_review": [
+        {
+          "symbol": "105560",
+          "name": "KB금융",
+          "priority_score": 0.5122,
+          "latest_sector": "금융지주/은행"
+        },
+        {
+          "symbol": "055550",
+          "name": "신한지주",
+          "priority_score": 0.4705,
+          "latest_sector": "금융지주/은행"
+        },
+        {
+          "symbol": "138930",
+          "name": "BNK금융지주",
+          "priority_score": 0.3124,
+          "latest_sector": "금융지주/은행"
+        },
+        {
+          "symbol": "316140",
+          "name": "우리금융지주",
+          "priority_score": 0.3109,
+          "latest_sector": "금융지주/은행"
+        },
+        {
+          "symbol": "086790",
+          "name": "하나금융지주",
+          "priority_score": 0.0,
+          "latest_sector": "금융지주/은행"
+        },
+        {
+          "symbol": "024110",
+          "name": "기업은행",
+          "priority_score": 0.0,
+          "latest_sector": "금융지주/은행"
+        },
+        {
+          "symbol": "323410",
+          "name": "카카오뱅크",
+          "priority_score": 0.0,
+          "latest_sector": "금융지주/은행"
+        },
+        {
+          "symbol": "175330",
+          "name": "JB금융지주",
+          "priority_score": 0.0,
+          "latest_sector": "금융지주/은행"
+        },
+        {
+          "symbol": "139130",
+          "name": "iM금융지주",
+          "priority_score": 0.0,
+          "latest_sector": "금융지주/은행"
+        },
+        {
+          "symbol": "006220",
+          "name": "제주은행",
+          "priority_score": 0.0,
+          "latest_sector": "금융지주/은행"
+        },
+        {
+          "symbol": "138040",
+          "name": "메리츠금융지주",
+          "priority_score": 0.0,
+          "latest_sector": "금융지주/은행"
+        },
+        {
+          "symbol": "071050",
+          "name": "한국금융지주",
+          "priority_score": 0.0,
+          "latest_sector": "금융지주/은행"
+        }
+      ],
+      "manual_added": [],
+      "dynamic_added": [],
+      "excluded": [],
+      "sector_mismatch_excluded": [],
+      "final_symbols": [
+        {
+          "symbol": "105560",
+          "name": "KB금융"
+        },
+        {
+          "symbol": "055550",
+          "name": "신한지주"
+        },
+        {
+          "symbol": "138930",
+          "name": "BNK금융지주"
+        },
+        {
+          "symbol": "316140",
+          "name": "우리금융지주"
+        },
+        {
+          "symbol": "086790",
+          "name": "하나금융지주"
+        },
+        {
+          "symbol": "024110",
+          "name": "기업은행"
+        },
+        {
+          "symbol": "323410",
+          "name": "카카오뱅크"
+        },
+        {
+          "symbol": "175330",
+          "name": "JB금융지주"
+        },
+        {
+          "symbol": "139130",
+          "name": "iM금융지주"
+        },
+        {
+          "symbol": "006220",
+          "name": "제주은행"
+        },
+        {
+          "symbol": "138040",
+          "name": "메리츠금융지주"
+        },
+        {
+          "symbol": "071050",
+          "name": "한국금융지주"
+        }
+      ],
+      "final_count": 12,
+      "turnover_added": [],
+      "turnover_removed": [],
+      "historical_stability": {
+        "label": "예비",
+        "reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "avg_overlap": 0.75,
+        "change_events": 1,
+        "sample_count": 2,
+        "confidence_label": "예비"
+      },
+      "universe_status": {
+        "label": "안정형",
+        "reason": "코어 구성 변화가 작아 섹터 단위 해석의 신뢰가 비교적 높은 편입니다.",
+        "dynamic_count": 0,
+        "mismatch_count": 0,
+        "turnover_count": 0,
+        "added_count": 0,
+        "removed_count": 0,
+        "history_label": "예비",
+        "history_reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "history_avg_overlap": 0.75,
+        "history_change_events": 1,
+        "history_sample_count": 2,
+        "history_confidence_label": "예비"
+      }
+    },
+    "20. 증권": {
+      "normalized_sector": "증권",
+      "core_symbols": [
+        {
+          "symbol": "006800",
+          "name": "미래에셋증권"
+        },
+        {
+          "symbol": "005940",
+          "name": "NH투자증권"
+        },
+        {
+          "symbol": "071050",
+          "name": "한국금융지주"
+        },
+        {
+          "symbol": "016360",
+          "name": "삼성증권"
+        },
+        {
+          "symbol": "039490",
+          "name": "키움증권"
+        },
+        {
+          "symbol": "003540",
+          "name": "대신증권"
+        },
+        {
+          "symbol": "001720",
+          "name": "신영증권"
+        },
+        {
+          "symbol": "003470",
+          "name": "유안타증권"
+        },
+        {
+          "symbol": "001200",
+          "name": "유진투자증권"
+        },
+        {
+          "symbol": "001500",
+          "name": "현대차증권"
+        },
+        {
+          "symbol": "016610",
+          "name": "DB증권"
+        },
+        {
+          "symbol": "030610",
+          "name": "교보증권"
+        }
+      ],
+      "core_review": [
+        {
+          "symbol": "006800",
+          "name": "미래에셋증권",
+          "priority_score": 0.607,
+          "latest_sector": "증권"
+        },
+        {
+          "symbol": "005940",
+          "name": "NH투자증권",
+          "priority_score": 0.0,
+          "latest_sector": "증권"
+        },
+        {
+          "symbol": "071050",
+          "name": "한국금융지주",
+          "priority_score": 0.0,
+          "latest_sector": "증권"
+        },
+        {
+          "symbol": "016360",
+          "name": "삼성증권",
+          "priority_score": 0.0,
+          "latest_sector": "증권"
+        },
+        {
+          "symbol": "039490",
+          "name": "키움증권",
+          "priority_score": 0.0,
+          "latest_sector": "증권"
+        },
+        {
+          "symbol": "003540",
+          "name": "대신증권",
+          "priority_score": 0.0,
+          "latest_sector": "증권"
+        },
+        {
+          "symbol": "001720",
+          "name": "신영증권",
+          "priority_score": 0.0,
+          "latest_sector": "증권"
+        },
+        {
+          "symbol": "003470",
+          "name": "유안타증권",
+          "priority_score": 0.0,
+          "latest_sector": "증권"
+        },
+        {
+          "symbol": "001200",
+          "name": "유진투자증권",
+          "priority_score": 0.0,
+          "latest_sector": "증권"
+        },
+        {
+          "symbol": "001500",
+          "name": "현대차증권",
+          "priority_score": 0.0,
+          "latest_sector": "증권"
+        },
+        {
+          "symbol": "016610",
+          "name": "DB증권",
+          "priority_score": 0.0,
+          "latest_sector": "증권"
+        },
+        {
+          "symbol": "030610",
+          "name": "교보증권",
+          "priority_score": 0.0,
+          "latest_sector": "증권"
+        }
+      ],
+      "manual_added": [],
+      "dynamic_added": [],
+      "excluded": [],
+      "sector_mismatch_excluded": [],
+      "final_symbols": [
+        {
+          "symbol": "006800",
+          "name": "미래에셋증권"
+        },
+        {
+          "symbol": "005940",
+          "name": "NH투자증권"
+        },
+        {
+          "symbol": "071050",
+          "name": "한국금융지주"
+        },
+        {
+          "symbol": "016360",
+          "name": "삼성증권"
+        },
+        {
+          "symbol": "039490",
+          "name": "키움증권"
+        },
+        {
+          "symbol": "003540",
+          "name": "대신증권"
+        },
+        {
+          "symbol": "001720",
+          "name": "신영증권"
+        },
+        {
+          "symbol": "003470",
+          "name": "유안타증권"
+        },
+        {
+          "symbol": "001200",
+          "name": "유진투자증권"
+        },
+        {
+          "symbol": "001500",
+          "name": "현대차증권"
+        },
+        {
+          "symbol": "016610",
+          "name": "DB증권"
+        },
+        {
+          "symbol": "030610",
+          "name": "교보증권"
+        }
+      ],
+      "final_count": 12,
+      "turnover_added": [],
+      "turnover_removed": [],
+      "historical_stability": {
+        "label": "예비",
+        "reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "avg_overlap": 0.692,
+        "change_events": 1,
+        "sample_count": 2,
+        "confidence_label": "예비"
+      },
+      "universe_status": {
+        "label": "안정형",
+        "reason": "코어 구성 변화가 작아 섹터 단위 해석의 신뢰가 비교적 높은 편입니다.",
+        "dynamic_count": 0,
+        "mismatch_count": 0,
+        "turnover_count": 0,
+        "added_count": 0,
+        "removed_count": 0,
+        "history_label": "예비",
+        "history_reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "history_avg_overlap": 0.692,
+        "history_change_events": 1,
+        "history_sample_count": 2,
+        "history_confidence_label": "예비"
+      }
+    },
+    "21. 보험": {
+      "normalized_sector": "보험",
+      "core_symbols": [
+        {
+          "symbol": "032830",
+          "name": "삼성생명"
+        },
+        {
+          "symbol": "001450",
+          "name": "현대해상"
+        },
+        {
+          "symbol": "085620",
+          "name": "미래에셋생명"
+        },
+        {
+          "symbol": "000810",
+          "name": "삼성화재"
+        },
+        {
+          "symbol": "005830",
+          "name": "DB손해보험"
+        },
+        {
+          "symbol": "088350",
+          "name": "한화생명"
+        },
+        {
+          "symbol": "003690",
+          "name": "코리안리"
+        },
+        {
+          "symbol": "000370",
+          "name": "한화손해보험"
+        },
+        {
+          "symbol": "000400",
+          "name": "롯데손해보험"
+        },
+        {
+          "symbol": "082640",
+          "name": "동양생명"
+        },
+        {
+          "symbol": "000540",
+          "name": "흥국화재"
+        },
+        {
+          "symbol": "138040",
+          "name": "메리츠금융지주"
+        }
+      ],
+      "core_review": [
+        {
+          "symbol": "032830",
+          "name": "삼성생명",
+          "priority_score": 0.4973,
+          "latest_sector": "보험"
+        },
+        {
+          "symbol": "001450",
+          "name": "현대해상",
+          "priority_score": 0.23,
+          "latest_sector": "보험"
+        },
+        {
+          "symbol": "085620",
+          "name": "미래에셋생명",
+          "priority_score": 0.2232,
+          "latest_sector": "보험"
+        },
+        {
+          "symbol": "000810",
+          "name": "삼성화재",
+          "priority_score": 0.0,
+          "latest_sector": "보험"
+        },
+        {
+          "symbol": "005830",
+          "name": "DB손해보험",
+          "priority_score": 0.0,
+          "latest_sector": "보험"
+        },
+        {
+          "symbol": "088350",
+          "name": "한화생명",
+          "priority_score": 0.0,
+          "latest_sector": "보험"
+        },
+        {
+          "symbol": "003690",
+          "name": "코리안리",
+          "priority_score": 0.0,
+          "latest_sector": "보험"
+        },
+        {
+          "symbol": "000370",
+          "name": "한화손해보험",
+          "priority_score": 0.0,
+          "latest_sector": "보험"
+        },
+        {
+          "symbol": "000400",
+          "name": "롯데손해보험",
+          "priority_score": 0.0,
+          "latest_sector": "보험"
+        },
+        {
+          "symbol": "082640",
+          "name": "동양생명",
+          "priority_score": 0.0,
+          "latest_sector": "보험"
+        },
+        {
+          "symbol": "000540",
+          "name": "흥국화재",
+          "priority_score": 0.0,
+          "latest_sector": "보험"
+        },
+        {
+          "symbol": "138040",
+          "name": "메리츠금융지주",
+          "priority_score": 0.0,
+          "latest_sector": "보험"
+        }
+      ],
+      "manual_added": [],
+      "dynamic_added": [],
+      "excluded": [],
+      "sector_mismatch_excluded": [],
+      "final_symbols": [
+        {
+          "symbol": "032830",
+          "name": "삼성생명"
+        },
+        {
+          "symbol": "001450",
+          "name": "현대해상"
+        },
+        {
+          "symbol": "085620",
+          "name": "미래에셋생명"
+        },
+        {
+          "symbol": "000810",
+          "name": "삼성화재"
+        },
+        {
+          "symbol": "005830",
+          "name": "DB손해보험"
+        },
+        {
+          "symbol": "088350",
+          "name": "한화생명"
+        },
+        {
+          "symbol": "003690",
+          "name": "코리안리"
+        },
+        {
+          "symbol": "000370",
+          "name": "한화손해보험"
+        },
+        {
+          "symbol": "000400",
+          "name": "롯데손해보험"
+        },
+        {
+          "symbol": "082640",
+          "name": "동양생명"
+        },
+        {
+          "symbol": "000540",
+          "name": "흥국화재"
+        },
+        {
+          "symbol": "138040",
+          "name": "메리츠금융지주"
+        }
+      ],
+      "final_count": 12,
+      "turnover_added": [],
+      "turnover_removed": [],
+      "historical_stability": {
+        "label": "예비",
+        "reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "avg_overlap": 0.75,
+        "change_events": 1,
+        "sample_count": 2,
+        "confidence_label": "예비"
+      },
+      "universe_status": {
+        "label": "안정형",
+        "reason": "코어 구성 변화가 작아 섹터 단위 해석의 신뢰가 비교적 높은 편입니다.",
+        "dynamic_count": 0,
+        "mismatch_count": 0,
+        "turnover_count": 0,
+        "added_count": 0,
+        "removed_count": 0,
+        "history_label": "예비",
+        "history_reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "history_avg_overlap": 0.75,
+        "history_change_events": 1,
+        "history_sample_count": 2,
+        "history_confidence_label": "예비"
+      }
+    },
+    "22. 엔터테인먼트/게임": {
+      "normalized_sector": "엔터테인먼트/게임",
+      "core_symbols": [
+        {
+          "symbol": "036570",
+          "name": "엔씨소프트"
+        },
+        {
+          "symbol": "352820",
+          "name": "하이브"
+        },
+        {
+          "symbol": "122870",
+          "name": "와이지엔터테인먼트"
+        },
+        {
+          "symbol": "035900",
+          "name": "JYP Ent."
+        },
+        {
+          "symbol": "041510",
+          "name": "에스엠"
+        },
+        {
+          "symbol": "078340",
+          "name": "컴투스"
+        },
+        {
+          "symbol": "259960",
+          "name": "크래프톤"
+        },
+        {
+          "symbol": "251270",
+          "name": "넷마블"
+        },
+        {
+          "symbol": "263750",
+          "name": "펄어비스"
+        },
+        {
+          "symbol": "293490",
+          "name": "카카오게임즈"
+        },
+        {
+          "symbol": "112040",
+          "name": "위메이드"
+        },
+        {
+          "symbol": "194480",
+          "name": "데브시스터즈"
+        }
+      ],
+      "core_review": [
+        {
+          "symbol": "036570",
+          "name": "엔씨소프트",
+          "priority_score": 0.4287,
+          "latest_sector": "엔터테인먼트/게임"
+        },
+        {
+          "symbol": "352820",
+          "name": "하이브",
+          "priority_score": 0.3382,
+          "latest_sector": "엔터테인먼트/게임"
+        },
+        {
+          "symbol": "122870",
+          "name": "와이지엔터테인먼트",
+          "priority_score": 0.2873,
+          "latest_sector": "엔터테인먼트/게임"
+        },
+        {
+          "symbol": "035900",
+          "name": "JYP Ent.",
+          "priority_score": 0.2803,
+          "latest_sector": "엔터테인먼트/게임"
+        },
+        {
+          "symbol": "041510",
+          "name": "에스엠",
+          "priority_score": 0.2084,
+          "latest_sector": "엔터테인먼트/게임"
+        },
+        {
+          "symbol": "078340",
+          "name": "컴투스",
+          "priority_score": 0.1768,
+          "latest_sector": "엔터테인먼트/게임"
+        },
+        {
+          "symbol": "259960",
+          "name": "크래프톤",
+          "priority_score": 0.0,
+          "latest_sector": "엔터테인먼트/게임"
+        },
+        {
+          "symbol": "251270",
+          "name": "넷마블",
+          "priority_score": 0.0,
+          "latest_sector": "엔터테인먼트/게임"
+        },
+        {
+          "symbol": "263750",
+          "name": "펄어비스",
+          "priority_score": 0.0,
+          "latest_sector": "엔터테인먼트/게임"
+        },
+        {
+          "symbol": "293490",
+          "name": "카카오게임즈",
+          "priority_score": 0.0,
+          "latest_sector": "엔터테인먼트/게임"
+        },
+        {
+          "symbol": "112040",
+          "name": "위메이드",
+          "priority_score": 0.0,
+          "latest_sector": "엔터테인먼트/게임"
+        },
+        {
+          "symbol": "194480",
+          "name": "데브시스터즈",
+          "priority_score": 0.0,
+          "latest_sector": "엔터테인먼트/게임"
+        }
+      ],
+      "manual_added": [],
+      "dynamic_added": [],
+      "excluded": [],
+      "sector_mismatch_excluded": [],
+      "final_symbols": [
+        {
+          "symbol": "036570",
+          "name": "엔씨소프트"
+        },
+        {
+          "symbol": "352820",
+          "name": "하이브"
+        },
+        {
+          "symbol": "122870",
+          "name": "와이지엔터테인먼트"
+        },
+        {
+          "symbol": "035900",
+          "name": "JYP Ent."
+        },
+        {
+          "symbol": "041510",
+          "name": "에스엠"
+        },
+        {
+          "symbol": "078340",
+          "name": "컴투스"
+        },
+        {
+          "symbol": "259960",
+          "name": "크래프톤"
+        },
+        {
+          "symbol": "251270",
+          "name": "넷마블"
+        },
+        {
+          "symbol": "263750",
+          "name": "펄어비스"
+        },
+        {
+          "symbol": "293490",
+          "name": "카카오게임즈"
+        },
+        {
+          "symbol": "112040",
+          "name": "위메이드"
+        },
+        {
+          "symbol": "194480",
+          "name": "데브시스터즈"
+        }
+      ],
+      "final_count": 12,
+      "turnover_added": [],
+      "turnover_removed": [],
+      "historical_stability": {
+        "label": "예비",
+        "reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "avg_overlap": 0.75,
+        "change_events": 1,
+        "sample_count": 2,
+        "confidence_label": "예비"
+      },
+      "universe_status": {
+        "label": "안정형",
+        "reason": "코어 구성 변화가 작아 섹터 단위 해석의 신뢰가 비교적 높은 편입니다.",
+        "dynamic_count": 0,
+        "mismatch_count": 0,
+        "turnover_count": 0,
+        "added_count": 0,
+        "removed_count": 0,
+        "history_label": "예비",
+        "history_reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "history_avg_overlap": 0.75,
+        "history_change_events": 1,
+        "history_sample_count": 2,
+        "history_confidence_label": "예비"
+      }
+    },
+    "23. 화장품/뷰티": {
+      "normalized_sector": "화장품/뷰티",
+      "core_symbols": [
+        {
+          "symbol": "090430",
+          "name": "아모레퍼시픽"
+        },
+        {
+          "symbol": "051900",
+          "name": "LG생활건강"
+        },
+        {
+          "symbol": "192820",
+          "name": "코스맥스"
+        },
+        {
+          "symbol": "161890",
+          "name": "한국콜마"
+        },
+        {
+          "symbol": "237880",
+          "name": "클리오"
+        },
+        {
+          "symbol": "018290",
+          "name": "브이티"
+        },
+        {
+          "symbol": "257720",
+          "name": "실리콘투"
+        },
+        {
+          "symbol": "018250",
+          "name": "애경산업"
+        },
+        {
+          "symbol": "214420",
+          "name": "토니모리"
+        },
+        {
+          "symbol": "950140",
+          "name": "잉글우드랩"
+        },
+        {
+          "symbol": "278470",
+          "name": "에이피알"
+        },
+        {
+          "symbol": "352480",
+          "name": "씨앤씨인터내셔널"
+        }
+      ],
+      "core_review": [
+        {
+          "symbol": "090430",
+          "name": "아모레퍼시픽",
+          "priority_score": 0.0,
+          "latest_sector": "화장품/뷰티"
+        },
+        {
+          "symbol": "051900",
+          "name": "LG생활건강",
+          "priority_score": 0.0,
+          "latest_sector": "화장품/뷰티"
+        },
+        {
+          "symbol": "192820",
+          "name": "코스맥스",
+          "priority_score": 0.0,
+          "latest_sector": "화장품/뷰티"
+        },
+        {
+          "symbol": "161890",
+          "name": "한국콜마",
+          "priority_score": 0.0,
+          "latest_sector": "화장품/뷰티"
+        },
+        {
+          "symbol": "237880",
+          "name": "클리오",
+          "priority_score": 0.0,
+          "latest_sector": "화장품/뷰티"
+        },
+        {
+          "symbol": "018290",
+          "name": "브이티",
+          "priority_score": 0.0,
+          "latest_sector": "화장품/뷰티"
+        },
+        {
+          "symbol": "257720",
+          "name": "실리콘투",
+          "priority_score": 0.0,
+          "latest_sector": "화장품/뷰티"
+        },
+        {
+          "symbol": "018250",
+          "name": "애경산업",
+          "priority_score": 0.0,
+          "latest_sector": "화장품/뷰티"
+        },
+        {
+          "symbol": "214420",
+          "name": "토니모리",
+          "priority_score": 0.0,
+          "latest_sector": "화장품/뷰티"
+        },
+        {
+          "symbol": "950140",
+          "name": "잉글우드랩",
+          "priority_score": 0.0,
+          "latest_sector": "화장품/뷰티"
+        },
+        {
+          "symbol": "278470",
+          "name": "에이피알",
+          "priority_score": 0.0,
+          "latest_sector": "화장품/뷰티"
+        },
+        {
+          "symbol": "352480",
+          "name": "씨앤씨인터내셔널",
+          "priority_score": 0.0,
+          "latest_sector": "화장품/뷰티"
+        }
+      ],
+      "manual_added": [],
+      "dynamic_added": [],
+      "excluded": [],
+      "sector_mismatch_excluded": [],
+      "final_symbols": [
+        {
+          "symbol": "090430",
+          "name": "아모레퍼시픽"
+        },
+        {
+          "symbol": "051900",
+          "name": "LG생활건강"
+        },
+        {
+          "symbol": "192820",
+          "name": "코스맥스"
+        },
+        {
+          "symbol": "161890",
+          "name": "한국콜마"
+        },
+        {
+          "symbol": "237880",
+          "name": "클리오"
+        },
+        {
+          "symbol": "018290",
+          "name": "브이티"
+        },
+        {
+          "symbol": "257720",
+          "name": "실리콘투"
+        },
+        {
+          "symbol": "018250",
+          "name": "애경산업"
+        },
+        {
+          "symbol": "214420",
+          "name": "토니모리"
+        },
+        {
+          "symbol": "950140",
+          "name": "잉글우드랩"
+        },
+        {
+          "symbol": "278470",
+          "name": "에이피알"
+        },
+        {
+          "symbol": "352480",
+          "name": "씨앤씨인터내셔널"
+        }
+      ],
+      "final_count": 12,
+      "turnover_added": [],
+      "turnover_removed": [],
+      "historical_stability": {
+        "label": "예비",
+        "reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "avg_overlap": 0.692,
+        "change_events": 1,
+        "sample_count": 2,
+        "confidence_label": "예비"
+      },
+      "universe_status": {
+        "label": "안정형",
+        "reason": "코어 구성 변화가 작아 섹터 단위 해석의 신뢰가 비교적 높은 편입니다.",
+        "dynamic_count": 0,
+        "mismatch_count": 0,
+        "turnover_count": 0,
+        "added_count": 0,
+        "removed_count": 0,
+        "history_label": "예비",
+        "history_reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "history_avg_overlap": 0.692,
+        "history_change_events": 1,
+        "history_sample_count": 2,
+        "history_confidence_label": "예비"
+      }
+    },
+    "24. 의류/섬유": {
+      "normalized_sector": "의류/섬유",
+      "core_symbols": [
+        {
+          "symbol": "383220",
+          "name": "F&F"
+        },
+        {
+          "symbol": "111770",
+          "name": "영원무역"
+        },
+        {
+          "symbol": "031430",
+          "name": "신세계인터내셔날"
+        },
+        {
+          "symbol": "020000",
+          "name": "한섬"
+        },
+        {
+          "symbol": "105630",
+          "name": "한세실업"
+        },
+        {
+          "symbol": "036620",
+          "name": "감성코퍼레이션"
+        },
+        {
+          "symbol": "298540",
+          "name": "더네이쳐홀딩스"
+        },
+        {
+          "symbol": "016450",
+          "name": "한세예스24홀딩스"
+        },
+        {
+          "symbol": "145170",
+          "name": "노브랜드"
+        },
+        {
+          "symbol": "035150",
+          "name": "백산"
+        },
+        {
+          "symbol": "093050",
+          "name": "LF"
+        },
+        {
+          "symbol": "009970",
+          "name": "영원무역홀딩스"
+        }
+      ],
+      "core_review": [
+        {
+          "symbol": "383220",
+          "name": "F&F",
+          "priority_score": 0.0,
+          "latest_sector": "의류/섬유"
+        },
+        {
+          "symbol": "111770",
+          "name": "영원무역",
+          "priority_score": 0.0,
+          "latest_sector": "의류/섬유"
+        },
+        {
+          "symbol": "031430",
+          "name": "신세계인터내셔날",
+          "priority_score": 0.0,
+          "latest_sector": "의류/섬유"
+        },
+        {
+          "symbol": "020000",
+          "name": "한섬",
+          "priority_score": 0.0,
+          "latest_sector": "의류/섬유"
+        },
+        {
+          "symbol": "105630",
+          "name": "한세실업",
+          "priority_score": 0.0,
+          "latest_sector": "의류/섬유"
+        },
+        {
+          "symbol": "036620",
+          "name": "감성코퍼레이션",
+          "priority_score": 0.0,
+          "latest_sector": "의류/섬유"
+        },
+        {
+          "symbol": "298540",
+          "name": "더네이쳐홀딩스",
+          "priority_score": 0.0,
+          "latest_sector": "의류/섬유"
+        },
+        {
+          "symbol": "016450",
+          "name": "한세예스24홀딩스",
+          "priority_score": 0.0,
+          "latest_sector": "의류/섬유"
+        },
+        {
+          "symbol": "145170",
+          "name": "노브랜드",
+          "priority_score": 0.0,
+          "latest_sector": "의류/섬유"
+        },
+        {
+          "symbol": "035150",
+          "name": "백산",
+          "priority_score": 0.0,
+          "latest_sector": "의류/섬유"
+        },
+        {
+          "symbol": "093050",
+          "name": "LF",
+          "priority_score": 0.0,
+          "latest_sector": "의류/섬유"
+        },
+        {
+          "symbol": "009970",
+          "name": "영원무역홀딩스",
+          "priority_score": 0.0,
+          "latest_sector": "의류/섬유"
+        }
+      ],
+      "manual_added": [],
+      "dynamic_added": [],
+      "excluded": [],
+      "sector_mismatch_excluded": [],
+      "final_symbols": [
+        {
+          "symbol": "383220",
+          "name": "F&F"
+        },
+        {
+          "symbol": "111770",
+          "name": "영원무역"
+        },
+        {
+          "symbol": "031430",
+          "name": "신세계인터내셔날"
+        },
+        {
+          "symbol": "020000",
+          "name": "한섬"
+        },
+        {
+          "symbol": "105630",
+          "name": "한세실업"
+        },
+        {
+          "symbol": "036620",
+          "name": "감성코퍼레이션"
+        },
+        {
+          "symbol": "298540",
+          "name": "더네이쳐홀딩스"
+        },
+        {
+          "symbol": "016450",
+          "name": "한세예스24홀딩스"
+        },
+        {
+          "symbol": "145170",
+          "name": "노브랜드"
+        },
+        {
+          "symbol": "035150",
+          "name": "백산"
+        },
+        {
+          "symbol": "093050",
+          "name": "LF"
+        },
+        {
+          "symbol": "009970",
+          "name": "영원무역홀딩스"
+        }
+      ],
+      "final_count": 12,
+      "turnover_added": [],
+      "turnover_removed": [],
+      "historical_stability": {
+        "label": "예비",
+        "reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "avg_overlap": 0.6,
+        "change_events": 1,
+        "sample_count": 2,
+        "confidence_label": "예비"
+      },
+      "universe_status": {
+        "label": "안정형",
+        "reason": "코어 구성 변화가 작아 섹터 단위 해석의 신뢰가 비교적 높은 편입니다.",
+        "dynamic_count": 0,
+        "mismatch_count": 0,
+        "turnover_count": 0,
+        "added_count": 0,
+        "removed_count": 0,
+        "history_label": "예비",
+        "history_reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "history_avg_overlap": 0.6,
+        "history_change_events": 1,
+        "history_sample_count": 2,
+        "history_confidence_label": "예비"
+      }
+    },
+    "25. 유통/백화점": {
+      "normalized_sector": "유통/백화점",
+      "core_symbols": [
+        {
+          "symbol": "004170",
+          "name": "신세계"
+        },
+        {
+          "symbol": "023530",
+          "name": "롯데쇼핑"
+        },
+        {
+          "symbol": "071840",
+          "name": "롯데하이마트"
+        },
+        {
+          "symbol": "069960",
+          "name": "현대백화점"
+        },
+        {
+          "symbol": "139480",
+          "name": "이마트"
+        },
+        {
+          "symbol": "282330",
+          "name": "BGF리테일"
+        },
+        {
+          "symbol": "007070",
+          "name": "GS리테일"
+        },
+        {
+          "symbol": "008770",
+          "name": "호텔신라"
+        },
+        {
+          "symbol": "037710",
+          "name": "광주신세계"
+        },
+        {
+          "symbol": "057050",
+          "name": "현대홈쇼핑"
+        },
+        {
+          "symbol": "009240",
+          "name": "한샘"
+        },
+        {
+          "symbol": "453340",
+          "name": "현대그린푸드"
+        }
+      ],
+      "core_review": [
+        {
+          "symbol": "004170",
+          "name": "신세계",
+          "priority_score": 0.4034,
+          "latest_sector": "유통/백화점"
+        },
+        {
+          "symbol": "023530",
+          "name": "롯데쇼핑",
+          "priority_score": 0.3903,
+          "latest_sector": "유통/백화점"
+        },
+        {
+          "symbol": "071840",
+          "name": "롯데하이마트",
+          "priority_score": 0.1777,
+          "latest_sector": "유통/백화점"
+        },
+        {
+          "symbol": "069960",
+          "name": "현대백화점",
+          "priority_score": 0.0,
+          "latest_sector": "유통/백화점"
+        },
+        {
+          "symbol": "139480",
+          "name": "이마트",
+          "priority_score": 0.0,
+          "latest_sector": "유통/백화점"
+        },
+        {
+          "symbol": "282330",
+          "name": "BGF리테일",
+          "priority_score": 0.0,
+          "latest_sector": "유통/백화점"
+        },
+        {
+          "symbol": "007070",
+          "name": "GS리테일",
+          "priority_score": 0.0,
+          "latest_sector": "유통/백화점"
+        },
+        {
+          "symbol": "008770",
+          "name": "호텔신라",
+          "priority_score": 0.0,
+          "latest_sector": "유통/백화점"
+        },
+        {
+          "symbol": "037710",
+          "name": "광주신세계",
+          "priority_score": 0.0,
+          "latest_sector": "유통/백화점"
+        },
+        {
+          "symbol": "057050",
+          "name": "현대홈쇼핑",
+          "priority_score": 0.0,
+          "latest_sector": "유통/백화점"
+        },
+        {
+          "symbol": "009240",
+          "name": "한샘",
+          "priority_score": 0.0,
+          "latest_sector": "유통/백화점"
+        },
+        {
+          "symbol": "453340",
+          "name": "현대그린푸드",
+          "priority_score": 0.0,
+          "latest_sector": "유통/백화점"
+        }
+      ],
+      "manual_added": [],
+      "dynamic_added": [],
+      "excluded": [],
+      "sector_mismatch_excluded": [],
+      "final_symbols": [
+        {
+          "symbol": "004170",
+          "name": "신세계"
+        },
+        {
+          "symbol": "023530",
+          "name": "롯데쇼핑"
+        },
+        {
+          "symbol": "071840",
+          "name": "롯데하이마트"
+        },
+        {
+          "symbol": "069960",
+          "name": "현대백화점"
+        },
+        {
+          "symbol": "139480",
+          "name": "이마트"
+        },
+        {
+          "symbol": "282330",
+          "name": "BGF리테일"
+        },
+        {
+          "symbol": "007070",
+          "name": "GS리테일"
+        },
+        {
+          "symbol": "008770",
+          "name": "호텔신라"
+        },
+        {
+          "symbol": "037710",
+          "name": "광주신세계"
+        },
+        {
+          "symbol": "057050",
+          "name": "현대홈쇼핑"
+        },
+        {
+          "symbol": "009240",
+          "name": "한샘"
+        },
+        {
+          "symbol": "453340",
+          "name": "현대그린푸드"
+        }
+      ],
+      "final_count": 12,
+      "turnover_added": [],
+      "turnover_removed": [],
+      "historical_stability": {
+        "label": "예비",
+        "reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "avg_overlap": 0.75,
+        "change_events": 1,
+        "sample_count": 2,
+        "confidence_label": "예비"
+      },
+      "universe_status": {
+        "label": "안정형",
+        "reason": "코어 구성 변화가 작아 섹터 단위 해석의 신뢰가 비교적 높은 편입니다.",
+        "dynamic_count": 0,
+        "mismatch_count": 0,
+        "turnover_count": 0,
+        "added_count": 0,
+        "removed_count": 0,
+        "history_label": "예비",
+        "history_reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "history_avg_overlap": 0.75,
+        "history_change_events": 1,
+        "history_sample_count": 2,
+        "history_confidence_label": "예비"
+      }
+    },
+    "26. 음식료/담배": {
+      "normalized_sector": "음식료/담배",
+      "core_symbols": [
+        {
+          "symbol": "271560",
+          "name": "오리온"
+        },
+        {
+          "symbol": "097950",
+          "name": "CJ제일제당"
+        },
+        {
+          "symbol": "003230",
+          "name": "삼양식품"
+        },
+        {
+          "symbol": "004370",
+          "name": "농심"
+        },
+        {
+          "symbol": "033780",
+          "name": "KT&G"
+        },
+        {
+          "symbol": "280360",
+          "name": "롯데웰푸드"
+        },
+        {
+          "symbol": "005180",
+          "name": "빙그레"
+        },
+        {
+          "symbol": "000080",
+          "name": "하이트진로"
+        },
+        {
+          "symbol": "001680",
+          "name": "대상"
+        },
+        {
+          "symbol": "049770",
+          "name": "동원F&B"
+        },
+        {
+          "symbol": "007310",
+          "name": "오뚜기"
+        },
+        {
+          "symbol": "005610",
+          "name": "SPC삼립"
+        }
+      ],
+      "core_review": [
+        {
+          "symbol": "271560",
+          "name": "오리온",
+          "priority_score": 0.2259,
+          "latest_sector": "음식료/담배"
+        },
+        {
+          "symbol": "097950",
+          "name": "CJ제일제당",
+          "priority_score": 0.0,
+          "latest_sector": "음식료/담배"
+        },
+        {
+          "symbol": "003230",
+          "name": "삼양식품",
+          "priority_score": 0.0,
+          "latest_sector": "음식료/담배"
+        },
+        {
+          "symbol": "004370",
+          "name": "농심",
+          "priority_score": 0.0,
+          "latest_sector": "음식료/담배"
+        },
+        {
+          "symbol": "033780",
+          "name": "KT&G",
+          "priority_score": 0.0,
+          "latest_sector": "음식료/담배"
+        },
+        {
+          "symbol": "280360",
+          "name": "롯데웰푸드",
+          "priority_score": 0.0,
+          "latest_sector": "음식료/담배"
+        },
+        {
+          "symbol": "005180",
+          "name": "빙그레",
+          "priority_score": 0.0,
+          "latest_sector": "음식료/담배"
+        },
+        {
+          "symbol": "000080",
+          "name": "하이트진로",
+          "priority_score": 0.0,
+          "latest_sector": "음식료/담배"
+        },
+        {
+          "symbol": "001680",
+          "name": "대상",
+          "priority_score": 0.0,
+          "latest_sector": "음식료/담배"
+        },
+        {
+          "symbol": "049770",
+          "name": "동원F&B",
+          "priority_score": 0.0,
+          "latest_sector": "음식료/담배"
+        },
+        {
+          "symbol": "007310",
+          "name": "오뚜기",
+          "priority_score": 0.0,
+          "latest_sector": "음식료/담배"
+        },
+        {
+          "symbol": "005610",
+          "name": "SPC삼립",
+          "priority_score": 0.0,
+          "latest_sector": "음식료/담배"
+        }
+      ],
+      "manual_added": [],
+      "dynamic_added": [],
+      "excluded": [],
+      "sector_mismatch_excluded": [],
+      "final_symbols": [
+        {
+          "symbol": "271560",
+          "name": "오리온"
+        },
+        {
+          "symbol": "097950",
+          "name": "CJ제일제당"
+        },
+        {
+          "symbol": "003230",
+          "name": "삼양식품"
+        },
+        {
+          "symbol": "004370",
+          "name": "농심"
+        },
+        {
+          "symbol": "033780",
+          "name": "KT&G"
+        },
+        {
+          "symbol": "280360",
+          "name": "롯데웰푸드"
+        },
+        {
+          "symbol": "005180",
+          "name": "빙그레"
+        },
+        {
+          "symbol": "000080",
+          "name": "하이트진로"
+        },
+        {
+          "symbol": "001680",
+          "name": "대상"
+        },
+        {
+          "symbol": "049770",
+          "name": "동원F&B"
+        },
+        {
+          "symbol": "007310",
+          "name": "오뚜기"
+        },
+        {
+          "symbol": "005610",
+          "name": "SPC삼립"
+        }
+      ],
+      "final_count": 12,
+      "turnover_added": [],
+      "turnover_removed": [],
+      "historical_stability": {
+        "label": "예비",
+        "reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "avg_overlap": 0.75,
+        "change_events": 1,
+        "sample_count": 2,
+        "confidence_label": "예비"
+      },
+      "universe_status": {
+        "label": "안정형",
+        "reason": "코어 구성 변화가 작아 섹터 단위 해석의 신뢰가 비교적 높은 편입니다.",
+        "dynamic_count": 0,
+        "mismatch_count": 0,
+        "turnover_count": 0,
+        "added_count": 0,
+        "removed_count": 0,
+        "history_label": "예비",
+        "history_reason": "히스토리 표본이 아직 얕아 안정도는 예비 판정으로만 보는 편이 낫습니다.",
+        "history_avg_overlap": 0.75,
+        "history_change_events": 1,
+        "history_sample_count": 2,
+        "history_confidence_label": "예비"
+      }
+    }
+  },
+  "summary": {
+    "dynamic_sector_count": 0,
+    "dynamic_symbol_count": 0,
+    "avg_dynamic_stability": 0.0,
+    "mismatch_sector_count": 0,
+    "mismatch_symbol_count": 0,
+    "dynamic_sectors": [],
+    "mismatch_sectors": [],
+    "thin_sectors": [],
+    "stable_sector_count": 26,
+    "adaptive_sector_count": 0,
+    "review_sector_count": 0,
+    "stable_sectors": [
+      {
+        "sector": "1. IT하드웨어 (반도체)",
+        "reason": "코어 구성 변화가 작아 섹터 단위 해석의 신뢰가 비교적 높은 편입니다."
+      },
+      {
+        "sector": "2. IT소프트웨어 (플랫폼/SI)",
+        "reason": "코어 구성 변화가 작아 섹터 단위 해석의 신뢰가 비교적 높은 편입니다."
+      },
+      {
+        "sector": "3. 디스플레이/IT부품",
+        "reason": "코어 구성 변화가 작아 섹터 단위 해석의 신뢰가 비교적 높은 편입니다."
+      },
+      {
+        "sector": "4. 2차전지/배터리",
+        "reason": "코어 구성 변화가 작아 섹터 단위 해석의 신뢰가 비교적 높은 편입니다."
+      }
+    ],
+    "adaptive_sectors": [],
+    "review_sectors": [],
+    "universe_regime": "안정형 우세",
+    "history_avg_overlap": 0.718,
+    "history_avg_sample_count": 2.0,
+    "history_ready_sector_count": 0,
+    "history_preliminary_sector_count": 26,
+    "history_confidence_label": "예비",
+    "turnover": {
+      "added_symbol_count": 0,
+      "removed_symbol_count": 0,
+      "changed_sector_count": 0,
+      "added_sectors": [],
+      "removed_sectors": [],
+      "per_sector": {
+        "2차전지/배터리": {
+          "added": [],
+          "removed": []
+        },
+        "IT소프트웨어 (플랫폼/SI)": {
+          "added": [],
+          "removed": []
+        },
+        "IT하드웨어 (반도체)": {
+          "added": [],
+          "removed": []
+        },
+        "건설/건자재": {
+          "added": [],
+          "removed": []
+        },
+        "금융지주/은행": {
+          "added": [],
+          "removed": []
+        },
+        "기계/공작기계": {
+          "added": [],
+          "removed": []
+        },
+        "디스플레이/IT부품": {
+          "added": [],
+          "removed": []
+        },
+        "방위산업/우주항공": {
+          "added": [],
+          "removed": []
+        },
+        "보험": {
+          "added": [],
+          "removed": []
+        },
+        "엔터테인먼트/게임": {
+          "added": [],
+          "removed": []
+        },
+        "운송/해운/항공": {
+          "added": [],
+          "removed": []
+        },
+        "유통/백화점": {
+          "added": [],
+          "removed": []
+        },
+        "음식료/담배": {
+          "added": [],
+          "removed": []
+        },
+        "의류/섬유": {
+          "added": [],
+          "removed": []
+        },
+        "자동차/완성차": {
+          "added": [],
+          "removed": []
+        },
+        "자동차부품/타이어": {
+          "added": [],
+          "removed": []
+        },
+        "전력/유틸리티": {
+          "added": [],
+          "removed": []
+        },
+        "제약/바이오 (대형)": {
+          "added": [],
+          "removed": []
+        },
+        "조선/해양": {
+          "added": [],
+          "removed": []
+        },
+        "증권": {
+          "added": [],
+          "removed": []
+        },
+        "철강/비철금속": {
+          "added": [],
+          "removed": []
+        },
+        "통신서비스": {
+          "added": [],
+          "removed": []
+        },
+        "통신장비/네트워크": {
+          "added": [],
+          "removed": []
+        },
+        "헬스케어/의료기기": {
+          "added": [],
+          "removed": []
+        },
+        "화장품/뷰티": {
+          "added": [],
+          "removed": []
+        },
+        "화학/석유화학": {
+          "added": [],
+          "removed": []
+        }
+      }
+    },
+    "turnover_added_symbol_count": 0,
+    "turnover_removed_symbol_count": 0,
+    "turnover_changed_sector_count": 0,
+    "history_day_count": 3
+  }
+}

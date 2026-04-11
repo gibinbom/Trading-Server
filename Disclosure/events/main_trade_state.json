@@ -1,0 +1,12 @@
+{
+  "handled": {
+    "005930:20260322999999:EVENT_COLLECTOR_HTML:2026-03-22": {
+      "status": "processed",
+      "attempted_at": "2026-03-22T21:52:41+09:00",
+      "traded": true,
+      "stock_code": "005930",
+      "rcp_no": "20260322999999",
+      "event_type": "SUPPLY_CONTRACT"
+    }
+  }
+}

@@ -1,0 +1,2741 @@
+{
+  "snapshot_date": "20260405",
+  "snapshot_time": "00:48:05",
+  "coverage": {
+    "total_names": 20,
+    "markets": [
+      "KOSPI",
+      "KOSDAQ"
+    ],
+    "universe_mode": "top_n",
+    "min_marcap_krw": 0,
+    "flow_top_n": 0,
+    "consensus_top_n": 0,
+    "price_factor_coverage_pct": 100.0,
+    "flow_factor_coverage_pct": 100.0,
+    "consensus_factor_coverage_pct": 75.0,
+    "news_factor_coverage_pct": 100.0,
+    "ranking_eligible_count": 20,
+    "portfolio_eligible_count": 20,
+    "missing_price_count": 0,
+    "missing_flow_count": 0,
+    "missing_consensus_count": 5,
+    "missing_news_count": 0
+  },
+  "dynamic_factor_weights": {
+    "status": "fallback",
+    "weights": {
+      "value_score": 0.22,
+      "momentum_score": 0.22,
+      "quality_score": 0.18,
+      "flow_score": 0.18,
+      "liquidity_score": 0.1,
+      "news_score": 0.1
+    },
+    "base_weights": {
+      "value_score": 0.22,
+      "momentum_score": 0.22,
+      "quality_score": 0.18,
+      "flow_score": 0.18,
+      "liquidity_score": 0.1,
+      "news_score": 0.1
+    },
+    "ic_history": {
+      "value_score": [
+        -0.01594994804505394
+      ],
+      "momentum_score": [
+        -0.1962795360259055
+      ],
+      "quality_score": [
+        -0.045318730799090365
+      ],
+      "flow_score": [
+        -0.05180230381130575
+      ],
+      "liquidity_score": [
+        -0.2446051894582388
+      ],
+      "news_score": [
+        -0.045213040054149736
+      ]
+    }
+  },
+  "top_composite": [
+    {
+      "symbol": "012450",
+      "name": "한화에어로스페이스",
+      "sector": "방위산업/우주항공",
+      "composite_score": 0.7393,
+      "value_score": 0.6222,
+      "momentum_score": 0.8,
+      "quality_score": 0.6111,
+      "flow_score": 0.95,
+      "news_score": 0.5542,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "005930",
+      "name": "삼성전자",
+      "sector": "IT하드웨어 (반도체)",
+      "composite_score": 0.6711,
+      "value_score": 0.8,
+      "momentum_score": 0.78,
+      "quality_score": 0.5833,
+      "flow_score": 0.5938,
+      "news_score": 0.4667,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "000660",
+      "name": "SK하이닉스",
+      "sector": "IT하드웨어 (반도체)",
+      "composite_score": 0.6026,
+      "value_score": 0.5556,
+      "momentum_score": 0.62,
+      "quality_score": 0.6389,
+      "flow_score": 0.5312,
+      "news_score": 0.4833,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "006800",
+      "name": "미래에셋증권",
+      "sector": "증권",
+      "composite_score": 0.581,
+      "value_score": 0.5,
+      "momentum_score": 0.74,
+      "quality_score": 0.4,
+      "flow_score": 0.5438,
+      "news_score": 0.4333,
+      "factor_source_coverage_ratio": 0.75
+    },
+    {
+      "symbol": "000270",
+      "name": "기아",
+      "sector": "자동차/완성차",
+      "composite_score": 0.5767,
+      "value_score": 0.8889,
+      "momentum_score": 0.44,
+      "quality_score": 0.4722,
+      "flow_score": 0.5938,
+      "news_score": 0.525,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "012330",
+      "name": "현대모비스",
+      "sector": "자동차부품/타이어",
+      "composite_score": 0.5559,
+      "value_score": 0.8444,
+      "momentum_score": 0.37,
+      "quality_score": 0.3889,
+      "flow_score": 0.6688,
+      "news_score": 0.6333,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "042660",
+      "name": "한화오션",
+      "sector": "조선/해양",
+      "composite_score": 0.5554,
+      "value_score": 0.3333,
+      "momentum_score": 0.62,
+      "quality_score": 0.4944,
+      "flow_score": 0.7688,
+      "news_score": 0.4333,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "402340",
+      "name": "SK스퀘어",
+      "sector": "복합기업",
+      "composite_score": 0.5365,
+      "value_score": 0.6889,
+      "momentum_score": 0.395,
+      "quality_score": 0.7,
+      "flow_score": 0.3125,
+      "news_score": 0.4583,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "034020",
+      "name": "두산에너빌리티",
+      "sector": "기계/공작기계",
+      "composite_score": 0.5324,
+      "value_score": 0.2,
+      "momentum_score": 0.675,
+      "quality_score": 0.2889,
+      "flow_score": 0.6688,
+      "news_score": 0.675,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "055550",
+      "name": "신한지주",
+      "sector": "금융지주/은행",
+      "composite_score": 0.5319,
+      "value_score": 0.5,
+      "momentum_score": 0.68,
+      "quality_score": 0.6167,
+      "flow_score": 0.35,
+      "news_score": 0.4333,
+      "factor_source_coverage_ratio": 0.75
+    },
+    {
+      "symbol": "105560",
+      "name": "KB금융",
+      "sector": "금융지주/은행",
+      "composite_score": 0.5251,
+      "value_score": 0.5,
+      "momentum_score": 0.6,
+      "quality_score": 0.6667,
+      "flow_score": 0.3875,
+      "news_score": 0.4333,
+      "factor_source_coverage_ratio": 0.75
+    },
+    {
+      "symbol": "032830",
+      "name": "삼성생명",
+      "sector": "보험",
+      "composite_score": 0.5206,
+      "value_score": 0.5,
+      "momentum_score": 0.82,
+      "quality_score": 0.4167,
+      "flow_score": 0.5312,
+      "news_score": 0.3958,
+      "factor_source_coverage_ratio": 0.75
+    },
+    {
+      "symbol": "207940",
+      "name": "삼성바이오로직스",
+      "sector": "제약/바이오 (대형)",
+      "composite_score": 0.5146,
+      "value_score": 0.5,
+      "momentum_score": 0.52,
+      "quality_score": 0.6333,
+      "flow_score": 0.625,
+      "news_score": 0.5875,
+      "factor_source_coverage_ratio": 0.75
+    },
+    {
+      "symbol": "005380",
+      "name": "현대차",
+      "sector": "자동차/완성차",
+      "composite_score": 0.5091,
+      "value_score": 0.7778,
+      "momentum_score": 0.45,
+      "quality_score": 0.2556,
+      "flow_score": 0.3313,
+      "news_score": 0.5333,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "028260",
+      "name": "삼성물산",
+      "sector": "건설/건자재",
+      "composite_score": 0.4654,
+      "value_score": 0.5556,
+      "momentum_score": 0.38,
+      "quality_score": 0.4444,
+      "flow_score": 0.4562,
+      "news_score": 0.675,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "068270",
+      "name": "셀트리온",
+      "sector": "제약/바이오 (대형)",
+      "composite_score": 0.4641,
+      "value_score": 0.2222,
+      "momentum_score": 0.36,
+      "quality_score": 0.8444,
+      "flow_score": 0.4875,
+      "news_score": 0.7125,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "035420",
+      "name": "NAVER",
+      "sector": "IT소프트웨어 (플랫폼/SI)",
+      "composite_score": 0.4404,
+      "value_score": 0.5333,
+      "momentum_score": 0.12,
+      "quality_score": 0.8056,
+      "flow_score": 0.2688,
+      "news_score": 0.4333,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "373220",
+      "name": "LG에너지솔루션",
+      "sector": "2차전지/배터리",
+      "composite_score": 0.4224,
+      "value_score": 0.1333,
+      "momentum_score": 0.59,
+      "quality_score": 0.2611,
+      "flow_score": 0.75,
+      "news_score": 0.6625,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "329180",
+      "name": "HD현대중공업",
+      "sector": "조선/해양",
+      "composite_score": 0.4091,
+      "value_score": 0.4667,
+      "momentum_score": 0.19,
+      "quality_score": 0.6278,
+      "flow_score": 0.2938,
+      "news_score": 0.5375,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "010130",
+      "name": "고려아연",
+      "sector": "철강/비철금속",
+      "composite_score": 0.3462,
+      "value_score": 0.3778,
+      "momentum_score": 0.35,
+      "quality_score": 0.35,
+      "flow_score": 0.3875,
+      "news_score": 0.4333,
+      "factor_source_coverage_ratio": 1.0
+    }
+  ],
+  "top_reversion": [
+    {
+      "symbol": "000270",
+      "name": "기아",
+      "sector": "자동차/완성차",
+      "sector_reversion_signal": 4.0,
+      "sector_reversion_rank": 1.0,
+      "value_score": 0.8889,
+      "momentum_score": 0.44,
+      "flow_score": 0.5938,
+      "news_score": 0.525,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "105560",
+      "name": "KB금융",
+      "sector": "금융지주/은행",
+      "sector_reversion_signal": 3.0,
+      "sector_reversion_rank": 1.0,
+      "value_score": 0.5,
+      "momentum_score": 0.6,
+      "flow_score": 0.3875,
+      "news_score": 0.4333,
+      "factor_source_coverage_ratio": 0.75
+    },
+    {
+      "symbol": "329180",
+      "name": "HD현대중공업",
+      "sector": "조선/해양",
+      "sector_reversion_signal": 2.0,
+      "sector_reversion_rank": 1.0,
+      "value_score": 0.4667,
+      "momentum_score": 0.19,
+      "flow_score": 0.2938,
+      "news_score": 0.5375,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "012450",
+      "name": "한화에어로스페이스",
+      "sector": "방위산업/우주항공",
+      "sector_reversion_signal": 0.0,
+      "sector_reversion_rank": 1.0,
+      "value_score": 0.6222,
+      "momentum_score": 0.8,
+      "flow_score": 0.95,
+      "news_score": 0.5542,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "012330",
+      "name": "현대모비스",
+      "sector": "자동차부품/타이어",
+      "sector_reversion_signal": 0.0,
+      "sector_reversion_rank": 1.0,
+      "value_score": 0.8444,
+      "momentum_score": 0.37,
+      "flow_score": 0.6688,
+      "news_score": 0.6333,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "402340",
+      "name": "SK스퀘어",
+      "sector": "복합기업",
+      "sector_reversion_signal": 0.0,
+      "sector_reversion_rank": 1.0,
+      "value_score": 0.6889,
+      "momentum_score": 0.395,
+      "flow_score": 0.3125,
+      "news_score": 0.4583,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "034020",
+      "name": "두산에너빌리티",
+      "sector": "기계/공작기계",
+      "sector_reversion_signal": 0.0,
+      "sector_reversion_rank": 1.0,
+      "value_score": 0.2,
+      "momentum_score": 0.675,
+      "flow_score": 0.6688,
+      "news_score": 0.675,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "028260",
+      "name": "삼성물산",
+      "sector": "건설/건자재",
+      "sector_reversion_signal": 0.0,
+      "sector_reversion_rank": 1.0,
+      "value_score": 0.5556,
+      "momentum_score": 0.38,
+      "flow_score": 0.4562,
+      "news_score": 0.675,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "035420",
+      "name": "NAVER",
+      "sector": "IT소프트웨어 (플랫폼/SI)",
+      "sector_reversion_signal": 0.0,
+      "sector_reversion_rank": 1.0,
+      "value_score": 0.5333,
+      "momentum_score": 0.12,
+      "flow_score": 0.2688,
+      "news_score": 0.4333,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "373220",
+      "name": "LG에너지솔루션",
+      "sector": "2차전지/배터리",
+      "sector_reversion_signal": 0.0,
+      "sector_reversion_rank": 1.0,
+      "value_score": 0.1333,
+      "momentum_score": 0.59,
+      "flow_score": 0.75,
+      "news_score": 0.6625,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "010130",
+      "name": "고려아연",
+      "sector": "철강/비철금속",
+      "sector_reversion_signal": 0.0,
+      "sector_reversion_rank": 1.0,
+      "value_score": 0.3778,
+      "momentum_score": 0.35,
+      "flow_score": 0.3875,
+      "news_score": 0.4333,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "006800",
+      "name": "미래에셋증권",
+      "sector": "증권",
+      "sector_reversion_signal": 0.0,
+      "sector_reversion_rank": 1.0,
+      "value_score": 0.5,
+      "momentum_score": 0.74,
+      "flow_score": 0.5438,
+      "news_score": 0.4333,
+      "factor_source_coverage_ratio": 0.75
+    },
+    {
+      "symbol": "032830",
+      "name": "삼성생명",
+      "sector": "보험",
+      "sector_reversion_signal": 0.0,
+      "sector_reversion_rank": 1.0,
+      "value_score": 0.5,
+      "momentum_score": 0.82,
+      "flow_score": 0.5312,
+      "news_score": 0.3958,
+      "factor_source_coverage_ratio": 0.75
+    },
+    {
+      "symbol": "068270",
+      "name": "셀트리온",
+      "sector": "제약/바이오 (대형)",
+      "sector_reversion_signal": -0.0,
+      "sector_reversion_rank": 0.75,
+      "value_score": 0.2222,
+      "momentum_score": 0.36,
+      "flow_score": 0.4875,
+      "news_score": 0.7125,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "207940",
+      "name": "삼성바이오로직스",
+      "sector": "제약/바이오 (대형)",
+      "sector_reversion_signal": -0.0,
+      "sector_reversion_rank": 0.75,
+      "value_score": 0.5,
+      "momentum_score": 0.52,
+      "flow_score": 0.625,
+      "news_score": 0.5875,
+      "factor_source_coverage_ratio": 0.75
+    },
+    {
+      "symbol": "005930",
+      "name": "삼성전자",
+      "sector": "IT하드웨어 (반도체)",
+      "sector_reversion_signal": -0.0,
+      "sector_reversion_rank": 0.75,
+      "value_score": 0.8,
+      "momentum_score": 0.78,
+      "flow_score": 0.5938,
+      "news_score": 0.4667,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "000660",
+      "name": "SK하이닉스",
+      "sector": "IT하드웨어 (반도체)",
+      "sector_reversion_signal": -0.0,
+      "sector_reversion_rank": 0.75,
+      "value_score": 0.5556,
+      "momentum_score": 0.62,
+      "flow_score": 0.5312,
+      "news_score": 0.4833,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "042660",
+      "name": "한화오션",
+      "sector": "조선/해양",
+      "sector_reversion_signal": -2.0,
+      "sector_reversion_rank": 0.5,
+      "value_score": 0.3333,
+      "momentum_score": 0.62,
+      "flow_score": 0.7688,
+      "news_score": 0.4333,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "055550",
+      "name": "신한지주",
+      "sector": "금융지주/은행",
+      "sector_reversion_signal": -3.0,
+      "sector_reversion_rank": 0.5,
+      "value_score": 0.5,
+      "momentum_score": 0.68,
+      "flow_score": 0.35,
+      "news_score": 0.4333,
+      "factor_source_coverage_ratio": 0.75
+    },
+    {
+      "symbol": "005380",
+      "name": "현대차",
+      "sector": "자동차/완성차",
+      "sector_reversion_signal": -4.0,
+      "sector_reversion_rank": 0.5,
+      "value_score": 0.7778,
+      "momentum_score": 0.45,
+      "flow_score": 0.3313,
+      "news_score": 0.5333,
+      "factor_source_coverage_ratio": 1.0
+    }
+  ],
+  "portfolio_candidates": [
+    {
+      "symbol": "012450",
+      "name": "한화에어로스페이스",
+      "sector": "방위산업/우주항공",
+      "composite_score": 0.7393,
+      "value_score": 0.6222,
+      "momentum_score": 0.8,
+      "quality_score": 0.6111,
+      "flow_score": 0.95,
+      "news_score": 0.5542,
+      "factor_source_coverage_ratio": 1.0,
+      "alignment_score": 1,
+      "alignment_label": "우호 정렬",
+      "alignment_support": [
+        "wics_rotation"
+      ],
+      "alignment_risk": [],
+      "wics_history_confidence_label": "없음",
+      "wics_history_day_count": 1,
+      "wics_universe_regime": "-",
+      "wics_confidence_note": "WICS 히스토리 표본이 거의 없어 섹터 해석은 보조적으로만 보는 편이 낫습니다.",
+      "base_action": "direct",
+      "action": "direct",
+      "action_label": "직접 후보",
+      "strong_axes": [
+        "flow",
+        "momentum",
+        "value"
+      ],
+      "decision_trace": {
+        "base_action": "direct",
+        "coverage_ratio": 1.0,
+        "dominant_axes": [
+          "flow",
+          "momentum",
+          "value"
+        ],
+        "composite_score": 0.7393,
+        "alignment_score": 1
+      }
+    },
+    {
+      "symbol": "005930",
+      "name": "삼성전자",
+      "sector": "IT하드웨어 (반도체)",
+      "composite_score": 0.6711,
+      "value_score": 0.8,
+      "momentum_score": 0.78,
+      "quality_score": 0.5833,
+      "flow_score": 0.5938,
+      "news_score": 0.4667,
+      "factor_source_coverage_ratio": 1.0,
+      "alignment_score": 0,
+      "alignment_label": "중립",
+      "alignment_support": [],
+      "alignment_risk": [],
+      "wics_history_confidence_label": "없음",
+      "wics_history_day_count": 1,
+      "wics_universe_regime": "-",
+      "wics_confidence_note": "WICS 히스토리 표본이 거의 없어 섹터 해석은 보조적으로만 보는 편이 낫습니다.",
+      "base_action": "watch",
+      "action": "watch",
+      "action_label": "눌림 후보",
+      "strong_axes": [
+        "value",
+        "momentum",
+        "flow"
+      ],
+      "decision_trace": {
+        "base_action": "watch",
+        "coverage_ratio": 1.0,
+        "dominant_axes": [
+          "value",
+          "momentum",
+          "flow"
+        ],
+        "composite_score": 0.6711,
+        "alignment_score": 0
+      },
+      "sector_final_label": "관찰",
+      "sector_action_hint": "후보만 유지하고 장중 확인을 기다리는 편이 낫다",
+      "sector_human_summary": "수급 우호 / 퀀트 우호 / 매크로 우호 -> 관찰, 후보만 유지하고 장중 확인을 기다리는 편이 낫다.",
+      "flow_lens_score": 62.5,
+      "quant_lens_score": 67.31,
+      "macro_lens_score": 61.0
+    },
+    {
+      "symbol": "000660",
+      "name": "SK하이닉스",
+      "sector": "IT하드웨어 (반도체)",
+      "composite_score": 0.6026,
+      "value_score": 0.5556,
+      "momentum_score": 0.62,
+      "quality_score": 0.6389,
+      "flow_score": 0.5312,
+      "news_score": 0.4833,
+      "factor_source_coverage_ratio": 1.0,
+      "alignment_score": 0,
+      "alignment_label": "중립",
+      "alignment_support": [],
+      "alignment_risk": [],
+      "wics_history_confidence_label": "없음",
+      "wics_history_day_count": 1,
+      "wics_universe_regime": "-",
+      "wics_confidence_note": "WICS 히스토리 표본이 거의 없어 섹터 해석은 보조적으로만 보는 편이 낫습니다.",
+      "base_action": "hold",
+      "action": "hold",
+      "action_label": "보류",
+      "strong_axes": [
+        "quality",
+        "momentum",
+        "value"
+      ],
+      "decision_trace": {
+        "base_action": "hold",
+        "coverage_ratio": 1.0,
+        "dominant_axes": [
+          "quality",
+          "momentum",
+          "value"
+        ],
+        "composite_score": 0.6026,
+        "alignment_score": 0
+      },
+      "sector_final_label": "관찰",
+      "sector_action_hint": "후보만 유지하고 장중 확인을 기다리는 편이 낫다",
+      "sector_human_summary": "수급 우호 / 퀀트 우호 / 매크로 우호 -> 관찰, 후보만 유지하고 장중 확인을 기다리는 편이 낫다.",
+      "flow_lens_score": 62.5,
+      "quant_lens_score": 67.31,
+      "macro_lens_score": 61.0
+    },
+    {
+      "symbol": "006800",
+      "name": "미래에셋증권",
+      "sector": "증권",
+      "composite_score": 0.581,
+      "value_score": 0.5,
+      "momentum_score": 0.74,
+      "quality_score": 0.4,
+      "flow_score": 0.5437,
+      "news_score": 0.4333,
+      "factor_source_coverage_ratio": 0.75,
+      "alignment_score": 1,
+      "alignment_label": "우호 정렬",
+      "alignment_support": [
+        "wics_rotation"
+      ],
+      "alignment_risk": [],
+      "wics_history_confidence_label": "없음",
+      "wics_history_day_count": 1,
+      "wics_universe_regime": "-",
+      "wics_confidence_note": "WICS 히스토리 표본이 거의 없어 섹터 해석은 보조적으로만 보는 편이 낫습니다.",
+      "base_action": "hold",
+      "action": "hold",
+      "action_label": "보류",
+      "strong_axes": [
+        "momentum",
+        "flow",
+        "value"
+      ],
+      "decision_trace": {
+        "base_action": "hold",
+        "coverage_ratio": 0.75,
+        "dominant_axes": [
+          "momentum",
+          "flow",
+          "value"
+        ],
+        "composite_score": 0.581,
+        "alignment_score": 1
+      }
+    },
+    {
+      "symbol": "000270",
+      "name": "기아",
+      "sector": "자동차/완성차",
+      "composite_score": 0.5767,
+      "value_score": 0.8889,
+      "momentum_score": 0.44,
+      "quality_score": 0.4722,
+      "flow_score": 0.5938,
+      "news_score": 0.525,
+      "factor_source_coverage_ratio": 1.0,
+      "alignment_score": 0,
+      "alignment_label": "중립",
+      "alignment_support": [],
+      "alignment_risk": [],
+      "wics_history_confidence_label": "없음",
+      "wics_history_day_count": 1,
+      "wics_universe_regime": "-",
+      "wics_confidence_note": "WICS 히스토리 표본이 거의 없어 섹터 해석은 보조적으로만 보는 편이 낫습니다.",
+      "base_action": "hold",
+      "action": "hold",
+      "action_label": "보류",
+      "strong_axes": [
+        "value",
+        "flow",
+        "news"
+      ],
+      "decision_trace": {
+        "base_action": "hold",
+        "coverage_ratio": 1.0,
+        "dominant_axes": [
+          "value",
+          "flow",
+          "news"
+        ],
+        "composite_score": 0.5767,
+        "alignment_score": 0
+      }
+    },
+    {
+      "symbol": "012330",
+      "name": "현대모비스",
+      "sector": "자동차부품/타이어",
+      "composite_score": 0.5559,
+      "value_score": 0.8444,
+      "momentum_score": 0.37,
+      "quality_score": 0.3889,
+      "flow_score": 0.6687,
+      "news_score": 0.6333,
+      "factor_source_coverage_ratio": 1.0,
+      "alignment_score": 0,
+      "alignment_label": "중립",
+      "alignment_support": [],
+      "alignment_risk": [],
+      "wics_history_confidence_label": "없음",
+      "wics_history_day_count": 1,
+      "wics_universe_regime": "-",
+      "wics_confidence_note": "WICS 히스토리 표본이 거의 없어 섹터 해석은 보조적으로만 보는 편이 낫습니다.",
+      "base_action": "hold",
+      "action": "hold",
+      "action_label": "보류",
+      "strong_axes": [
+        "value",
+        "flow",
+        "news"
+      ],
+      "decision_trace": {
+        "base_action": "hold",
+        "coverage_ratio": 1.0,
+        "dominant_axes": [
+          "value",
+          "flow",
+          "news"
+        ],
+        "composite_score": 0.5559,
+        "alignment_score": 0
+      }
+    },
+    {
+      "symbol": "042660",
+      "name": "한화오션",
+      "sector": "조선/해양",
+      "composite_score": 0.5554,
+      "value_score": 0.3333,
+      "momentum_score": 0.62,
+      "quality_score": 0.4944,
+      "flow_score": 0.7688,
+      "news_score": 0.4333,
+      "factor_source_coverage_ratio": 1.0,
+      "alignment_score": 2,
+      "alignment_label": "우호 정렬",
+      "alignment_support": [
+        "wics_rotation",
+        "wics_watch"
+      ],
+      "alignment_risk": [],
+      "wics_history_confidence_label": "없음",
+      "wics_history_day_count": 1,
+      "wics_universe_regime": "-",
+      "wics_confidence_note": "WICS 히스토리 표본이 거의 없어 섹터 해석은 보조적으로만 보는 편이 낫습니다.",
+      "base_action": "hold",
+      "action": "hold",
+      "action_label": "보류",
+      "strong_axes": [
+        "flow",
+        "momentum",
+        "quality"
+      ],
+      "decision_trace": {
+        "base_action": "hold",
+        "coverage_ratio": 1.0,
+        "dominant_axes": [
+          "flow",
+          "momentum",
+          "quality"
+        ],
+        "composite_score": 0.5554,
+        "alignment_score": 2
+      },
+      "sector_final_label": "관찰",
+      "sector_action_hint": "후보만 유지하고 장중 확인을 기다리는 편이 낫다",
+      "sector_human_summary": "수급 중립 / 퀀트 우호 / 매크로 약함 -> 관찰, 후보만 유지하고 장중 확인을 기다리는 편이 낫다.",
+      "flow_lens_score": 57.45,
+      "quant_lens_score": 64.75,
+      "macro_lens_score": 45.0
+    },
+    {
+      "symbol": "402340",
+      "name": "SK스퀘어",
+      "sector": "복합기업",
+      "composite_score": 0.5365,
+      "value_score": 0.6889,
+      "momentum_score": 0.395,
+      "quality_score": 0.7,
+      "flow_score": 0.3125,
+      "news_score": 0.4583,
+      "factor_source_coverage_ratio": 1.0,
+      "alignment_score": 0,
+      "alignment_label": "중립",
+      "alignment_support": [],
+      "alignment_risk": [],
+      "wics_history_confidence_label": "없음",
+      "wics_history_day_count": 1,
+      "wics_universe_regime": "-",
+      "wics_confidence_note": "WICS 히스토리 표본이 거의 없어 섹터 해석은 보조적으로만 보는 편이 낫습니다.",
+      "base_action": "hold",
+      "action": "hold",
+      "action_label": "보류",
+      "strong_axes": [
+        "quality",
+        "value",
+        "news"
+      ],
+      "decision_trace": {
+        "base_action": "hold",
+        "coverage_ratio": 1.0,
+        "dominant_axes": [
+          "quality",
+          "value",
+          "news"
+        ],
+        "composite_score": 0.5365,
+        "alignment_score": 0
+      }
+    },
+    {
+      "symbol": "034020",
+      "name": "두산에너빌리티",
+      "sector": "기계/공작기계",
+      "composite_score": 0.5324,
+      "value_score": 0.2,
+      "momentum_score": 0.675,
+      "quality_score": 0.2889,
+      "flow_score": 0.6687,
+      "news_score": 0.675,
+      "factor_source_coverage_ratio": 1.0,
+      "alignment_score": 2,
+      "alignment_label": "우호 정렬",
+      "alignment_support": [
+        "wics_rotation",
+        "wics_watch"
+      ],
+      "alignment_risk": [],
+      "wics_history_confidence_label": "없음",
+      "wics_history_day_count": 1,
+      "wics_universe_regime": "-",
+      "wics_confidence_note": "WICS 히스토리 표본이 거의 없어 섹터 해석은 보조적으로만 보는 편이 낫습니다.",
+      "base_action": "hold",
+      "action": "hold",
+      "action_label": "보류",
+      "strong_axes": [
+        "momentum",
+        "news",
+        "flow"
+      ],
+      "decision_trace": {
+        "base_action": "hold",
+        "coverage_ratio": 1.0,
+        "dominant_axes": [
+          "momentum",
+          "news",
+          "flow"
+        ],
+        "composite_score": 0.5324,
+        "alignment_score": 2
+      }
+    },
+    {
+      "symbol": "055550",
+      "name": "신한지주",
+      "sector": "금융지주/은행",
+      "composite_score": 0.5319,
+      "value_score": 0.5,
+      "momentum_score": 0.68,
+      "quality_score": 0.6167,
+      "flow_score": 0.35,
+      "news_score": 0.4333,
+      "factor_source_coverage_ratio": 0.75,
+      "alignment_score": 0,
+      "alignment_label": "중립",
+      "alignment_support": [],
+      "alignment_risk": [],
+      "wics_history_confidence_label": "없음",
+      "wics_history_day_count": 1,
+      "wics_universe_regime": "-",
+      "wics_confidence_note": "WICS 히스토리 표본이 거의 없어 섹터 해석은 보조적으로만 보는 편이 낫습니다.",
+      "base_action": "hold",
+      "action": "hold",
+      "action_label": "보류",
+      "strong_axes": [
+        "momentum",
+        "quality",
+        "value"
+      ],
+      "decision_trace": {
+        "base_action": "hold",
+        "coverage_ratio": 0.75,
+        "dominant_axes": [
+          "momentum",
+          "quality",
+          "value"
+        ],
+        "composite_score": 0.5319,
+        "alignment_score": 0
+      }
+    },
+    {
+      "symbol": "105560",
+      "name": "KB금융",
+      "sector": "금융지주/은행",
+      "composite_score": 0.5251,
+      "value_score": 0.5,
+      "momentum_score": 0.6,
+      "quality_score": 0.6667,
+      "flow_score": 0.3875,
+      "news_score": 0.4333,
+      "factor_source_coverage_ratio": 0.75,
+      "alignment_score": 0,
+      "alignment_label": "중립",
+      "alignment_support": [],
+      "alignment_risk": [],
+      "wics_history_confidence_label": "없음",
+      "wics_history_day_count": 1,
+      "wics_universe_regime": "-",
+      "wics_confidence_note": "WICS 히스토리 표본이 거의 없어 섹터 해석은 보조적으로만 보는 편이 낫습니다.",
+      "base_action": "hold",
+      "action": "hold",
+      "action_label": "보류",
+      "strong_axes": [
+        "quality",
+        "momentum",
+        "value"
+      ],
+      "decision_trace": {
+        "base_action": "hold",
+        "coverage_ratio": 0.75,
+        "dominant_axes": [
+          "quality",
+          "momentum",
+          "value"
+        ],
+        "composite_score": 0.5251,
+        "alignment_score": 0
+      }
+    },
+    {
+      "symbol": "032830",
+      "name": "삼성생명",
+      "sector": "보험",
+      "composite_score": 0.5206,
+      "value_score": 0.5,
+      "momentum_score": 0.82,
+      "quality_score": 0.4167,
+      "flow_score": 0.5312,
+      "news_score": 0.3958,
+      "factor_source_coverage_ratio": 0.75,
+      "alignment_score": 0,
+      "alignment_label": "중립",
+      "alignment_support": [],
+      "alignment_risk": [],
+      "wics_history_confidence_label": "없음",
+      "wics_history_day_count": 1,
+      "wics_universe_regime": "-",
+      "wics_confidence_note": "WICS 히스토리 표본이 거의 없어 섹터 해석은 보조적으로만 보는 편이 낫습니다.",
+      "base_action": "hold",
+      "action": "hold",
+      "action_label": "보류",
+      "strong_axes": [
+        "momentum",
+        "flow",
+        "value"
+      ],
+      "decision_trace": {
+        "base_action": "hold",
+        "coverage_ratio": 0.75,
+        "dominant_axes": [
+          "momentum",
+          "flow",
+          "value"
+        ],
+        "composite_score": 0.5206,
+        "alignment_score": 0
+      }
+    }
+  ],
+  "portfolio_buckets": {
+    "direct": [
+      {
+        "symbol": "012450",
+        "name": "한화에어로스페이스",
+        "sector": "방위산업/우주항공",
+        "composite_score": 0.7393,
+        "value_score": 0.6222,
+        "momentum_score": 0.8,
+        "quality_score": 0.6111,
+        "flow_score": 0.95,
+        "news_score": 0.5542,
+        "factor_source_coverage_ratio": 1.0,
+        "alignment_score": 1,
+        "alignment_label": "우호 정렬",
+        "alignment_support": [
+          "wics_rotation"
+        ],
+        "alignment_risk": [],
+        "wics_history_confidence_label": "없음",
+        "wics_history_day_count": 1,
+        "wics_universe_regime": "-",
+        "wics_confidence_note": "WICS 히스토리 표본이 거의 없어 섹터 해석은 보조적으로만 보는 편이 낫습니다.",
+        "base_action": "direct",
+        "action": "direct",
+        "action_label": "직접 후보",
+        "strong_axes": [
+          "flow",
+          "momentum",
+          "value"
+        ],
+        "decision_trace": {
+          "base_action": "direct",
+          "coverage_ratio": 1.0,
+          "dominant_axes": [
+            "flow",
+            "momentum",
+            "value"
+          ],
+          "composite_score": 0.7393,
+          "alignment_score": 1
+        }
+      }
+    ],
+    "watch": [
+      {
+        "symbol": "005930",
+        "name": "삼성전자",
+        "sector": "IT하드웨어 (반도체)",
+        "composite_score": 0.6711,
+        "value_score": 0.8,
+        "momentum_score": 0.78,
+        "quality_score": 0.5833,
+        "flow_score": 0.5938,
+        "news_score": 0.4667,
+        "factor_source_coverage_ratio": 1.0,
+        "alignment_score": 0,
+        "alignment_label": "중립",
+        "alignment_support": [],
+        "alignment_risk": [],
+        "wics_history_confidence_label": "없음",
+        "wics_history_day_count": 1,
+        "wics_universe_regime": "-",
+        "wics_confidence_note": "WICS 히스토리 표본이 거의 없어 섹터 해석은 보조적으로만 보는 편이 낫습니다.",
+        "base_action": "watch",
+        "action": "watch",
+        "action_label": "눌림 후보",
+        "strong_axes": [
+          "value",
+          "momentum",
+          "flow"
+        ],
+        "decision_trace": {
+          "base_action": "watch",
+          "coverage_ratio": 1.0,
+          "dominant_axes": [
+            "value",
+            "momentum",
+            "flow"
+          ],
+          "composite_score": 0.6711,
+          "alignment_score": 0
+        }
+      }
+    ],
+    "hold": [
+      {
+        "symbol": "000660",
+        "name": "SK하이닉스",
+        "sector": "IT하드웨어 (반도체)",
+        "composite_score": 0.6026,
+        "value_score": 0.5556,
+        "momentum_score": 0.62,
+        "quality_score": 0.6389,
+        "flow_score": 0.5312,
+        "news_score": 0.4833,
+        "factor_source_coverage_ratio": 1.0,
+        "alignment_score": 0,
+        "alignment_label": "중립",
+        "alignment_support": [],
+        "alignment_risk": [],
+        "wics_history_confidence_label": "없음",
+        "wics_history_day_count": 1,
+        "wics_universe_regime": "-",
+        "wics_confidence_note": "WICS 히스토리 표본이 거의 없어 섹터 해석은 보조적으로만 보는 편이 낫습니다.",
+        "base_action": "hold",
+        "action": "hold",
+        "action_label": "보류",
+        "strong_axes": [
+          "quality",
+          "momentum",
+          "value"
+        ],
+        "decision_trace": {
+          "base_action": "hold",
+          "coverage_ratio": 1.0,
+          "dominant_axes": [
+            "quality",
+            "momentum",
+            "value"
+          ],
+          "composite_score": 0.6026,
+          "alignment_score": 0
+        }
+      },
+      {
+        "symbol": "006800",
+        "name": "미래에셋증권",
+        "sector": "증권",
+        "composite_score": 0.581,
+        "value_score": 0.5,
+        "momentum_score": 0.74,
+        "quality_score": 0.4,
+        "flow_score": 0.5437,
+        "news_score": 0.4333,
+        "factor_source_coverage_ratio": 0.75,
+        "alignment_score": 1,
+        "alignment_label": "우호 정렬",
+        "alignment_support": [
+          "wics_rotation"
+        ],
+        "alignment_risk": [],
+        "wics_history_confidence_label": "없음",
+        "wics_history_day_count": 1,
+        "wics_universe_regime": "-",
+        "wics_confidence_note": "WICS 히스토리 표본이 거의 없어 섹터 해석은 보조적으로만 보는 편이 낫습니다.",
+        "base_action": "hold",
+        "action": "hold",
+        "action_label": "보류",
+        "strong_axes": [
+          "momentum",
+          "flow",
+          "value"
+        ],
+        "decision_trace": {
+          "base_action": "hold",
+          "coverage_ratio": 0.75,
+          "dominant_axes": [
+            "momentum",
+            "flow",
+            "value"
+          ],
+          "composite_score": 0.581,
+          "alignment_score": 1
+        }
+      },
+      {
+        "symbol": "000270",
+        "name": "기아",
+        "sector": "자동차/완성차",
+        "composite_score": 0.5767,
+        "value_score": 0.8889,
+        "momentum_score": 0.44,
+        "quality_score": 0.4722,
+        "flow_score": 0.5938,
+        "news_score": 0.525,
+        "factor_source_coverage_ratio": 1.0,
+        "alignment_score": 0,
+        "alignment_label": "중립",
+        "alignment_support": [],
+        "alignment_risk": [],
+        "wics_history_confidence_label": "없음",
+        "wics_history_day_count": 1,
+        "wics_universe_regime": "-",
+        "wics_confidence_note": "WICS 히스토리 표본이 거의 없어 섹터 해석은 보조적으로만 보는 편이 낫습니다.",
+        "base_action": "hold",
+        "action": "hold",
+        "action_label": "보류",
+        "strong_axes": [
+          "value",
+          "flow",
+          "news"
+        ],
+        "decision_trace": {
+          "base_action": "hold",
+          "coverage_ratio": 1.0,
+          "dominant_axes": [
+            "value",
+            "flow",
+            "news"
+          ],
+          "composite_score": 0.5767,
+          "alignment_score": 0
+        }
+      }
+    ]
+  },
+  "candidate_actions": [
+    {
+      "symbol": "012450",
+      "name": "한화에어로스페이스",
+      "sector": "방위산업/우주항공",
+      "action": "direct",
+      "action_label": "직접 후보",
+      "strong_axes": [
+        "flow",
+        "momentum",
+        "value"
+      ],
+      "alignment_label": "우호 정렬",
+      "alignment_score": 1
+    },
+    {
+      "symbol": "005930",
+      "name": "삼성전자",
+      "sector": "IT하드웨어 (반도체)",
+      "action": "watch",
+      "action_label": "눌림 후보",
+      "strong_axes": [
+        "value",
+        "momentum",
+        "flow"
+      ],
+      "alignment_label": "중립",
+      "alignment_score": 0
+    },
+    {
+      "symbol": "000660",
+      "name": "SK하이닉스",
+      "sector": "IT하드웨어 (반도체)",
+      "action": "hold",
+      "action_label": "보류",
+      "strong_axes": [
+        "quality",
+        "momentum",
+        "value"
+      ],
+      "alignment_label": "중립",
+      "alignment_score": 0
+    },
+    {
+      "symbol": "006800",
+      "name": "미래에셋증권",
+      "sector": "증권",
+      "action": "hold",
+      "action_label": "보류",
+      "strong_axes": [
+        "momentum",
+        "flow",
+        "value"
+      ],
+      "alignment_label": "우호 정렬",
+      "alignment_score": 1
+    },
+    {
+      "symbol": "000270",
+      "name": "기아",
+      "sector": "자동차/완성차",
+      "action": "hold",
+      "action_label": "보류",
+      "strong_axes": [
+        "value",
+        "flow",
+        "news"
+      ],
+      "alignment_label": "중립",
+      "alignment_score": 0
+    },
+    {
+      "symbol": "012330",
+      "name": "현대모비스",
+      "sector": "자동차부품/타이어",
+      "action": "hold",
+      "action_label": "보류",
+      "strong_axes": [
+        "value",
+        "flow",
+        "news"
+      ],
+      "alignment_label": "중립",
+      "alignment_score": 0
+    },
+    {
+      "symbol": "042660",
+      "name": "한화오션",
+      "sector": "조선/해양",
+      "action": "hold",
+      "action_label": "보류",
+      "strong_axes": [
+        "flow",
+        "momentum",
+        "quality"
+      ],
+      "alignment_label": "우호 정렬",
+      "alignment_score": 2
+    },
+    {
+      "symbol": "402340",
+      "name": "SK스퀘어",
+      "sector": "복합기업",
+      "action": "hold",
+      "action_label": "보류",
+      "strong_axes": [
+        "quality",
+        "value",
+        "news"
+      ],
+      "alignment_label": "중립",
+      "alignment_score": 0
+    },
+    {
+      "symbol": "034020",
+      "name": "두산에너빌리티",
+      "sector": "기계/공작기계",
+      "action": "hold",
+      "action_label": "보류",
+      "strong_axes": [
+        "momentum",
+        "news",
+        "flow"
+      ],
+      "alignment_label": "우호 정렬",
+      "alignment_score": 2
+    },
+    {
+      "symbol": "055550",
+      "name": "신한지주",
+      "sector": "금융지주/은행",
+      "action": "hold",
+      "action_label": "보류",
+      "strong_axes": [
+        "momentum",
+        "quality",
+        "value"
+      ],
+      "alignment_label": "중립",
+      "alignment_score": 0
+    },
+    {
+      "symbol": "105560",
+      "name": "KB금융",
+      "sector": "금융지주/은행",
+      "action": "hold",
+      "action_label": "보류",
+      "strong_axes": [
+        "quality",
+        "momentum",
+        "value"
+      ],
+      "alignment_label": "중립",
+      "alignment_score": 0
+    },
+    {
+      "symbol": "032830",
+      "name": "삼성생명",
+      "sector": "보험",
+      "action": "hold",
+      "action_label": "보류",
+      "strong_axes": [
+        "momentum",
+        "flow",
+        "value"
+      ],
+      "alignment_label": "중립",
+      "alignment_score": 0
+    }
+  ],
+  "data_quality": {
+    "coverage_grade": "양호",
+    "weak_sources": [],
+    "dynamic_status": "fallback",
+    "warnings": [
+      "동적가중치 fallback"
+    ],
+    "top_sector": "IT하드웨어 (반도체)",
+    "top_sector_share": 0.333
+  },
+  "decision_regime": {
+    "name": "normal",
+    "description": "상위 팩터 후보를 기본 체력 기준으로 해석합니다."
+  },
+  "context_alignment": {
+    "market_mode": "공격적",
+    "confidence_score": 49,
+    "top_support": [
+      {
+        "sector": "조선/해양",
+        "score": 2,
+        "support_sources": [
+          "wics_rotation",
+          "wics_watch"
+        ],
+        "risk_sources": [],
+        "label": "우호 정렬"
+      },
+      {
+        "sector": "엔터테인먼트/미디어",
+        "score": 2,
+        "support_sources": [
+          "wics_rotation",
+          "wics_watch"
+        ],
+        "risk_sources": [],
+        "label": "우호 정렬"
+      },
+      {
+        "sector": "기계/공작기계",
+        "score": 2,
+        "support_sources": [
+          "wics_rotation",
+          "wics_watch"
+        ],
+        "risk_sources": [],
+        "label": "우호 정렬"
+      },
+      {
+        "sector": "증권",
+        "score": 1,
+        "support_sources": [
+          "wics_rotation"
+        ],
+        "risk_sources": [],
+        "label": "우호 정렬"
+      }
+    ],
+    "top_risk": [
+      {
+        "sector": "헬스케어/의료기기",
+        "score": -2,
+        "support_sources": [],
+        "risk_sources": [
+          "wics_risk",
+          "wics_caution"
+        ],
+        "label": "주의"
+      },
+      {
+        "sector": "제약/바이오 (대형)",
+        "score": -2,
+        "support_sources": [],
+        "risk_sources": [
+          "wics_risk",
+          "wics_caution"
+        ],
+        "label": "주의"
+      }
+    ],
+    "by_sector": {
+      "엔터테인먼트/미디어": {
+        "sector": "엔터테인먼트/미디어",
+        "score": 2,
+        "support_sources": [
+          "wics_rotation",
+          "wics_watch"
+        ],
+        "risk_sources": [],
+        "label": "우호 정렬"
+      },
+      "조선/해양": {
+        "sector": "조선/해양",
+        "score": 2,
+        "support_sources": [
+          "wics_rotation",
+          "wics_watch"
+        ],
+        "risk_sources": [],
+        "label": "우호 정렬"
+      },
+      "기계/공작기계": {
+        "sector": "기계/공작기계",
+        "score": 2,
+        "support_sources": [
+          "wics_rotation",
+          "wics_watch"
+        ],
+        "risk_sources": [],
+        "label": "우호 정렬"
+      },
+      "증권": {
+        "sector": "증권",
+        "score": 1,
+        "support_sources": [
+          "wics_rotation"
+        ],
+        "risk_sources": [],
+        "label": "우호 정렬"
+      },
+      "방위산업/우주항공": {
+        "sector": "방위산업/우주항공",
+        "score": 1,
+        "support_sources": [
+          "wics_rotation"
+        ],
+        "risk_sources": [],
+        "label": "우호 정렬"
+      },
+      "건설/건자재": {
+        "sector": "건설/건자재",
+        "score": 1,
+        "support_sources": [
+          "wics_rotation"
+        ],
+        "risk_sources": [],
+        "label": "우호 정렬"
+      },
+      "헬스케어/의료기기": {
+        "sector": "헬스케어/의료기기",
+        "score": -2,
+        "support_sources": [],
+        "risk_sources": [
+          "wics_risk",
+          "wics_caution"
+        ],
+        "label": "주의"
+      },
+      "제약/바이오 (대형)": {
+        "sector": "제약/바이오 (대형)",
+        "score": -2,
+        "support_sources": [],
+        "risk_sources": [
+          "wics_risk",
+          "wics_caution"
+        ],
+        "label": "주의"
+      }
+    }
+  },
+  "action_hints": [
+    "[직접 후보] 한화에어로스페이스(012450) | flow·momentum 축이 함께 강해 상단 후보로 볼 만합니다. | 맥락 우호 정렬 / 현재 팩터 커버리지 기준 coverage 1.0",
+    "[눌림 후보] 삼성전자(005930) | value·momentum 축은 좋지만 확인 후 접근이 더 적절합니다. | 현재 팩터 커버리지 기준 coverage 1.0",
+    "[보류] SK하이닉스(000660) | quality·momentum 축은 보이지만 지금은 보수적으로 보는 편이 낫습니다. | 현재 팩터 커버리지 기준 coverage 1.0",
+    "[보류] 미래에셋증권(006800) | momentum·flow 축은 보이지만 지금은 보수적으로 보는 편이 낫습니다. | 맥락 우호 정렬 / 현재 팩터 커버리지 기준 coverage 0.75"
+  ],
+  "action_hint_rows": [
+    {
+      "symbol": "012450",
+      "name": "한화에어로스페이스",
+      "sector": "방위산업/우주항공",
+      "action": "direct",
+      "action_label": "직접 후보",
+      "reason": "flow·momentum 축이 함께 강해 상단 후보로 볼 만합니다.",
+      "note": "맥락 우호 정렬 / 현재 팩터 커버리지 기준 coverage 1.0",
+      "strong_axes": [
+        "flow",
+        "momentum",
+        "value"
+      ],
+      "alignment_label": "우호 정렬",
+      "alignment_score": 1
+    },
+    {
+      "symbol": "005930",
+      "name": "삼성전자",
+      "sector": "IT하드웨어 (반도체)",
+      "action": "watch",
+      "action_label": "눌림 후보",
+      "reason": "value·momentum 축은 좋지만 확인 후 접근이 더 적절합니다.",
+      "note": "현재 팩터 커버리지 기준 coverage 1.0",
+      "strong_axes": [
+        "value",
+        "momentum",
+        "flow"
+      ],
+      "alignment_label": "중립",
+      "alignment_score": 0
+    },
+    {
+      "symbol": "000660",
+      "name": "SK하이닉스",
+      "sector": "IT하드웨어 (반도체)",
+      "action": "hold",
+      "action_label": "보류",
+      "reason": "quality·momentum 축은 보이지만 지금은 보수적으로 보는 편이 낫습니다.",
+      "note": "현재 팩터 커버리지 기준 coverage 1.0",
+      "strong_axes": [
+        "quality",
+        "momentum",
+        "value"
+      ],
+      "alignment_label": "중립",
+      "alignment_score": 0
+    },
+    {
+      "symbol": "006800",
+      "name": "미래에셋증권",
+      "sector": "증권",
+      "action": "hold",
+      "action_label": "보류",
+      "reason": "momentum·flow 축은 보이지만 지금은 보수적으로 보는 편이 낫습니다.",
+      "note": "맥락 우호 정렬 / 현재 팩터 커버리지 기준 coverage 0.75",
+      "strong_axes": [
+        "momentum",
+        "flow",
+        "value"
+      ],
+      "alignment_label": "우호 정렬",
+      "alignment_score": 1
+    }
+  ],
+  "top_sectors": [
+    {
+      "sector": "방위산업/우주항공",
+      "count": 1,
+      "avg_composite_score": 0.7393,
+      "action": "중심주만",
+      "leaders": [
+        {
+          "symbol": "012450",
+          "name": "한화에어로스페이스",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.7393
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "012450",
+          "name": "한화에어로스페이스",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.6222,
+          "flow_score": 0.95,
+          "momentum_score": 0.8
+        }
+      ],
+      "alignment_score": 1,
+      "alignment_label": "우호 정렬",
+      "alignment_support": [
+        "wics_rotation"
+      ],
+      "alignment_risk": [],
+      "wics_history_confidence_label": "없음",
+      "wics_history_day_count": 1,
+      "wics_universe_regime": "-",
+      "wics_confidence_note": "WICS 히스토리 표본이 거의 없어 섹터 해석은 보조적으로만 보는 편이 낫습니다."
+    },
+    {
+      "sector": "IT하드웨어 (반도체)",
+      "count": 2,
+      "avg_composite_score": 0.6369,
+      "action": "중심주만",
+      "leaders": [
+        {
+          "symbol": "005930",
+          "name": "삼성전자",
+          "sector_leader_signal": 1.0,
+          "composite_score": 0.6711
+        },
+        {
+          "symbol": "000660",
+          "name": "SK하이닉스",
+          "sector_leader_signal": -1.0,
+          "composite_score": 0.6026
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "005930",
+          "name": "삼성전자",
+          "sector_reversion_signal": -0.0,
+          "value_score": 0.8,
+          "flow_score": 0.5938,
+          "momentum_score": 0.78
+        },
+        {
+          "symbol": "000660",
+          "name": "SK하이닉스",
+          "sector_reversion_signal": -0.0,
+          "value_score": 0.5556,
+          "flow_score": 0.5312,
+          "momentum_score": 0.62
+        }
+      ],
+      "alignment_score": 0,
+      "alignment_label": "중립",
+      "alignment_support": [],
+      "alignment_risk": [],
+      "wics_history_confidence_label": "없음",
+      "wics_history_day_count": 1,
+      "wics_universe_regime": "-",
+      "wics_confidence_note": "WICS 히스토리 표본이 거의 없어 섹터 해석은 보조적으로만 보는 편이 낫습니다.",
+      "sector_final_label": "관찰",
+      "sector_action_hint": "후보만 유지하고 장중 확인을 기다리는 편이 낫다",
+      "sector_human_summary": "수급 우호 / 퀀트 우호 / 매크로 우호 -> 관찰, 후보만 유지하고 장중 확인을 기다리는 편이 낫다.",
+      "flow_lens_score": 62.5,
+      "quant_lens_score": 67.31,
+      "macro_lens_score": 61.0
+    },
+    {
+      "sector": "증권",
+      "count": 1,
+      "avg_composite_score": 0.581,
+      "action": "중심주만",
+      "leaders": [
+        {
+          "symbol": "006800",
+          "name": "미래에셋증권",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.581
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "006800",
+          "name": "미래에셋증권",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.5,
+          "flow_score": 0.5438,
+          "momentum_score": 0.74
+        }
+      ],
+      "alignment_score": 1,
+      "alignment_label": "우호 정렬",
+      "alignment_support": [
+        "wics_rotation"
+      ],
+      "alignment_risk": [],
+      "wics_history_confidence_label": "없음",
+      "wics_history_day_count": 1,
+      "wics_universe_regime": "-",
+      "wics_confidence_note": "WICS 히스토리 표본이 거의 없어 섹터 해석은 보조적으로만 보는 편이 낫습니다."
+    },
+    {
+      "sector": "자동차부품/타이어",
+      "count": 1,
+      "avg_composite_score": 0.5559,
+      "action": "보류",
+      "leaders": [
+        {
+          "symbol": "012330",
+          "name": "현대모비스",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.5559
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "012330",
+          "name": "현대모비스",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.8444,
+          "flow_score": 0.6688,
+          "momentum_score": 0.37
+        }
+      ],
+      "alignment_score": 0,
+      "alignment_label": "중립",
+      "alignment_support": [],
+      "alignment_risk": [],
+      "wics_history_confidence_label": "없음",
+      "wics_history_day_count": 1,
+      "wics_universe_regime": "-",
+      "wics_confidence_note": "WICS 히스토리 표본이 거의 없어 섹터 해석은 보조적으로만 보는 편이 낫습니다."
+    },
+    {
+      "sector": "자동차/완성차",
+      "count": 2,
+      "avg_composite_score": 0.5429,
+      "action": "보류",
+      "leaders": [
+        {
+          "symbol": "000270",
+          "name": "기아",
+          "sector_leader_signal": 1.0,
+          "composite_score": 0.5767
+        },
+        {
+          "symbol": "005380",
+          "name": "현대차",
+          "sector_leader_signal": -1.0,
+          "composite_score": 0.5091
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "000270",
+          "name": "기아",
+          "sector_reversion_signal": 4.0,
+          "value_score": 0.8889,
+          "flow_score": 0.5938,
+          "momentum_score": 0.44
+        },
+        {
+          "symbol": "005380",
+          "name": "현대차",
+          "sector_reversion_signal": -4.0,
+          "value_score": 0.7778,
+          "flow_score": 0.3313,
+          "momentum_score": 0.45
+        }
+      ],
+      "alignment_score": 0,
+      "alignment_label": "중립",
+      "alignment_support": [],
+      "alignment_risk": [],
+      "wics_history_confidence_label": "없음",
+      "wics_history_day_count": 1,
+      "wics_universe_regime": "-",
+      "wics_confidence_note": "WICS 히스토리 표본이 거의 없어 섹터 해석은 보조적으로만 보는 편이 낫습니다."
+    },
+    {
+      "sector": "복합기업",
+      "count": 1,
+      "avg_composite_score": 0.5365,
+      "action": "보류",
+      "leaders": [
+        {
+          "symbol": "402340",
+          "name": "SK스퀘어",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.5365
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "402340",
+          "name": "SK스퀘어",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.6889,
+          "flow_score": 0.3125,
+          "momentum_score": 0.395
+        }
+      ],
+      "alignment_score": 0,
+      "alignment_label": "중립",
+      "alignment_support": [],
+      "alignment_risk": [],
+      "wics_history_confidence_label": "없음",
+      "wics_history_day_count": 1,
+      "wics_universe_regime": "-",
+      "wics_confidence_note": "WICS 히스토리 표본이 거의 없어 섹터 해석은 보조적으로만 보는 편이 낫습니다."
+    },
+    {
+      "sector": "기계/공작기계",
+      "count": 1,
+      "avg_composite_score": 0.5324,
+      "action": "보류",
+      "leaders": [
+        {
+          "symbol": "034020",
+          "name": "두산에너빌리티",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.5324
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "034020",
+          "name": "두산에너빌리티",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.2,
+          "flow_score": 0.6688,
+          "momentum_score": 0.675
+        }
+      ],
+      "alignment_score": 2,
+      "alignment_label": "우호 정렬",
+      "alignment_support": [
+        "wics_rotation",
+        "wics_watch"
+      ],
+      "alignment_risk": [],
+      "wics_history_confidence_label": "없음",
+      "wics_history_day_count": 1,
+      "wics_universe_regime": "-",
+      "wics_confidence_note": "WICS 히스토리 표본이 거의 없어 섹터 해석은 보조적으로만 보는 편이 낫습니다."
+    },
+    {
+      "sector": "금융지주/은행",
+      "count": 2,
+      "avg_composite_score": 0.5285,
+      "action": "보류",
+      "leaders": [
+        {
+          "symbol": "105560",
+          "name": "KB금융",
+          "sector_leader_signal": 1.0,
+          "composite_score": 0.5251
+        },
+        {
+          "symbol": "055550",
+          "name": "신한지주",
+          "sector_leader_signal": -1.0,
+          "composite_score": 0.5319
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "105560",
+          "name": "KB금융",
+          "sector_reversion_signal": 3.0,
+          "value_score": 0.5,
+          "flow_score": 0.3875,
+          "momentum_score": 0.6
+        },
+        {
+          "symbol": "055550",
+          "name": "신한지주",
+          "sector_reversion_signal": -3.0,
+          "value_score": 0.5,
+          "flow_score": 0.35,
+          "momentum_score": 0.68
+        }
+      ],
+      "alignment_score": 0,
+      "alignment_label": "중립",
+      "alignment_support": [],
+      "alignment_risk": [],
+      "wics_history_confidence_label": "없음",
+      "wics_history_day_count": 1,
+      "wics_universe_regime": "-",
+      "wics_confidence_note": "WICS 히스토리 표본이 거의 없어 섹터 해석은 보조적으로만 보는 편이 낫습니다."
+    }
+  ],
+  "sector_cards": [
+    {
+      "sector": "방위산업/우주항공",
+      "count": 1,
+      "avg_composite_score": 0.7393,
+      "action": "중심주만",
+      "leaders": [
+        {
+          "symbol": "012450",
+          "name": "한화에어로스페이스",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.7393
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "012450",
+          "name": "한화에어로스페이스",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.6222,
+          "flow_score": 0.95,
+          "momentum_score": 0.8
+        }
+      ],
+      "alignment_score": 1,
+      "alignment_label": "우호 정렬",
+      "alignment_support": [
+        "wics_rotation"
+      ],
+      "alignment_risk": [],
+      "wics_history_confidence_label": "없음",
+      "wics_history_day_count": 1,
+      "wics_universe_regime": "-",
+      "wics_confidence_note": "WICS 히스토리 표본이 거의 없어 섹터 해석은 보조적으로만 보는 편이 낫습니다."
+    },
+    {
+      "sector": "IT하드웨어 (반도체)",
+      "count": 2,
+      "avg_composite_score": 0.6369,
+      "action": "중심주만",
+      "leaders": [
+        {
+          "symbol": "005930",
+          "name": "삼성전자",
+          "sector_leader_signal": 1.0,
+          "composite_score": 0.6711
+        },
+        {
+          "symbol": "000660",
+          "name": "SK하이닉스",
+          "sector_leader_signal": -1.0,
+          "composite_score": 0.6026
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "005930",
+          "name": "삼성전자",
+          "sector_reversion_signal": -0.0,
+          "value_score": 0.8,
+          "flow_score": 0.5938,
+          "momentum_score": 0.78
+        },
+        {
+          "symbol": "000660",
+          "name": "SK하이닉스",
+          "sector_reversion_signal": -0.0,
+          "value_score": 0.5556,
+          "flow_score": 0.5312,
+          "momentum_score": 0.62
+        }
+      ],
+      "alignment_score": 0,
+      "alignment_label": "중립",
+      "alignment_support": [],
+      "alignment_risk": [],
+      "wics_history_confidence_label": "없음",
+      "wics_history_day_count": 1,
+      "wics_universe_regime": "-",
+      "wics_confidence_note": "WICS 히스토리 표본이 거의 없어 섹터 해석은 보조적으로만 보는 편이 낫습니다.",
+      "sector_final_label": "관찰",
+      "sector_action_hint": "후보만 유지하고 장중 확인을 기다리는 편이 낫다",
+      "sector_human_summary": "수급 우호 / 퀀트 우호 / 매크로 우호 -> 관찰, 후보만 유지하고 장중 확인을 기다리는 편이 낫다.",
+      "flow_lens_score": 62.5,
+      "quant_lens_score": 67.31,
+      "macro_lens_score": 61.0
+    },
+    {
+      "sector": "증권",
+      "count": 1,
+      "avg_composite_score": 0.581,
+      "action": "중심주만",
+      "leaders": [
+        {
+          "symbol": "006800",
+          "name": "미래에셋증권",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.581
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "006800",
+          "name": "미래에셋증권",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.5,
+          "flow_score": 0.5438,
+          "momentum_score": 0.74
+        }
+      ],
+      "alignment_score": 1,
+      "alignment_label": "우호 정렬",
+      "alignment_support": [
+        "wics_rotation"
+      ],
+      "alignment_risk": [],
+      "wics_history_confidence_label": "없음",
+      "wics_history_day_count": 1,
+      "wics_universe_regime": "-",
+      "wics_confidence_note": "WICS 히스토리 표본이 거의 없어 섹터 해석은 보조적으로만 보는 편이 낫습니다."
+    },
+    {
+      "sector": "자동차부품/타이어",
+      "count": 1,
+      "avg_composite_score": 0.5559,
+      "action": "보류",
+      "leaders": [
+        {
+          "symbol": "012330",
+          "name": "현대모비스",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.5559
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "012330",
+          "name": "현대모비스",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.8444,
+          "flow_score": 0.6688,
+          "momentum_score": 0.37
+        }
+      ],
+      "alignment_score": 0,
+      "alignment_label": "중립",
+      "alignment_support": [],
+      "alignment_risk": [],
+      "wics_history_confidence_label": "없음",
+      "wics_history_day_count": 1,
+      "wics_universe_regime": "-",
+      "wics_confidence_note": "WICS 히스토리 표본이 거의 없어 섹터 해석은 보조적으로만 보는 편이 낫습니다."
+    },
+    {
+      "sector": "자동차/완성차",
+      "count": 2,
+      "avg_composite_score": 0.5429,
+      "action": "보류",
+      "leaders": [
+        {
+          "symbol": "000270",
+          "name": "기아",
+          "sector_leader_signal": 1.0,
+          "composite_score": 0.5767
+        },
+        {
+          "symbol": "005380",
+          "name": "현대차",
+          "sector_leader_signal": -1.0,
+          "composite_score": 0.5091
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "000270",
+          "name": "기아",
+          "sector_reversion_signal": 4.0,
+          "value_score": 0.8889,
+          "flow_score": 0.5938,
+          "momentum_score": 0.44
+        },
+        {
+          "symbol": "005380",
+          "name": "현대차",
+          "sector_reversion_signal": -4.0,
+          "value_score": 0.7778,
+          "flow_score": 0.3313,
+          "momentum_score": 0.45
+        }
+      ],
+      "alignment_score": 0,
+      "alignment_label": "중립",
+      "alignment_support": [],
+      "alignment_risk": [],
+      "wics_history_confidence_label": "없음",
+      "wics_history_day_count": 1,
+      "wics_universe_regime": "-",
+      "wics_confidence_note": "WICS 히스토리 표본이 거의 없어 섹터 해석은 보조적으로만 보는 편이 낫습니다."
+    },
+    {
+      "sector": "복합기업",
+      "count": 1,
+      "avg_composite_score": 0.5365,
+      "action": "보류",
+      "leaders": [
+        {
+          "symbol": "402340",
+          "name": "SK스퀘어",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.5365
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "402340",
+          "name": "SK스퀘어",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.6889,
+          "flow_score": 0.3125,
+          "momentum_score": 0.395
+        }
+      ],
+      "alignment_score": 0,
+      "alignment_label": "중립",
+      "alignment_support": [],
+      "alignment_risk": [],
+      "wics_history_confidence_label": "없음",
+      "wics_history_day_count": 1,
+      "wics_universe_regime": "-",
+      "wics_confidence_note": "WICS 히스토리 표본이 거의 없어 섹터 해석은 보조적으로만 보는 편이 낫습니다."
+    },
+    {
+      "sector": "기계/공작기계",
+      "count": 1,
+      "avg_composite_score": 0.5324,
+      "action": "보류",
+      "leaders": [
+        {
+          "symbol": "034020",
+          "name": "두산에너빌리티",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.5324
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "034020",
+          "name": "두산에너빌리티",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.2,
+          "flow_score": 0.6688,
+          "momentum_score": 0.675
+        }
+      ],
+      "alignment_score": 2,
+      "alignment_label": "우호 정렬",
+      "alignment_support": [
+        "wics_rotation",
+        "wics_watch"
+      ],
+      "alignment_risk": [],
+      "wics_history_confidence_label": "없음",
+      "wics_history_day_count": 1,
+      "wics_universe_regime": "-",
+      "wics_confidence_note": "WICS 히스토리 표본이 거의 없어 섹터 해석은 보조적으로만 보는 편이 낫습니다."
+    },
+    {
+      "sector": "금융지주/은행",
+      "count": 2,
+      "avg_composite_score": 0.5285,
+      "action": "보류",
+      "leaders": [
+        {
+          "symbol": "105560",
+          "name": "KB금융",
+          "sector_leader_signal": 1.0,
+          "composite_score": 0.5251
+        },
+        {
+          "symbol": "055550",
+          "name": "신한지주",
+          "sector_leader_signal": -1.0,
+          "composite_score": 0.5319
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "105560",
+          "name": "KB금융",
+          "sector_reversion_signal": 3.0,
+          "value_score": 0.5,
+          "flow_score": 0.3875,
+          "momentum_score": 0.6
+        },
+        {
+          "symbol": "055550",
+          "name": "신한지주",
+          "sector_reversion_signal": -3.0,
+          "value_score": 0.5,
+          "flow_score": 0.35,
+          "momentum_score": 0.68
+        }
+      ],
+      "alignment_score": 0,
+      "alignment_label": "중립",
+      "alignment_support": [],
+      "alignment_risk": [],
+      "wics_history_confidence_label": "없음",
+      "wics_history_day_count": 1,
+      "wics_universe_regime": "-",
+      "wics_confidence_note": "WICS 히스토리 표본이 거의 없어 섹터 해석은 보조적으로만 보는 편이 낫습니다."
+    },
+    {
+      "sector": "보험",
+      "count": 1,
+      "avg_composite_score": 0.5206,
+      "action": "보류",
+      "leaders": [
+        {
+          "symbol": "032830",
+          "name": "삼성생명",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.5206
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "032830",
+          "name": "삼성생명",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.5,
+          "flow_score": 0.5312,
+          "momentum_score": 0.82
+        }
+      ],
+      "alignment_score": 0,
+      "alignment_label": "중립",
+      "alignment_support": [],
+      "alignment_risk": [],
+      "wics_history_confidence_label": "없음",
+      "wics_history_day_count": 1,
+      "wics_universe_regime": "-",
+      "wics_confidence_note": "WICS 히스토리 표본이 거의 없어 섹터 해석은 보조적으로만 보는 편이 낫습니다."
+    },
+    {
+      "sector": "제약/바이오 (대형)",
+      "count": 2,
+      "avg_composite_score": 0.4894,
+      "action": "보류",
+      "leaders": [
+        {
+          "symbol": "207940",
+          "name": "삼성바이오로직스",
+          "sector_leader_signal": 1.0,
+          "composite_score": 0.5146
+        },
+        {
+          "symbol": "068270",
+          "name": "셀트리온",
+          "sector_leader_signal": -1.0,
+          "composite_score": 0.4641
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "207940",
+          "name": "삼성바이오로직스",
+          "sector_reversion_signal": -0.0,
+          "value_score": 0.5,
+          "flow_score": 0.625,
+          "momentum_score": 0.52
+        },
+        {
+          "symbol": "068270",
+          "name": "셀트리온",
+          "sector_reversion_signal": -0.0,
+          "value_score": 0.2222,
+          "flow_score": 0.4875,
+          "momentum_score": 0.36
+        }
+      ],
+      "alignment_score": -2,
+      "alignment_label": "주의",
+      "alignment_support": [],
+      "alignment_risk": [
+        "wics_risk",
+        "wics_caution"
+      ],
+      "wics_history_confidence_label": "없음",
+      "wics_history_day_count": 1,
+      "wics_universe_regime": "-",
+      "wics_confidence_note": "WICS 히스토리 표본이 거의 없어 섹터 해석은 보조적으로만 보는 편이 낫습니다."
+    },
+    {
+      "sector": "조선/해양",
+      "count": 2,
+      "avg_composite_score": 0.4823,
+      "action": "보류",
+      "leaders": [
+        {
+          "symbol": "042660",
+          "name": "한화오션",
+          "sector_leader_signal": 1.0,
+          "composite_score": 0.5554
+        },
+        {
+          "symbol": "329180",
+          "name": "HD현대중공업",
+          "sector_leader_signal": -1.0,
+          "composite_score": 0.4091
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "329180",
+          "name": "HD현대중공업",
+          "sector_reversion_signal": 2.0,
+          "value_score": 0.4667,
+          "flow_score": 0.2938,
+          "momentum_score": 0.19
+        },
+        {
+          "symbol": "042660",
+          "name": "한화오션",
+          "sector_reversion_signal": -2.0,
+          "value_score": 0.3333,
+          "flow_score": 0.7688,
+          "momentum_score": 0.62
+        }
+      ],
+      "alignment_score": 2,
+      "alignment_label": "우호 정렬",
+      "alignment_support": [
+        "wics_rotation",
+        "wics_watch"
+      ],
+      "alignment_risk": [],
+      "wics_history_confidence_label": "없음",
+      "wics_history_day_count": 1,
+      "wics_universe_regime": "-",
+      "wics_confidence_note": "WICS 히스토리 표본이 거의 없어 섹터 해석은 보조적으로만 보는 편이 낫습니다.",
+      "sector_final_label": "관찰",
+      "sector_action_hint": "후보만 유지하고 장중 확인을 기다리는 편이 낫다",
+      "sector_human_summary": "수급 중립 / 퀀트 우호 / 매크로 약함 -> 관찰, 후보만 유지하고 장중 확인을 기다리는 편이 낫다.",
+      "flow_lens_score": 57.45,
+      "quant_lens_score": 64.75,
+      "macro_lens_score": 45.0
+    },
+    {
+      "sector": "건설/건자재",
+      "count": 1,
+      "avg_composite_score": 0.4654,
+      "action": "보류",
+      "leaders": [
+        {
+          "symbol": "028260",
+          "name": "삼성물산",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.4654
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "028260",
+          "name": "삼성물산",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.5556,
+          "flow_score": 0.4562,
+          "momentum_score": 0.38
+        }
+      ],
+      "alignment_score": 1,
+      "alignment_label": "우호 정렬",
+      "alignment_support": [
+        "wics_rotation"
+      ],
+      "alignment_risk": [],
+      "wics_history_confidence_label": "없음",
+      "wics_history_day_count": 1,
+      "wics_universe_regime": "-",
+      "wics_confidence_note": "WICS 히스토리 표본이 거의 없어 섹터 해석은 보조적으로만 보는 편이 낫습니다."
+    },
+    {
+      "sector": "IT소프트웨어 (플랫폼/SI)",
+      "count": 1,
+      "avg_composite_score": 0.4404,
+      "action": "보류",
+      "leaders": [
+        {
+          "symbol": "035420",
+          "name": "NAVER",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.4404
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "035420",
+          "name": "NAVER",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.5333,
+          "flow_score": 0.2688,
+          "momentum_score": 0.12
+        }
+      ],
+      "alignment_score": 0,
+      "alignment_label": "중립",
+      "alignment_support": [],
+      "alignment_risk": [],
+      "wics_history_confidence_label": "없음",
+      "wics_history_day_count": 1,
+      "wics_universe_regime": "-",
+      "wics_confidence_note": "WICS 히스토리 표본이 거의 없어 섹터 해석은 보조적으로만 보는 편이 낫습니다."
+    },
+    {
+      "sector": "2차전지/배터리",
+      "count": 1,
+      "avg_composite_score": 0.4224,
+      "action": "보류",
+      "leaders": [
+        {
+          "symbol": "373220",
+          "name": "LG에너지솔루션",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.4224
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "373220",
+          "name": "LG에너지솔루션",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.1333,
+          "flow_score": 0.75,
+          "momentum_score": 0.59
+        }
+      ],
+      "alignment_score": 0,
+      "alignment_label": "중립",
+      "alignment_support": [],
+      "alignment_risk": [],
+      "wics_history_confidence_label": "없음",
+      "wics_history_day_count": 1,
+      "wics_universe_regime": "-",
+      "wics_confidence_note": "WICS 히스토리 표본이 거의 없어 섹터 해석은 보조적으로만 보는 편이 낫습니다."
+    },
+    {
+      "sector": "철강/비철금속",
+      "count": 1,
+      "avg_composite_score": 0.3462,
+      "action": "보류",
+      "leaders": [
+        {
+          "symbol": "010130",
+          "name": "고려아연",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.3462
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "010130",
+          "name": "고려아연",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.3778,
+          "flow_score": 0.3875,
+          "momentum_score": 0.35
+        }
+      ],
+      "alignment_score": 0,
+      "alignment_label": "중립",
+      "alignment_support": [],
+      "alignment_risk": [],
+      "wics_history_confidence_label": "없음",
+      "wics_history_day_count": 1,
+      "wics_universe_regime": "-",
+      "wics_confidence_note": "WICS 히스토리 표본이 거의 없어 섹터 해석은 보조적으로만 보는 편이 낫습니다."
+    }
+  ],
+  "sector_thesis": {
+    "top_sectors": [
+      {
+        "sector": "IT하드웨어 (반도체)",
+        "leader_name": "삼성전자",
+        "top_candidates": [
+          {
+            "symbol": "005930",
+            "name": "삼성전자",
+            "sector": "IT하드웨어 (반도체)",
+            "pool_eligible": true,
+            "relative_value_score": 40.35,
+            "relative_value_pass": false,
+            "composite_score": 0.6051,
+            "value_score": 0.6235,
+            "momentum_score": 0.8771,
+            "quality_score": 0.8051,
+            "flow_score": 0.2533,
+            "news_score": 0.5042,
+            "sector_leader_rank": 1.0,
+            "sector_reversion_signal": 1.216,
+            "analyst_target_upside_pct": 33.9492,
+            "analyst_peer_alpha_5d": 0.0,
+            "analyst_peer_support_count": 1,
+            "event_expected_alpha_5d": 0.0,
+            "lag_score": 0.0,
+            "reasons": [
+              "upside 68"
+            ],
+            "sector_rank": 1
+          }
+        ],
+        "flow_lens_score": 62.5,
+        "quant_lens_score": 67.31,
+        "macro_lens_score": 61.0,
+        "flow_confidence": 30.0,
+        "quant_confidence": 39.95,
+        "macro_confidence": 57.06,
+        "agreement_level": "정렬",
+        "final_sector_score": 25.61,
+        "final_label": "관찰",
+        "trade_posture": "watch",
+        "action_hint": "후보만 유지하고 장중 확인을 기다리는 편이 낫다",
+        "reason_codes": [
+          "wics_shallow_history",
+          "data_quality_conservative"
+        ],
+        "human_summary": "수급 우호 / 퀀트 우호 / 매크로 우호 -> 관찰, 후보만 유지하고 장중 확인을 기다리는 편이 낫다.",
+        "lens_breakdown": {
+          "flow_effective": 18.75,
+          "quant_effective": 26.89,
+          "macro_effective": 34.81
+        },
+        "rank": 1
+      },
+      {
+        "sector": "조선/해양",
+        "leader_name": "한국카본",
+        "top_candidates": [],
+        "flow_lens_score": 57.45,
+        "quant_lens_score": 64.75,
+        "macro_lens_score": 45.0,
+        "flow_confidence": 42.0,
+        "quant_confidence": 25.0,
+        "macro_confidence": 57.06,
+        "agreement_level": "충돌",
+        "final_sector_score": 21.74,
+        "final_label": "관찰",
+        "trade_posture": "watch",
+        "action_hint": "후보만 유지하고 장중 확인을 기다리는 편이 낫다",
+        "reason_codes": [
+          "wics_shallow_history",
+          "data_quality_conservative"
+        ],
+        "human_summary": "수급 중립 / 퀀트 우호 / 매크로 약함 -> 관찰, 후보만 유지하고 장중 확인을 기다리는 편이 낫다.",
+        "lens_breakdown": {
+          "flow_effective": 24.13,
+          "quant_effective": 16.19,
+          "macro_effective": 25.68
+        },
+        "rank": 2
+      },
+      {
+        "sector": "유통/백화점",
+        "leader_name": "롯데쇼핑",
+        "top_candidates": [],
+        "flow_lens_score": 52.5,
+        "quant_lens_score": 62.61,
+        "macro_lens_score": 22.5,
+        "flow_confidence": 30.0,
+        "quant_confidence": 28.05,
+        "macro_confidence": 52.56,
+        "agreement_level": "충돌",
+        "final_sector_score": 15.4,
+        "final_label": "관찰",
+        "trade_posture": "watch",
+        "action_hint": "후보만 유지하고 장중 확인을 기다리는 편이 낫다",
+        "reason_codes": [
+          "wics_shallow_history",
+          "data_quality_conservative"
+        ],
+        "human_summary": "수급 중립 / 퀀트 우호 / 매크로 약함 -> 관찰, 후보만 유지하고 장중 확인을 기다리는 편이 낫다.",
+        "lens_breakdown": {
+          "flow_effective": 15.75,
+          "quant_effective": 17.56,
+          "macro_effective": 11.83
+        },
+        "rank": 3
+      },
+      {
+        "sector": "화학",
+        "leader_name": "롯데정밀화학",
+        "top_candidates": [],
+        "flow_lens_score": 52.5,
+        "quant_lens_score": 58.9,
+        "macro_lens_score": 22.5,
+        "flow_confidence": 30.0,
+        "quant_confidence": 28.05,
+        "macro_confidence": 52.56,
+        "agreement_level": "혼합",
+        "final_sector_score": 15.04,
+        "final_label": "관찰",
+        "trade_posture": "watch",
+        "action_hint": "후보만 유지하고 장중 확인을 기다리는 편이 낫다",
+        "reason_codes": [
+          "wics_shallow_history",
+          "data_quality_conservative"
+        ],
+        "human_summary": "수급 중립 / 퀀트 우호 / 매크로 약함 -> 관찰, 후보만 유지하고 장중 확인을 기다리는 편이 낫다.",
+        "lens_breakdown": {
+          "flow_effective": 15.75,
+          "quant_effective": 16.52,
+          "macro_effective": 11.83
+        },
+        "rank": 4
+      },
+      {
+        "sector": "디스플레이/IT부품",
+        "leader_name": "LG이노텍",
+        "top_candidates": [],
+        "flow_lens_score": 52.5,
+        "quant_lens_score": 63.57,
+        "macro_lens_score": 22.5,
+        "flow_confidence": 30.0,
+        "quant_confidence": 25.0,
+        "macro_confidence": 52.56,
+        "agreement_level": "충돌",
+        "final_sector_score": 14.82,
+        "final_label": "관찰",
+        "trade_posture": "watch",
+        "action_hint": "후보만 유지하고 장중 확인을 기다리는 편이 낫다",
+        "reason_codes": [
+          "wics_shallow_history",
+          "data_quality_conservative"
+        ],
+        "human_summary": "수급 중립 / 퀀트 우호 / 매크로 약함 -> 관찰, 후보만 유지하고 장중 확인을 기다리는 편이 낫다.",
+        "lens_breakdown": {
+          "flow_effective": 15.75,
+          "quant_effective": 15.89,
+          "macro_effective": 11.83
+        },
+        "rank": 5
+      },
+      {
+        "sector": "화학/석유화학",
+        "leader_name": "코오롱인더",
+        "top_candidates": [],
+        "flow_lens_score": 52.5,
+        "quant_lens_score": 63.43,
+        "macro_lens_score": 22.5,
+        "flow_confidence": 30.0,
+        "quant_confidence": 25.0,
+        "macro_confidence": 52.56,
+        "agreement_level": "충돌",
+        "final_sector_score": 14.81,
+        "final_label": "관찰",
+        "trade_posture": "watch",
+        "action_hint": "후보만 유지하고 장중 확인을 기다리는 편이 낫다",
+        "reason_codes": [
+          "wics_shallow_history",
+          "data_quality_conservative"
+        ],
+        "human_summary": "수급 중립 / 퀀트 우호 / 매크로 약함 -> 관찰, 후보만 유지하고 장중 확인을 기다리는 편이 낫다.",
+        "lens_breakdown": {
+          "flow_effective": 15.75,
+          "quant_effective": 15.86,
+          "macro_effective": 11.83
+        },
+        "rank": 6
+      }
+    ],
+    "market_mode": "공격적",
+    "confidence_score": 39
+  }
+}

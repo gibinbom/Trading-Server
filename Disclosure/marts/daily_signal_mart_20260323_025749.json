@@ -1,0 +1,93 @@
+{
+  "generated_at": "2026-03-23T02:57:49.050579",
+  "row_count": 93,
+  "unknown_sector_count": 0,
+  "factor_coverage": 5,
+  "analyst_coverage": 84,
+  "flow_coverage": 0,
+  "intraday_coverage": 0,
+  "event_coverage": 8,
+  "ml_coverage": 93,
+  "top_symbols": [
+    {
+      "symbol": "081660",
+      "name": "미스토홀딩스",
+      "sector": "의류/섬유",
+      "card_score": 0.8676,
+      "event_alpha_score": 0.0,
+      "analyst_conviction_score": 12.1777
+    },
+    {
+      "symbol": "083500",
+      "name": "에프엔에스테크",
+      "sector": "디스플레이장비및부품",
+      "card_score": 0.8622,
+      "event_alpha_score": 0.0,
+      "analyst_conviction_score": 12.5179
+    },
+    {
+      "symbol": "036800",
+      "name": "나이스정보통신",
+      "sector": "상업서비스와공급품",
+      "card_score": 0.8409,
+      "event_alpha_score": 0.0,
+      "analyst_conviction_score": 12.7166
+    },
+    {
+      "symbol": "039030",
+      "name": "이오테크닉스",
+      "sector": "IT하드웨어 (반도체)",
+      "card_score": 0.8343,
+      "event_alpha_score": 0.0,
+      "analyst_conviction_score": 10.4628
+    },
+    {
+      "symbol": "036570",
+      "name": "엔씨소프트",
+      "sector": "엔터테인먼트/게임",
+      "card_score": 0.8132,
+      "event_alpha_score": 0.0,
+      "analyst_conviction_score": 12.2407
+    },
+    {
+      "symbol": "393890",
+      "name": "더블유씨피",
+      "sector": "전기제품",
+      "card_score": 0.8081,
+      "event_alpha_score": 0.0,
+      "analyst_conviction_score": 12.0779
+    },
+    {
+      "symbol": "023910",
+      "name": "대한약품",
+      "sector": "제약",
+      "card_score": 0.7929,
+      "event_alpha_score": 0.0,
+      "analyst_conviction_score": 11.7424
+    },
+    {
+      "symbol": "229640",
+      "name": "LS에코에너지",
+      "sector": "전기장비",
+      "card_score": 0.7821,
+      "event_alpha_score": 0.0,
+      "analyst_conviction_score": 10.1005
+    },
+    {
+      "symbol": "327260",
+      "name": "RF머트리얼즈",
+      "sector": "우주항공과국방",
+      "card_score": 0.777,
+      "event_alpha_score": 0.0,
+      "analyst_conviction_score": 11.4221
+    },
+    {
+      "symbol": "010950",
+      "name": "S-Oil",
+      "sector": "화학/석유화학",
+      "card_score": 0.7662,
+      "event_alpha_score": 0.0,
+      "analyst_conviction_score": 11.2354
+    }
+  ]
+}

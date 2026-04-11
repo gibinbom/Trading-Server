@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-03-23T02:57:37.933598",
+  "row_count": 5,
+  "unknown_sector_count": 0,
+  "factor_coverage": 4,
+  "analyst_coverage": 5,
+  "flow_coverage": 0,
+  "intraday_coverage": 0,
+  "event_coverage": 0,
+  "ml_coverage": 5,
+  "top_symbols": [
+    {
+      "symbol": "083500",
+      "name": "에프엔에스테크",
+      "sector": "디스플레이장비및부품",
+      "card_score": 0.8847,
+      "event_alpha_score": 0.0,
+      "analyst_conviction_score": 12.5179
+    },
+    {
+      "symbol": "000660",
+      "name": "SK하이닉스",
+      "sector": "IT하드웨어 (반도체)",
+      "card_score": 0.6894,
+      "event_alpha_score": 0.0,
+      "analyst_conviction_score": 7.626
+    },
+    {
+      "symbol": "005930",
+      "name": "삼성전자",
+      "sector": "IT하드웨어 (반도체)",
+      "card_score": 0.6882,
+      "event_alpha_score": 0.0,
+      "analyst_conviction_score": 9.5567
+    },
+    {
+      "symbol": "373220",
+      "name": "LG에너지솔루션",
+      "sector": "2차전지/배터리",
+      "card_score": 0.4909,
+      "event_alpha_score": 0.0,
+      "analyst_conviction_score": 8.1731
+    },
+    {
+      "symbol": "005380",
+      "name": "현대차",
+      "sector": "자동차/완성차",
+      "card_score": 0.3933,
+      "event_alpha_score": 0.0,
+      "analyst_conviction_score": 6.9375
+    }
+  ]
+}

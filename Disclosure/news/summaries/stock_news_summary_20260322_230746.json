@@ -1,0 +1,107 @@
+{
+  "snapshot_at": "2026-03-22T23:07:46+09:00",
+  "top_positive": [
+    {
+      "symbol": "034020",
+      "name": "두산에너빌리티",
+      "latest_title": "두산에너빌, 수주 확대 기대에 신고가 터치",
+      "news_count": 8,
+      "avg_news_score": 2.775,
+      "max_news_score": 5.1,
+      "conviction_score": 4.9722,
+      "last_seen": "NaT"
+    },
+    {
+      "symbol": "068270",
+      "name": "셀트리온",
+      "latest_title": "셀트리온, ‘스테키마’ AI 제형 캐나다 허가 획득",
+      "news_count": 8,
+      "avg_news_score": 2.775,
+      "max_news_score": 5.1,
+      "conviction_score": 4.9722,
+      "last_seen": "NaT"
+    },
+    {
+      "symbol": "028260",
+      "name": "삼성물산",
+      "latest_title": "삼성물산-제일모직 합병 11년 지났는데…국민연금, 삼성 상대로 손배소 첫 변론",
+      "news_count": 8,
+      "avg_news_score": 2.3875,
+      "max_news_score": 5.1,
+      "conviction_score": 4.5847,
+      "last_seen": "NaT"
+    },
+    {
+      "symbol": "373220",
+      "name": "LG에너지솔루션",
+      "latest_title": "한때 골칫덩어리가 '최고 효자' 됐다…LG엔솔 '환호'",
+      "news_count": 8,
+      "avg_news_score": 2.3875,
+      "max_news_score": 5.1,
+      "conviction_score": 4.5847,
+      "last_seen": "NaT"
+    },
+    {
+      "symbol": "012450",
+      "name": "한화에어로스페이스",
+      "latest_title": "한화는 지분 매입, LIG는 인수 검토…항공체계 주도권 중심에 선 'KAI'",
+      "news_count": 8,
+      "avg_news_score": 2.356,
+      "max_news_score": 4.2483,
+      "conviction_score": 4.5533,
+      "last_seen": "NaT"
+    }
+  ],
+  "top_negative": [
+    {
+      "symbol": "329180",
+      "name": "HD현대중공업",
+      "latest_title": "美해군사관학교 생도들 HD현대중공업 찾았다",
+      "news_count": 8,
+      "avg_news_score": 1.6875,
+      "max_news_score": 2.0,
+      "conviction_score": 3.8847,
+      "last_seen": "NaT"
+    },
+    {
+      "symbol": "000270",
+      "name": "기아",
+      "latest_title": "기아 주총서 안건 모두 통과…송호성 \"지역별 선별적 친환경차 투입\" |",
+      "news_count": 8,
+      "avg_news_score": 1.75,
+      "max_news_score": 2.0,
+      "conviction_score": 3.9472,
+      "last_seen": "NaT"
+    },
+    {
+      "symbol": "032830",
+      "name": "삼성생명",
+      "latest_title": "지분 강제 매각·삼성생명법 파고…삼성 지배구조 개편 불가피?",
+      "news_count": 8,
+      "avg_news_score": 1.75,
+      "max_news_score": 2.0,
+      "conviction_score": 3.9472,
+      "last_seen": "NaT"
+    },
+    {
+      "symbol": "010130",
+      "name": "고려아연",
+      "latest_title": "국민연금, 최윤범 고려아연 회장 재선임에 의결권 ‘미행사’",
+      "news_count": 8,
+      "avg_news_score": 1.7734,
+      "max_news_score": 2.0,
+      "conviction_score": 3.9706,
+      "last_seen": "NaT"
+    },
+    {
+      "symbol": "000660",
+      "name": "SK하이닉스",
+      "latest_title": "SK하이닉스, 삼성전자 제치고 ‘입사 희망 대기업’ 1위 올라",
+      "news_count": 8,
+      "avg_news_score": 2.0,
+      "max_news_score": 2.0,
+      "conviction_score": 4.1972,
+      "last_seen": "NaT"
+    }
+  ]
+}

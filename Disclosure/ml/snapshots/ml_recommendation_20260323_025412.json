@@ -1,0 +1,83 @@
+{
+  "snapshot_at": "2026-03-23T02:54:12",
+  "status": "fallback",
+  "top_stocks": [
+    {
+      "symbol": "036800",
+      "name": "나이스정보통신",
+      "sector": "상업서비스와공급품",
+      "ml_pred_score": NaN,
+      "ml_pred_return_5d_pct": NaN,
+      "card_score": 0.8821,
+      "macro_micro_interaction_score": 0.7185
+    },
+    {
+      "symbol": "083500",
+      "name": "에프엔에스테크",
+      "sector": "디스플레이장비및부품",
+      "ml_pred_score": NaN,
+      "ml_pred_return_5d_pct": NaN,
+      "card_score": 0.8721,
+      "macro_micro_interaction_score": 0.7132
+    },
+    {
+      "symbol": "081660",
+      "name": "미스토홀딩스",
+      "sector": "의류/섬유",
+      "ml_pred_score": NaN,
+      "ml_pred_return_5d_pct": NaN,
+      "card_score": 0.8555,
+      "macro_micro_interaction_score": 0.7079
+    },
+    {
+      "symbol": "393890",
+      "name": "더블유씨피",
+      "sector": "전기제품",
+      "ml_pred_score": NaN,
+      "ml_pred_return_5d_pct": NaN,
+      "card_score": 0.8418,
+      "macro_micro_interaction_score": 0.6974
+    },
+    {
+      "symbol": "023910",
+      "name": "대한약품",
+      "sector": "제약",
+      "ml_pred_score": NaN,
+      "ml_pred_return_5d_pct": NaN,
+      "card_score": 0.8318,
+      "macro_micro_interaction_score": 0.6921
+    }
+  ],
+  "top_sectors": [
+    {
+      "sector": "상업서비스와공급품",
+      "ml_sector_score": NaN,
+      "avg_card_score": 0.8821,
+      "leaders": "나이스정보통신"
+    },
+    {
+      "sector": "디스플레이장비및부품",
+      "ml_sector_score": NaN,
+      "avg_card_score": 0.8721,
+      "leaders": "에프엔에스테크"
+    },
+    {
+      "sector": "의류/섬유",
+      "ml_sector_score": NaN,
+      "avg_card_score": 0.8555,
+      "leaders": "미스토홀딩스"
+    },
+    {
+      "sector": "전기제품",
+      "ml_sector_score": NaN,
+      "avg_card_score": 0.7838,
+      "leaders": "더블유씨피, 삼영전자"
+    },
+    {
+      "sector": "조선",
+      "ml_sector_score": NaN,
+      "avg_card_score": 0.7648,
+      "leaders": "한국카본"
+    }
+  ]
+}

@@ -1,0 +1,3463 @@
+{
+  "snapshot_date": "20260323",
+  "snapshot_time": "23:04:30",
+  "coverage": {
+    "total_names": 300,
+    "markets": [
+      "KOSPI",
+      "KOSDAQ"
+    ],
+    "universe_mode": "top_n",
+    "min_marcap_krw": 0,
+    "flow_top_n": 800,
+    "consensus_top_n": 1200,
+    "price_factor_coverage_pct": 100.0,
+    "flow_factor_coverage_pct": 100.0,
+    "consensus_factor_coverage_pct": 67.3,
+    "news_factor_coverage_pct": 6.7,
+    "ranking_eligible_count": 300,
+    "portfolio_eligible_count": 300,
+    "missing_price_count": 0,
+    "missing_flow_count": 0,
+    "missing_consensus_count": 98,
+    "missing_news_count": 280
+  },
+  "dynamic_factor_weights": {
+    "status": "fallback",
+    "weights": {
+      "value_score": 0.22,
+      "momentum_score": 0.22,
+      "quality_score": 0.18,
+      "flow_score": 0.18,
+      "liquidity_score": 0.1,
+      "news_score": 0.1
+    },
+    "base_weights": {
+      "value_score": 0.22,
+      "momentum_score": 0.22,
+      "quality_score": 0.18,
+      "flow_score": 0.18,
+      "liquidity_score": 0.1,
+      "news_score": 0.1
+    },
+    "ic_history": {
+      "value_score": [],
+      "momentum_score": [],
+      "quality_score": [],
+      "flow_score": [],
+      "liquidity_score": [],
+      "news_score": []
+    }
+  },
+  "top_composite": [
+    {
+      "symbol": "012630",
+      "name": "HDC",
+      "sector": "건설/건자재",
+      "composite_score": 0.7125,
+      "value_score": 0.9715,
+      "momentum_score": 0.8565,
+      "quality_score": 0.5923,
+      "flow_score": 0.7154,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 0.75
+    },
+    {
+      "symbol": "322000",
+      "name": "HD현대에너지솔루션",
+      "sector": "에너지장비및서비스",
+      "composite_score": 0.7112,
+      "value_score": 0.4563,
+      "momentum_score": 0.9645,
+      "quality_score": 0.4463,
+      "flow_score": 0.9367,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 0.75
+    },
+    {
+      "symbol": "007810",
+      "name": "코리아써키트",
+      "sector": "전자장비와기기",
+      "composite_score": 0.7093,
+      "value_score": 0.6896,
+      "momentum_score": 0.8585,
+      "quality_score": 0.4517,
+      "flow_score": 0.8983,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 0.75
+    },
+    {
+      "symbol": "011070",
+      "name": "LG이노텍",
+      "sector": "디스플레이/IT부품",
+      "composite_score": 0.7025,
+      "value_score": 0.9175,
+      "momentum_score": 0.7064,
+      "quality_score": 0.3259,
+      "flow_score": 0.9442,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 0.75
+    },
+    {
+      "symbol": "023530",
+      "name": "롯데쇼핑",
+      "sector": "유통/백화점",
+      "composite_score": 0.6973,
+      "value_score": 0.9492,
+      "momentum_score": 0.6796,
+      "quality_score": 0.4965,
+      "flow_score": 0.9233,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 0.75
+    },
+    {
+      "symbol": "439260",
+      "name": "대한조선",
+      "sector": "조선",
+      "composite_score": 0.6919,
+      "value_score": 0.567,
+      "momentum_score": 0.6032,
+      "quality_score": 0.8673,
+      "flow_score": 0.865,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 0.75
+    }
+  ],
+  "top_reversion": [
+    {
+      "symbol": "185750",
+      "name": "종근당",
+      "sector": "제약",
+      "sector_reversion_signal": 6.1419,
+      "sector_reversion_rank": 1.0,
+      "value_score": 0.5442,
+      "momentum_score": 0.5027,
+      "flow_score": 0.645,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 0.75
+    },
+    {
+      "symbol": "032640",
+      "name": "LG유플러스",
+      "sector": "통신서비스",
+      "sector_reversion_signal": 4.8946,
+      "sector_reversion_rank": 1.0,
+      "value_score": 0.78,
+      "momentum_score": 0.4654,
+      "flow_score": 0.5383,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 0.75
+    },
+    {
+      "symbol": "348370",
+      "name": "엔켐",
+      "sector": "2차전지/배터리",
+      "sector_reversion_signal": 4.4162,
+      "sector_reversion_rank": 1.0,
+      "value_score": 0.5,
+      "momentum_score": 0.0087,
+      "flow_score": 0.4408,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 0.5
+    },
+    {
+      "symbol": "161390",
+      "name": "한국타이어앤테크놀로지",
+      "sector": "자동차부품/타이어",
+      "sector_reversion_signal": 4.2312,
+      "sector_reversion_rank": 1.0,
+      "value_score": 0.888,
+      "momentum_score": 0.2253,
+      "flow_score": 0.4483,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 0.75
+    },
+    {
+      "symbol": "257720",
+      "name": "실리콘투",
+      "sector": "화장품/뷰티",
+      "sector_reversion_signal": 4.1648,
+      "sector_reversion_rank": 1.0,
+      "value_score": 0.5645,
+      "momentum_score": 0.297,
+      "flow_score": 0.8812,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 0.75
+    },
+    {
+      "symbol": "069960",
+      "name": "현대백화점",
+      "sector": "유통/백화점",
+      "sector_reversion_signal": 4.0592,
+      "sector_reversion_rank": 1.0,
+      "value_score": 0.8456,
+      "momentum_score": 0.2079,
+      "flow_score": 0.585,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 0.75
+    }
+  ],
+  "portfolio_candidates": [
+    {
+      "symbol": "012630",
+      "name": "HDC",
+      "sector": "건설/건자재",
+      "composite_score": 0.7125,
+      "value_score": 0.9715,
+      "momentum_score": 0.8565,
+      "quality_score": 0.5923,
+      "flow_score": 0.7154,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 0.75
+    },
+    {
+      "symbol": "322000",
+      "name": "HD현대에너지솔루션",
+      "sector": "에너지장비및서비스",
+      "composite_score": 0.7112,
+      "value_score": 0.4563,
+      "momentum_score": 0.9645,
+      "quality_score": 0.4463,
+      "flow_score": 0.9367,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 0.75
+    },
+    {
+      "symbol": "007810",
+      "name": "코리아써키트",
+      "sector": "전자장비와기기",
+      "composite_score": 0.7093,
+      "value_score": 0.6896,
+      "momentum_score": 0.8585,
+      "quality_score": 0.4517,
+      "flow_score": 0.8983,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 0.75
+    },
+    {
+      "symbol": "011070",
+      "name": "LG이노텍",
+      "sector": "디스플레이/IT부품",
+      "composite_score": 0.7025,
+      "value_score": 0.9175,
+      "momentum_score": 0.7064,
+      "quality_score": 0.3259,
+      "flow_score": 0.9442,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 0.75
+    },
+    {
+      "symbol": "023530",
+      "name": "롯데쇼핑",
+      "sector": "유통/백화점",
+      "composite_score": 0.6973,
+      "value_score": 0.9492,
+      "momentum_score": 0.6796,
+      "quality_score": 0.4965,
+      "flow_score": 0.9233,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 0.75
+    },
+    {
+      "symbol": "439260",
+      "name": "대한조선",
+      "sector": "조선",
+      "composite_score": 0.6919,
+      "value_score": 0.567,
+      "momentum_score": 0.6032,
+      "quality_score": 0.8673,
+      "flow_score": 0.865,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 0.75
+    }
+  ],
+  "top_sectors": [
+    {
+      "sector": "무역회사와판매업체",
+      "count": 2,
+      "avg_composite_score": 0.6455,
+      "leaders": [
+        {
+          "symbol": "001120",
+          "name": "LX인터내셔널",
+          "sector_leader_signal": 1.0,
+          "composite_score": 0.6843
+        },
+        {
+          "symbol": "047050",
+          "name": "포스코인터내셔널",
+          "sector_leader_signal": -1.0,
+          "composite_score": 0.6066
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "001120",
+          "name": "LX인터내셔널",
+          "sector_reversion_signal": 4.0,
+          "value_score": 0.9032,
+          "flow_score": 0.7821,
+          "momentum_score": 0.8072
+        },
+        {
+          "symbol": "047050",
+          "name": "포스코인터내셔널",
+          "sector_reversion_signal": -4.0,
+          "value_score": 0.6673,
+          "flow_score": 0.6188,
+          "momentum_score": 0.83
+        }
+      ]
+    },
+    {
+      "sector": "에너지장비및서비스",
+      "count": 4,
+      "avg_composite_score": 0.6384,
+      "leaders": [
+        {
+          "symbol": "322000",
+          "name": "HD현대에너지솔루션",
+          "sector_leader_signal": 2.8109,
+          "composite_score": 0.7112
+        },
+        {
+          "symbol": "083650",
+          "name": "비에이치아이",
+          "sector_leader_signal": 1.7439,
+          "composite_score": 0.6383
+        },
+        {
+          "symbol": "112610",
+          "name": "씨에스윈드",
+          "sector_leader_signal": -0.4893,
+          "composite_score": 0.6559
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "112610",
+          "name": "씨에스윈드",
+          "sector_reversion_signal": 0.5264,
+          "value_score": 0.4571,
+          "flow_score": 0.9842,
+          "momentum_score": 0.8484
+        },
+        {
+          "symbol": "322000",
+          "name": "HD현대에너지솔루션",
+          "sector_reversion_signal": 0.4902,
+          "value_score": 0.4563,
+          "flow_score": 0.9367,
+          "momentum_score": 0.9645
+        },
+        {
+          "symbol": "100090",
+          "name": "SK오션플랜트",
+          "sector_reversion_signal": -0.1195,
+          "value_score": 0.5147,
+          "flow_score": 0.3471,
+          "momentum_score": 0.7778
+        }
+      ]
+    },
+    {
+      "sector": "통신장비/네트워크",
+      "count": 1,
+      "avg_composite_score": 0.6326,
+      "leaders": [
+        {
+          "symbol": "178320",
+          "name": "서진시스템",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.6326
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "178320",
+          "name": "서진시스템",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.429,
+          "flow_score": 0.7304,
+          "momentum_score": 0.8642
+        }
+      ]
+    },
+    {
+      "sector": "가스유틸리티",
+      "count": 1,
+      "avg_composite_score": 0.6293,
+      "leaders": [
+        {
+          "symbol": "018670",
+          "name": "SK가스",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.6293
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "018670",
+          "name": "SK가스",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.8548,
+          "flow_score": 0.7692,
+          "momentum_score": 0.6409
+        }
+      ]
+    },
+    {
+      "sector": "건강관리기술",
+      "count": 1,
+      "avg_composite_score": 0.6252,
+      "leaders": [
+        {
+          "symbol": "458870",
+          "name": "씨어스테크놀로지",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.6252
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "458870",
+          "name": "씨어스테크놀로지",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.1541,
+          "flow_score": 0.7208,
+          "momentum_score": 0.9211
+        }
+      ]
+    },
+    {
+      "sector": "디스플레이장비및부품",
+      "count": 1,
+      "avg_composite_score": 0.6179,
+      "leaders": [
+        {
+          "symbol": "171090",
+          "name": "선익시스템",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.6179
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "171090",
+          "name": "선익시스템",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.5759,
+          "flow_score": 0.8204,
+          "momentum_score": 0.4163
+        }
+      ]
+    },
+    {
+      "sector": "건축자재",
+      "count": 1,
+      "avg_composite_score": 0.6155,
+      "leaders": [
+        {
+          "symbol": "038500",
+          "name": "삼표시멘트",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.6155
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "038500",
+          "name": "삼표시멘트",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.5,
+          "flow_score": 0.6896,
+          "momentum_score": 0.7806
+        }
+      ]
+    },
+    {
+      "sector": "IT하드웨어 (반도체)",
+      "count": 3,
+      "avg_composite_score": 0.5971,
+      "leaders": [
+        {
+          "symbol": "042700",
+          "name": "한미반도체",
+          "sector_leader_signal": 1.3794,
+          "composite_score": 0.6044
+        },
+        {
+          "symbol": "000660",
+          "name": "SK하이닉스",
+          "sector_leader_signal": -0.4547,
+          "composite_score": 0.5819
+        },
+        {
+          "symbol": "005930",
+          "name": "삼성전자",
+          "sector_leader_signal": -0.9247,
+          "composite_score": 0.6051
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "005930",
+          "name": "삼성전자",
+          "sector_reversion_signal": 2.0479,
+          "value_score": 0.6235,
+          "flow_score": 0.2533,
+          "momentum_score": 0.8771
+        },
+        {
+          "symbol": "000660",
+          "name": "SK하이닉스",
+          "sector_reversion_signal": 0.6788,
+          "value_score": 0.5043,
+          "flow_score": 0.2783,
+          "momentum_score": 0.8871
+        },
+        {
+          "symbol": "042700",
+          "name": "한미반도체",
+          "sector_reversion_signal": -2.7268,
+          "value_score": 0.2178,
+          "flow_score": 0.7221,
+          "momentum_score": 0.9186
+        }
+      ]
+    }
+  ],
+  "sector_cards": [
+    {
+      "sector": "무역회사와판매업체",
+      "count": 2,
+      "avg_composite_score": 0.6455,
+      "leaders": [
+        {
+          "symbol": "001120",
+          "name": "LX인터내셔널",
+          "sector_leader_signal": 1.0,
+          "composite_score": 0.6843
+        },
+        {
+          "symbol": "047050",
+          "name": "포스코인터내셔널",
+          "sector_leader_signal": -1.0,
+          "composite_score": 0.6066
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "001120",
+          "name": "LX인터내셔널",
+          "sector_reversion_signal": 4.0,
+          "value_score": 0.9032,
+          "flow_score": 0.7821,
+          "momentum_score": 0.8072
+        },
+        {
+          "symbol": "047050",
+          "name": "포스코인터내셔널",
+          "sector_reversion_signal": -4.0,
+          "value_score": 0.6673,
+          "flow_score": 0.6188,
+          "momentum_score": 0.83
+        }
+      ]
+    },
+    {
+      "sector": "에너지장비및서비스",
+      "count": 4,
+      "avg_composite_score": 0.6384,
+      "leaders": [
+        {
+          "symbol": "322000",
+          "name": "HD현대에너지솔루션",
+          "sector_leader_signal": 2.8109,
+          "composite_score": 0.7112
+        },
+        {
+          "symbol": "083650",
+          "name": "비에이치아이",
+          "sector_leader_signal": 1.7439,
+          "composite_score": 0.6383
+        },
+        {
+          "symbol": "112610",
+          "name": "씨에스윈드",
+          "sector_leader_signal": -0.4893,
+          "composite_score": 0.6559
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "112610",
+          "name": "씨에스윈드",
+          "sector_reversion_signal": 0.5264,
+          "value_score": 0.4571,
+          "flow_score": 0.9842,
+          "momentum_score": 0.8484
+        },
+        {
+          "symbol": "322000",
+          "name": "HD현대에너지솔루션",
+          "sector_reversion_signal": 0.4902,
+          "value_score": 0.4563,
+          "flow_score": 0.9367,
+          "momentum_score": 0.9645
+        },
+        {
+          "symbol": "100090",
+          "name": "SK오션플랜트",
+          "sector_reversion_signal": -0.1195,
+          "value_score": 0.5147,
+          "flow_score": 0.3471,
+          "momentum_score": 0.7778
+        }
+      ]
+    },
+    {
+      "sector": "통신장비/네트워크",
+      "count": 1,
+      "avg_composite_score": 0.6326,
+      "leaders": [
+        {
+          "symbol": "178320",
+          "name": "서진시스템",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.6326
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "178320",
+          "name": "서진시스템",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.429,
+          "flow_score": 0.7304,
+          "momentum_score": 0.8642
+        }
+      ]
+    },
+    {
+      "sector": "가스유틸리티",
+      "count": 1,
+      "avg_composite_score": 0.6293,
+      "leaders": [
+        {
+          "symbol": "018670",
+          "name": "SK가스",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.6293
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "018670",
+          "name": "SK가스",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.8548,
+          "flow_score": 0.7692,
+          "momentum_score": 0.6409
+        }
+      ]
+    },
+    {
+      "sector": "건강관리기술",
+      "count": 1,
+      "avg_composite_score": 0.6252,
+      "leaders": [
+        {
+          "symbol": "458870",
+          "name": "씨어스테크놀로지",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.6252
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "458870",
+          "name": "씨어스테크놀로지",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.1541,
+          "flow_score": 0.7208,
+          "momentum_score": 0.9211
+        }
+      ]
+    },
+    {
+      "sector": "디스플레이장비및부품",
+      "count": 1,
+      "avg_composite_score": 0.6179,
+      "leaders": [
+        {
+          "symbol": "171090",
+          "name": "선익시스템",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.6179
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "171090",
+          "name": "선익시스템",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.5759,
+          "flow_score": 0.8204,
+          "momentum_score": 0.4163
+        }
+      ]
+    },
+    {
+      "sector": "건축자재",
+      "count": 1,
+      "avg_composite_score": 0.6155,
+      "leaders": [
+        {
+          "symbol": "038500",
+          "name": "삼표시멘트",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.6155
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "038500",
+          "name": "삼표시멘트",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.5,
+          "flow_score": 0.6896,
+          "momentum_score": 0.7806
+        }
+      ]
+    },
+    {
+      "sector": "IT하드웨어 (반도체)",
+      "count": 3,
+      "avg_composite_score": 0.5971,
+      "leaders": [
+        {
+          "symbol": "042700",
+          "name": "한미반도체",
+          "sector_leader_signal": 1.3794,
+          "composite_score": 0.6044
+        },
+        {
+          "symbol": "000660",
+          "name": "SK하이닉스",
+          "sector_leader_signal": -0.4547,
+          "composite_score": 0.5819
+        },
+        {
+          "symbol": "005930",
+          "name": "삼성전자",
+          "sector_leader_signal": -0.9247,
+          "composite_score": 0.6051
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "005930",
+          "name": "삼성전자",
+          "sector_reversion_signal": 2.0479,
+          "value_score": 0.6235,
+          "flow_score": 0.2533,
+          "momentum_score": 0.8771
+        },
+        {
+          "symbol": "000660",
+          "name": "SK하이닉스",
+          "sector_reversion_signal": 0.6788,
+          "value_score": 0.5043,
+          "flow_score": 0.2783,
+          "momentum_score": 0.8871
+        },
+        {
+          "symbol": "042700",
+          "name": "한미반도체",
+          "sector_reversion_signal": -2.7268,
+          "value_score": 0.2178,
+          "flow_score": 0.7221,
+          "momentum_score": 0.9186
+        }
+      ]
+    },
+    {
+      "sector": "통신장비",
+      "count": 2,
+      "avg_composite_score": 0.5921,
+      "leaders": [
+        {
+          "symbol": "218410",
+          "name": "RFHIC",
+          "sector_leader_signal": 1.0,
+          "composite_score": 0.5925
+        },
+        {
+          "symbol": "489790",
+          "name": "한화비전",
+          "sector_leader_signal": -1.0,
+          "composite_score": 0.5918
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "489790",
+          "name": "한화비전",
+          "sector_reversion_signal": 2.0,
+          "value_score": 0.396,
+          "flow_score": 0.6375,
+          "momentum_score": 0.8317
+        },
+        {
+          "symbol": "218410",
+          "name": "RFHIC",
+          "sector_reversion_signal": -2.0,
+          "value_score": 0.2267,
+          "flow_score": 0.6208,
+          "momentum_score": 0.8457
+        }
+      ]
+    },
+    {
+      "sector": "광고",
+      "count": 1,
+      "avg_composite_score": 0.5896,
+      "leaders": [
+        {
+          "symbol": "030000",
+          "name": "제일기획",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.5896
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "030000",
+          "name": "제일기획",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.8149,
+          "flow_score": 0.5875,
+          "momentum_score": 0.4873
+        }
+      ]
+    },
+    {
+      "sector": "생명보험",
+      "count": 1,
+      "avg_composite_score": 0.5873,
+      "leaders": [
+        {
+          "symbol": "085620",
+          "name": "미래에셋생명",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.5873
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "085620",
+          "name": "미래에셋생명",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.5,
+          "flow_score": 0.5971,
+          "momentum_score": 0.8663
+        }
+      ]
+    },
+    {
+      "sector": "디스플레이/IT부품",
+      "count": 3,
+      "avg_composite_score": 0.5818,
+      "leaders": [
+        {
+          "symbol": "009150",
+          "name": "삼성전기",
+          "sector_leader_signal": 1.6751,
+          "composite_score": 0.5468
+        },
+        {
+          "symbol": "011070",
+          "name": "LG이노텍",
+          "sector_leader_signal": 0.7712,
+          "composite_score": 0.7025
+        },
+        {
+          "symbol": "034220",
+          "name": "LG디스플레이",
+          "sector_leader_signal": -2.4463,
+          "composite_score": 0.496
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "034220",
+          "name": "LG디스플레이",
+          "sector_reversion_signal": 1.0045,
+          "value_score": 0.908,
+          "flow_score": 0.2683,
+          "momentum_score": 0.2177
+        },
+        {
+          "symbol": "011070",
+          "name": "LG이노텍",
+          "sector_reversion_signal": 0.643,
+          "value_score": 0.9175,
+          "flow_score": 0.9442,
+          "momentum_score": 0.7064
+        },
+        {
+          "symbol": "009150",
+          "name": "삼성전기",
+          "sector_reversion_signal": -1.6475,
+          "value_score": 0.3598,
+          "flow_score": 0.3225,
+          "momentum_score": 0.849
+        }
+      ]
+    },
+    {
+      "sector": "건설",
+      "count": 4,
+      "avg_composite_score": 0.5712,
+      "leaders": [
+        {
+          "symbol": "028050",
+          "name": "삼성E&A",
+          "sector_leader_signal": 1.3401,
+          "composite_score": 0.5837
+        },
+        {
+          "symbol": "294870",
+          "name": "HDC현대산업개발",
+          "sector_leader_signal": 0.6516,
+          "composite_score": 0.6161
+        },
+        {
+          "symbol": "097230",
+          "name": "HJ중공업",
+          "sector_leader_signal": 0.0581,
+          "composite_score": 0.6011
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "294870",
+          "name": "HDC현대산업개발",
+          "sector_reversion_signal": 2.9839,
+          "value_score": 0.905,
+          "flow_score": 0.485,
+          "momentum_score": 0.5682
+        },
+        {
+          "symbol": "097230",
+          "name": "HJ중공업",
+          "sector_reversion_signal": -0.0465,
+          "value_score": 0.5,
+          "flow_score": 0.8017,
+          "momentum_score": 0.5734
+        },
+        {
+          "symbol": "060370",
+          "name": "LS마린솔루션",
+          "sector_reversion_signal": -1.3926,
+          "value_score": 0.5,
+          "flow_score": 0.4142,
+          "momentum_score": 0.5378
+        }
+      ]
+    },
+    {
+      "sector": "전력/유틸리티",
+      "count": 4,
+      "avg_composite_score": 0.5638,
+      "leaders": [
+        {
+          "symbol": "051600",
+          "name": "한전KPS",
+          "sector_leader_signal": 3.899,
+          "composite_score": 0.6821
+        },
+        {
+          "symbol": "052690",
+          "name": "한전기술",
+          "sector_leader_signal": 0.7688,
+          "composite_score": 0.5414
+        },
+        {
+          "symbol": "015760",
+          "name": "한국전력",
+          "sector_leader_signal": -1.7219,
+          "composite_score": 0.5049
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "051600",
+          "name": "한전KPS",
+          "sector_reversion_signal": 1.9081,
+          "value_score": 0.6096,
+          "flow_score": 0.7992,
+          "momentum_score": 0.7642
+        },
+        {
+          "symbol": "015760",
+          "name": "한국전력",
+          "sector_reversion_signal": 1.069,
+          "value_score": 0.915,
+          "flow_score": 0.2892,
+          "momentum_score": 0.2105
+        },
+        {
+          "symbol": "036460",
+          "name": "한국가스공사",
+          "sector_reversion_signal": -0.0116,
+          "value_score": 0.9949,
+          "flow_score": 0.3025,
+          "momentum_score": 0.2244
+        }
+      ]
+    },
+    {
+      "sector": "화장품",
+      "count": 5,
+      "avg_composite_score": 0.5611,
+      "leaders": [
+        {
+          "symbol": "278470",
+          "name": "에이피알",
+          "sector_leader_signal": 1.9882,
+          "composite_score": 0.6005
+        },
+        {
+          "symbol": "161890",
+          "name": "한국콜마",
+          "sector_leader_signal": 1.1619,
+          "composite_score": 0.6518
+        },
+        {
+          "symbol": "483650",
+          "name": "달바글로벌",
+          "sector_leader_signal": 0.0859,
+          "composite_score": 0.521
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "002790",
+          "name": "아모레퍼시픽홀딩스",
+          "sector_reversion_signal": 2.3269,
+          "value_score": 0.7046,
+          "flow_score": 0.6417,
+          "momentum_score": 0.362
+        },
+        {
+          "symbol": "483650",
+          "name": "달바글로벌",
+          "sector_reversion_signal": 1.901,
+          "value_score": 0.3965,
+          "flow_score": 0.6975,
+          "momentum_score": 0.2817
+        },
+        {
+          "symbol": "161890",
+          "name": "한국콜마",
+          "sector_reversion_signal": 1.8941,
+          "value_score": 0.6837,
+          "flow_score": 0.9329,
+          "momentum_score": 0.5448
+        }
+      ]
+    },
+    {
+      "sector": "화장품/뷰티",
+      "count": 4,
+      "avg_composite_score": 0.5609,
+      "leaders": [
+        {
+          "symbol": "192820",
+          "name": "코스맥스",
+          "sector_leader_signal": 1.7212,
+          "composite_score": 0.6169
+        },
+        {
+          "symbol": "257720",
+          "name": "실리콘투",
+          "sector_leader_signal": 0.9246,
+          "composite_score": 0.5994
+        },
+        {
+          "symbol": "090430",
+          "name": "아모레퍼시픽",
+          "sector_leader_signal": 0.1453,
+          "composite_score": 0.5157
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "257720",
+          "name": "실리콘투",
+          "sector_reversion_signal": 4.1648,
+          "value_score": 0.5645,
+          "flow_score": 0.8812,
+          "momentum_score": 0.297
+        },
+        {
+          "symbol": "192820",
+          "name": "코스맥스",
+          "sector_reversion_signal": 0.8051,
+          "value_score": 0.5724,
+          "flow_score": 0.9312,
+          "momentum_score": 0.5146
+        },
+        {
+          "symbol": "051900",
+          "name": "LG생활건강",
+          "sector_reversion_signal": -1.3924,
+          "value_score": 0.5009,
+          "flow_score": 0.7375,
+          "momentum_score": 0.3463
+        }
+      ]
+    },
+    {
+      "sector": "유통/백화점",
+      "count": 7,
+      "avg_composite_score": 0.5544,
+      "leaders": [
+        {
+          "symbol": "023530",
+          "name": "롯데쇼핑",
+          "sector_leader_signal": 3.1724,
+          "composite_score": 0.6973
+        },
+        {
+          "symbol": "004170",
+          "name": "신세계",
+          "sector_leader_signal": 1.82,
+          "composite_score": 0.613
+        },
+        {
+          "symbol": "007070",
+          "name": "GS리테일",
+          "sector_leader_signal": 0.4467,
+          "composite_score": 0.5663
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "069960",
+          "name": "현대백화점",
+          "sector_reversion_signal": 4.0592,
+          "value_score": 0.8456,
+          "flow_score": 0.585,
+          "momentum_score": 0.2079
+        },
+        {
+          "symbol": "023530",
+          "name": "롯데쇼핑",
+          "sector_reversion_signal": 1.5859,
+          "value_score": 0.9492,
+          "flow_score": 0.9233,
+          "momentum_score": 0.6796
+        },
+        {
+          "symbol": "007070",
+          "name": "GS리테일",
+          "sector_reversion_signal": -0.0286,
+          "value_score": 0.8347,
+          "flow_score": 0.7092,
+          "momentum_score": 0.5424
+        }
+      ]
+    },
+    {
+      "sector": "Unknown",
+      "count": 2,
+      "avg_composite_score": 0.551,
+      "leaders": [
+        {
+          "symbol": "415640",
+          "name": "KB발해인프라",
+          "sector_leader_signal": 1.0,
+          "composite_score": 0.493
+        },
+        {
+          "symbol": "088980",
+          "name": "맥쿼리인프라",
+          "sector_leader_signal": -1.0,
+          "composite_score": 0.609
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "088980",
+          "name": "맥쿼리인프라",
+          "sector_reversion_signal": 1.0,
+          "value_score": 0.5,
+          "flow_score": 0.9508,
+          "momentum_score": 0.5867
+        },
+        {
+          "symbol": "415640",
+          "name": "KB발해인프라",
+          "sector_reversion_signal": -1.0,
+          "value_score": 0.5,
+          "flow_score": 0.4083,
+          "momentum_score": 0.6236
+        }
+      ]
+    },
+    {
+      "sector": "반도체와반도체장비",
+      "count": 15,
+      "avg_composite_score": 0.5488,
+      "leaders": [
+        {
+          "symbol": "031980",
+          "name": "피에스케이홀딩스",
+          "sector_leader_signal": 3.3425,
+          "composite_score": 0.6446
+        },
+        {
+          "symbol": "084370",
+          "name": "유진테크",
+          "sector_leader_signal": 3.0748,
+          "composite_score": 0.6135
+        },
+        {
+          "symbol": "101490",
+          "name": "에스앤에스텍",
+          "sector_leader_signal": 2.3972,
+          "composite_score": 0.5745
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "000990",
+          "name": "DB하이텍",
+          "sector_reversion_signal": 2.5951,
+          "value_score": 0.5309,
+          "flow_score": 0.6121,
+          "momentum_score": 0.5377
+        },
+        {
+          "symbol": "067310",
+          "name": "하나마이크론",
+          "sector_reversion_signal": 2.0816,
+          "value_score": 0.6115,
+          "flow_score": 0.7738,
+          "momentum_score": 0.7079
+        },
+        {
+          "symbol": "082270",
+          "name": "젬백스",
+          "sector_reversion_signal": 1.9226,
+          "value_score": 0.5,
+          "flow_score": 0.4917,
+          "momentum_score": 0.1965
+        }
+      ]
+    },
+    {
+      "sector": "상업서비스와공급품",
+      "count": 1,
+      "avg_composite_score": 0.5482,
+      "leaders": [
+        {
+          "symbol": "012750",
+          "name": "에스원",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.5482
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "012750",
+          "name": "에스원",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.5663,
+          "flow_score": 0.6658,
+          "momentum_score": 0.5882
+        }
+      ]
+    },
+    {
+      "sector": "건설/건자재",
+      "count": 8,
+      "avg_composite_score": 0.5478,
+      "leaders": [
+        {
+          "symbol": "012630",
+          "name": "HDC",
+          "sector_leader_signal": 3.6732,
+          "composite_score": 0.7125
+        },
+        {
+          "symbol": "028260",
+          "name": "삼성물산",
+          "sector_leader_signal": 0.5552,
+          "composite_score": 0.4673
+        },
+        {
+          "symbol": "300720",
+          "name": "한일시멘트",
+          "sector_leader_signal": -0.1455,
+          "composite_score": 0.4551
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "012630",
+          "name": "HDC",
+          "sector_reversion_signal": 3.9223,
+          "value_score": 0.9715,
+          "flow_score": 0.7154,
+          "momentum_score": 0.8565
+        },
+        {
+          "symbol": "002380",
+          "name": "KCC",
+          "sector_reversion_signal": 2.2448,
+          "value_score": 0.6931,
+          "flow_score": 0.3517,
+          "momentum_score": 0.3472
+        },
+        {
+          "symbol": "028260",
+          "name": "삼성물산",
+          "sector_reversion_signal": 1.8809,
+          "value_score": 0.4992,
+          "flow_score": 0.5183,
+          "momentum_score": 0.4189
+        }
+      ]
+    },
+    {
+      "sector": "전기장비",
+      "count": 6,
+      "avg_composite_score": 0.545,
+      "leaders": [
+        {
+          "symbol": "062040",
+          "name": "산일전기",
+          "sector_leader_signal": 3.5339,
+          "composite_score": 0.6336
+        },
+        {
+          "symbol": "000500",
+          "name": "가온전선",
+          "sector_leader_signal": 1.504,
+          "composite_score": 0.5891
+        },
+        {
+          "symbol": "103590",
+          "name": "일진전기",
+          "sector_leader_signal": 0.2236,
+          "composite_score": 0.5459
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "062040",
+          "name": "산일전기",
+          "sector_reversion_signal": 2.8847,
+          "value_score": 0.3088,
+          "flow_score": 0.9096,
+          "momentum_score": 0.6967
+        },
+        {
+          "symbol": "229640",
+          "name": "LS에코에너지",
+          "sector_reversion_signal": -0.3367,
+          "value_score": 0.3864,
+          "flow_score": 0.57,
+          "momentum_score": 0.6825
+        },
+        {
+          "symbol": "001440",
+          "name": "대한전선",
+          "sector_reversion_signal": -0.351,
+          "value_score": 0.3553,
+          "flow_score": 0.2892,
+          "momentum_score": 0.5077
+        }
+      ]
+    },
+    {
+      "sector": "섬유,의류,신발,호화품",
+      "count": 3,
+      "avg_composite_score": 0.544,
+      "leaders": [
+        {
+          "symbol": "009970",
+          "name": "영원무역홀딩스",
+          "sector_leader_signal": 1.7949,
+          "composite_score": 0.5121
+        },
+        {
+          "symbol": "298020",
+          "name": "효성티앤씨",
+          "sector_leader_signal": -0.4576,
+          "composite_score": 0.6151
+        },
+        {
+          "symbol": "111770",
+          "name": "영원무역",
+          "sector_leader_signal": -1.3373,
+          "composite_score": 0.5049
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "111770",
+          "name": "영원무역",
+          "sector_reversion_signal": 0.9356,
+          "value_score": 0.6234,
+          "flow_score": 0.5717,
+          "momentum_score": 0.4118
+        },
+        {
+          "symbol": "009970",
+          "name": "영원무역홀딩스",
+          "sector_reversion_signal": 0.7134,
+          "value_score": 0.5,
+          "flow_score": 0.6583,
+          "momentum_score": 0.6036
+        },
+        {
+          "symbol": "298020",
+          "name": "효성티앤씨",
+          "sector_reversion_signal": -1.649,
+          "value_score": 0.7997,
+          "flow_score": 0.5983,
+          "momentum_score": 0.8114
+        }
+      ]
+    },
+    {
+      "sector": "조선",
+      "count": 5,
+      "avg_composite_score": 0.5439,
+      "leaders": [
+        {
+          "symbol": "439260",
+          "name": "대한조선",
+          "sector_leader_signal": 2.7633,
+          "composite_score": 0.6919
+        },
+        {
+          "symbol": "017960",
+          "name": "한국카본",
+          "sector_leader_signal": 2.2413,
+          "composite_score": 0.69
+        },
+        {
+          "symbol": "443060",
+          "name": "HD현대마린솔루션",
+          "sector_leader_signal": 0.2884,
+          "composite_score": 0.5002
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "439260",
+          "name": "대한조선",
+          "sector_reversion_signal": 2.8277,
+          "value_score": 0.567,
+          "flow_score": 0.865,
+          "momentum_score": 0.6032
+        },
+        {
+          "symbol": "443060",
+          "name": "HD현대마린솔루션",
+          "sector_reversion_signal": -0.3039,
+          "value_score": 0.3815,
+          "flow_score": 0.5175,
+          "momentum_score": 0.4665
+        },
+        {
+          "symbol": "017960",
+          "name": "한국카본",
+          "sector_reversion_signal": -0.4623,
+          "value_score": 0.4775,
+          "flow_score": 0.7908,
+          "momentum_score": 0.8251
+        }
+      ]
+    },
+    {
+      "sector": "도로와철도운송",
+      "count": 1,
+      "avg_composite_score": 0.5389,
+      "leaders": [
+        {
+          "symbol": "089860",
+          "name": "롯데렌탈",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.5389
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "089860",
+          "name": "롯데렌탈",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.8778,
+          "flow_score": 0.3183,
+          "momentum_score": 0.4827
+        }
+      ]
+    },
+    {
+      "sector": "기계/공작기계",
+      "count": 6,
+      "avg_composite_score": 0.5368,
+      "leaders": [
+        {
+          "symbol": "298040",
+          "name": "효성중공업",
+          "sector_leader_signal": 0.9908,
+          "composite_score": 0.5317
+        },
+        {
+          "symbol": "241560",
+          "name": "두산밥캣",
+          "sector_leader_signal": 0.5611,
+          "composite_score": 0.6018
+        },
+        {
+          "symbol": "010120",
+          "name": "LS ELECTRIC",
+          "sector_leader_signal": 0.3699,
+          "composite_score": 0.5162
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "267250",
+          "name": "HD현대",
+          "sector_reversion_signal": 3.2596,
+          "value_score": 0.8472,
+          "flow_score": 0.5717,
+          "momentum_score": 0.4464
+        },
+        {
+          "symbol": "241560",
+          "name": "두산밥캣",
+          "sector_reversion_signal": 3.0823,
+          "value_score": 0.6784,
+          "flow_score": 0.7442,
+          "momentum_score": 0.5569
+        },
+        {
+          "symbol": "267260",
+          "name": "HD현대일렉트릭",
+          "sector_reversion_signal": 0.6539,
+          "value_score": 0.2425,
+          "flow_score": 0.4458,
+          "momentum_score": 0.5791
+        }
+      ]
+    },
+    {
+      "sector": "생명과학도구및서비스",
+      "count": 4,
+      "avg_composite_score": 0.5292,
+      "leaders": [
+        {
+          "symbol": "445680",
+          "name": "큐리옥스바이오시스템즈",
+          "sector_leader_signal": 0.9679,
+          "composite_score": 0.5868
+        },
+        {
+          "symbol": "127120",
+          "name": "제이에스링크",
+          "sector_leader_signal": 0.5588,
+          "composite_score": 0.5518
+        },
+        {
+          "symbol": "226950",
+          "name": "올릭스",
+          "sector_leader_signal": 0.0205,
+          "composite_score": 0.5783
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "445680",
+          "name": "큐리옥스바이오시스템즈",
+          "sector_reversion_signal": 0.4104,
+          "value_score": 0.5,
+          "flow_score": 0.675,
+          "momentum_score": 0.7474
+        },
+        {
+          "symbol": "127120",
+          "name": "제이에스링크",
+          "sector_reversion_signal": 0.3307,
+          "value_score": 0.5,
+          "flow_score": 0.5646,
+          "momentum_score": 0.7055
+        },
+        {
+          "symbol": "096530",
+          "name": "씨젠",
+          "sector_reversion_signal": 0.1588,
+          "value_score": 0.4331,
+          "flow_score": 0.2825,
+          "momentum_score": 0.1663
+        }
+      ]
+    },
+    {
+      "sector": "자동차부품",
+      "count": 4,
+      "avg_composite_score": 0.5284,
+      "leaders": [
+        {
+          "symbol": "007340",
+          "name": "DN오토모티브",
+          "sector_leader_signal": 1.4131,
+          "composite_score": 0.6
+        },
+        {
+          "symbol": "000240",
+          "name": "한국앤컴퍼니",
+          "sector_leader_signal": 0.8652,
+          "composite_score": 0.5576
+        },
+        {
+          "symbol": "437730",
+          "name": "삼현",
+          "sector_leader_signal": 0.2208,
+          "composite_score": 0.5437
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "000240",
+          "name": "한국앤컴퍼니",
+          "sector_reversion_signal": 3.9908,
+          "value_score": 0.7645,
+          "flow_score": 0.6117,
+          "momentum_score": 0.3129
+        },
+        {
+          "symbol": "437730",
+          "name": "삼현",
+          "sector_reversion_signal": -0.833,
+          "value_score": 0.5,
+          "flow_score": 0.725,
+          "momentum_score": 0.5426
+        },
+        {
+          "symbol": "003570",
+          "name": "SNT다이내믹스",
+          "sector_reversion_signal": -0.9455,
+          "value_score": 0.5,
+          "flow_score": 0.4025,
+          "momentum_score": 0.2223
+        }
+      ]
+    },
+    {
+      "sector": "카드",
+      "count": 1,
+      "avg_composite_score": 0.5246,
+      "leaders": [
+        {
+          "symbol": "029780",
+          "name": "삼성카드",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.5246
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "029780",
+          "name": "삼성카드",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.5891,
+          "flow_score": 0.4467,
+          "momentum_score": 0.5476
+        }
+      ]
+    },
+    {
+      "sector": "방위산업/우주항공",
+      "count": 5,
+      "avg_composite_score": 0.5191,
+      "leaders": [
+        {
+          "symbol": "189300",
+          "name": "인텔리안테크",
+          "sector_leader_signal": 2.8337,
+          "composite_score": 0.5854
+        },
+        {
+          "symbol": "012450",
+          "name": "한화에어로스페이스",
+          "sector_leader_signal": 1.3853,
+          "composite_score": 0.5837
+        },
+        {
+          "symbol": "079550",
+          "name": "LIG넥스원",
+          "sector_leader_signal": -1.0085,
+          "composite_score": 0.5088
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "012450",
+          "name": "한화에어로스페이스",
+          "sector_reversion_signal": 3.3157,
+          "value_score": 0.5379,
+          "flow_score": 0.4375,
+          "momentum_score": 0.6742
+        },
+        {
+          "symbol": "099320",
+          "name": "쎄트렉아이",
+          "sector_reversion_signal": -0.3482,
+          "value_score": 0.1408,
+          "flow_score": 0.46,
+          "momentum_score": 0.6238
+        },
+        {
+          "symbol": "189300",
+          "name": "인텔리안테크",
+          "sector_reversion_signal": -0.3581,
+          "value_score": 0.4136,
+          "flow_score": 0.465,
+          "momentum_score": 0.7944
+        }
+      ]
+    },
+    {
+      "sector": "자동차부품/타이어",
+      "count": 7,
+      "avg_composite_score": 0.519,
+      "leaders": [
+        {
+          "symbol": "073240",
+          "name": "금호타이어",
+          "sector_leader_signal": 1.8203,
+          "composite_score": 0.5611
+        },
+        {
+          "symbol": "204320",
+          "name": "HL만도",
+          "sector_leader_signal": 1.1472,
+          "composite_score": 0.5837
+        },
+        {
+          "symbol": "005850",
+          "name": "에스엘",
+          "sector_leader_signal": 0.7417,
+          "composite_score": 0.5168
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "161390",
+          "name": "한국타이어앤테크놀로지",
+          "sector_reversion_signal": 4.2312,
+          "value_score": 0.888,
+          "flow_score": 0.4483,
+          "momentum_score": 0.2253
+        },
+        {
+          "symbol": "073240",
+          "name": "금호타이어",
+          "sector_reversion_signal": 3.2823,
+          "value_score": 0.8857,
+          "flow_score": 0.6183,
+          "momentum_score": 0.3951
+        },
+        {
+          "symbol": "204320",
+          "name": "HL만도",
+          "sector_reversion_signal": 1.6333,
+          "value_score": 0.8089,
+          "flow_score": 0.7383,
+          "momentum_score": 0.4082
+        }
+      ]
+    },
+    {
+      "sector": "IT서비스",
+      "count": 4,
+      "avg_composite_score": 0.5141,
+      "leaders": [
+        {
+          "symbol": "181710",
+          "name": "NHN",
+          "sector_leader_signal": 1.3575,
+          "composite_score": 0.5249
+        },
+        {
+          "symbol": "377300",
+          "name": "카카오페이",
+          "sector_leader_signal": 0.9535,
+          "composite_score": 0.4255
+        },
+        {
+          "symbol": "064400",
+          "name": "LG씨엔에스",
+          "sector_leader_signal": -1.1335,
+          "composite_score": 0.5129
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "064400",
+          "name": "LG씨엔에스",
+          "sector_reversion_signal": 2.5024,
+          "value_score": 0.7287,
+          "flow_score": 0.3742,
+          "momentum_score": 0.2885
+        },
+        {
+          "symbol": "377300",
+          "name": "카카오페이",
+          "sector_reversion_signal": -0.1019,
+          "value_score": 0.1105,
+          "flow_score": 0.7263,
+          "momentum_score": 0.4565
+        },
+        {
+          "symbol": "181710",
+          "name": "NHN",
+          "sector_reversion_signal": -0.4119,
+          "value_score": 0.5896,
+          "flow_score": 0.615,
+          "momentum_score": 0.6289
+        }
+      ]
+    },
+    {
+      "sector": "복합기업",
+      "count": 8,
+      "avg_composite_score": 0.5122,
+      "leaders": [
+        {
+          "symbol": "402340",
+          "name": "SK스퀘어",
+          "sector_leader_signal": 2.4023,
+          "composite_score": 0.5777
+        },
+        {
+          "symbol": "004800",
+          "name": "효성",
+          "sector_leader_signal": 1.8612,
+          "composite_score": 0.5574
+        },
+        {
+          "symbol": "001740",
+          "name": "SK네트웍스",
+          "sector_leader_signal": 1.1167,
+          "composite_score": 0.5726
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "004800",
+          "name": "효성",
+          "sector_reversion_signal": 4.0305,
+          "value_score": 0.7662,
+          "flow_score": 0.6429,
+          "momentum_score": 0.4263
+        },
+        {
+          "symbol": "001740",
+          "name": "SK네트웍스",
+          "sector_reversion_signal": 1.6632,
+          "value_score": 0.7473,
+          "flow_score": 0.6708,
+          "momentum_score": 0.5377
+        },
+        {
+          "symbol": "000880",
+          "name": "한화",
+          "sector_reversion_signal": 0.4814,
+          "value_score": 0.97,
+          "flow_score": 0.2917,
+          "momentum_score": 0.4114
+        }
+      ]
+    },
+    {
+      "sector": "가정용기기와용품",
+      "count": 2,
+      "avg_composite_score": 0.5096,
+      "leaders": [
+        {
+          "symbol": "065350",
+          "name": "신성델타테크",
+          "sector_leader_signal": 1.0,
+          "composite_score": 0.4744
+        },
+        {
+          "symbol": "021240",
+          "name": "코웨이",
+          "sector_leader_signal": -1.0,
+          "composite_score": 0.5448
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "021240",
+          "name": "코웨이",
+          "sector_reversion_signal": 2.0,
+          "value_score": 0.7544,
+          "flow_score": 0.4225,
+          "momentum_score": 0.1401
+        },
+        {
+          "symbol": "065350",
+          "name": "신성델타테크",
+          "sector_reversion_signal": -2.0,
+          "value_score": 0.5,
+          "flow_score": 0.6058,
+          "momentum_score": 0.2887
+        }
+      ]
+    },
+    {
+      "sector": "음식료/담배",
+      "count": 7,
+      "avg_composite_score": 0.5092,
+      "leaders": [
+        {
+          "symbol": "271560",
+          "name": "오리온",
+          "sector_leader_signal": 2.7369,
+          "composite_score": 0.6196
+        },
+        {
+          "symbol": "033780",
+          "name": "KT&G",
+          "sector_leader_signal": 2.2723,
+          "composite_score": 0.5462
+        },
+        {
+          "symbol": "003230",
+          "name": "삼양식품",
+          "sector_leader_signal": 2.0402,
+          "composite_score": 0.5729
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "097950",
+          "name": "CJ제일제당",
+          "sector_reversion_signal": 2.1717,
+          "value_score": 0.9166,
+          "flow_score": 0.7875,
+          "momentum_score": 0.4645
+        },
+        {
+          "symbol": "003230",
+          "name": "삼양식품",
+          "sector_reversion_signal": 1.3907,
+          "value_score": 0.4702,
+          "flow_score": 0.7175,
+          "momentum_score": 0.3788
+        },
+        {
+          "symbol": "033780",
+          "name": "KT&G",
+          "sector_reversion_signal": 0.3279,
+          "value_score": 0.4666,
+          "flow_score": 0.645,
+          "momentum_score": 0.4679
+        }
+      ]
+    },
+    {
+      "sector": "보험",
+      "count": 7,
+      "avg_composite_score": 0.508,
+      "leaders": [
+        {
+          "symbol": "082640",
+          "name": "동양생명",
+          "sector_leader_signal": 2.8197,
+          "composite_score": 0.609
+        },
+        {
+          "symbol": "003690",
+          "name": "코리안리",
+          "sector_leader_signal": 1.7254,
+          "composite_score": 0.5222
+        },
+        {
+          "symbol": "032830",
+          "name": "삼성생명",
+          "sector_leader_signal": 1.347,
+          "composite_score": 0.5343
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "000810",
+          "name": "삼성화재",
+          "sector_reversion_signal": 2.2394,
+          "value_score": 0.5,
+          "flow_score": 0.475,
+          "momentum_score": 0.2093
+        },
+        {
+          "symbol": "003690",
+          "name": "코리안리",
+          "sector_reversion_signal": 1.0366,
+          "value_score": 0.5,
+          "flow_score": 0.5521,
+          "momentum_score": 0.6045
+        },
+        {
+          "symbol": "001450",
+          "name": "현대해상",
+          "sector_reversion_signal": 0.6353,
+          "value_score": 0.5,
+          "flow_score": 0.3242,
+          "momentum_score": 0.3194
+        }
+      ]
+    },
+    {
+      "sector": "전자장비와기기",
+      "count": 6,
+      "avg_composite_score": 0.507,
+      "leaders": [
+        {
+          "symbol": "353200",
+          "name": "대덕전자",
+          "sector_leader_signal": 2.4308,
+          "composite_score": 0.6724
+        },
+        {
+          "symbol": "007810",
+          "name": "코리아써키트",
+          "sector_leader_signal": 2.2242,
+          "composite_score": 0.7093
+        },
+        {
+          "symbol": "007660",
+          "name": "이수페타시스",
+          "sector_leader_signal": 1.9891,
+          "composite_score": 0.5755
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "007810",
+          "name": "코리아써키트",
+          "sector_reversion_signal": 2.2278,
+          "value_score": 0.6896,
+          "flow_score": 0.8983,
+          "momentum_score": 0.8585
+        },
+        {
+          "symbol": "007660",
+          "name": "이수페타시스",
+          "sector_reversion_signal": 1.6316,
+          "value_score": 0.2236,
+          "flow_score": 0.7817,
+          "momentum_score": 0.6115
+        },
+        {
+          "symbol": "098460",
+          "name": "고영",
+          "sector_reversion_signal": 0.5005,
+          "value_score": 0.15,
+          "flow_score": 0.5933,
+          "momentum_score": 0.4519
+        }
+      ]
+    },
+    {
+      "sector": "생물공학",
+      "count": 7,
+      "avg_composite_score": 0.5034,
+      "leaders": [
+        {
+          "symbol": "174900",
+          "name": "앱클론",
+          "sector_leader_signal": 2.1516,
+          "composite_score": 0.6704
+        },
+        {
+          "symbol": "087010",
+          "name": "펩트론",
+          "sector_leader_signal": 0.5949,
+          "composite_score": 0.5536
+        },
+        {
+          "symbol": "476830",
+          "name": "알지노믹스",
+          "sector_leader_signal": 0.4467,
+          "composite_score": 0.614
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "007390",
+          "name": "네이처셀",
+          "sector_reversion_signal": 2.9511,
+          "value_score": 0.5,
+          "flow_score": 0.3775,
+          "momentum_score": 0.0762
+        },
+        {
+          "symbol": "298380",
+          "name": "에이비엘바이오",
+          "sector_reversion_signal": 0.5526,
+          "value_score": 0.5,
+          "flow_score": 0.3883,
+          "momentum_score": 0.3756
+        },
+        {
+          "symbol": "174900",
+          "name": "앱클론",
+          "sector_reversion_signal": 0.1362,
+          "value_score": 0.5,
+          "flow_score": 0.9408,
+          "momentum_score": 0.8399
+        }
+      ]
+    },
+    {
+      "sector": "석유와가스",
+      "count": 3,
+      "avg_composite_score": 0.5024,
+      "leaders": [
+        {
+          "symbol": "078930",
+          "name": "GS",
+          "sector_leader_signal": 3.7761,
+          "composite_score": 0.6562
+        },
+        {
+          "symbol": "034730",
+          "name": "SK",
+          "sector_leader_signal": -0.4352,
+          "composite_score": 0.4748
+        },
+        {
+          "symbol": "096770",
+          "name": "SK이노베이션",
+          "sector_leader_signal": -3.3408,
+          "composite_score": 0.3763
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "078930",
+          "name": "GS",
+          "sector_reversion_signal": 2.9678,
+          "value_score": 0.9242,
+          "flow_score": 0.7267,
+          "momentum_score": 0.5996
+        },
+        {
+          "symbol": "034730",
+          "name": "SK",
+          "sector_reversion_signal": -1.2106,
+          "value_score": 0.6438,
+          "flow_score": 0.55,
+          "momentum_score": 0.4877
+        },
+        {
+          "symbol": "096770",
+          "name": "SK이노베이션",
+          "sector_reversion_signal": -1.7572,
+          "value_score": 0.4892,
+          "flow_score": 0.4442,
+          "momentum_score": 0.2613
+        }
+      ]
+    },
+    {
+      "sector": "우주항공과국방",
+      "count": 4,
+      "avg_composite_score": 0.4995,
+      "leaders": [
+        {
+          "symbol": "347700",
+          "name": "스피어",
+          "sector_leader_signal": 1.6854,
+          "composite_score": 0.5628
+        },
+        {
+          "symbol": "032820",
+          "name": "우리기술",
+          "sector_leader_signal": -0.227,
+          "composite_score": 0.5904
+        },
+        {
+          "symbol": "484870",
+          "name": "엠앤씨솔루션",
+          "sector_leader_signal": -0.274,
+          "composite_score": 0.4228
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "484870",
+          "name": "엠앤씨솔루션",
+          "sector_reversion_signal": 3.7658,
+          "value_score": 0.5562,
+          "flow_score": 0.365,
+          "momentum_score": 0.04
+        },
+        {
+          "symbol": "347700",
+          "name": "스피어",
+          "sector_reversion_signal": 1.633,
+          "value_score": 0.5,
+          "flow_score": 0.5233,
+          "momentum_score": 0.6726
+        },
+        {
+          "symbol": "032820",
+          "name": "우리기술",
+          "sector_reversion_signal": -2.0343,
+          "value_score": 0.5,
+          "flow_score": 0.3121,
+          "momentum_score": 0.97
+        }
+      ]
+    },
+    {
+      "sector": "운송/해운/항공",
+      "count": 6,
+      "avg_composite_score": 0.4995,
+      "leaders": [
+        {
+          "symbol": "003490",
+          "name": "대한항공",
+          "sector_leader_signal": 1.4818,
+          "composite_score": 0.5388
+        },
+        {
+          "symbol": "028670",
+          "name": "팬오션",
+          "sector_leader_signal": 1.3382,
+          "composite_score": 0.6102
+        },
+        {
+          "symbol": "011200",
+          "name": "HMM",
+          "sector_leader_signal": -0.0479,
+          "composite_score": 0.4531
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "000120",
+          "name": "CJ대한통운",
+          "sector_reversion_signal": 2.3512,
+          "value_score": 0.8973,
+          "flow_score": 0.5258,
+          "momentum_score": 0.2832
+        },
+        {
+          "symbol": "028670",
+          "name": "팬오션",
+          "sector_reversion_signal": 0.4521,
+          "value_score": 0.853,
+          "flow_score": 0.5217,
+          "momentum_score": 0.4665
+        },
+        {
+          "symbol": "011200",
+          "name": "HMM",
+          "sector_reversion_signal": 0.2228,
+          "value_score": 0.5256,
+          "flow_score": 0.4433,
+          "momentum_score": 0.2964
+        }
+      ]
+    },
+    {
+      "sector": "호텔,레스토랑,레저",
+      "count": 3,
+      "avg_composite_score": 0.4981,
+      "leaders": [
+        {
+          "symbol": "035250",
+          "name": "강원랜드",
+          "sector_leader_signal": 2.3405,
+          "composite_score": 0.5224
+        },
+        {
+          "symbol": "032350",
+          "name": "롯데관광개발",
+          "sector_leader_signal": 0.8608,
+          "composite_score": 0.5538
+        },
+        {
+          "symbol": "034230",
+          "name": "파라다이스",
+          "sector_leader_signal": -3.2014,
+          "composite_score": 0.4179
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "032350",
+          "name": "롯데관광개발",
+          "sector_reversion_signal": 0.9182,
+          "value_score": 0.4931,
+          "flow_score": 0.7254,
+          "momentum_score": 0.2866
+        },
+        {
+          "symbol": "034230",
+          "name": "파라다이스",
+          "sector_reversion_signal": -0.157,
+          "value_score": 0.5004,
+          "flow_score": 0.2533,
+          "momentum_score": 0.253
+        },
+        {
+          "symbol": "035250",
+          "name": "강원랜드",
+          "sector_reversion_signal": -0.7613,
+          "value_score": 0.4954,
+          "flow_score": 0.4183,
+          "momentum_score": 0.5093
+        }
+      ]
+    },
+    {
+      "sector": "화학/석유화학",
+      "count": 7,
+      "avg_composite_score": 0.4952,
+      "leaders": [
+        {
+          "symbol": "120110",
+          "name": "코오롱인더",
+          "sector_leader_signal": 3.2678,
+          "composite_score": 0.6597
+        },
+        {
+          "symbol": "011780",
+          "name": "금호석유화학",
+          "sector_leader_signal": 2.0453,
+          "composite_score": 0.5269
+        },
+        {
+          "symbol": "010950",
+          "name": "S-Oil",
+          "sector_leader_signal": 1.0892,
+          "composite_score": 0.5972
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "006650",
+          "name": "대한유화",
+          "sector_reversion_signal": 3.3405,
+          "value_score": 0.812,
+          "flow_score": 0.6454,
+          "momentum_score": 0.2643
+        },
+        {
+          "symbol": "011780",
+          "name": "금호석유화학",
+          "sector_reversion_signal": 2.4665,
+          "value_score": 0.6177,
+          "flow_score": 0.6783,
+          "momentum_score": 0.4957
+        },
+        {
+          "symbol": "010950",
+          "name": "S-Oil",
+          "sector_reversion_signal": 2.0909,
+          "value_score": 0.781,
+          "flow_score": 0.7317,
+          "momentum_score": 0.506
+        }
+      ]
+    },
+    {
+      "sector": "게임엔터테인먼트",
+      "count": 1,
+      "avg_composite_score": 0.4939,
+      "leaders": [
+        {
+          "symbol": "462870",
+          "name": "시프트업",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.4939
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "462870",
+          "name": "시프트업",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.544,
+          "flow_score": 0.5792,
+          "momentum_score": 0.1981
+        }
+      ]
+    },
+    {
+      "sector": "자동차/완성차",
+      "count": 3,
+      "avg_composite_score": 0.4917,
+      "leaders": [
+        {
+          "symbol": "000270",
+          "name": "기아",
+          "sector_leader_signal": 1.5998,
+          "composite_score": 0.5337
+        },
+        {
+          "symbol": "005380",
+          "name": "현대차",
+          "sector_leader_signal": -0.7932,
+          "composite_score": 0.541
+        },
+        {
+          "symbol": "064350",
+          "name": "현대로템",
+          "sector_leader_signal": -0.8066,
+          "composite_score": 0.4003
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "000270",
+          "name": "기아",
+          "sector_reversion_signal": 1.4592,
+          "value_score": 0.7061,
+          "flow_score": 0.3467,
+          "momentum_score": 0.6152
+        },
+        {
+          "symbol": "064350",
+          "name": "현대로템",
+          "sector_reversion_signal": 0.59,
+          "value_score": 0.4186,
+          "flow_score": 0.2033,
+          "momentum_score": 0.1177
+        },
+        {
+          "symbol": "005380",
+          "name": "현대차",
+          "sector_reversion_signal": -2.0492,
+          "value_score": 0.6601,
+          "flow_score": 0.2108,
+          "momentum_score": 0.7131
+        }
+      ]
+    },
+    {
+      "sector": "제약",
+      "count": 14,
+      "avg_composite_score": 0.4856,
+      "leaders": [
+        {
+          "symbol": "185750",
+          "name": "종근당",
+          "sector_leader_signal": 2.6328,
+          "composite_score": 0.5008
+        },
+        {
+          "symbol": "000250",
+          "name": "삼천당제약",
+          "sector_leader_signal": 1.8649,
+          "composite_score": 0.6189
+        },
+        {
+          "symbol": "039200",
+          "name": "오스코텍",
+          "sector_leader_signal": 1.3266,
+          "composite_score": 0.5418
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "185750",
+          "name": "종근당",
+          "sector_reversion_signal": 6.1419,
+          "value_score": 0.5442,
+          "flow_score": 0.645,
+          "momentum_score": 0.5027
+        },
+        {
+          "symbol": "249420",
+          "name": "일동제약",
+          "sector_reversion_signal": 3.6868,
+          "value_score": 0.5,
+          "flow_score": 0.6933,
+          "momentum_score": 0.1486
+        },
+        {
+          "symbol": "003090",
+          "name": "대웅",
+          "sector_reversion_signal": 2.0552,
+          "value_score": 0.5,
+          "flow_score": 0.495,
+          "momentum_score": 0.3339
+        }
+      ]
+    },
+    {
+      "sector": "건강관리업체및서비스",
+      "count": 2,
+      "avg_composite_score": 0.4844,
+      "leaders": [
+        {
+          "symbol": "085660",
+          "name": "차바이오텍",
+          "sector_leader_signal": 1.0,
+          "composite_score": 0.5094
+        },
+        {
+          "symbol": "214370",
+          "name": "케어젠",
+          "sector_leader_signal": -1.0,
+          "composite_score": 0.4594
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "214370",
+          "name": "케어젠",
+          "sector_reversion_signal": 1.0,
+          "value_score": 0.5,
+          "flow_score": 0.6592,
+          "momentum_score": 0.3761
+        },
+        {
+          "symbol": "085660",
+          "name": "차바이오텍",
+          "sector_reversion_signal": -1.0,
+          "value_score": 0.5,
+          "flow_score": 0.5533,
+          "momentum_score": 0.4885
+        }
+      ]
+    },
+    {
+      "sector": "식품",
+      "count": 5,
+      "avg_composite_score": 0.4834,
+      "leaders": [
+        {
+          "symbol": "001800",
+          "name": "오리온홀딩스",
+          "sector_leader_signal": 4.5297,
+          "composite_score": 0.6137
+        },
+        {
+          "symbol": "026960",
+          "name": "동서",
+          "sector_leader_signal": 1.38,
+          "composite_score": 0.4591
+        },
+        {
+          "symbol": "006040",
+          "name": "동원산업",
+          "sector_leader_signal": -0.6173,
+          "composite_score": 0.512
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "006040",
+          "name": "동원산업",
+          "sector_reversion_signal": 2.1427,
+          "value_score": 0.9601,
+          "flow_score": 0.42,
+          "momentum_score": 0.3162
+        },
+        {
+          "symbol": "001800",
+          "name": "오리온홀딩스",
+          "sector_reversion_signal": 1.7634,
+          "value_score": 0.7558,
+          "flow_score": 0.5742,
+          "momentum_score": 0.6511
+        },
+        {
+          "symbol": "026960",
+          "name": "동서",
+          "sector_reversion_signal": 0.13,
+          "value_score": 0.5,
+          "flow_score": 0.4892,
+          "momentum_score": 0.4231
+        }
+      ]
+    },
+    {
+      "sector": "금융지주/은행",
+      "count": 9,
+      "avg_composite_score": 0.4811,
+      "leaders": [
+        {
+          "symbol": "055550",
+          "name": "신한지주",
+          "sector_leader_signal": 4.7158,
+          "composite_score": 0.5434
+        },
+        {
+          "symbol": "024110",
+          "name": "기업은행",
+          "sector_leader_signal": 1.3432,
+          "composite_score": 0.4775
+        },
+        {
+          "symbol": "139130",
+          "name": "iM금융지주",
+          "sector_leader_signal": 0.867,
+          "composite_score": 0.5031
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "139130",
+          "name": "iM금융지주",
+          "sector_reversion_signal": 2.0653,
+          "value_score": 0.5,
+          "flow_score": 0.5992,
+          "momentum_score": 0.3611
+        },
+        {
+          "symbol": "055550",
+          "name": "신한지주",
+          "sector_reversion_signal": 1.0775,
+          "value_score": 0.5,
+          "flow_score": 0.6625,
+          "momentum_score": 0.5781
+        },
+        {
+          "symbol": "175330",
+          "name": "JB금융지주",
+          "sector_reversion_signal": 0.7336,
+          "value_score": 0.5,
+          "flow_score": 0.6333,
+          "momentum_score": 0.3432
+        }
+      ]
+    },
+    {
+      "sector": "증권",
+      "count": 10,
+      "avg_composite_score": 0.4739,
+      "leaders": [
+        {
+          "symbol": "005940",
+          "name": "NH투자증권",
+          "sector_leader_signal": 1.8877,
+          "composite_score": 0.4978
+        },
+        {
+          "symbol": "003540",
+          "name": "대신증권",
+          "sector_leader_signal": 1.8121,
+          "composite_score": 0.5049
+        },
+        {
+          "symbol": "030610",
+          "name": "교보증권",
+          "sector_leader_signal": 1.5845,
+          "composite_score": 0.4711
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "030610",
+          "name": "교보증권",
+          "sector_reversion_signal": 3.0784,
+          "value_score": 0.5,
+          "flow_score": 0.6542,
+          "momentum_score": 0.4161
+        },
+        {
+          "symbol": "003540",
+          "name": "대신증권",
+          "sector_reversion_signal": 2.6492,
+          "value_score": 0.5,
+          "flow_score": 0.6088,
+          "momentum_score": 0.451
+        },
+        {
+          "symbol": "071050",
+          "name": "한국금융지주",
+          "sector_reversion_signal": 0.8801,
+          "value_score": 0.5,
+          "flow_score": 0.2833,
+          "momentum_score": 0.3409
+        }
+      ]
+    },
+    {
+      "sector": "통신서비스",
+      "count": 3,
+      "avg_composite_score": 0.4713,
+      "leaders": [
+        {
+          "symbol": "032640",
+          "name": "LG유플러스",
+          "sector_leader_signal": 2.0642,
+          "composite_score": 0.5496
+        },
+        {
+          "symbol": "017670",
+          "name": "SK텔레콤",
+          "sector_leader_signal": -0.3453,
+          "composite_score": 0.4511
+        },
+        {
+          "symbol": "030200",
+          "name": "KT",
+          "sector_leader_signal": -1.7189,
+          "composite_score": 0.4132
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "032640",
+          "name": "LG유플러스",
+          "sector_reversion_signal": 4.8946,
+          "value_score": 0.78,
+          "flow_score": 0.5383,
+          "momentum_score": 0.4654
+        },
+        {
+          "symbol": "030200",
+          "name": "KT",
+          "sector_reversion_signal": -0.7704,
+          "value_score": 0.4394,
+          "flow_score": 0.4517,
+          "momentum_score": 0.4684
+        },
+        {
+          "symbol": "017670",
+          "name": "SK텔레콤",
+          "sector_reversion_signal": -4.1242,
+          "value_score": 0.3418,
+          "flow_score": 0.425,
+          "momentum_score": 0.6503
+        }
+      ]
+    },
+    {
+      "sector": "기계",
+      "count": 11,
+      "avg_composite_score": 0.4607,
+      "leaders": [
+        {
+          "symbol": "267270",
+          "name": "HD건설기계",
+          "sector_leader_signal": 3.5193,
+          "composite_score": 0.537
+        },
+        {
+          "symbol": "319400",
+          "name": "현대무벡스",
+          "sector_leader_signal": 1.4694,
+          "composite_score": 0.4981
+        },
+        {
+          "symbol": "090710",
+          "name": "휴림로봇",
+          "sector_leader_signal": 1.3285,
+          "composite_score": 0.5805
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "388720",
+          "name": "유일로보틱스",
+          "sector_reversion_signal": 2.4579,
+          "value_score": 0.5,
+          "flow_score": 0.61,
+          "momentum_score": 0.2259
+        },
+        {
+          "symbol": "454910",
+          "name": "두산로보틱스",
+          "sector_reversion_signal": 2.1033,
+          "value_score": 0.5,
+          "flow_score": 0.53,
+          "momentum_score": 0.304
+        },
+        {
+          "symbol": "017800",
+          "name": "현대엘리베이터",
+          "sector_reversion_signal": 1.8398,
+          "value_score": 0.5,
+          "flow_score": 0.3125,
+          "momentum_score": 0.2581
+        }
+      ]
+    },
+    {
+      "sector": "화학",
+      "count": 9,
+      "avg_composite_score": 0.4581,
+      "leaders": [
+        {
+          "symbol": "014680",
+          "name": "한솔케미칼",
+          "sector_leader_signal": 2.7641,
+          "composite_score": 0.497
+        },
+        {
+          "symbol": "004000",
+          "name": "롯데정밀화학",
+          "sector_leader_signal": 2.6968,
+          "composite_score": 0.6006
+        },
+        {
+          "symbol": "010060",
+          "name": "OCI홀딩스",
+          "sector_leader_signal": 1.8948,
+          "composite_score": 0.5721
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "281740",
+          "name": "레이크머티리얼즈",
+          "sector_reversion_signal": 2.8392,
+          "value_score": 0.5,
+          "flow_score": 0.725,
+          "momentum_score": 0.3597
+        },
+        {
+          "symbol": "004000",
+          "name": "롯데정밀화학",
+          "sector_reversion_signal": 2.5182,
+          "value_score": 0.7018,
+          "flow_score": 0.5992,
+          "momentum_score": 0.6776
+        },
+        {
+          "symbol": "014680",
+          "name": "한솔케미칼",
+          "sector_reversion_signal": 1.7797,
+          "value_score": 0.2646,
+          "flow_score": 0.6125,
+          "momentum_score": 0.4882
+        }
+      ]
+    },
+    {
+      "sector": "조선/해양",
+      "count": 6,
+      "avg_composite_score": 0.453,
+      "leaders": [
+        {
+          "symbol": "323280",
+          "name": "태성",
+          "sector_leader_signal": 0.9643,
+          "composite_score": 0.5139
+        },
+        {
+          "symbol": "082740",
+          "name": "한화엔진",
+          "sector_leader_signal": 0.8047,
+          "composite_score": 0.4355
+        },
+        {
+          "symbol": "329180",
+          "name": "HD현대중공업",
+          "sector_leader_signal": 0.1669,
+          "composite_score": 0.4147
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "009540",
+          "name": "HD한국조선해양",
+          "sector_reversion_signal": 3.8967,
+          "value_score": 0.7527,
+          "flow_score": 0.3525,
+          "momentum_score": 0.1964
+        },
+        {
+          "symbol": "329180",
+          "name": "HD현대중공업",
+          "sector_reversion_signal": 1.2066,
+          "value_score": 0.4071,
+          "flow_score": 0.3825,
+          "momentum_score": 0.2747
+        },
+        {
+          "symbol": "082740",
+          "name": "한화엔진",
+          "sector_reversion_signal": 0.7065,
+          "value_score": 0.3283,
+          "flow_score": 0.4458,
+          "momentum_score": 0.3069
+        }
+      ]
+    },
+    {
+      "sector": "손해보험",
+      "count": 1,
+      "avg_composite_score": 0.4444,
+      "leaders": [
+        {
+          "symbol": "031210",
+          "name": "서울보증보험",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.4444
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "031210",
+          "name": "서울보증보험",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.5,
+          "flow_score": 0.4125,
+          "momentum_score": 0.4374
+        }
+      ]
+    },
+    {
+      "sector": "철강/비철금속",
+      "count": 7,
+      "avg_composite_score": 0.4427,
+      "leaders": [
+        {
+          "symbol": "000670",
+          "name": "영풍",
+          "sector_leader_signal": 3.8158,
+          "composite_score": 0.5052
+        },
+        {
+          "symbol": "001040",
+          "name": "CJ",
+          "sector_leader_signal": 2.4978,
+          "composite_score": 0.5651
+        },
+        {
+          "symbol": "001430",
+          "name": "세아베스틸지주",
+          "sector_leader_signal": 0.2831,
+          "composite_score": 0.4327
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "103140",
+          "name": "풍산",
+          "sector_reversion_signal": 3.581,
+          "value_score": 0.7561,
+          "flow_score": 0.31,
+          "momentum_score": 0.0828
+        },
+        {
+          "symbol": "001040",
+          "name": "CJ",
+          "sector_reversion_signal": 2.2284,
+          "value_score": 0.8401,
+          "flow_score": 0.55,
+          "momentum_score": 0.5027
+        },
+        {
+          "symbol": "000670",
+          "name": "영풍",
+          "sector_reversion_signal": 1.525,
+          "value_score": 0.5,
+          "flow_score": 0.6867,
+          "momentum_score": 0.5054
+        }
+      ]
+    },
+    {
+      "sector": "IT소프트웨어 (플랫폼/SI)",
+      "count": 6,
+      "avg_composite_score": 0.4412,
+      "leaders": [
+        {
+          "symbol": "012510",
+          "name": "더존비즈온",
+          "sector_leader_signal": 3.3814,
+          "composite_score": 0.5913
+        },
+        {
+          "symbol": "307950",
+          "name": "현대오토에버",
+          "sector_leader_signal": 1.5252,
+          "composite_score": 0.4684
+        },
+        {
+          "symbol": "018260",
+          "name": "삼성에스디에스",
+          "sector_leader_signal": -0.2494,
+          "composite_score": 0.4397
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "018260",
+          "name": "삼성에스디에스",
+          "sector_reversion_signal": 1.8415,
+          "value_score": 0.587,
+          "flow_score": 0.3833,
+          "momentum_score": 0.3118
+        },
+        {
+          "symbol": "035420",
+          "name": "NAVER",
+          "sector_reversion_signal": 1.7118,
+          "value_score": 0.4893,
+          "flow_score": 0.2625,
+          "momentum_score": 0.2084
+        },
+        {
+          "symbol": "022100",
+          "name": "포스코DX",
+          "sector_reversion_signal": 0.4127,
+          "value_score": 0.5,
+          "flow_score": 0.3617,
+          "momentum_score": 0.2861
+        }
+      ]
+    },
+    {
+      "sector": "전기제품",
+      "count": 6,
+      "avg_composite_score": 0.4404,
+      "leaders": [
+        {
+          "symbol": "417200",
+          "name": "LS머트리얼즈",
+          "sector_leader_signal": 3.3084,
+          "composite_score": 0.6644
+        },
+        {
+          "symbol": "043260",
+          "name": "성호전자",
+          "sector_leader_signal": 0.5987,
+          "composite_score": 0.5613
+        },
+        {
+          "symbol": "058610",
+          "name": "에스피지",
+          "sector_leader_signal": -0.0571,
+          "composite_score": 0.3947
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "417200",
+          "name": "LS머트리얼즈",
+          "sector_reversion_signal": 2.5735,
+          "value_score": 0.5,
+          "flow_score": 0.7692,
+          "momentum_score": 0.917
+        },
+        {
+          "symbol": "058610",
+          "name": "에스피지",
+          "sector_reversion_signal": 0.2724,
+          "value_score": 0.1113,
+          "flow_score": 0.3992,
+          "momentum_score": 0.4658
+        },
+        {
+          "symbol": "043260",
+          "name": "성호전자",
+          "sector_reversion_signal": -0.2189,
+          "value_score": 0.5,
+          "flow_score": 0.2133,
+          "momentum_score": 0.9293
+        }
+      ]
+    },
+    {
+      "sector": "의류/섬유",
+      "count": 2,
+      "avg_composite_score": 0.4192,
+      "leaders": [
+        {
+          "symbol": "383220",
+          "name": "F&F",
+          "sector_leader_signal": 3.0,
+          "composite_score": 0.5325
+        },
+        {
+          "symbol": "081660",
+          "name": "미스토홀딩스",
+          "sector_leader_signal": -3.0,
+          "composite_score": 0.306
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "383220",
+          "name": "F&F",
+          "sector_reversion_signal": 2.0,
+          "value_score": 0.8013,
+          "flow_score": 0.3675,
+          "momentum_score": 0.2697
+        },
+        {
+          "symbol": "081660",
+          "name": "미스토홀딩스",
+          "sector_reversion_signal": -2.0,
+          "value_score": 0.3128,
+          "flow_score": 0.285,
+          "momentum_score": 0.2106
+        }
+      ]
+    },
+    {
+      "sector": "가구",
+      "count": 1,
+      "avg_composite_score": 0.4135,
+      "leaders": [
+        {
+          "symbol": "009240",
+          "name": "한샘",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.4135
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "009240",
+          "name": "한샘",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.3946,
+          "flow_score": 0.6017,
+          "momentum_score": 0.3991
+        }
+      ]
+    },
+    {
+      "sector": "2차전지/배터리",
+      "count": 6,
+      "avg_composite_score": 0.4067,
+      "leaders": [
+        {
+          "symbol": "078600",
+          "name": "대주전자재료",
+          "sector_leader_signal": 4.5325,
+          "composite_score": 0.621
+        },
+        {
+          "symbol": "066970",
+          "name": "엘앤에프",
+          "sector_leader_signal": 0.4098,
+          "composite_score": 0.4498
+        },
+        {
+          "symbol": "373220",
+          "name": "LG에너지솔루션",
+          "sector_leader_signal": -0.3661,
+          "composite_score": 0.3182
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "348370",
+          "name": "엔켐",
+          "sector_reversion_signal": 4.4162,
+          "value_score": 0.5,
+          "flow_score": 0.4408,
+          "momentum_score": 0.0087
+        },
+        {
+          "symbol": "078600",
+          "name": "대주전자재료",
+          "sector_reversion_signal": 1.1781,
+          "value_score": 0.1885,
+          "flow_score": 0.815,
+          "momentum_score": 0.9162
+        },
+        {
+          "symbol": "373220",
+          "name": "LG에너지솔루션",
+          "sector_reversion_signal": -0.1011,
+          "value_score": 0.1168,
+          "flow_score": 0.5675,
+          "momentum_score": 0.3153
+        }
+      ]
+    },
+    {
+      "sector": "건강관리장비와용품",
+      "count": 3,
+      "avg_composite_score": 0.4044,
+      "leaders": [
+        {
+          "symbol": "290650",
+          "name": "엘앤씨바이오",
+          "sector_leader_signal": 0.5573,
+          "composite_score": 0.413
+        },
+        {
+          "symbol": "028300",
+          "name": "HLB",
+          "sector_leader_signal": 0.2053,
+          "composite_score": 0.4645
+        },
+        {
+          "symbol": "491000",
+          "name": "리브스메드",
+          "sector_leader_signal": -0.7626,
+          "composite_score": 0.3356
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "290650",
+          "name": "엘앤씨바이오",
+          "sector_reversion_signal": 3.1517,
+          "value_score": 0.2129,
+          "flow_score": 0.5517,
+          "momentum_score": 0.1905
+        },
+        {
+          "symbol": "028300",
+          "name": "HLB",
+          "sector_reversion_signal": 0.0117,
+          "value_score": 0.5,
+          "flow_score": 0.3358,
+          "momentum_score": 0.4372
+        },
+        {
+          "symbol": "491000",
+          "name": "리브스메드",
+          "sector_reversion_signal": -3.1634,
+          "value_score": 0.0539,
+          "flow_score": 0.4433,
+          "momentum_score": 0.4253
+        }
+      ]
+    },
+    {
+      "sector": "엔터테인먼트/게임",
+      "count": 5,
+      "avg_composite_score": 0.404,
+      "leaders": [
+        {
+          "symbol": "036570",
+          "name": "엔씨소프트",
+          "sector_leader_signal": 3.0143,
+          "composite_score": 0.4614
+        },
+        {
+          "symbol": "259960",
+          "name": "크래프톤",
+          "sector_leader_signal": 0.8996,
+          "composite_score": 0.4248
+        },
+        {
+          "symbol": "251270",
+          "name": "넷마블",
+          "sector_leader_signal": 0.2399,
+          "composite_score": 0.4408
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "122870",
+          "name": "와이지엔터테인먼트",
+          "sector_reversion_signal": 3.1291,
+          "value_score": 0.5265,
+          "flow_score": 0.3308,
+          "momentum_score": 0.0374
+        },
+        {
+          "symbol": "259960",
+          "name": "크래프톤",
+          "sector_reversion_signal": 0.9961,
+          "value_score": 0.4212,
+          "flow_score": 0.3042,
+          "momentum_score": 0.2789
+        },
+        {
+          "symbol": "251270",
+          "name": "넷마블",
+          "sector_reversion_signal": 0.7124,
+          "value_score": 0.5428,
+          "flow_score": 0.3167,
+          "momentum_score": 0.309
+        }
+      ]
+    },
+    {
+      "sector": "제약/바이오 (대형)",
+      "count": 8,
+      "avg_composite_score": 0.3922,
+      "leaders": [
+        {
+          "symbol": "128940",
+          "name": "한미약품",
+          "sector_leader_signal": 4.2798,
+          "composite_score": 0.5259
+        },
+        {
+          "symbol": "207940",
+          "name": "삼성바이오로직스",
+          "sector_leader_signal": 1.6333,
+          "composite_score": 0.4394
+        },
+        {
+          "symbol": "068270",
+          "name": "셀트리온",
+          "sector_leader_signal": 1.3612,
+          "composite_score": 0.4312
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "069620",
+          "name": "대웅제약",
+          "sector_reversion_signal": 2.1554,
+          "value_score": 0.6679,
+          "flow_score": 0.3517,
+          "momentum_score": 0.2747
+        },
+        {
+          "symbol": "068270",
+          "name": "셀트리온",
+          "sector_reversion_signal": 1.2896,
+          "value_score": 0.2583,
+          "flow_score": 0.4075,
+          "momentum_score": 0.2583
+        },
+        {
+          "symbol": "326030",
+          "name": "SK바이오팜",
+          "sector_reversion_signal": 0.8599,
+          "value_score": 0.1601,
+          "flow_score": 0.3208,
+          "momentum_score": 0.1129
+        }
+      ]
+    },
+    {
+      "sector": "헬스케어/의료기기",
+      "count": 1,
+      "avg_composite_score": 0.3866,
+      "leaders": [
+        {
+          "symbol": "328130",
+          "name": "루닛",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.3866
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "328130",
+          "name": "루닛",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.5,
+          "flow_score": 0.2442,
+          "momentum_score": 0.1583
+        }
+      ]
+    },
+    {
+      "sector": "전자제품",
+      "count": 1,
+      "avg_composite_score": 0.3852,
+      "leaders": [
+        {
+          "symbol": "066570",
+          "name": "LG전자",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.3852
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "066570",
+          "name": "LG전자",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.3241,
+          "flow_score": 0.3908,
+          "momentum_score": 0.4315
+        }
+      ]
+    },
+    {
+      "sector": "항공사",
+      "count": 1,
+      "avg_composite_score": 0.3415,
+      "leaders": [
+        {
+          "symbol": "180640",
+          "name": "한진칼",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.3415
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "180640",
+          "name": "한진칼",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.5,
+          "flow_score": 0.2717,
+          "momentum_score": 0.2395
+        }
+      ]
+    },
+    {
+      "sector": "핸드셋",
+      "count": 1,
+      "avg_composite_score": 0.337,
+      "leaders": [
+        {
+          "symbol": "204270",
+          "name": "제이앤티씨",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.337
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "204270",
+          "name": "제이앤티씨",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.2981,
+          "flow_score": 0.2833,
+          "momentum_score": 0.0788
+        }
+      ]
+    },
+    {
+      "sector": "음료",
+      "count": 1,
+      "avg_composite_score": 0.3258,
+      "leaders": [
+        {
+          "symbol": "005300",
+          "name": "롯데칠성",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.3258
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "005300",
+          "name": "롯데칠성",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.4202,
+          "flow_score": 0.2375,
+          "momentum_score": 0.2725
+        }
+      ]
+    }
+  ]
+}

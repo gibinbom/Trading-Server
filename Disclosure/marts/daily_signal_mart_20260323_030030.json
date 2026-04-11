@@ -1,0 +1,93 @@
+{
+  "generated_at": "2026-03-23T03:00:30.345538",
+  "row_count": 10,
+  "unknown_sector_count": 0,
+  "factor_coverage": 4,
+  "analyst_coverage": 10,
+  "flow_coverage": 0,
+  "intraday_coverage": 0,
+  "event_coverage": 1,
+  "ml_coverage": 10,
+  "top_symbols": [
+    {
+      "symbol": "081660",
+      "name": "미스토홀딩스",
+      "sector": "의류/섬유",
+      "card_score": 0.8727,
+      "event_alpha_score": 0.0,
+      "analyst_conviction_score": 12.1777
+    },
+    {
+      "symbol": "083500",
+      "name": "에프엔에스테크",
+      "sector": "디스플레이장비및부품",
+      "card_score": 0.8703,
+      "event_alpha_score": 0.0,
+      "analyst_conviction_score": 12.5178
+    },
+    {
+      "symbol": "036800",
+      "name": "나이스정보통신",
+      "sector": "상업서비스와공급품",
+      "card_score": 0.8498,
+      "event_alpha_score": 0.0,
+      "analyst_conviction_score": 12.7166
+    },
+    {
+      "symbol": "039030",
+      "name": "이오테크닉스",
+      "sector": "IT하드웨어 (반도체)",
+      "card_score": 0.8366,
+      "event_alpha_score": 0.0,
+      "analyst_conviction_score": 10.4627
+    },
+    {
+      "symbol": "036570",
+      "name": "엔씨소프트",
+      "sector": "엔터테인먼트/게임",
+      "card_score": 0.8304,
+      "event_alpha_score": 0.0,
+      "analyst_conviction_score": 12.2406
+    },
+    {
+      "symbol": "000660",
+      "name": "SK하이닉스",
+      "sector": "IT하드웨어 (반도체)",
+      "card_score": 0.707,
+      "event_alpha_score": 0.0,
+      "analyst_conviction_score": 7.626
+    },
+    {
+      "symbol": "005930",
+      "name": "삼성전자",
+      "sector": "IT하드웨어 (반도체)",
+      "card_score": 0.6807,
+      "event_alpha_score": 0.0,
+      "analyst_conviction_score": 9.5567
+    },
+    {
+      "symbol": "373220",
+      "name": "LG에너지솔루션",
+      "sector": "2차전지/배터리",
+      "card_score": 0.511,
+      "event_alpha_score": 0.0,
+      "analyst_conviction_score": 8.1731
+    },
+    {
+      "symbol": "005380",
+      "name": "현대차",
+      "sector": "자동차/완성차",
+      "card_score": 0.4469,
+      "event_alpha_score": 0.0,
+      "analyst_conviction_score": 6.9374
+    },
+    {
+      "symbol": "019180",
+      "name": "티에이치엔",
+      "sector": "자동차부품",
+      "card_score": 0.3104,
+      "event_alpha_score": 0.0,
+      "analyst_conviction_score": 5.2444
+    }
+  ]
+}

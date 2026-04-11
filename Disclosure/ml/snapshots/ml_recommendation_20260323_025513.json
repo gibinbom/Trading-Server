@@ -1,0 +1,83 @@
+{
+  "snapshot_at": "2026-03-23T02:55:13",
+  "status": "ok",
+  "top_stocks": [
+    {
+      "symbol": "226330",
+      "name": "신테카바이오",
+      "sector": "건강관리업체및서비스",
+      "ml_pred_score": 1.0,
+      "ml_pred_return_5d_pct": 11.3264,
+      "card_score": 0.6285,
+      "macro_micro_interaction_score": 0.5703
+    },
+    {
+      "symbol": "178320",
+      "name": "서진시스템",
+      "sector": "통신장비/네트워크",
+      "ml_pred_score": 0.9882,
+      "ml_pred_return_5d_pct": 11.002,
+      "card_score": 0.7066,
+      "macro_micro_interaction_score": 0.5438
+    },
+    {
+      "symbol": "089980",
+      "name": "상아프론테크",
+      "sector": "전자장비와기기",
+      "ml_pred_score": 0.9765,
+      "ml_pred_return_5d_pct": 10.6224,
+      "card_score": 0.4584,
+      "macro_micro_interaction_score": 0.3426
+    },
+    {
+      "symbol": "229640",
+      "name": "LS에코에너지",
+      "sector": "전기장비",
+      "ml_pred_score": 0.9647,
+      "ml_pred_return_5d_pct": 8.1836,
+      "card_score": 0.7927,
+      "macro_micro_interaction_score": 0.6497
+    },
+    {
+      "symbol": "039030",
+      "name": "이오테크닉스",
+      "sector": "IT하드웨어 (반도체)",
+      "ml_pred_score": 0.9529,
+      "ml_pred_return_5d_pct": 8.1806,
+      "card_score": 0.8453,
+      "macro_micro_interaction_score": 0.9353
+    }
+  ],
+  "top_sectors": [
+    {
+      "sector": "건강관리업체및서비스",
+      "ml_sector_score": 1.0,
+      "avg_card_score": 0.6285,
+      "leaders": "신테카바이오"
+    },
+    {
+      "sector": "전기장비",
+      "ml_sector_score": 0.9647,
+      "avg_card_score": 0.7927,
+      "leaders": "LS에코에너지"
+    },
+    {
+      "sector": "의류/섬유",
+      "ml_sector_score": 0.9412,
+      "avg_card_score": 0.8725,
+      "leaders": "미스토홀딩스"
+    },
+    {
+      "sector": "디스플레이장비및부품",
+      "ml_sector_score": 0.8706,
+      "avg_card_score": 0.8624,
+      "leaders": "에프엔에스테크"
+    },
+    {
+      "sector": "엔터테인먼트/게임",
+      "ml_sector_score": 0.8659,
+      "avg_card_score": 0.6802,
+      "leaders": "JYP Ent., 하이브"
+    }
+  ]
+}

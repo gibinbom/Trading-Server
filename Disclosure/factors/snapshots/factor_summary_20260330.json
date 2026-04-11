@@ -1,0 +1,2182 @@
+{
+  "snapshot_date": "20260330",
+  "snapshot_time": "12:44:27",
+  "coverage": {
+    "total_names": 50,
+    "markets": [
+      "KOSPI",
+      "KOSDAQ"
+    ],
+    "universe_mode": "top_n",
+    "min_marcap_krw": 0,
+    "flow_top_n": 0,
+    "consensus_top_n": 0,
+    "price_factor_coverage_pct": 100.0,
+    "flow_factor_coverage_pct": 0.0,
+    "consensus_factor_coverage_pct": 0.0,
+    "news_factor_coverage_pct": 0.0,
+    "ranking_eligible_count": 50,
+    "portfolio_eligible_count": 50,
+    "missing_price_count": 0,
+    "missing_flow_count": 0,
+    "missing_consensus_count": 0,
+    "missing_news_count": 0
+  },
+  "dynamic_factor_weights": {
+    "status": "fallback",
+    "weights": {
+      "value_score": 0.22,
+      "momentum_score": 0.22,
+      "quality_score": 0.18,
+      "flow_score": 0.18,
+      "liquidity_score": 0.1,
+      "news_score": 0.1
+    },
+    "base_weights": {
+      "value_score": 0.22,
+      "momentum_score": 0.22,
+      "quality_score": 0.18,
+      "flow_score": 0.18,
+      "liquidity_score": 0.1,
+      "news_score": 0.1
+    },
+    "ic_history": {
+      "value_score": [
+        -0.01594994804505394
+      ],
+      "momentum_score": [
+        -0.1962795360259055
+      ],
+      "quality_score": [
+        -0.045318730799090365
+      ],
+      "flow_score": [
+        -0.05180230381130575
+      ],
+      "liquidity_score": [
+        -0.2446051894582388
+      ],
+      "news_score": [
+        -0.045213040054149736
+      ]
+    }
+  },
+  "top_composite": [
+    {
+      "symbol": "000250",
+      "name": "삼천당제약",
+      "sector": "제약",
+      "composite_score": 0.6284,
+      "value_score": 0.5,
+      "momentum_score": 1.0,
+      "quality_score": 0.3467,
+      "flow_score": 0.5,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "009150",
+      "name": "삼성전기",
+      "sector": "디스플레이/IT부품",
+      "composite_score": 0.6141,
+      "value_score": 0.5,
+      "momentum_score": 0.844,
+      "quality_score": 0.48,
+      "flow_score": 0.5,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "010120",
+      "name": "LS ELECTRIC",
+      "sector": "기계/공작기계",
+      "composite_score": 0.6038,
+      "value_score": 0.5,
+      "momentum_score": 0.932,
+      "quality_score": 0.46,
+      "flow_score": 0.5,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "006400",
+      "name": "삼성SDI",
+      "sector": "2차전지/배터리",
+      "composite_score": 0.588,
+      "value_score": 0.5,
+      "momentum_score": 0.8,
+      "quality_score": 0.4667,
+      "flow_score": 0.5,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "000720",
+      "name": "현대건설",
+      "sector": "건설/건자재",
+      "composite_score": 0.5878,
+      "value_score": 0.5,
+      "momentum_score": 0.792,
+      "quality_score": 0.3867,
+      "flow_score": 0.5,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "047810",
+      "name": "한국항공우주",
+      "sector": "방위산업/우주항공",
+      "composite_score": 0.5736,
+      "value_score": 0.5,
+      "momentum_score": 0.76,
+      "quality_score": 0.38,
+      "flow_score": 0.5,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "006800",
+      "name": "미래에셋증권",
+      "sector": "증권",
+      "composite_score": 0.5731,
+      "value_score": 0.5,
+      "momentum_score": 0.796,
+      "quality_score": 0.3667,
+      "flow_score": 0.5,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "012450",
+      "name": "한화에어로스페이스",
+      "sector": "방위산업/우주항공",
+      "composite_score": 0.566,
+      "value_score": 0.5,
+      "momentum_score": 0.68,
+      "quality_score": 0.4467,
+      "flow_score": 0.5,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "055550",
+      "name": "신한지주",
+      "sector": "금융지주/은행",
+      "composite_score": 0.5635,
+      "value_score": 0.5,
+      "momentum_score": 0.676,
+      "quality_score": 0.66,
+      "flow_score": 0.5,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "105560",
+      "name": "KB금융",
+      "sector": "금융지주/은행",
+      "composite_score": 0.5504,
+      "value_score": 0.5,
+      "momentum_score": 0.68,
+      "quality_score": 0.6267,
+      "flow_score": 0.5,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "298040",
+      "name": "효성중공업",
+      "sector": "기계/공작기계",
+      "composite_score": 0.5458,
+      "value_score": 0.5,
+      "momentum_score": 0.692,
+      "quality_score": 0.4533,
+      "flow_score": 0.5,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "034020",
+      "name": "두산에너빌리티",
+      "sector": "기계/공작기계",
+      "composite_score": 0.5446,
+      "value_score": 0.5,
+      "momentum_score": 0.608,
+      "quality_score": 0.4267,
+      "flow_score": 0.5,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 1.0
+    }
+  ],
+  "top_reversion": [
+    {
+      "symbol": "267250",
+      "name": "HD현대",
+      "sector": "기계/공작기계",
+      "sector_reversion_signal": 2.6873,
+      "sector_reversion_rank": 1.0,
+      "value_score": 0.5,
+      "momentum_score": 0.524,
+      "flow_score": 0.5,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "373220",
+      "name": "LG에너지솔루션",
+      "sector": "2차전지/배터리",
+      "sector_reversion_signal": 2.5179,
+      "sector_reversion_rank": 1.0,
+      "value_score": 0.5,
+      "momentum_score": 0.588,
+      "flow_score": 0.5,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "024110",
+      "name": "기업은행",
+      "sector": "금융지주/은행",
+      "sector_reversion_signal": 2.4671,
+      "sector_reversion_rank": 1.0,
+      "value_score": 0.5,
+      "momentum_score": 0.392,
+      "flow_score": 0.5,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "009540",
+      "name": "HD한국조선해양",
+      "sector": "조선/해양",
+      "sector_reversion_signal": 2.3133,
+      "sector_reversion_rank": 1.0,
+      "value_score": 0.5,
+      "momentum_score": 0.112,
+      "flow_score": 0.5,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "028260",
+      "name": "삼성물산",
+      "sector": "건설/건자재",
+      "sector_reversion_signal": 2.0,
+      "sector_reversion_rank": 1.0,
+      "value_score": 0.5,
+      "momentum_score": 0.272,
+      "flow_score": 0.5,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "012450",
+      "name": "한화에어로스페이스",
+      "sector": "방위산업/우주항공",
+      "sector_reversion_signal": 2.0,
+      "sector_reversion_rank": 1.0,
+      "value_score": 0.5,
+      "momentum_score": 0.68,
+      "flow_score": 0.5,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "402340",
+      "name": "SK스퀘어",
+      "sector": "복합기업",
+      "sector_reversion_signal": 2.0,
+      "sector_reversion_rank": 1.0,
+      "value_score": 0.5,
+      "momentum_score": 0.484,
+      "flow_score": 0.5,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "000810",
+      "name": "삼성화재",
+      "sector": "보험",
+      "sector_reversion_signal": 2.0,
+      "sector_reversion_rank": 1.0,
+      "value_score": 0.5,
+      "momentum_score": 0.188,
+      "flow_score": 0.5,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "034730",
+      "name": "SK",
+      "sector": "석유와가스",
+      "sector_reversion_signal": 2.0,
+      "sector_reversion_rank": 1.0,
+      "value_score": 0.5,
+      "momentum_score": 0.468,
+      "flow_score": 0.5,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "329180",
+      "name": "HD현대중공업",
+      "sector": "조선/해양",
+      "sector_reversion_signal": 1.6002,
+      "sector_reversion_rank": 0.75,
+      "value_score": 0.5,
+      "momentum_score": 0.168,
+      "flow_score": 0.5,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "005930",
+      "name": "삼성전자",
+      "sector": "IT하드웨어 (반도체)",
+      "sector_reversion_signal": 1.216,
+      "sector_reversion_rank": 1.0,
+      "value_score": 0.5,
+      "momentum_score": 0.564,
+      "flow_score": 0.5,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 1.0
+    },
+    {
+      "symbol": "267260",
+      "name": "HD현대일렉트릭",
+      "sector": "기계/공작기계",
+      "sector_reversion_signal": 1.1788,
+      "sector_reversion_rank": 0.8,
+      "value_score": 0.5,
+      "momentum_score": 0.556,
+      "flow_score": 0.5,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 1.0
+    }
+  ],
+  "portfolio_candidates": [
+    {
+      "symbol": "000250",
+      "name": "삼천당제약",
+      "sector": "제약",
+      "composite_score": 0.6284,
+      "value_score": 0.5,
+      "momentum_score": 1.0,
+      "quality_score": 0.3467,
+      "flow_score": 0.5,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 1.0,
+      "base_action": "hold",
+      "action": "hold",
+      "action_label": "보류",
+      "strong_axes": [
+        "momentum",
+        "value",
+        "flow"
+      ],
+      "decision_trace": {
+        "base_action": "hold",
+        "coverage_ratio": 1.0,
+        "dominant_axes": [
+          "momentum",
+          "value",
+          "flow"
+        ],
+        "composite_score": 0.6284
+      }
+    },
+    {
+      "symbol": "009150",
+      "name": "삼성전기",
+      "sector": "디스플레이/IT부품",
+      "composite_score": 0.6141,
+      "value_score": 0.5,
+      "momentum_score": 0.844,
+      "quality_score": 0.48,
+      "flow_score": 0.5,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 1.0,
+      "base_action": "hold",
+      "action": "hold",
+      "action_label": "보류",
+      "strong_axes": [
+        "momentum",
+        "value",
+        "flow"
+      ],
+      "decision_trace": {
+        "base_action": "hold",
+        "coverage_ratio": 1.0,
+        "dominant_axes": [
+          "momentum",
+          "value",
+          "flow"
+        ],
+        "composite_score": 0.6141
+      }
+    },
+    {
+      "symbol": "010120",
+      "name": "LS ELECTRIC",
+      "sector": "기계/공작기계",
+      "composite_score": 0.6038,
+      "value_score": 0.5,
+      "momentum_score": 0.932,
+      "quality_score": 0.46,
+      "flow_score": 0.5,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 1.0,
+      "base_action": "hold",
+      "action": "hold",
+      "action_label": "보류",
+      "strong_axes": [
+        "momentum",
+        "value",
+        "flow"
+      ],
+      "decision_trace": {
+        "base_action": "hold",
+        "coverage_ratio": 1.0,
+        "dominant_axes": [
+          "momentum",
+          "value",
+          "flow"
+        ],
+        "composite_score": 0.6038
+      }
+    },
+    {
+      "symbol": "006400",
+      "name": "삼성SDI",
+      "sector": "2차전지/배터리",
+      "composite_score": 0.588,
+      "value_score": 0.5,
+      "momentum_score": 0.8,
+      "quality_score": 0.4667,
+      "flow_score": 0.5,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 1.0,
+      "base_action": "hold",
+      "action": "hold",
+      "action_label": "보류",
+      "strong_axes": [
+        "momentum",
+        "value",
+        "flow"
+      ],
+      "decision_trace": {
+        "base_action": "hold",
+        "coverage_ratio": 1.0,
+        "dominant_axes": [
+          "momentum",
+          "value",
+          "flow"
+        ],
+        "composite_score": 0.588
+      }
+    },
+    {
+      "symbol": "000720",
+      "name": "현대건설",
+      "sector": "건설/건자재",
+      "composite_score": 0.5878,
+      "value_score": 0.5,
+      "momentum_score": 0.792,
+      "quality_score": 0.3867,
+      "flow_score": 0.5,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 1.0,
+      "base_action": "hold",
+      "action": "hold",
+      "action_label": "보류",
+      "strong_axes": [
+        "momentum",
+        "value",
+        "flow"
+      ],
+      "decision_trace": {
+        "base_action": "hold",
+        "coverage_ratio": 1.0,
+        "dominant_axes": [
+          "momentum",
+          "value",
+          "flow"
+        ],
+        "composite_score": 0.5878
+      }
+    },
+    {
+      "symbol": "047810",
+      "name": "한국항공우주",
+      "sector": "방위산업/우주항공",
+      "composite_score": 0.5736,
+      "value_score": 0.5,
+      "momentum_score": 0.76,
+      "quality_score": 0.38,
+      "flow_score": 0.5,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 1.0,
+      "base_action": "hold",
+      "action": "hold",
+      "action_label": "보류",
+      "strong_axes": [
+        "momentum",
+        "value",
+        "flow"
+      ],
+      "decision_trace": {
+        "base_action": "hold",
+        "coverage_ratio": 1.0,
+        "dominant_axes": [
+          "momentum",
+          "value",
+          "flow"
+        ],
+        "composite_score": 0.5736
+      }
+    },
+    {
+      "symbol": "006800",
+      "name": "미래에셋증권",
+      "sector": "증권",
+      "composite_score": 0.5731,
+      "value_score": 0.5,
+      "momentum_score": 0.796,
+      "quality_score": 0.3667,
+      "flow_score": 0.5,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 1.0,
+      "base_action": "hold",
+      "action": "hold",
+      "action_label": "보류",
+      "strong_axes": [
+        "momentum",
+        "value",
+        "flow"
+      ],
+      "decision_trace": {
+        "base_action": "hold",
+        "coverage_ratio": 1.0,
+        "dominant_axes": [
+          "momentum",
+          "value",
+          "flow"
+        ],
+        "composite_score": 0.5731
+      }
+    },
+    {
+      "symbol": "012450",
+      "name": "한화에어로스페이스",
+      "sector": "방위산업/우주항공",
+      "composite_score": 0.566,
+      "value_score": 0.5,
+      "momentum_score": 0.68,
+      "quality_score": 0.4467,
+      "flow_score": 0.5,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 1.0,
+      "base_action": "hold",
+      "action": "hold",
+      "action_label": "보류",
+      "strong_axes": [
+        "momentum",
+        "value",
+        "flow"
+      ],
+      "decision_trace": {
+        "base_action": "hold",
+        "coverage_ratio": 1.0,
+        "dominant_axes": [
+          "momentum",
+          "value",
+          "flow"
+        ],
+        "composite_score": 0.566
+      }
+    },
+    {
+      "symbol": "055550",
+      "name": "신한지주",
+      "sector": "금융지주/은행",
+      "composite_score": 0.5635,
+      "value_score": 0.5,
+      "momentum_score": 0.676,
+      "quality_score": 0.66,
+      "flow_score": 0.5,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 1.0,
+      "base_action": "hold",
+      "action": "hold",
+      "action_label": "보류",
+      "strong_axes": [
+        "momentum",
+        "quality",
+        "value"
+      ],
+      "decision_trace": {
+        "base_action": "hold",
+        "coverage_ratio": 1.0,
+        "dominant_axes": [
+          "momentum",
+          "quality",
+          "value"
+        ],
+        "composite_score": 0.5635
+      }
+    },
+    {
+      "symbol": "105560",
+      "name": "KB금융",
+      "sector": "금융지주/은행",
+      "composite_score": 0.5504,
+      "value_score": 0.5,
+      "momentum_score": 0.68,
+      "quality_score": 0.6267,
+      "flow_score": 0.5,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 1.0,
+      "base_action": "hold",
+      "action": "hold",
+      "action_label": "보류",
+      "strong_axes": [
+        "momentum",
+        "quality",
+        "value"
+      ],
+      "decision_trace": {
+        "base_action": "hold",
+        "coverage_ratio": 1.0,
+        "dominant_axes": [
+          "momentum",
+          "quality",
+          "value"
+        ],
+        "composite_score": 0.5504
+      }
+    },
+    {
+      "symbol": "298040",
+      "name": "효성중공업",
+      "sector": "기계/공작기계",
+      "composite_score": 0.5458,
+      "value_score": 0.5,
+      "momentum_score": 0.692,
+      "quality_score": 0.4533,
+      "flow_score": 0.5,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 1.0,
+      "base_action": "hold",
+      "action": "hold",
+      "action_label": "보류",
+      "strong_axes": [
+        "momentum",
+        "value",
+        "flow"
+      ],
+      "decision_trace": {
+        "base_action": "hold",
+        "coverage_ratio": 1.0,
+        "dominant_axes": [
+          "momentum",
+          "value",
+          "flow"
+        ],
+        "composite_score": 0.5458
+      }
+    },
+    {
+      "symbol": "272210",
+      "name": "한화시스템",
+      "sector": "우주항공과국방",
+      "composite_score": 0.5414,
+      "value_score": 0.5,
+      "momentum_score": 0.592,
+      "quality_score": 0.34,
+      "flow_score": 0.5,
+      "news_score": 0.5,
+      "factor_source_coverage_ratio": 1.0,
+      "base_action": "hold",
+      "action": "hold",
+      "action_label": "보류",
+      "strong_axes": [
+        "momentum",
+        "value",
+        "flow"
+      ],
+      "decision_trace": {
+        "base_action": "hold",
+        "coverage_ratio": 1.0,
+        "dominant_axes": [
+          "momentum",
+          "value",
+          "flow"
+        ],
+        "composite_score": 0.5414
+      }
+    }
+  ],
+  "portfolio_buckets": {
+    "direct": [],
+    "watch": [],
+    "hold": [
+      {
+        "symbol": "000250",
+        "name": "삼천당제약",
+        "sector": "제약",
+        "composite_score": 0.6284,
+        "value_score": 0.5,
+        "momentum_score": 1.0,
+        "quality_score": 0.3467,
+        "flow_score": 0.5,
+        "news_score": 0.5,
+        "factor_source_coverage_ratio": 1.0,
+        "base_action": "hold",
+        "action": "hold",
+        "action_label": "보류",
+        "strong_axes": [
+          "momentum",
+          "value",
+          "flow"
+        ],
+        "decision_trace": {
+          "base_action": "hold",
+          "coverage_ratio": 1.0,
+          "dominant_axes": [
+            "momentum",
+            "value",
+            "flow"
+          ],
+          "composite_score": 0.6284
+        }
+      },
+      {
+        "symbol": "009150",
+        "name": "삼성전기",
+        "sector": "디스플레이/IT부품",
+        "composite_score": 0.6141,
+        "value_score": 0.5,
+        "momentum_score": 0.844,
+        "quality_score": 0.48,
+        "flow_score": 0.5,
+        "news_score": 0.5,
+        "factor_source_coverage_ratio": 1.0,
+        "base_action": "hold",
+        "action": "hold",
+        "action_label": "보류",
+        "strong_axes": [
+          "momentum",
+          "value",
+          "flow"
+        ],
+        "decision_trace": {
+          "base_action": "hold",
+          "coverage_ratio": 1.0,
+          "dominant_axes": [
+            "momentum",
+            "value",
+            "flow"
+          ],
+          "composite_score": 0.6141
+        }
+      },
+      {
+        "symbol": "010120",
+        "name": "LS ELECTRIC",
+        "sector": "기계/공작기계",
+        "composite_score": 0.6038,
+        "value_score": 0.5,
+        "momentum_score": 0.932,
+        "quality_score": 0.46,
+        "flow_score": 0.5,
+        "news_score": 0.5,
+        "factor_source_coverage_ratio": 1.0,
+        "base_action": "hold",
+        "action": "hold",
+        "action_label": "보류",
+        "strong_axes": [
+          "momentum",
+          "value",
+          "flow"
+        ],
+        "decision_trace": {
+          "base_action": "hold",
+          "coverage_ratio": 1.0,
+          "dominant_axes": [
+            "momentum",
+            "value",
+            "flow"
+          ],
+          "composite_score": 0.6038
+        }
+      }
+    ]
+  },
+  "candidate_actions": [
+    {
+      "symbol": "000250",
+      "name": "삼천당제약",
+      "sector": "제약",
+      "action": "hold",
+      "action_label": "보류",
+      "strong_axes": [
+        "momentum",
+        "value",
+        "flow"
+      ]
+    },
+    {
+      "symbol": "009150",
+      "name": "삼성전기",
+      "sector": "디스플레이/IT부품",
+      "action": "hold",
+      "action_label": "보류",
+      "strong_axes": [
+        "momentum",
+        "value",
+        "flow"
+      ]
+    },
+    {
+      "symbol": "010120",
+      "name": "LS ELECTRIC",
+      "sector": "기계/공작기계",
+      "action": "hold",
+      "action_label": "보류",
+      "strong_axes": [
+        "momentum",
+        "value",
+        "flow"
+      ]
+    },
+    {
+      "symbol": "006400",
+      "name": "삼성SDI",
+      "sector": "2차전지/배터리",
+      "action": "hold",
+      "action_label": "보류",
+      "strong_axes": [
+        "momentum",
+        "value",
+        "flow"
+      ]
+    },
+    {
+      "symbol": "000720",
+      "name": "현대건설",
+      "sector": "건설/건자재",
+      "action": "hold",
+      "action_label": "보류",
+      "strong_axes": [
+        "momentum",
+        "value",
+        "flow"
+      ]
+    },
+    {
+      "symbol": "047810",
+      "name": "한국항공우주",
+      "sector": "방위산업/우주항공",
+      "action": "hold",
+      "action_label": "보류",
+      "strong_axes": [
+        "momentum",
+        "value",
+        "flow"
+      ]
+    },
+    {
+      "symbol": "006800",
+      "name": "미래에셋증권",
+      "sector": "증권",
+      "action": "hold",
+      "action_label": "보류",
+      "strong_axes": [
+        "momentum",
+        "value",
+        "flow"
+      ]
+    },
+    {
+      "symbol": "012450",
+      "name": "한화에어로스페이스",
+      "sector": "방위산업/우주항공",
+      "action": "hold",
+      "action_label": "보류",
+      "strong_axes": [
+        "momentum",
+        "value",
+        "flow"
+      ]
+    },
+    {
+      "symbol": "055550",
+      "name": "신한지주",
+      "sector": "금융지주/은행",
+      "action": "hold",
+      "action_label": "보류",
+      "strong_axes": [
+        "momentum",
+        "quality",
+        "value"
+      ]
+    },
+    {
+      "symbol": "105560",
+      "name": "KB금융",
+      "sector": "금융지주/은행",
+      "action": "hold",
+      "action_label": "보류",
+      "strong_axes": [
+        "momentum",
+        "quality",
+        "value"
+      ]
+    },
+    {
+      "symbol": "298040",
+      "name": "효성중공업",
+      "sector": "기계/공작기계",
+      "action": "hold",
+      "action_label": "보류",
+      "strong_axes": [
+        "momentum",
+        "value",
+        "flow"
+      ]
+    },
+    {
+      "symbol": "272210",
+      "name": "한화시스템",
+      "sector": "우주항공과국방",
+      "action": "hold",
+      "action_label": "보류",
+      "strong_axes": [
+        "momentum",
+        "value",
+        "flow"
+      ]
+    }
+  ],
+  "data_quality": {
+    "coverage_grade": "보수적",
+    "weak_sources": [
+      "수급 0.0%",
+      "컨센서스 0.0%",
+      "뉴스 0.0%"
+    ],
+    "dynamic_status": "fallback",
+    "warnings": [
+      "수급 0.0%",
+      "컨센서스 0.0%",
+      "뉴스 0.0%",
+      "동적가중치 fallback"
+    ],
+    "top_sector": "제약",
+    "top_sector_share": 0.167
+  },
+  "decision_regime": {
+    "name": "observe_only",
+    "description": "데이터 공백이 커 직접 진입보다 관찰과 보수적 해석을 우선합니다."
+  },
+  "action_hints": [
+    "[보류] 삼천당제약(000250) | momentum·value 축은 보이지만 지금은 보수적으로 보는 편이 낫습니다. | 해석 모드가 관찰 중심이라 직접 진입보다 확인이 우선입니다. coverage 1.0",
+    "[보류] 삼성전기(009150) | momentum·value 축은 보이지만 지금은 보수적으로 보는 편이 낫습니다. | 해석 모드가 관찰 중심이라 직접 진입보다 확인이 우선입니다. coverage 1.0",
+    "[보류] LS ELECTRIC(010120) | momentum·value 축은 보이지만 지금은 보수적으로 보는 편이 낫습니다. | 해석 모드가 관찰 중심이라 직접 진입보다 확인이 우선입니다. coverage 1.0",
+    "[보류] 삼성SDI(006400) | momentum·value 축은 보이지만 지금은 보수적으로 보는 편이 낫습니다. | 해석 모드가 관찰 중심이라 직접 진입보다 확인이 우선입니다. coverage 1.0"
+  ],
+  "action_hint_rows": [
+    {
+      "symbol": "000250",
+      "name": "삼천당제약",
+      "sector": "제약",
+      "action": "hold",
+      "action_label": "보류",
+      "reason": "momentum·value 축은 보이지만 지금은 보수적으로 보는 편이 낫습니다.",
+      "note": "해석 모드가 관찰 중심이라 직접 진입보다 확인이 우선입니다. coverage 1.0",
+      "strong_axes": [
+        "momentum",
+        "value",
+        "flow"
+      ]
+    },
+    {
+      "symbol": "009150",
+      "name": "삼성전기",
+      "sector": "디스플레이/IT부품",
+      "action": "hold",
+      "action_label": "보류",
+      "reason": "momentum·value 축은 보이지만 지금은 보수적으로 보는 편이 낫습니다.",
+      "note": "해석 모드가 관찰 중심이라 직접 진입보다 확인이 우선입니다. coverage 1.0",
+      "strong_axes": [
+        "momentum",
+        "value",
+        "flow"
+      ]
+    },
+    {
+      "symbol": "010120",
+      "name": "LS ELECTRIC",
+      "sector": "기계/공작기계",
+      "action": "hold",
+      "action_label": "보류",
+      "reason": "momentum·value 축은 보이지만 지금은 보수적으로 보는 편이 낫습니다.",
+      "note": "해석 모드가 관찰 중심이라 직접 진입보다 확인이 우선입니다. coverage 1.0",
+      "strong_axes": [
+        "momentum",
+        "value",
+        "flow"
+      ]
+    },
+    {
+      "symbol": "006400",
+      "name": "삼성SDI",
+      "sector": "2차전지/배터리",
+      "action": "hold",
+      "action_label": "보류",
+      "reason": "momentum·value 축은 보이지만 지금은 보수적으로 보는 편이 낫습니다.",
+      "note": "해석 모드가 관찰 중심이라 직접 진입보다 확인이 우선입니다. coverage 1.0",
+      "strong_axes": [
+        "momentum",
+        "value",
+        "flow"
+      ]
+    }
+  ],
+  "top_sectors": [
+    {
+      "sector": "제약",
+      "count": 1,
+      "avg_composite_score": 0.6284,
+      "action": "중심주만",
+      "leaders": [
+        {
+          "symbol": "000250",
+          "name": "삼천당제약",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.6284
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "000250",
+          "name": "삼천당제약",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 1.0
+        }
+      ]
+    },
+    {
+      "sector": "디스플레이/IT부품",
+      "count": 1,
+      "avg_composite_score": 0.6141,
+      "action": "중심주만",
+      "leaders": [
+        {
+          "symbol": "009150",
+          "name": "삼성전기",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.6141
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "009150",
+          "name": "삼성전기",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.844
+        }
+      ]
+    },
+    {
+      "sector": "증권",
+      "count": 1,
+      "avg_composite_score": 0.5731,
+      "action": "중심주만",
+      "leaders": [
+        {
+          "symbol": "006800",
+          "name": "미래에셋증권",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.5731
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "006800",
+          "name": "미래에셋증권",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.796
+        }
+      ]
+    },
+    {
+      "sector": "방위산업/우주항공",
+      "count": 2,
+      "avg_composite_score": 0.5698,
+      "action": "중심주만",
+      "leaders": [
+        {
+          "symbol": "047810",
+          "name": "한국항공우주",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.5736
+        },
+        {
+          "symbol": "012450",
+          "name": "한화에어로스페이스",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.566
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "012450",
+          "name": "한화에어로스페이스",
+          "sector_reversion_signal": 2.0,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.68
+        },
+        {
+          "symbol": "047810",
+          "name": "한국항공우주",
+          "sector_reversion_signal": -2.0,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.76
+        }
+      ]
+    },
+    {
+      "sector": "우주항공과국방",
+      "count": 1,
+      "avg_composite_score": 0.5414,
+      "action": "보류",
+      "leaders": [
+        {
+          "symbol": "272210",
+          "name": "한화시스템",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.5414
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "272210",
+          "name": "한화시스템",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.592
+        }
+      ]
+    },
+    {
+      "sector": "음식료/담배",
+      "count": 1,
+      "avg_composite_score": 0.539,
+      "action": "보류",
+      "leaders": [
+        {
+          "symbol": "033780",
+          "name": "KT&G",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.539
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "033780",
+          "name": "KT&G",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.668
+        }
+      ]
+    },
+    {
+      "sector": "기계/공작기계",
+      "count": 5,
+      "avg_composite_score": 0.5375,
+      "action": "보류",
+      "leaders": [
+        {
+          "symbol": "010120",
+          "name": "LS ELECTRIC",
+          "sector_leader_signal": 1.3271,
+          "composite_score": 0.6038
+        },
+        {
+          "symbol": "267250",
+          "name": "HD현대",
+          "sector_leader_signal": 0.7951,
+          "composite_score": 0.4853
+        },
+        {
+          "symbol": "267260",
+          "name": "HD현대일렉트릭",
+          "sector_leader_signal": -0.2759,
+          "composite_score": 0.5079
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "267250",
+          "name": "HD현대",
+          "sector_reversion_signal": 2.6873,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.524
+        },
+        {
+          "symbol": "267260",
+          "name": "HD현대일렉트릭",
+          "sector_reversion_signal": 1.1788,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.556
+        },
+        {
+          "symbol": "034020",
+          "name": "두산에너빌리티",
+          "sector_reversion_signal": -0.6815,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.608
+        }
+      ]
+    },
+    {
+      "sector": "2차전지/배터리",
+      "count": 3,
+      "avg_composite_score": 0.5337,
+      "action": "보류",
+      "leaders": [
+        {
+          "symbol": "006400",
+          "name": "삼성SDI",
+          "sector_leader_signal": 1.1033,
+          "composite_score": 0.588
+        },
+        {
+          "symbol": "373220",
+          "name": "LG에너지솔루션",
+          "sector_leader_signal": 0.0235,
+          "composite_score": 0.4862
+        },
+        {
+          "symbol": "003670",
+          "name": "포스코퓨처엠",
+          "sector_leader_signal": -1.1268,
+          "composite_score": 0.5268
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "373220",
+          "name": "LG에너지솔루션",
+          "sector_reversion_signal": 2.5179,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.588
+        },
+        {
+          "symbol": "003670",
+          "name": "포스코퓨처엠",
+          "sector_reversion_signal": -1.2191,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.7
+        },
+        {
+          "symbol": "006400",
+          "name": "삼성SDI",
+          "sector_reversion_signal": -1.2987,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.8
+        }
+      ]
+    }
+  ],
+  "sector_cards": [
+    {
+      "sector": "제약",
+      "count": 1,
+      "avg_composite_score": 0.6284,
+      "action": "중심주만",
+      "leaders": [
+        {
+          "symbol": "000250",
+          "name": "삼천당제약",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.6284
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "000250",
+          "name": "삼천당제약",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 1.0
+        }
+      ]
+    },
+    {
+      "sector": "디스플레이/IT부품",
+      "count": 1,
+      "avg_composite_score": 0.6141,
+      "action": "중심주만",
+      "leaders": [
+        {
+          "symbol": "009150",
+          "name": "삼성전기",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.6141
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "009150",
+          "name": "삼성전기",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.844
+        }
+      ]
+    },
+    {
+      "sector": "증권",
+      "count": 1,
+      "avg_composite_score": 0.5731,
+      "action": "중심주만",
+      "leaders": [
+        {
+          "symbol": "006800",
+          "name": "미래에셋증권",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.5731
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "006800",
+          "name": "미래에셋증권",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.796
+        }
+      ]
+    },
+    {
+      "sector": "방위산업/우주항공",
+      "count": 2,
+      "avg_composite_score": 0.5698,
+      "action": "중심주만",
+      "leaders": [
+        {
+          "symbol": "047810",
+          "name": "한국항공우주",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.5736
+        },
+        {
+          "symbol": "012450",
+          "name": "한화에어로스페이스",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.566
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "012450",
+          "name": "한화에어로스페이스",
+          "sector_reversion_signal": 2.0,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.68
+        },
+        {
+          "symbol": "047810",
+          "name": "한국항공우주",
+          "sector_reversion_signal": -2.0,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.76
+        }
+      ]
+    },
+    {
+      "sector": "우주항공과국방",
+      "count": 1,
+      "avg_composite_score": 0.5414,
+      "action": "보류",
+      "leaders": [
+        {
+          "symbol": "272210",
+          "name": "한화시스템",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.5414
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "272210",
+          "name": "한화시스템",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.592
+        }
+      ]
+    },
+    {
+      "sector": "음식료/담배",
+      "count": 1,
+      "avg_composite_score": 0.539,
+      "action": "보류",
+      "leaders": [
+        {
+          "symbol": "033780",
+          "name": "KT&G",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.539
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "033780",
+          "name": "KT&G",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.668
+        }
+      ]
+    },
+    {
+      "sector": "기계/공작기계",
+      "count": 5,
+      "avg_composite_score": 0.5375,
+      "action": "보류",
+      "leaders": [
+        {
+          "symbol": "010120",
+          "name": "LS ELECTRIC",
+          "sector_leader_signal": 1.3271,
+          "composite_score": 0.6038
+        },
+        {
+          "symbol": "267250",
+          "name": "HD현대",
+          "sector_leader_signal": 0.7951,
+          "composite_score": 0.4853
+        },
+        {
+          "symbol": "267260",
+          "name": "HD현대일렉트릭",
+          "sector_leader_signal": -0.2759,
+          "composite_score": 0.5079
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "267250",
+          "name": "HD현대",
+          "sector_reversion_signal": 2.6873,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.524
+        },
+        {
+          "symbol": "267260",
+          "name": "HD현대일렉트릭",
+          "sector_reversion_signal": 1.1788,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.556
+        },
+        {
+          "symbol": "034020",
+          "name": "두산에너빌리티",
+          "sector_reversion_signal": -0.6815,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.608
+        }
+      ]
+    },
+    {
+      "sector": "2차전지/배터리",
+      "count": 3,
+      "avg_composite_score": 0.5337,
+      "action": "보류",
+      "leaders": [
+        {
+          "symbol": "006400",
+          "name": "삼성SDI",
+          "sector_leader_signal": 1.1033,
+          "composite_score": 0.588
+        },
+        {
+          "symbol": "373220",
+          "name": "LG에너지솔루션",
+          "sector_leader_signal": 0.0235,
+          "composite_score": 0.4862
+        },
+        {
+          "symbol": "003670",
+          "name": "포스코퓨처엠",
+          "sector_leader_signal": -1.1268,
+          "composite_score": 0.5268
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "373220",
+          "name": "LG에너지솔루션",
+          "sector_reversion_signal": 2.5179,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.588
+        },
+        {
+          "symbol": "003670",
+          "name": "포스코퓨처엠",
+          "sector_reversion_signal": -1.2191,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.7
+        },
+        {
+          "symbol": "006400",
+          "name": "삼성SDI",
+          "sector_reversion_signal": -1.2987,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.8
+        }
+      ]
+    },
+    {
+      "sector": "IT하드웨어 (반도체)",
+      "count": 3,
+      "avg_composite_score": 0.5249,
+      "action": "보류",
+      "leaders": [
+        {
+          "symbol": "005930",
+          "name": "삼성전자",
+          "sector_leader_signal": 1.3642,
+          "composite_score": 0.5173
+        },
+        {
+          "symbol": "000660",
+          "name": "SK하이닉스",
+          "sector_leader_signal": 1.0427,
+          "composite_score": 0.5257
+        },
+        {
+          "symbol": "042700",
+          "name": "한미반도체",
+          "sector_leader_signal": -2.4069,
+          "composite_score": 0.5316
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "005930",
+          "name": "삼성전자",
+          "sector_reversion_signal": 1.216,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.564
+        },
+        {
+          "symbol": "042700",
+          "name": "한미반도체",
+          "sector_reversion_signal": 0.1134,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.54
+        },
+        {
+          "symbol": "000660",
+          "name": "SK하이닉스",
+          "sector_reversion_signal": -1.3293,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.584
+        }
+      ]
+    },
+    {
+      "sector": "금융지주/은행",
+      "count": 5,
+      "avg_composite_score": 0.5246,
+      "action": "보류",
+      "leaders": [
+        {
+          "symbol": "055550",
+          "name": "신한지주",
+          "sector_leader_signal": 2.2053,
+          "composite_score": 0.5635
+        },
+        {
+          "symbol": "316140",
+          "name": "우리금융지주",
+          "sector_leader_signal": 0.2454,
+          "composite_score": 0.5306
+        },
+        {
+          "symbol": "105560",
+          "name": "KB금융",
+          "sector_leader_signal": -0.6629,
+          "composite_score": 0.5504
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "024110",
+          "name": "기업은행",
+          "sector_reversion_signal": 2.4671,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.392
+        },
+        {
+          "symbol": "055550",
+          "name": "신한지주",
+          "sector_reversion_signal": 0.3521,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.676
+        },
+        {
+          "symbol": "316140",
+          "name": "우리금융지주",
+          "sector_reversion_signal": -0.0129,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.592
+        }
+      ]
+    },
+    {
+      "sector": "건설/건자재",
+      "count": 2,
+      "avg_composite_score": 0.5048,
+      "action": "보류",
+      "leaders": [
+        {
+          "symbol": "028260",
+          "name": "삼성물산",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.4218
+        },
+        {
+          "symbol": "000720",
+          "name": "현대건설",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.5878
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "028260",
+          "name": "삼성물산",
+          "sector_reversion_signal": 2.0,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.272
+        },
+        {
+          "symbol": "000720",
+          "name": "현대건설",
+          "sector_reversion_signal": -2.0,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.792
+        }
+      ]
+    },
+    {
+      "sector": "복합기업",
+      "count": 2,
+      "avg_composite_score": 0.4996,
+      "action": "보류",
+      "leaders": [
+        {
+          "symbol": "000150",
+          "name": "두산",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.5316
+        },
+        {
+          "symbol": "402340",
+          "name": "SK스퀘어",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.4677
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "402340",
+          "name": "SK스퀘어",
+          "sector_reversion_signal": 2.0,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.484
+        },
+        {
+          "symbol": "000150",
+          "name": "두산",
+          "sector_reversion_signal": -2.0,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.7
+        }
+      ]
+    },
+    {
+      "sector": "석유와가스",
+      "count": 2,
+      "avg_composite_score": 0.4972,
+      "action": "보류",
+      "leaders": [
+        {
+          "symbol": "096770",
+          "name": "SK이노베이션",
+          "sector_leader_signal": -0.0,
+          "composite_score": 0.5126
+        },
+        {
+          "symbol": "034730",
+          "name": "SK",
+          "sector_leader_signal": -0.0,
+          "composite_score": 0.4818
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "034730",
+          "name": "SK",
+          "sector_reversion_signal": 2.0,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.468
+        },
+        {
+          "symbol": "096770",
+          "name": "SK이노베이션",
+          "sector_reversion_signal": -2.0,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.528
+        }
+      ]
+    },
+    {
+      "sector": "전자제품",
+      "count": 1,
+      "avg_composite_score": 0.4944,
+      "action": "보류",
+      "leaders": [
+        {
+          "symbol": "066570",
+          "name": "LG전자",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.4944
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "066570",
+          "name": "LG전자",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.36
+        }
+      ]
+    },
+    {
+      "sector": "보험",
+      "count": 2,
+      "avg_composite_score": 0.4806,
+      "action": "보류",
+      "leaders": [
+        {
+          "symbol": "000810",
+          "name": "삼성화재",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.4258
+        },
+        {
+          "symbol": "032830",
+          "name": "삼성생명",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.5354
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "000810",
+          "name": "삼성화재",
+          "sector_reversion_signal": 2.0,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.188
+        },
+        {
+          "symbol": "032830",
+          "name": "삼성생명",
+          "sector_reversion_signal": -2.0,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.788
+        }
+      ]
+    },
+    {
+      "sector": "제약/바이오 (대형)",
+      "count": 2,
+      "avg_composite_score": 0.4778,
+      "action": "보류",
+      "leaders": [
+        {
+          "symbol": "207940",
+          "name": "삼성바이오로직스",
+          "sector_leader_signal": 1.0,
+          "composite_score": 0.471
+        },
+        {
+          "symbol": "068270",
+          "name": "셀트리온",
+          "sector_leader_signal": -1.0,
+          "composite_score": 0.4846
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "207940",
+          "name": "삼성바이오로직스",
+          "sector_reversion_signal": 1.0,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.488
+        },
+        {
+          "symbol": "068270",
+          "name": "셀트리온",
+          "sector_reversion_signal": -1.0,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.488
+        }
+      ]
+    },
+    {
+      "sector": "자동차/완성차",
+      "count": 3,
+      "avg_composite_score": 0.4696,
+      "action": "보류",
+      "leaders": [
+        {
+          "symbol": "000270",
+          "name": "기아",
+          "sector_leader_signal": 1.5314,
+          "composite_score": 0.4573
+        },
+        {
+          "symbol": "005380",
+          "name": "현대차",
+          "sector_leader_signal": 1.1082,
+          "composite_score": 0.5042
+        },
+        {
+          "symbol": "064350",
+          "name": "현대로템",
+          "sector_leader_signal": -2.6397,
+          "composite_score": 0.4472
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "000270",
+          "name": "기아",
+          "sector_reversion_signal": 0.8049,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.344
+        },
+        {
+          "symbol": "064350",
+          "name": "현대로템",
+          "sector_reversion_signal": 0.0909,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.16
+        },
+        {
+          "symbol": "005380",
+          "name": "현대차",
+          "sector_reversion_signal": -0.8958,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.412
+        }
+      ]
+    },
+    {
+      "sector": "화학/석유화학",
+      "count": 1,
+      "avg_composite_score": 0.4643,
+      "action": "보류",
+      "leaders": [
+        {
+          "symbol": "051910",
+          "name": "LG화학",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.4643
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "051910",
+          "name": "LG화학",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.396
+        }
+      ]
+    },
+    {
+      "sector": "철강/비철금속",
+      "count": 2,
+      "avg_composite_score": 0.4642,
+      "action": "보류",
+      "leaders": [
+        {
+          "symbol": "005490",
+          "name": "POSCO홀딩스",
+          "sector_leader_signal": 2.0,
+          "composite_score": 0.5245
+        },
+        {
+          "symbol": "010130",
+          "name": "고려아연",
+          "sector_leader_signal": -2.0,
+          "composite_score": 0.4038
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "005490",
+          "name": "POSCO홀딩스",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.524
+        },
+        {
+          "symbol": "010130",
+          "name": "고려아연",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.272
+        }
+      ]
+    },
+    {
+      "sector": "자동차부품/타이어",
+      "count": 1,
+      "avg_composite_score": 0.4606,
+      "action": "보류",
+      "leaders": [
+        {
+          "symbol": "012330",
+          "name": "현대모비스",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.4606
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "012330",
+          "name": "현대모비스",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.408
+        }
+      ]
+    },
+    {
+      "sector": "운송/해운/항공",
+      "count": 2,
+      "avg_composite_score": 0.4559,
+      "action": "보류",
+      "leaders": [
+        {
+          "symbol": "086280",
+          "name": "현대글로비스",
+          "sector_leader_signal": 2.0,
+          "composite_score": 0.4598
+        },
+        {
+          "symbol": "011200",
+          "name": "HMM",
+          "sector_leader_signal": -2.0,
+          "composite_score": 0.452
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "086280",
+          "name": "현대글로비스",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.388
+        },
+        {
+          "symbol": "011200",
+          "name": "HMM",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.34
+        }
+      ]
+    },
+    {
+      "sector": "IT소프트웨어 (플랫폼/SI)",
+      "count": 2,
+      "avg_composite_score": 0.4487,
+      "action": "보류",
+      "leaders": [
+        {
+          "symbol": "035420",
+          "name": "NAVER",
+          "sector_leader_signal": 2.0,
+          "composite_score": 0.4742
+        },
+        {
+          "symbol": "035720",
+          "name": "카카오",
+          "sector_leader_signal": -2.0,
+          "composite_score": 0.4232
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "035420",
+          "name": "NAVER",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.228
+        },
+        {
+          "symbol": "035720",
+          "name": "카카오",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.14
+        }
+      ]
+    },
+    {
+      "sector": "조선/해양",
+      "count": 4,
+      "avg_composite_score": 0.439,
+      "action": "보류",
+      "leaders": [
+        {
+          "symbol": "329180",
+          "name": "HD현대중공업",
+          "sector_leader_signal": 0.3142,
+          "composite_score": 0.4066
+        },
+        {
+          "symbol": "042660",
+          "name": "한화오션",
+          "sector_leader_signal": 0.2905,
+          "composite_score": 0.471
+        },
+        {
+          "symbol": "009540",
+          "name": "HD한국조선해양",
+          "sector_leader_signal": -0.236,
+          "composite_score": 0.4094
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "009540",
+          "name": "HD한국조선해양",
+          "sector_reversion_signal": 2.3133,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.112
+        },
+        {
+          "symbol": "329180",
+          "name": "HD현대중공업",
+          "sector_reversion_signal": 1.6002,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.168
+        },
+        {
+          "symbol": "010140",
+          "name": "삼성중공업",
+          "sector_reversion_signal": -1.79,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.288
+        }
+      ]
+    },
+    {
+      "sector": "전력/유틸리티",
+      "count": 1,
+      "avg_composite_score": 0.427,
+      "action": "보류",
+      "leaders": [
+        {
+          "symbol": "015760",
+          "name": "한국전력",
+          "sector_leader_signal": 0.0,
+          "composite_score": 0.427
+        }
+      ],
+      "laggards": [
+        {
+          "symbol": "015760",
+          "name": "한국전력",
+          "sector_reversion_signal": 0.0,
+          "value_score": 0.5,
+          "flow_score": 0.5,
+          "momentum_score": 0.112
+        }
+      ]
+    }
+  ],
+  "ai_commentary": "*AI 최종 코멘트*\n- 직접 후보: 없음\n- 눌림 후보: 없음\n- 보류: 삼천당제약, 삼성전기\n- 한 줄 해설: 직접 및 눌림 후보는 없으며, 삼천당제약, 삼성전기는 모멘텀과 가치 측면은 보이나 관찰 중심 해석 모드에 따라 확인이 필요합니다.\n- 데이터 주의: 수급, 컨센서스, 뉴스 데이터 공백으로 관찰 및 보수적 해석 모드를 유지합니다."
+}

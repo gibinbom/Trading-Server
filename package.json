@@ -1,0 +1,20 @@
+{
+  "name": "trading-value-worker",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Worker-only PM2 repo for refreshing Trading read models",
+  "scripts": {
+    "bootstrap": "bash scripts/bootstrap.sh",
+    "pm2:start": "bash scripts/worker_pm2.sh up",
+    "pm2:reload": "bash scripts/worker_pm2.sh reload",
+    "pm2:stop": "bash scripts/worker_pm2.sh stop",
+    "pm2:delete": "bash scripts/worker_pm2.sh delete",
+    "pm2:status": "bash scripts/worker_pm2.sh status",
+    "worker:smoke": "bash scripts/worker_smoke.sh",
+    "worker:seed": "bash scripts/refresh_now.sh"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "pm2": "^6.0.8"
+  }
+}

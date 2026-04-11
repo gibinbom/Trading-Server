@@ -1,0 +1,93 @@
+{
+  "generated_at": "2026-03-29T17:16:49.221369",
+  "row_count": 10,
+  "unknown_sector_count": 0,
+  "factor_coverage": 10,
+  "analyst_coverage": 10,
+  "flow_coverage": 0,
+  "intraday_coverage": 0,
+  "event_coverage": 0,
+  "ml_coverage": 10,
+  "top_symbols": [
+    {
+      "symbol": "017960",
+      "name": "한국카본",
+      "sector": "조선",
+      "card_score": 0.8766,
+      "event_alpha_score": 0.0,
+      "analyst_conviction_score": 10.375
+    },
+    {
+      "symbol": "120110",
+      "name": "코오롱인더",
+      "sector": "화학/석유화학",
+      "card_score": 0.863,
+      "event_alpha_score": 0.0,
+      "analyst_conviction_score": 10.2413
+    },
+    {
+      "symbol": "023530",
+      "name": "롯데쇼핑",
+      "sector": "유통/백화점",
+      "card_score": 0.8497,
+      "event_alpha_score": 0.0,
+      "analyst_conviction_score": 9.8176
+    },
+    {
+      "symbol": "004170",
+      "name": "신세계",
+      "sector": "유통/백화점",
+      "card_score": 0.8306,
+      "event_alpha_score": 0.0,
+      "analyst_conviction_score": 10.1967
+    },
+    {
+      "symbol": "011070",
+      "name": "LG이노텍",
+      "sector": "디스플레이/IT부품",
+      "card_score": 0.8248,
+      "event_alpha_score": 0.0,
+      "analyst_conviction_score": 9.2073
+    },
+    {
+      "symbol": "005930",
+      "name": "삼성전자",
+      "sector": "IT하드웨어 (반도체)",
+      "card_score": 0.8023,
+      "event_alpha_score": 0.0,
+      "analyst_conviction_score": 9.3405
+    },
+    {
+      "symbol": "004000",
+      "name": "롯데정밀화학",
+      "sector": "화학",
+      "card_score": 0.7982,
+      "event_alpha_score": 0.0,
+      "analyst_conviction_score": 9.4095
+    },
+    {
+      "symbol": "010060",
+      "name": "OCI홀딩스",
+      "sector": "화학",
+      "card_score": 0.7722,
+      "event_alpha_score": 0.0,
+      "analyst_conviction_score": 9.9206
+    },
+    {
+      "symbol": "047050",
+      "name": "포스코인터내셔널",
+      "sector": "무역회사와판매업체",
+      "card_score": 0.7714,
+      "event_alpha_score": 0.0,
+      "analyst_conviction_score": 9.0487
+    },
+    {
+      "symbol": "353200",
+      "name": "대덕전자",
+      "sector": "전자장비와기기",
+      "card_score": 0.7649,
+      "event_alpha_score": 0.0,
+      "analyst_conviction_score": 7.6877
+    }
+  ]
+}

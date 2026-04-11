@@ -1,0 +1,27 @@
+{
+  "snapshot_date": "20260320",
+  "snapshot_time": "16:01:56",
+  "coverage": {
+    "total_names": 20,
+    "markets": [
+      "KOSPI",
+      "KOSDAQ"
+    ],
+    "universe_mode": "top_n",
+    "flow_top_n": 5,
+    "consensus_top_n": 5,
+    "price_factor_coverage_pct": 0.0,
+    "flow_factor_coverage_pct": 0.0,
+    "consensus_factor_coverage_pct": 0.0,
+    "ranking_eligible_count": 0,
+    "portfolio_eligible_count": 0,
+    "missing_price_count": 20,
+    "missing_flow_count": 0,
+    "missing_consensus_count": 0
+  },
+  "top_composite": [],
+  "top_reversion": [],
+  "portfolio_candidates": [],
+  "top_sectors": [],
+  "sector_cards": []
+}
