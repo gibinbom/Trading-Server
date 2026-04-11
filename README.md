@@ -44,9 +44,21 @@ KIS 계정 의존도가 높은 실시간 감시기(`wics_monitor`, 자동매매,
 
 ## 빠른 시작
 
+macOS / Linux:
+
 ```bash
 cp .env.example .env
 PYTHON_BIN=python3.11 npm run bootstrap
+npm run worker:smoke
+npm run worker:seed
+npm run pm2:start
+```
+
+Windows PowerShell:
+
+```powershell
+Copy-Item .env.example .env
+npm run bootstrap
 npm run worker:smoke
 npm run worker:seed
 npm run pm2:start

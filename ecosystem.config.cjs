@@ -8,7 +8,11 @@ if (fs.existsSync(envPath)) {
   dotenv.config({ path: envPath });
 }
 
-const pythonBin = process.env.WORKER_PYTHON_BIN || path.join(rootDir, ".venv", "bin", "python");
+const defaultPythonBin = process.platform === "win32"
+  ? path.join(rootDir, ".venv", "Scripts", "python.exe")
+  : path.join(rootDir, ".venv", "bin", "python");
+
+const pythonBin = process.env.WORKER_PYTHON_BIN || defaultPythonBin;
 
 const delayedQuoteTimes = (() => {
   const slots = ["08:15"];
