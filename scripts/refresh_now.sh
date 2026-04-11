@@ -12,7 +12,7 @@ fi
 cd "$ROOT_DIR"
 
 echo "[seed] delayed quote"
-"$PYTHON_BIN" Disclosure/delayed_quote_collector.py --once
+"$PYTHON_BIN" Disclosure/delayed_quote_collector.py --once --skip-fetch
 
 echo "[seed] fair value"
 "$PYTHON_BIN" Disclosure/fair_value_builder.py --once --top-n 20
