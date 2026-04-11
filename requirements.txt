@@ -1,5 +1,6 @@
 beautifulsoup4
 finance-datareader
+fastapi
 google-genai
 html5lib
 nest_asyncio
@@ -15,4 +16,5 @@ pytesseract
 requests
 schedule
 urllib3
+uvicorn
 websockets

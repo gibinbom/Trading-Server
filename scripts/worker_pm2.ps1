@@ -5,6 +5,7 @@ $Pm2Bin = Join-Path $RootDir "node_modules\.bin\pm2.cmd"
 $EcosystemPath = Join-Path $RootDir "ecosystem.config.cjs"
 
 $WorkerApps = @(
+    "worker-read-api",
     "worker-consensus-refresh-full",
     "worker-consensus-refresh-incremental",
     "worker-actual-financial-refresh",

@@ -6,6 +6,7 @@ PM2_BIN="$ROOT_DIR/node_modules/.bin/pm2"
 ECOSYSTEM_PATH="$ROOT_DIR/ecosystem.config.cjs"
 
 WORKER_APPS=(
+  worker-read-api
   worker-consensus-refresh-full
   worker-consensus-refresh-incremental
   worker-actual-financial-refresh

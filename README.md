@@ -12,6 +12,7 @@
 - 공시 이벤트 수집
 - 웹 projection 발행
 - 매크로 뉴스 모니터링
+- FastAPI 읽기 전용 API 제공
 
 웹 서버는 이 레포를 직접 실행하지 않고, 같은 Mongo를 읽도록 두는 구성이 가장 안정적입니다.
 
@@ -29,6 +30,7 @@
 
 - `worker-consensus-refresh-full`
 - `worker-consensus-refresh-incremental`
+- `worker-read-api`
 - `worker-actual-financial-refresh`
 - `worker-fair-value-builder`
 - `worker-delayed-quote`
@@ -100,15 +102,22 @@ npm run pm2:status
 - `SLACK_WEBHOOK_URL`
 - `GEMINI_API_KEY`
 - `PLAYWRIGHT_SKIP_BROWSER_INSTALL=1`
+- `READ_API_PORT` 기본값 `8000`
 
 ## 웹 서버 연결
 
 `trading-value-web` 쪽은 아래처럼 두면 됩니다.
 
 ```bash
-READ_MODEL_SOURCE=mongo
-MONGO_URI=mongodb://your-mongo-host:27017
-DB_NAME=stock_data
+READ_MODEL_API_BASE_URL=http://your-worker-host:8000
+```
+
+읽기 전용 API 상태 확인:
+
+```bash
+curl http://127.0.0.1:8000/health
+curl http://127.0.0.1:8000/api/read-models/dashboard
+curl http://127.0.0.1:8000/api/analyst-board/012450
 ```
 
 ## 운영 메모

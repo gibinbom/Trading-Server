@@ -13,6 +13,7 @@ const defaultPythonBin = process.platform === "win32"
   : path.join(rootDir, ".venv", "bin", "python");
 
 const pythonBin = process.env.WORKER_PYTHON_BIN || defaultPythonBin;
+const readApiPort = process.env.READ_API_PORT || "8000";
 
 const delayedQuoteTimes = (() => {
   const slots = ["08:15"];
@@ -52,12 +53,18 @@ const baseApp = {
     WICS_DYNAMIC_MIN_SOURCES: process.env.WICS_DYNAMIC_MIN_SOURCES || "2",
     FLOW_SNAPSHOT_INTERVAL_SEC: process.env.FLOW_SNAPSHOT_INTERVAL_SEC || "180",
     FLOW_SNAPSHOT_MIN_GROSS_AMT_MIL: process.env.FLOW_SNAPSHOT_MIN_GROSS_AMT_MIL || "50",
-    FLOW_SNAPSHOT_FORCE_GROSS_AMT_MIL: process.env.FLOW_SNAPSHOT_FORCE_GROSS_AMT_MIL || "300"
+    FLOW_SNAPSHOT_FORCE_GROSS_AMT_MIL: process.env.FLOW_SNAPSHOT_FORCE_GROSS_AMT_MIL || "300",
+    READ_API_PORT: readApiPort
   }
 };
 
 module.exports = {
   apps: [
+    {
+      ...baseApp,
+      name: "worker-read-api",
+      args: `-m uvicorn read_api:app --host 0.0.0.0 --port ${readApiPort}`
+    },
     {
       ...baseApp,
       name: "worker-consensus-refresh-full",
