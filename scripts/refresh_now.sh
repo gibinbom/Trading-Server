@@ -11,6 +11,12 @@ fi
 
 cd "$ROOT_DIR"
 
+echo "[seed] consensus incremental"
+"$PYTHON_BIN" Disclosure/consensus_refresh.py --mode incremental --once --workers 12
+
+echo "[seed] actual financial"
+"$PYTHON_BIN" Disclosure/actual_financial_refresh.py --once
+
 echo "[seed] delayed quote"
 "$PYTHON_BIN" Disclosure/delayed_quote_collector.py --once --skip-fetch
 

@@ -27,8 +27,7 @@ function Need-Pm2 {
 function App-Exists([string]$Name) {
     $json = & $Pm2Bin jlist 2>$null
     if (-not $json) { return $false }
-    $rows = $json | ConvertFrom-Json
-    return [bool]($rows | Where-Object { $_.name -eq $Name })
+    return [bool]($json -match ('"name"\s*:\s*"' + [Regex]::Escape($Name) + '"'))
 }
 
 function Ensure-Started {

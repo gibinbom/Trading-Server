@@ -64,6 +64,8 @@ npm run worker:seed
 npm run pm2:start
 ```
 
+이 레포는 `worker-only`라서 `npm run build`나 `npm run start`는 없습니다. 상태 확인은 `npm run pm2:status`를 사용합니다.
+
 Windows에서 `No suitable Python runtime found`가 나오면:
 
 ```powershell

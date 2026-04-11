@@ -9,6 +9,12 @@ if (-not (Test-Path $Python)) {
 
 Push-Location $RootDir
 try {
+    Write-Host "[seed] consensus incremental"
+    & $Python "Disclosure/consensus_refresh.py" --mode incremental --once --workers 12
+
+    Write-Host "[seed] actual financial"
+    & $Python "Disclosure/actual_financial_refresh.py" --once
+
     Write-Host "[seed] delayed quote"
     & $Python "Disclosure/delayed_quote_collector.py" --once --skip-fetch
 
