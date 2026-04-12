@@ -35,6 +35,8 @@ SECTOR_DASHBOARD_JSON_PATH = os.path.join(OUTPUT_DIR, "sector_dashboard_latest.j
 HOTSET_JSON_PATH = os.path.join(OUTPUT_DIR, "quote_delayed_hotset_latest.json")
 HOTSET_CSV_PATH = os.path.join(OUTPUT_DIR, "quote_delayed_hotset_latest.csv")
 STALE_OFFICIAL_CLOSE_BUSINESS_DAYS = 3
+MIN_DELAYED_COVERAGE_RATIO = 0.05
+MAX_CARRY_FORWARD_BUSINESS_DAYS = 1
 
 
 def _default_schedule_times(mode: str = "full") -> str:
@@ -189,6 +191,11 @@ def _output_paths(mode: str) -> tuple[str, str]:
     return LATEST_JSON_PATH, LATEST_CSV_PATH
 
 
+def _load_existing_quote_rows(mode: str) -> list[dict[str, Any]]:
+    json_path, _ = _output_paths(mode)
+    return _read_rows_payload(json_path)
+
+
 def _business_days_elapsed(value: Any) -> int | None:
     text = _clean_text(value)
     if not text:
@@ -211,6 +218,11 @@ def _business_days_elapsed(value: Any) -> int | None:
 def _is_stale_official_close(value: Any, *, max_business_days: int = STALE_OFFICIAL_CLOSE_BUSINESS_DAYS) -> bool:
     elapsed = _business_days_elapsed(value)
     return elapsed is None or elapsed > int(max_business_days)
+
+
+def _is_recent_quote_capture(value: Any, *, max_business_days: int = MAX_CARRY_FORWARD_BUSINESS_DAYS) -> bool:
+    elapsed = _business_days_elapsed(value)
+    return elapsed is not None and elapsed <= int(max_business_days)
 
 
 def _fetch_secondary_public_quote(symbol: str) -> dict[str, Any] | None:
@@ -284,6 +296,65 @@ def _fetch_quote_map(symbols: list[str], *, workers: int) -> dict[str, dict[str,
             if isinstance(payload, dict):
                 fetched_map[symbol] = payload
     return fetched_map
+
+
+def _rehydrate_recent_delayed_rows(
+    rows: list[dict[str, Any]],
+    *,
+    mode: str,
+    delayed_ratio: float,
+) -> list[dict[str, Any]]:
+    if not rows or delayed_ratio >= MIN_DELAYED_COVERAGE_RATIO:
+        return rows
+
+    existing_rows = _load_existing_quote_rows(mode)
+    if not existing_rows:
+        return rows
+
+    existing_map: dict[str, dict[str, Any]] = {}
+    for row in existing_rows:
+        symbol = _normalize_symbol(row.get("symbol") or row.get("_id"))
+        if not symbol:
+            continue
+        if _clean_text(row.get("price_status")) != "지연시세":
+            continue
+        if not _is_recent_quote_capture(row.get("price_captured_at") or row.get("captured_at")):
+            continue
+        existing_map[symbol] = row
+
+    if not existing_map:
+        return rows
+
+    carried = 0
+    updated_rows: list[dict[str, Any]] = []
+    for row in rows:
+        symbol = _normalize_symbol(row.get("symbol") or row.get("_id"))
+        previous = existing_map.get(symbol)
+        if previous and _clean_text(row.get("price_status")) != "지연시세":
+            carried += 1
+            updated = dict(row)
+            updated["price"] = previous.get("price")
+            updated["change_rate_pct"] = previous.get("change_rate_pct")
+            updated["captured_at"] = previous.get("captured_at") or previous.get("price_captured_at") or row.get("captured_at")
+            updated["source"] = previous.get("source") or row.get("source")
+            updated["freshness"] = "carried_delayed_quote"
+            updated["is_delayed"] = False
+            updated["price_source"] = previous.get("price_source") or previous.get("source") or row.get("price_source")
+            updated["price_captured_at"] = previous.get("price_captured_at") or previous.get("captured_at") or row.get("price_captured_at")
+            updated["price_freshness"] = "carried_delayed_quote"
+            updated["price_status"] = "업데이트 지연"
+            updated_rows.append(updated)
+            continue
+        updated_rows.append(row)
+
+    if carried:
+        log.warning(
+            "delayed quote refresh[%s] reused %s recent delayed rows because fresh delayed coverage was %.2f%%",
+            mode,
+            carried,
+            delayed_ratio * 100.0,
+        )
+    return updated_rows
 
 
 def build_delayed_quote_rows(
@@ -429,6 +500,9 @@ def run_once(args: argparse.Namespace) -> None:
         sector_watch_top_n=args.sector_watch_top_n,
         sector_watch_per_sector=args.sector_watch_per_sector,
     )
+    initial_stats = _summarize_rows(rows)
+    initial_ratio = (initial_stats["delayed_count"] / initial_stats["count"]) if initial_stats["count"] else 0.0
+    rows = _rehydrate_recent_delayed_rows(rows, mode=args.mode, delayed_ratio=initial_ratio)
     result = save_delayed_quotes(rows, mode=args.mode)
     delayed_ratio = (result["delayed_count"] / result["count"]) if result["count"] else 0.0
     log.info(

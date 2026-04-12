@@ -807,15 +807,15 @@ def _fallback_excerpt(text: Any) -> str:
     return clean[:280] if clean else ""
 
 
+def _is_live_price_status(value: Any) -> bool:
+    return _clean_text(value) == "지연시세"
+
+
 def _visible_quote_price(row: dict[str, Any]) -> float | None:
     status = _clean_text(row.get("price_status"))
     price = _safe_float(row.get("price"), float("nan"))
-    if math.isfinite(price) and price > 0:
+    if status == "지연시세" and math.isfinite(price) and price > 0:
         return price
-    if status == "공식종가 fallback":
-        official_close = _safe_float(row.get("official_close"), float("nan"))
-        if math.isfinite(official_close) and official_close > 0:
-            return official_close
     return None
 
 
@@ -1484,7 +1484,7 @@ def _build_stock_context_docs(
                 "name": _clean_text(fair.get("name") or card.get("name") or brief.get("name")),
                 "sector": sector,
                 "current_price": _visible_quote_price(quote) if quote else (
-                    fair.get("current_price") if _clean_text(fair.get("current_price_status")) != "업데이트 지연" else None
+                    fair.get("current_price") if _is_live_price_status(fair.get("current_price_status")) else None
                 ),
                 "quote_change_rate_pct": quote.get("change_rate_pct"),
                 "quote_source": _clean_text(quote.get("source")),

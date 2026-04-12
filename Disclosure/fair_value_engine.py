@@ -197,6 +197,10 @@ def _clean_text(value: Any) -> str:
     return "" if text.lower() == "nan" else text
 
 
+def _is_live_price_status(value: Any) -> bool:
+    return _clean_text(value) == "지연시세"
+
+
 def _normalize_symbol(value: Any) -> str:
     digits = "".join(ch for ch in str(value or "") if ch.isdigit())
     return digits.zfill(6) if digits else ""
@@ -2559,7 +2563,9 @@ def build_fair_value_snapshot(*, analyst_days: int = 30, event_days: int = 45) -
         )
         base_df = base_df.merge(quote_merge_df, how="left", on="symbol")
         if "quote_price" in base_df.columns:
-            base_df["close"] = pd.to_numeric(base_df["quote_price"], errors="coerce").combine_first(pd.to_numeric(base_df["close"], errors="coerce"))
+            quote_live_mask = base_df["quote_price_status"].map(_is_live_price_status) if "quote_price_status" in base_df.columns else False
+            live_quote_price = pd.to_numeric(base_df["quote_price"], errors="coerce").where(quote_live_mask, pd.NA)
+            base_df["close"] = live_quote_price.combine_first(pd.to_numeric(base_df["close"], errors="coerce"))
             base_df["current_price_source"] = base_df["quote_price_source"].where(base_df["quote_price_source"].notna(), base_df["current_price_source"])
             base_df["current_price_captured_at"] = base_df["quote_price_captured_at"].where(base_df["quote_price_captured_at"].notna(), base_df["current_price_captured_at"])
             base_df["current_price_freshness"] = base_df["quote_price_freshness"].where(base_df["quote_price_freshness"].notna(), base_df["current_price_freshness"])
@@ -2567,8 +2573,8 @@ def build_fair_value_snapshot(*, analyst_days: int = 30, event_days: int = 45) -
             base_df["official_close"] = pd.to_numeric(base_df["quote_official_close"], errors="coerce").combine_first(pd.to_numeric(base_df["official_close"], errors="coerce"))
             base_df["official_close_date"] = base_df["quote_official_close_date"].where(base_df["quote_official_close_date"].notna(), base_df["official_close_date"])
             if "quote_price_status" in base_df.columns:
-                stale_mask = base_df["quote_price_status"].astype(str).eq("업데이트 지연")
-                base_df.loc[stale_mask, "close"] = pd.NA
+                non_live_mask = ~base_df["quote_price_status"].map(_is_live_price_status)
+                base_df.loc[non_live_mask, "close"] = pd.NA
 
     base_df["cons_psr"] = base_df.apply(
         lambda item: float(_safe_float(item.get("marcap"), float("nan")) / _safe_float(item.get("cons_revenue_y_krw"), float("nan")))
