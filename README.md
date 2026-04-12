@@ -112,6 +112,30 @@ npm run pm2:status
 READ_MODEL_API_BASE_URL=http://your-worker-host:8000
 ```
 
+Vercel이나 외부 웹앱이 붙을 때는 `8000` 직접 노출보다 `Caddy -> 127.0.0.1:8000` reverse proxy를 권장합니다.
+이 레포에는 바로 쓸 수 있는 [Caddyfile](/Users/mac_mini/Documents/GitHub/Trading/trading-value-worker/Caddyfile) 가 포함되어 있습니다.
+
+기본 Caddyfile은 `:80` 에서 받아서 `worker-read-api` 로 프록시합니다.
+
+```bash
+curl http://52.64.85.49/health
+curl http://52.64.85.49/api/read-models/dashboard
+```
+
+이 구성에서는 웹앱 환경변수를 아래처럼 두면 됩니다.
+
+```bash
+READ_MODEL_API_BASE_URL=http://52.64.85.49
+```
+
+Windows 서버에서 Caddy를 서비스로 돌리는 예시는 아래와 같습니다.
+
+```powershell
+caddy run --config C:\apps\Trading-Server\Caddyfile
+```
+
+운영에서는 AWS 보안그룹과 Windows 방화벽에 `80` 포트를 열어 주세요.
+
 읽기 전용 API 상태 확인:
 
 ```bash

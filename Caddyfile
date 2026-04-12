@@ -1,0 +1,22 @@
+{
+  auto_https off
+}
+
+:80 {
+  encode gzip zstd
+
+  @health path /health
+  @readModels path /api/*
+
+  handle @health {
+    reverse_proxy 127.0.0.1:8000
+  }
+
+  handle @readModels {
+    reverse_proxy 127.0.0.1:8000
+  }
+
+  handle {
+    respond "Trading read API is running." 200
+  }
+}
