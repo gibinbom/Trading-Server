@@ -4,6 +4,7 @@ import argparse
 import json
 import logging
 import os
+import threading
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
@@ -13,11 +14,13 @@ from typing import Any
 import pandas as pd
 
 try:
+    from kis_broker_factory import build_kis_broker_from_settings
     from naver_intraday_fallback import fetch_naver_intraday_history
     from naver_price_fallback import fetch_naver_daily_price_history, fetch_naver_quote_snapshot
     from runtime_paths import RUNTIME_DIR, ensure_runtime_dir
     from valuation_refresh_support import load_high_turnover_symbols, load_tp_visible_symbols
 except Exception:
+    from Disclosure.kis_broker_factory import build_kis_broker_from_settings
     from Disclosure.naver_intraday_fallback import fetch_naver_intraday_history
     from Disclosure.naver_price_fallback import fetch_naver_daily_price_history, fetch_naver_quote_snapshot
     from Disclosure.runtime_paths import RUNTIME_DIR, ensure_runtime_dir
@@ -37,6 +40,12 @@ HOTSET_CSV_PATH = os.path.join(OUTPUT_DIR, "quote_delayed_hotset_latest.csv")
 STALE_OFFICIAL_CLOSE_BUSINESS_DAYS = 3
 MIN_DELAYED_COVERAGE_RATIO = 0.05
 MAX_CARRY_FORWARD_BUSINESS_DAYS = 1
+DEFAULT_QUOTE_WORKERS = 6
+MAX_QUOTE_WORKERS = 12
+KIS_FAILURES_TO_OPEN = 5
+KIS_OPEN_STATUS_CODES = {401, 403, 429, 500, 502, 503, 504}
+KIS_DISABLED = os.getenv("DELAYED_QUOTE_DISABLE_KIS", "0") in {"1", "true", "True", "YES", "yes"}
+_KIS_BROKER_LOCAL = threading.local()
 
 
 def _default_schedule_times(mode: str = "full") -> str:
@@ -71,7 +80,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--print-only", action="store_true", help="Print a short summary after saving.")
     parser.add_argument("--skip-fetch", action="store_true", help="Skip remote quote fetch and build from KRX listing only.")
     parser.add_argument("--limit", type=int, default=0, help="Limit symbols for quick checks.")
-    parser.add_argument("--workers", type=int, default=12, help="Concurrent delayed quote fetch workers.")
+    parser.add_argument("--workers", type=int, default=DEFAULT_QUOTE_WORKERS, help="Concurrent delayed quote fetch workers.")
     parser.add_argument("--quote-top-n", type=int, default=300, help="Hotset mode delayed-quote symbol cap from turnover leaders.")
     parser.add_argument("--tp-top-n", type=int, default=200, help="Hotset mode TP-visible symbol cap.")
     parser.add_argument("--sector-watch-top-n", type=int, default=6, help="Hotset mode watched sector cap.")
@@ -225,6 +234,86 @@ def _is_recent_quote_capture(value: Any, *, max_business_days: int = MAX_CARRY_F
     return elapsed is not None and elapsed <= int(max_business_days)
 
 
+def _quote_workers(workers: int) -> int:
+    return max(1, min(int(workers), MAX_QUOTE_WORKERS))
+
+
+def _get_thread_kis_broker():
+    broker = getattr(_KIS_BROKER_LOCAL, "broker", None)
+    if broker is None:
+        broker = build_kis_broker_from_settings(is_virtual=False, dry_run=True)
+        _KIS_BROKER_LOCAL.broker = broker
+    return broker
+
+
+def _extract_http_status(exc: Exception) -> int | None:
+    response = getattr(exc, "response", None)
+    status = getattr(response, "status_code", None)
+    if isinstance(status, int):
+        return status
+    text = str(exc or "")
+    for code in sorted(KIS_OPEN_STATUS_CODES):
+        if str(code) in text:
+            return code
+    return None
+
+
+class _KisCircuit:
+    def __init__(self, failure_threshold: int = KIS_FAILURES_TO_OPEN):
+        self.failure_threshold = max(1, int(failure_threshold))
+        self.lock = threading.Lock()
+        self.open = False
+        self.failures = 0
+        self.last_status: int | None = None
+
+    def can_use(self) -> bool:
+        with self.lock:
+            return not self.open
+
+    def record_success(self) -> None:
+        with self.lock:
+            self.failures = 0
+            self.last_status = None
+
+    def record_failure(self, exc: Exception) -> None:
+        status = _extract_http_status(exc)
+        with self.lock:
+            if status in KIS_OPEN_STATUS_CODES:
+                self.failures += 1
+                self.last_status = status
+                if self.failures >= self.failure_threshold and not self.open:
+                    self.open = True
+                    log.warning(
+                        "KIS delayed quote circuit opened after %s failures (status=%s); falling back to public sources for this run",
+                        self.failures,
+                        status,
+                    )
+
+
+def _fetch_kis_quote_snapshot(symbol: str) -> dict[str, Any] | None:
+    broker = _get_thread_kis_broker()
+    ctx = broker._get_market_context()
+    mkt_code = "NX" if ctx["exch"] == "NXT" else "J"
+    tr_id = "FHKST01010100"
+    url = f"{broker.base}/uapi/domestic-stock/v1/quotations/inquire-price"
+    params = {
+        "fid_cond_mrkt_div_code": mkt_code,
+        "fid_input_iscd": symbol,
+    }
+    resp = broker._call_api_with_retry("GET", url, tr_id, params=params)
+    payload = resp.json() or {}
+    output = payload.get("output") or {}
+    price = _safe_float(output.get("stck_prpr"))
+    change_rate = _safe_float(output.get("prdy_ctrt"))
+    if price is None or price <= 0:
+        return None
+    return {
+        "price": price,
+        "change_rate": change_rate,
+        "source": "kis_current",
+    }
+
+
 def _fetch_secondary_public_quote(symbol: str) -> dict[str, Any] | None:
     today = pd.Timestamp.now().date()
     try:
@@ -278,7 +367,19 @@ def _fetch_quote_map(symbols: list[str], *, workers: int) -> dict[str, dict[str,
     if not symbols:
         return {}
 
+    kis_circuit = _KisCircuit()
+
     def _fetch_one(symbol: str) -> tuple[str, dict[str, Any] | None]:
+        if not KIS_DISABLED and kis_circuit.can_use():
+            try:
+                payload = _fetch_kis_quote_snapshot(symbol)
+                if isinstance(payload, dict) and payload.get("price") is not None:
+                    kis_circuit.record_success()
+                    return symbol, payload
+            except Exception as exc:
+                kis_circuit.record_failure(exc)
+                log.debug("kis delayed quote fetch failed for %s: %s", symbol, exc)
+
         try:
             payload = fetch_naver_quote_snapshot(symbol)
             if isinstance(payload, dict) and payload.get("price") is not None:
@@ -288,7 +389,7 @@ def _fetch_quote_map(symbols: list[str], *, workers: int) -> dict[str, dict[str,
         return symbol, _fetch_secondary_public_quote(symbol)
 
     fetched_map: dict[str, dict[str, Any]] = {}
-    max_workers = max(1, min(int(workers), 24))
+    max_workers = _quote_workers(workers)
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
         futures = {executor.submit(_fetch_one, symbol): symbol for symbol in symbols}
         for future in as_completed(futures):
@@ -474,6 +575,14 @@ def _summarize_rows(rows: list[dict[str, Any]]) -> dict[str, int]:
     return summary
 
 
+def _source_counts(rows: list[dict[str, Any]]) -> dict[str, int]:
+    counts: dict[str, int] = {}
+    for row in rows:
+        source = _clean_text(row.get("price_source") or row.get("source")) or "unknown"
+        counts[source] = counts.get(source, 0) + 1
+    return dict(sorted(counts.items(), key=lambda item: item[1], reverse=True))
+
+
 def save_delayed_quotes(rows: list[dict[str, Any]], *, mode: str = "full") -> dict[str, Any]:
     ensure_runtime_dir()
     os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -525,6 +634,7 @@ def run_once(args: argparse.Namespace) -> None:
             f"- delayed={result['delayed_count']} fallback={result['fallback_count']} "
             f"missing={result['missing_count']}"
         )
+        print(f"- source_counts: {_source_counts(rows)}")
         print(f"- json: {result['json']}")
         print(f"- csv: {result['csv']}")
 

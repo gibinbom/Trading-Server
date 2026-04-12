@@ -16,7 +16,7 @@ try {
     & $Python "Disclosure/actual_financial_refresh.py" --once
 
     Write-Host "[seed] delayed quote"
-    & $Python "Disclosure/delayed_quote_collector.py" --once --skip-fetch
+    & $Python "Disclosure/delayed_quote_collector.py" --once
 
     Write-Host "[seed] fair value"
     & $Python "Disclosure/fair_value_builder.py" --once --top-n 20

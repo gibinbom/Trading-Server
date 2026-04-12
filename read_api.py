@@ -146,6 +146,41 @@ def quote_timestamp_value(value: Any) -> float:
         return 0
 
 
+def latest_quote_capture(rows: list[dict[str, Any]]) -> str:
+    latest_text = ""
+    latest_value = 0.0
+    for row in rows:
+        text = clean_text(row.get("price_captured_at") or row.get("captured_at"))
+        value = quote_timestamp_value(text)
+        if value >= latest_value:
+            latest_value = value
+            latest_text = text
+    return latest_text
+
+
+def build_quote_health(rows: list[dict[str, Any]]) -> dict[str, Any]:
+    total = len(rows)
+    live_count = 0
+    fallback_count = 0
+    source_counts: dict[str, int] = {}
+    for row in rows:
+        status = clean_text(row.get("price_status"))
+        source = clean_text(row.get("price_source") or row.get("source")) or "unknown"
+        source_counts[source] = source_counts.get(source, 0) + 1
+        if status == "지연시세":
+            live_count += 1
+        elif status == "공식종가 fallback":
+            fallback_count += 1
+    return {
+        "quote_delayed_total": total,
+        "quote_delayed_live_count": live_count,
+        "quote_delayed_fallback_count": fallback_count,
+        "quote_delayed_ratio": (live_count / total) if total else 0.0,
+        "latest_price_captured_at": latest_quote_capture(rows),
+        "source_counts": dict(sorted(source_counts.items(), key=lambda item: item[1], reverse=True)),
+    }
+
+
 def merge_quote_rows(*groups: list[dict[str, Any]]) -> list[dict[str, Any]]:
     merged: dict[str, dict[str, Any]] = {}
     for rows in groups:
@@ -442,6 +477,7 @@ def get_stock_analyst_board(symbol: str, lookback_days: int = 90) -> dict[str, A
 @app.get("/health")
 def health() -> dict[str, Any]:
     client = get_mongo_client()
+    quote_health = build_quote_health(get_delayed_quotes())
     return {
         "ok": True,
         "mongo_connected": client is not None,
@@ -449,18 +485,21 @@ def health() -> dict[str, Any]:
         "db_name": DB_NAME,
         "projection_dir": str(PROJECTION_DIR),
         "projection_dir_exists": PROJECTION_DIR.exists(),
+        **quote_health,
     }
 
 
 @app.get("/api/source-status")
 def source_status() -> dict[str, Any]:
     client = get_mongo_client()
+    quote_health = build_quote_health(get_delayed_quotes())
     return {
         "read_model_source": READ_MODEL_SOURCE,
         "mongo_connected": client is not None,
         "projection_dir": str(PROJECTION_DIR),
         "projection_dir_exists": PROJECTION_DIR.exists(),
         "available_projection_files": sorted(path.name for path in PROJECTION_DIR.glob("*.json")),
+        **quote_health,
     }
 
 

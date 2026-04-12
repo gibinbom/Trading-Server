@@ -21,6 +21,8 @@ ANALYST_CACHE_STATE_PATH = os.path.join(ROOT_DIR, "cache", "analyst_cache_warm_s
 ANALYST_SUMMARY_PATH = os.path.join(ROOT_DIR, "analyst_reports", "summaries", "analyst_report_scored_latest.csv")
 MART_SUMMARY_PATH = os.path.join(ROOT_DIR, "marts", "daily_signal_mart_latest.json")
 API_INTEGRATION_REPORT_PATH = os.path.join(ROOT_DIR, "runtime", "api_integrations_latest.json")
+QUOTE_DELAYED_PATH = os.path.join(ROOT_DIR, "runtime", "web_projections", "quote_delayed_source_latest.json")
+QUOTE_DELAYED_LEGACY_PATH = os.path.join(ROOT_DIR, "runtime", "web_projections", "quote_delayed_latest.json")
 
 
 def _fmt_age_min(value: object) -> str:
@@ -211,7 +213,57 @@ def _load_api_integration_health() -> dict:
     return payload
 
 
-def _build_runtime_alerts(checks: dict, mart_health: dict, pm2_rows: list[dict], api_health: dict) -> list[str]:
+def _load_quote_health() -> dict:
+    payload = {
+        "status": "missing",
+        "quote_delayed_total": 0,
+        "quote_delayed_live_count": 0,
+        "quote_delayed_fallback_count": 0,
+        "quote_delayed_ratio": 0.0,
+        "latest_price_captured_at": "",
+        "source_counts": {},
+    }
+    target_path = QUOTE_DELAYED_PATH if os.path.exists(QUOTE_DELAYED_PATH) else QUOTE_DELAYED_LEGACY_PATH
+    if not os.path.exists(target_path):
+        return payload
+    try:
+        with open(target_path, "r", encoding="utf-8") as fp:
+            raw = json.load(fp)
+        rows = raw.get("rows") if isinstance(raw, dict) else raw
+        rows = rows if isinstance(rows, list) else []
+        latest_text = ""
+        latest_value = pd.Timestamp(0)
+        source_counts: dict[str, int] = {}
+        for row in rows:
+            status = " ".join(str(row.get("price_status") or "").split())
+            source = " ".join(str(row.get("price_source") or row.get("source") or "").split()) or "unknown"
+            source_counts[source] = source_counts.get(source, 0) + 1
+            if status == "지연시세":
+                payload["quote_delayed_live_count"] += 1
+            elif status == "공식종가 fallback":
+                payload["quote_delayed_fallback_count"] += 1
+            captured_text = str(row.get("price_captured_at") or row.get("captured_at") or "").strip()
+            captured_at = pd.to_datetime(captured_text, errors="coerce")
+            if not pd.isna(captured_at):
+                captured_naive = captured_at.tz_localize(None) if getattr(captured_at, "tzinfo", None) else captured_at
+                if captured_naive >= latest_value:
+                    latest_value = captured_naive
+                    latest_text = captured_text
+        payload["quote_delayed_total"] = len(rows)
+        payload["quote_delayed_ratio"] = (
+            payload["quote_delayed_live_count"] / payload["quote_delayed_total"]
+            if payload["quote_delayed_total"]
+            else 0.0
+        )
+        payload["latest_price_captured_at"] = latest_text
+        payload["source_counts"] = dict(sorted(source_counts.items(), key=lambda item: item[1], reverse=True))
+        payload["status"] = "ok"
+    except Exception as exc:
+        payload["status"] = f"decode-error: {exc}"
+    return payload
+
+
+def _build_runtime_alerts(checks: dict, mart_health: dict, pm2_rows: list[dict], api_health: dict, quote_health: dict) -> list[str]:
     alerts: list[str] = []
     if int(checks.get("stock_card", {}).get("intraday", 0) or 0) == 0:
         alerts.append("종목 점검표 장중 수급 커버리지가 0입니다")
@@ -336,6 +388,20 @@ def _build_runtime_alerts(checks: dict, mart_health: dict, pm2_rows: list[dict],
         alerts.append("매크로 연동 점검이 실패했습니다")
     if api_health.get("slack_ok") is False:
         alerts.append("Slack 연동 점검이 실패했습니다")
+    if str(quote_health.get("status") or "").lower() == "ok":
+        live_ratio = float(quote_health.get("quote_delayed_ratio", 0.0) or 0.0)
+        if live_ratio < 0.05:
+            alerts.append(f"지연시세 live 비중이 너무 낮습니다 ({live_ratio * 100:.1f}%)")
+        latest_text = str(quote_health.get("latest_price_captured_at") or "")
+        latest_ts = pd.to_datetime(latest_text, errors="coerce")
+        if not pd.isna(latest_ts):
+            latest_day = latest_ts.tz_localize(None).date() if getattr(latest_ts, "tzinfo", None) else latest_ts.date()
+            if latest_day <= (pd.Timestamp.now().normalize() - pd.Timedelta(days=1)).date():
+                alerts.append(f"지연시세 최신 시각이 전일 이하입니다 ({latest_text})")
+        else:
+            alerts.append("지연시세 최신 시각을 확인할 수 없습니다")
+    elif quote_health.get("status") == "missing":
+        alerts.append("지연시세 projection 파일이 없습니다")
     return alerts
 
 
@@ -360,7 +426,7 @@ def _diagnose_flow_logs(flow_logs: dict) -> dict[str, str]:
     return {"status": "unknown", "reason": "현재 카운터만으로 수급 로그 상태를 설명하기 어렵습니다", "action": "trading_flow_health_latest.json 확인"}
 
 
-def build_digest(checks: dict, pm2_rows: list[dict], analyst_cache: dict, mart_health: dict, api_health: dict) -> str:
+def build_digest(checks: dict, pm2_rows: list[dict], analyst_cache: dict, mart_health: dict, api_health: dict, quote_health: dict) -> str:
     scored_age_text = _fmt_age_with_suffix(analyst_cache.get("latest_scored_age_min"))
     mart_age_text = _fmt_age_with_suffix(mart_health.get("age_min"))
     lines = ["*상태 점검표*"]
@@ -518,10 +584,18 @@ def build_digest(checks: dict, pm2_rows: list[dict], analyst_cache: dict, mart_h
         f"매크로 {api_health.get('macro_ok')} | 슬랙 {api_health.get('slack_ok')} | "
         f"경고 {api_health.get('warning_count', 0)}"
     )
+    if str(quote_health.get("status") or "").lower() == "ok":
+        lines.append(
+            f"- delayed quote: live {int(quote_health.get('quote_delayed_live_count', 0) or 0)}/"
+            f"{int(quote_health.get('quote_delayed_total', 0) or 0)} "
+            f"({float(quote_health.get('quote_delayed_ratio', 0.0) or 0.0) * 100:.1f}%) | "
+            f"fallback {int(quote_health.get('quote_delayed_fallback_count', 0) or 0)} | "
+            f"latest {quote_health.get('latest_price_captured_at') or '-'}"
+        )
     if analyst_cache.get("sample_symbols"):
         lines.append("- 애널 캐시 표본: " + ", ".join((analyst_cache.get("sample_symbols") or [])[:8]))
     analyst_alerts = _build_analyst_cache_alerts(pm2_rows, analyst_cache)
-    runtime_alerts = _build_runtime_alerts(checks, mart_health, pm2_rows, api_health)
+    runtime_alerts = _build_runtime_alerts(checks, mart_health, pm2_rows, api_health, quote_health)
     if analyst_alerts or runtime_alerts:
         lines.append("*경고*")
         for alert in analyst_alerts + runtime_alerts:
@@ -538,6 +612,7 @@ def build_and_send(args: argparse.Namespace) -> None:
     analyst_cache = _load_analyst_cache_health()
     mart_health = _load_mart_health()
     api_health = _load_api_integration_health()
+    quote_health = _load_quote_health()
     should_refresh_api = (
         args.mode == "full"
         or api_health.get("status") in {"missing", "stale"}
@@ -549,7 +624,8 @@ def build_and_send(args: argparse.Namespace) -> None:
         except Exception as exc:
             log.warning("api integration refresh failed during full healthcheck: %s", str(exc)[:160])
     api_health = _load_api_integration_health()
-    digest = build_digest(checks, pm2_rows, analyst_cache, mart_health, api_health)
+    quote_health = _load_quote_health()
+    digest = build_digest(checks, pm2_rows, analyst_cache, mart_health, api_health, quote_health)
     title = f"[Health:{args.mode}] Runtime Check {datetime.now().strftime('%Y%m%d %H:%M:%S')}"
     if args.print_only:
         print(title)

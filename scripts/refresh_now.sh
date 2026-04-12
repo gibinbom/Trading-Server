@@ -18,7 +18,7 @@ echo "[seed] actual financial"
 "$PYTHON_BIN" Disclosure/actual_financial_refresh.py --once
 
 echo "[seed] delayed quote"
-"$PYTHON_BIN" Disclosure/delayed_quote_collector.py --once --skip-fetch
+"$PYTHON_BIN" Disclosure/delayed_quote_collector.py --once
 
 echo "[seed] fair value"
 "$PYTHON_BIN" Disclosure/fair_value_builder.py --once --top-n 20
