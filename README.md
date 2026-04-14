@@ -150,3 +150,16 @@ curl http://127.0.0.1:8000/api/analyst-board/012450
   - `Disclosure/runtime/web_projections/*`
 - 하지만 운영 기준의 단일 진실 원천은 Mongo를 권장합니다.
 - `OPENAI_API_KEY`는 웹 서버에 넣고, 이 워커 레포에는 넣지 않아도 됩니다.
+
+## Worker AIDLC
+
+운영용 대형 Python 파이프라인은 단계적으로 분해하고, 현재는 운영 스크립트와 문서부터 AIDLC 가드레일을 적용합니다.
+
+```bash
+npm run aidlc:audit
+npm run aidlc:audit:strict
+npm run verify:aidlc
+npm run hooks:install
+```
+
+상세 기준은 [ARCHITECTURE.md](/Users/mac_mini/Documents/GitHub/Trading/trading-value-worker/ARCHITECTURE.md), [docs/worker-aidlc/README.md](/Users/mac_mini/Documents/GitHub/Trading/trading-value-worker/docs/worker-aidlc/README.md) 에 정리했습니다.

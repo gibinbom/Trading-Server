@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+echo "[pre-commit] Running worker AIDLC verification..."
+npm run verify:aidlc

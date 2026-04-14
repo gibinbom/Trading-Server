@@ -11,7 +11,11 @@
     "pm2:delete": "node scripts/run-platform.cjs pm2 delete",
     "pm2:status": "node scripts/run-platform.cjs pm2 status",
     "worker:smoke": "node scripts/run-platform.cjs smoke",
-    "worker:seed": "node scripts/run-platform.cjs seed"
+    "worker:seed": "node scripts/run-platform.cjs seed",
+    "aidlc:audit": "node scripts/aidlcAudit.cjs",
+    "aidlc:audit:strict": "node scripts/aidlcAudit.cjs --strict",
+    "verify:aidlc": "node scripts/verifyAidlc.cjs",
+    "hooks:install": "node scripts/installGitHooks.cjs"
   },
   "dependencies": {
     "dotenv": "^16.6.1",
