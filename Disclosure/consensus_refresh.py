@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import logging
+import os
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
@@ -18,6 +19,7 @@ except Exception:
 
 
 log = logging.getLogger("disclosure.consensus_refresh")
+DEFAULT_CONSENSUS_WORKERS = max(4, min(16, (os.cpu_count() or 4) * 2))
 
 
 def parse_args() -> argparse.Namespace:
@@ -26,7 +28,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--once", action="store_true", help="Run once and exit.")
     parser.add_argument("--print-only", action="store_true", help="Print refresh summary.")
     parser.add_argument("--limit", type=int, default=0, help="Optional symbol limit for quick checks.")
-    parser.add_argument("--workers", type=int, default=12, help="Concurrent refresh workers.")
+    parser.add_argument("--workers", type=int, default=DEFAULT_CONSENSUS_WORKERS, help="Concurrent refresh workers.")
     parser.add_argument("--quote-top-n", type=int, default=500, help="Incremental mode delayed-quote symbol cap.")
     parser.add_argument("--tp-top-n", type=int, default=500, help="Incremental mode TP-visible symbol cap.")
     parser.add_argument("--analyst-days", type=int, default=21, help="Incremental mode analyst lookback.")

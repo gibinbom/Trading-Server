@@ -129,7 +129,7 @@ ADDITIONAL_WEB_DIRS = tuple(
 INDEX_SNAPSHOT_NAME = "index_rebalance_latest"
 ETF_SNAPSHOT_NAME = "etf_gap_monitor_latest"
 DEFAULT_LOOKBACK_DAYS = 120
-DEFAULT_FETCH_WORKERS = 16
+DEFAULT_FETCH_WORKERS = max(4, min(24, (os.cpu_count() or 4) * 2))
 DEFAULT_POOL_BUFFER = 80
 DEFAULT_INDEX_BUFFER = 15
 DEFAULT_HISTORY_MARGIN = 0
@@ -1094,8 +1094,9 @@ def build_public_faithful_index_rows(
         member_source = "bootstrap_topcut_proxy"
 
     eligible_frame = eligible_frame.sort_values(["size_proxy_krw", "avg_amount_60d_krw", "marcap_krw"], ascending=[False, False, False]).reset_index(drop=True)
+    eligible_records = eligible_frame.to_dict(orient="records")
     ordered_symbols = [str(symbol) for symbol in eligible_frame["symbol"].tolist()]
-    symbol_rows = {str(row["symbol"]): row for row in eligible_frame.to_dict(orient="records")}
+    symbol_rows = {str(row["symbol"]): row for row in eligible_records}
     selected: set[str] = set()
     selected_paths: dict[str, str] = {}
 
@@ -1170,7 +1171,7 @@ def build_public_faithful_index_rows(
     special_change_candidates: list[dict[str, Any]] = []
 
     rows: list[dict[str, Any]] = []
-    for row in eligible_frame.to_dict(orient="records"):
+    for row in eligible_records:
         symbol = _norm_symbol(row.get("symbol"))
         bucket = _clean_text(row.get("sector_bucket")) or "other"
         bucket_target = int(bucket_targets.get(bucket, 0))
@@ -1358,7 +1359,8 @@ def build_domestic_index_rows(
         )
 
     working["bucket_target_count"] = working["sector_bucket"].map(lambda bucket: int(resolved_bucket_targets.get(str(bucket), 0)))
-    symbol_rows = {str(row["symbol"]): row for row in working.to_dict(orient="records")}
+    working_records = working.to_dict(orient="records")
+    symbol_rows = {str(row["symbol"]): row for row in working_records}
     ordered_symbols = [str(symbol) for symbol in working["symbol"].tolist()]
     selected_paths: dict[str, str] = {}
     selected_symbols: set[str] = set()
@@ -1409,7 +1411,7 @@ def build_domestic_index_rows(
             selected_paths[symbol] = "buffer_keep"
 
     rows: list[dict[str, Any]] = []
-    for row in working.to_dict(orient="records"):
+    for row in working_records:
         symbol = _norm_symbol(row.get("symbol"))
         global_rank = _safe_int(row.get("global_rank"))
         bucket_rank = _safe_int(row.get("bucket_rank"))
@@ -1497,7 +1499,8 @@ def build_msci_proxy_rows(
     working["predicted_rank"] = working.index + 1
 
     rows: list[dict[str, Any]] = []
-    for row in working.to_dict(orient="records"):
+    working_records = working.to_dict(orient="records")
+    for row in working_records:
         rank = _safe_int(row.get("predicted_rank"))
         distance_to_cut = rank - cutoff
         if rank <= cutoff:
@@ -1572,17 +1575,17 @@ def _enrich_candidate_frame(
     market_cap_metrics: dict[str, dict[str, Any]] | None = None,
 ) -> pd.DataFrame:
     records: list[dict[str, Any]] = []
-    for row in pool_df.to_dict(orient="records"):
-        symbol = _norm_symbol(row.get("Code"))
+    for row in pool_df.itertuples(index=False):
+        symbol = _norm_symbol(getattr(row, "Code", ""))
         metrics = amount_metrics.get(symbol, {})
         float_profile = (float_profiles or {}).get(symbol, {})
         market_cap_metric = (market_cap_metrics or {}).get(symbol, {})
         avg_amount = _safe_float(metrics.get("avg_amount_60d_krw"))
-        fallback_amount = _safe_float(row.get("Amount"), 0.0) or 0.0
+        fallback_amount = _safe_float(getattr(row, "Amount", None), 0.0) or 0.0
         sector = sector_map.get(symbol, "")
         free_float_ratio = _safe_ratio(float_profile.get("free_float_ratio"), 0.0)
-        listed_shares = _safe_int(float_profile.get("listed_common_shares") or row.get("Stocks"))
-        current_marcap = _safe_float(row.get("Marcap"), 0.0) or 0.0
+        listed_shares = _safe_int(float_profile.get("listed_common_shares") or getattr(row, "Stocks", None))
+        current_marcap = _safe_float(getattr(row, "Marcap", None), 0.0) or 0.0
         avg_market_cap_1y_krw = _safe_float(market_cap_metric.get("avg_market_cap_1y_krw"), 0.0) or 0.0
         ffmc_proxy_krw = current_marcap * free_float_ratio if free_float_ratio > 0 else 0.0
         avg_ffmc_1y_krw = avg_market_cap_1y_krw * free_float_ratio if free_float_ratio > 0 and avg_market_cap_1y_krw > 0 else 0.0
@@ -1590,8 +1593,8 @@ def _enrich_candidate_frame(
         records.append(
             {
                 "symbol": symbol,
-                "name": _clean_text(row.get("Name")),
-                "market": _normalize_market(row.get("Market")),
+                "name": _clean_text(getattr(row, "Name", "")),
+                "market": _normalize_market(getattr(row, "Market", "")),
                 "sector": sector or "미분류",
                 "sector_bucket": _sector_bucket_from_sector(sector),
                 "marcap_krw": current_marcap,
@@ -1740,13 +1743,14 @@ def build_index_rebalance_snapshot(previous_snapshot: dict[str, Any] | None, *, 
 
 def build_public_faithful_index_rebalance_snapshot(previous_snapshot: dict[str, Any] | None, *, worker_count: int) -> dict[str, Any]:
     listing_df = _load_listing_frame()
+    listing_records = listing_df.to_dict(orient="records")
     sector_map = _load_sector_reference_map()
     history_symbols = _select_history_fetch_symbols(listing_df)
     amount_metrics = _load_amount_metrics(history_symbols, worker_count=worker_count)
     domestic_markets = {config["market"] for config in DOMESTIC_INDEX_CONFIGS}
     market_by_symbol = {
         _norm_symbol(row.get("Code")): _normalize_market(row.get("Market"))
-        for row in listing_df.to_dict(orient="records")
+        for row in listing_records
         if _norm_symbol(row.get("Code"))
     }
     domestic_symbols = sorted(
@@ -1760,7 +1764,7 @@ def build_public_faithful_index_rebalance_snapshot(previous_snapshot: dict[str, 
     float_profiles = _load_public_float_profiles(domestic_symbols, worker_count=worker_count)
     shares_by_symbol = {
         _norm_symbol(row.get("Code")): _safe_int((float_profiles.get(_norm_symbol(row.get("Code")), {}) or {}).get("listed_common_shares") or row.get("Stocks"))
-        for row in listing_df.to_dict(orient="records")
+        for row in listing_records
         if _norm_symbol(row.get("Code"))
     }
     special_event_map = _build_special_change_event_map(listing_df)
