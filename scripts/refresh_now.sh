@@ -26,6 +26,12 @@ echo "[seed] fair value"
 echo "[seed] flow snapshot"
 "$PYTHON_BIN" Disclosure/flow_snapshot_builder.py --mode full --disable-kis --once
 
+echo "[seed] passive monitor"
+"$PYTHON_BIN" Disclosure/passive_monitor_builder.py --once
+
+echo "[seed] market warning monitor"
+"$PYTHON_BIN" Disclosure/market_warning_monitor_builder.py --once
+
 echo "[seed] sector rotation history"
 "$PYTHON_BIN" Disclosure/sector_rotation_history_builder.py --weeks 52 --once
 

@@ -1,0 +1,10 @@
+review_date,index_name,official_bucket,target_count
+2026-04-30,KS200,manufacturing_electronics,24
+2026-04-30,KS200,financials,26
+2026-04-30,KQ150,technology_it,32
+2026-04-30,KQ150,technology_bt,34
+2026-04-30,KQ150,technology_ct,24
+2026-04-30,KQ150,nontech_materials,15
+2026-04-30,KQ150,nontech_industrials,18
+2026-04-30,KQ150,nontech_consumer_discretionary,15
+2026-04-30,KQ150,nontech_consumer_staples,12

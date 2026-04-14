@@ -102,6 +102,16 @@ module.exports = {
     },
     {
       ...baseApp,
+      name: "worker-passive-monitor",
+      args: "Disclosure/passive_monitor_builder.py --times 07:05,20:10"
+    },
+    {
+      ...baseApp,
+      name: "worker-market-warning-monitor",
+      args: "Disclosure/market_warning_monitor_builder.py --times 07:10,20:30"
+    },
+    {
+      ...baseApp,
       name: "worker-sector-rotation-history",
       args: "Disclosure/sector_rotation_history_builder.py --weeks 52 --times 06:58,11:58,15:43,20:23"
     },

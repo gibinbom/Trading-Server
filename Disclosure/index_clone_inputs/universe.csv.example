@@ -1,0 +1,3 @@
+review_date,index_name,symbol,name,market,official_sector,official_bucket,avg_ffmc_1y_krw,avg_trading_value_1y_krw,market_cap_rank_all,listing_age_days,free_float_ratio,is_eligible,is_current_member
+2026-04-30,KS200,005930,삼성전자,KOSPI,전기전자,manufacturing_electronics,1200000000000000,9000000000000,1,8000,0.75,1,1
+2026-04-30,KQ150,196170,알테오젠,KOSDAQ,BT,technology_bt,25000000000000,180000000000,1,2200,0.55,1,1

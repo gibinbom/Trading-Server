@@ -24,6 +24,12 @@ try {
     Write-Host "[seed] flow snapshot"
     & $Python "Disclosure/flow_snapshot_builder.py" --mode full --disable-kis --once
 
+    Write-Host "[seed] passive monitor"
+    & $Python "Disclosure/passive_monitor_builder.py" --once
+
+    Write-Host "[seed] market warning monitor"
+    & $Python "Disclosure/market_warning_monitor_builder.py" --once
+
     Write-Host "[seed] sector rotation history"
     & $Python "Disclosure/sector_rotation_history_builder.py" --weeks 52 --once
 
